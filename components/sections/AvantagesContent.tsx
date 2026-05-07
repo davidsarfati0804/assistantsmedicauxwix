@@ -3,22 +3,22 @@ import Link from 'next/link';
 
 const advantages = [
   {
-    icon: '/assets/icone_patient.png',
+    icon: '/assets/icone_flaticon_papier.png',
     title: 'Allègement du Travail des Médecins',
     desc: "Les assistants médicaux prennent en charge des tâches administratives et de préparation des consultations, permettant aux médecins de se concentrer davantage sur les soins aux patients.",
   },
   {
-    icon: '/assets/icone_coordination.png',
+    icon: '/assets/icone_flaticon_patient.png',
     title: 'Amélioration de la Coordination des Soins',
     desc: "Ils facilitent la coordination avec d'autres professionnels de santé, assurant une meilleure gestion du parcours de soins des patients.",
   },
   {
-    icon: '/assets/icone_flexibilite.png',
+    icon: '/assets/icone_flaticon_bourse.png',
     title: 'Flexibilité et Adaptabilité',
     desc: "Les missions des assistants médicaux peuvent être personnalisées en fonction des besoins spécifiques du cabinet et des patients.",
   },
   {
-    icon: '/assets/icone_fonctionnalites.png',
+    icon: '/assets/icone_flaticon_efficacite.png',
     title: "Contribution à l'efficacité globale du cabinet",
     desc: "En gérant efficacement les tâches administratives et en assistant dans le déroulement des consultations médicales, les assistants contribuent à l'amélioration globale de l'efficacité du cabinet.",
   },
@@ -29,7 +29,7 @@ function SectionLink({ href, children }: { href: string; children: React.ReactNo
 }
 
 function SubTitle({ children, id }: { children: React.ReactNode; id?: string }) {
-  return <p id={id} className="text-[18px] text-[#1d67cd] mt-8 mb-2.5">{children}</p>;
+  return <p id={id} className="text-[18px] text-[#1d67cd] mt-8 mb-2.5 scroll-mt-24">{children}</p>;
 }
 
 function BodyP({ children }: { children: React.ReactNode }) {
@@ -42,7 +42,7 @@ function Bullet({ children }: { children: React.ReactNode }) {
 
 export default function AvantagesContent() {
   return (
-    <section className="py-14" id="avantages">
+    <section className="py-14 scroll-mt-[68px]" id="avantages">
       <div className="max-w-[900px] mx-auto px-6">
 
         {/* Table of contents */}
@@ -61,13 +61,13 @@ export default function AvantagesContent() {
         </div>
 
         {/* Avantages grid */}
-        <h2 className="text-[28px] font-light mb-3.5" id="benefices">Les Avantages de l&apos;Emploi d&apos;un Assistant Médical</h2>
+        <h2 className="text-[28px] font-light mb-3.5 scroll-mt-24" id="benefices">Les Avantages de l&apos;Emploi d&apos;un Assistant Médical</h2>
         <p className="text-[18px] mb-6">L&apos;intégration d&apos;un assistant médical dans un cabinet médical offre de nombreux avantages significatifs :</p>
 
         <div className="grid grid-cols-4 gap-5 mb-10 text-center max-md:grid-cols-2">
           {advantages.map((a) => (
             <div key={a.title} className="flex flex-col items-center gap-2.5">
-              <Image src={a.icon} alt={a.title} width={113} height={102} className="object-contain" />
+              <Image src={a.icon} alt={a.title} width={90} height={90} className="object-contain" />
               <p className="text-[15px] font-medium leading-[1.3]">{a.title}</p>
               <p className="text-[15px] leading-[1.5] text-left">{a.desc}</p>
             </div>
@@ -88,8 +88,34 @@ export default function AvantagesContent() {
         <BodyP><strong>Renouvellement</strong></BodyP>
         <BodyP><strong>Objectif de Progression Mesurable</strong><br />L&apos;objectif de progression de la patientèle est déterminé en fonction de la taille actuelle de la patientèle du médecin.</BodyP>
 
+        {/* Tableau des versements */}
+        <div className="my-8 overflow-x-auto rounded-xl border border-[#e4eaf5] shadow-[0_2px_12px_rgba(9,62,152,.06)]">
+          <table className="w-full text-[15px] border-collapse">
+            <thead>
+              <tr className="bg-[#093e98] text-white">
+                <th className="text-left px-6 py-4 font-semibold">Récapitulatif des versements par année<br /><span className="font-normal text-white/80 text-[13px]">(pour un poste à temps plein)</span></th>
+                <th className="text-right px-6 py-4 font-semibold whitespace-nowrap">Montants maximaux<br /><span className="font-normal text-white/80 text-[13px]">de l&apos;aide (euros)</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { label: '1re année', amount: '38 000 €' },
+                { label: '2e année', amount: '28 000 €' },
+                { label: '3e année et suivantes', amount: '22 000 €' },
+                { label: 'Montant majoré pour les médecins situés entre P90 et P95', amount: '26 000 €' },
+                { label: 'Montant fixe pour les médecins ayant une patientèle les situant en P95 et au-delà', amount: '38 000 €' },
+              ].map((row, i) => (
+                <tr key={row.label} className={i % 2 === 0 ? 'bg-white' : 'bg-[#f5f8ff]'}>
+                  <td className="px-6 py-3.5 text-gray-800 leading-[1.5]">{row.label}</td>
+                  <td className="px-6 py-3.5 text-right font-semibold text-[#093e98] whitespace-nowrap">{row.amount}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
         {/* Démarches */}
-        <h2 className="text-[28px] font-light mt-14 mb-4" id="demarches">Recruter un assistant médical, les démarches en détail</h2>
+        <h2 className="text-[28px] font-light mt-14 mb-4 scroll-mt-24" id="demarches">Recruter un assistant médical, les démarches en détail</h2>
         <p className="text-[18px] mb-6">Conscients du rôle essentiel des assistants médicaux dans l&apos;organisation des cabinets, notre Groupement d&apos;Employeurs facilite leur intégration en prenant en charge, pour votre compte, l&apos;ensemble des aspects liés à l&apos;emploi : recrutement, gestion administrative, paie, formation et suivi.</p>
 
         {/* Étape 1 */}
