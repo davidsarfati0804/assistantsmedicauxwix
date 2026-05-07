@@ -4,8 +4,11 @@ import { CheckCircle, ExternalLink } from 'lucide-react';
 const eligibilite = [
   'Médecins libéraux exerçant en secteur 1',
   'Médecins en secteur 2 avec adhésion OPTAM ou OPTAM-CO',
-  'Médecins en secteur 3 (exercice libre)',
   'Médecins généralistes et spécialistes (hors spécialités techniques)',
+];
+
+const nonEligible = [
+  'Médecins en secteur 3 (non conventionnés)',
 ];
 
 const exclusions = [
@@ -99,14 +102,25 @@ export default function DispositifCpamContent() {
               </ul>
             </div>
             <div className="bg-white rounded-2xl border border-[#e4eaf5] p-7">
-              <p className="text-[16px] font-semibold text-gray-500 mb-4">✗ Spécialités exclues</p>
+              <p className="text-[16px] font-semibold text-gray-500 mb-4">✗ Non éligibles</p>
               <ul className="flex flex-col gap-3">
-                {exclusions.map((e) => (
+                {nonEligible.map((e) => (
                   <li key={e} className="flex items-start gap-3 text-[14px] text-gray-500 leading-[1.6]">
                     <span className="shrink-0 mt-0.5 text-gray-400">—</span>
                     {e}
                   </li>
                 ))}
+                <li className="mt-2 pt-3 border-t border-[#e4eaf5]">
+                  <p className="text-[13px] font-medium text-gray-500 mb-2">Spécialités techniques exclues :</p>
+                  <ul className="flex flex-col gap-1.5">
+                    {exclusions.map((e) => (
+                      <li key={e} className="flex items-start gap-2.5 text-[13px] text-gray-400 leading-[1.6]">
+                        <span className="shrink-0 mt-0.5">—</span>
+                        {e}
+                      </li>
+                    ))}
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>

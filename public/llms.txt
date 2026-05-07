@@ -1,12 +1,12 @@
 # Mesdocs Groupement d'Employeurs — Assistants Médicaux
 
-> Mesdocs est un groupement d'employeurs (GE) agréé par l'Assurance Maladie, spécialisé dans la mise à disposition d'assistants médicaux pour les médecins libéraux en France. Mesdocs est l'employeur légal de l'assistant médical : le médecin bénéficie du service sans avoir à gérer les obligations RH.
+> Mesdocs est un groupement d'employeurs (GE) constitué en association loi 1901 à but non lucratif, agréé par l'Assurance Maladie (référencé sur ameli.fr), spécialisé dans la mise à disposition d'assistants médicaux pour les médecins libéraux en France. Mesdocs est l'employeur légal de l'assistant médical : le médecin bénéficie du service sans avoir à gérer les obligations RH.
 
 ## En résumé
 
 - **Qui** : Mesdocs Groupement d'Employeurs, 24 rue Octave Feuillet, 75116 Paris — référencé sur ameli.fr
 - **Quoi** : Recrutement et mise à disposition d'assistants médicaux pour médecins libéraux
-- **Pour qui** : Médecins libéraux (secteur 1, 2 OPTAM, secteur 3), toutes spécialités sauf techniques
+- **Pour qui** : Médecins libéraux conventionnés (secteur 1 et secteur 2 OPTAM uniquement — secteur 3 non éligible), toutes spécialités sauf techniques
 - **Financement** : L'Assurance Maladie (CPAM) finance l'aide de 19 000 à 38 000 €/an (contrat 5 ans renouvelable)
 - **Avantage clé** : Mesdocs est l'employeur — le médecin ne gère ni la paie, ni les charges, ni le contrat de travail
 

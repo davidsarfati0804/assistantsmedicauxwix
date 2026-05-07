@@ -154,8 +154,12 @@ export default function Footer() {
       </div>
 
       {/* Copyright bar */}
-      <div className="border-t border-[#e4eaf5] bg-white py-5 text-center text-[13px] text-gray-400">
-        © {new Date().getFullYear()} Mesdocs Groupement d&apos;Employeurs — Assistants Médicaux
+      <div className="border-t border-[#e4eaf5] bg-white py-5 text-center text-[13px] text-gray-400 flex flex-col items-center gap-1.5">
+        <span>© {new Date().getFullYear()} Mesdocs Groupement d&apos;Employeurs — Association loi 1901 — Assistants Médicaux</span>
+        <div className="flex gap-4">
+          <a href="/mentions-legales" className="hover:text-[#093e98] underline transition-colors">Mentions légales</a>
+          <a href="mailto:contact@ge-mesdocs.fr" className="hover:text-[#093e98] transition-colors">contact@ge-mesdocs.fr</a>
+        </div>
       </div>
     </footer>
   );

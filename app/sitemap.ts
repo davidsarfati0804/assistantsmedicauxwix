@@ -13,5 +13,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/devenir-assistant-medical`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/contact`, lastModified: now, changeFrequency: 'yearly', priority: 0.7 },
     { url: `${BASE_URL}/prendre-rendez-vous`, lastModified: now, changeFrequency: 'yearly', priority: 0.75 },
+    { url: `${BASE_URL}/mentions-legales`, lastModified: now, changeFrequency: 'yearly', priority: 0.1 },
   ];
 }

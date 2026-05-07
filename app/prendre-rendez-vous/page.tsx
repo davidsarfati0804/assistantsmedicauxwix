@@ -120,7 +120,7 @@ export default function PrendreRendezVousPage() {
                       <option value="">Sélectionnez</option>
                       <option value="secteur-1">Secteur 1</option>
                       <option value="secteur-2-optam">Secteur 2 (OPTAM)</option>
-                      <option value="secteur-3">Secteur 3</option>
+                      <option value="secteur-3">Secteur 3 (non conventionné)</option>
                       <option value="je-ne-sais-pas">Je ne sais pas</option>
                     </select>
                   </div>

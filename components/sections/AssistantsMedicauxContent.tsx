@@ -57,7 +57,7 @@ export default function AssistantsMedicauxContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Qu'est-ce que la mise à disposition par un groupement d'employeurs ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Un <strong>groupement d'employeurs (GE)</strong> est une structure juridique qui recrute des salariés et les met à disposition de ses membres — ici, des médecins libéraux. <strong>Mesdocs Groupement d'Employeurs</strong> est l'employeur légal de l'assistant médical : c'est lui qui signe le contrat de travail, gère la paie, les congés, les formations et les démarches URSSAF.
+            Un <strong>groupement d'employeurs (GE)</strong> est une structure juridique qui recrute des salariés et les met à disposition de ses membres — ici, des médecins libéraux. <strong>Mesdocs Groupement d'Employeurs</strong>, <em>association loi 1901 à but non lucratif</em>, est l'employeur légal de l'assistant médical : c'est lui qui signe le contrat de travail, gère la paie, les congés, les formations et les démarches URSSAF.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
             Le médecin, lui, est <strong>utilisateur</strong> du service : il bénéficie de l'assistant dans son cabinet au quotidien, sans jamais avoir à endosser la casquette d'employeur.
@@ -104,7 +104,7 @@ export default function AssistantsMedicauxContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Qui peut bénéficier du dispositif ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le dispositif assistant médical est ouvert à <strong>tous les médecins libéraux</strong> exerçant en secteur 1, secteur 2 avec adhésion OPTAM ou OPTAM-CO, ou secteur 3, quelle que soit leur spécialité — à l'exception des spécialités purement techniques (radiologues, anesthésistes, anatomocytopathologistes, médecins nucléaires, stomatologues, radiothérapeutes).
+            Le dispositif assistant médical est ouvert aux <strong>médecins libéraux conventionnés</strong> exerçant en secteur 1 ou en secteur 2 avec adhésion OPTAM ou OPTAM-CO, quelle que soit leur spécialité — à l'exception des spécialités purement techniques (radiologues, anesthésistes, anatomocytopathologistes, médecins nucléaires, stomatologues, radiothérapeutes). Les médecins en secteur 3 (non conventionnés) ne sont pas éligibles.
           </p>
           <p className="text-[16px] leading-[1.7]">
             Vous exercez seul, en groupe ou en maison de santé pluriprofessionnelle ? Mesdocs accompagne toutes les configurations. La <strong>mutualisation d'un assistant médical</strong> entre plusieurs médecins est également possible grâce au statut de groupement d'employeurs.
