@@ -6,8 +6,15 @@ import DevenirContent from '@/components/sections/DevenirContent';
 import CtaSection from '@/components/sections/CtaSection';
 
 export const metadata: Metadata = {
-  title: 'Devenir Assistant Médical | Assistants Médicaux – Mesdocs Groupement d\'employeurs',
-  description: 'Formation, contrat et accompagnement complet : Mesdocs facilite votre parcours pour devenir Assistant Médical et travailler auprès des médecins.',
+  title: 'Devenir Assistant Médical – Postuler chez Mesdocs GE',
+  description: 'Vous souhaitez devenir assistant médical ? Découvrez le métier, les formations CQP et VAE, et postulez directement auprès de Mesdocs Groupement d\'Employeurs.',
+  alternates: { canonical: 'https://www.assistants-medicaux.com/devenir-assistant-medical' },
+  openGraph: {
+    title: 'Devenir Assistant Médical – Postuler chez Mesdocs GE',
+    description: 'CQP, VAE, candidature : Mesdocs accompagne les candidats assistants médicaux dans leur parcours.',
+    url: 'https://www.assistants-medicaux.com/devenir-assistant-medical',
+    type: 'website',
+  },
 };
 
 export default function DevenirPage() {

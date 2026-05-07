@@ -6,8 +6,15 @@ import AvantagesContent from '@/components/sections/AvantagesContent';
 import CtaSection from '@/components/sections/CtaSection';
 
 export const metadata: Metadata = {
-  title: 'Avantages & Démarches | Assistants Médicaux – Mesdocs Groupement d\'employeurs',
-  description: 'Découvrez avec Mesdocs les avantages du dispositif assistant médical : subventions CPAM (19 000 € à 38 000 €), démarches simples et contrat de 5 ans.',
+  title: 'Avantages & Financement du Dispositif Assistant Médical',
+  description: 'Aide CPAM de 19 000 à 38 000 €/an, démarches simplifiées, accompagnement complet : découvrez tous les avantages du dispositif assistant médical avec Mesdocs.',
+  alternates: { canonical: 'https://www.assistants-medicaux.com/avantages-demarches' },
+  openGraph: {
+    title: 'Avantages & Financement du Dispositif Assistant Médical | Mesdocs',
+    description: 'CPAM finance jusqu\'à 38 000 €/an. Démarches expliquées étape par étape avec Mesdocs Groupement d\'Employeurs.',
+    url: 'https://www.assistants-medicaux.com/avantages-demarches',
+    type: 'website',
+  },
 };
 
 export default function AvantagesPage() {

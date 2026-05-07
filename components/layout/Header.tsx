@@ -6,8 +6,10 @@ import { Menu, X } from 'lucide-react';
 
 const navLinks = [
   { href: '/', label: 'Accueil' },
+  { href: '/assistants-medicaux', label: 'Le Service' },
   { href: '/avantages-demarches', label: 'Avantages & Démarches' },
-  { href: '/devenir-assistant-medical', label: 'Devenir Assistant Médical' },
+  { href: '/dispositif-cpam', label: 'Dispositif CPAM' },
+  { href: '/devenir-assistant-medical', label: 'Devenir Assistant' },
 ];
 
 export default function Header() {
@@ -36,6 +38,9 @@ export default function Header() {
               </li>
             ))}
           </ul>
+          <Link href="/prendre-rendez-vous" className="hidden md:inline-flex items-center px-5 py-2.5 rounded-full bg-[#093e98] text-white text-[13px] font-semibold hover:opacity-90 transition-opacity whitespace-nowrap">
+            Prendre RDV
+          </Link>
           <button
             className="md:hidden flex flex-col gap-[5px] p-1"
             onClick={() => setOpen(!open)}
