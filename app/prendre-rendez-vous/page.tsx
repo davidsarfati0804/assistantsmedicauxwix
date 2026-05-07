@@ -119,8 +119,8 @@ export default function PrendreRendezVousPage() {
                       className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
                       <option value="">Sélectionnez</option>
                       <option value="secteur-1">Secteur 1</option>
-                      <option value="secteur-2-optam">Secteur 2 (OPTAM)</option>
-                      <option value="secteur-3">Secteur 3 (non conventionné)</option>
+                      <option value="secteur-2-optam">Secteur 2 OPTAM</option>
+                      <option value="secteur-2-non-optam">Secteur 2 non OPTAM</option>
                       <option value="je-ne-sais-pas">Je ne sais pas</option>
                     </select>
                   </div>
