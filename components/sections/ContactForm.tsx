@@ -33,7 +33,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form name="contact-page" method="POST" data-netlify="true" onSubmit={handleSubmit} className="flex flex-col gap-4">
+    <form name="contact-page" method="POST" onSubmit={handleSubmit} className="flex flex-col gap-4">
       <input type="hidden" name="form-name" value="contact-page" />
 
       <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">

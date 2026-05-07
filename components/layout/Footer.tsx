@@ -89,7 +89,7 @@ export default function Footer() {
                 <p className="text-[15px] text-gray-500">Nous vous recontactons dans les 24 heures.</p>
               </div>
             ) : (
-              <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit} className="flex flex-col gap-4">
+              <form name="contact" method="POST" onSubmit={handleSubmit} className="flex flex-col gap-4">
                 <input type="hidden" name="form-name" value="contact" />
 
                 <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">

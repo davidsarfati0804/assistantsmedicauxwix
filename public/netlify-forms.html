@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><title>Netlify Forms Definitions</title></head>
+<body>
+  <!-- Définition statique des formulaires pour Netlify Forms -->
+
+  <form name="contact" netlify hidden>
+    <input name="nom-prenom" type="text" />
+    <input name="telephone" type="tel" />
+    <input name="email" type="email" />
+    <input name="cabinet" type="text" />
+    <input name="ville" type="text" />
+    <select name="besoin"><option value=""></option></select>
+    <textarea name="message"></textarea>
+  </form>
+
+  <form name="contact-page" netlify hidden>
+    <input name="nom-prenom" type="text" />
+    <input name="telephone" type="tel" />
+    <input name="email" type="email" />
+    <select name="profil"><option value=""></option></select>
+    <select name="besoin"><option value=""></option></select>
+    <textarea name="message"></textarea>
+  </form>
+
+  <form name="rendez-vous" netlify hidden>
+    <input name="nom-prenom" type="text" />
+    <input name="telephone" type="tel" />
+    <input name="email" type="email" />
+    <select name="secteur"><option value=""></option></select>
+    <input name="disponibilites" type="text" />
+    <textarea name="message"></textarea>
+  </form>
+</body>
+</html>

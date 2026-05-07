@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import PageHero from '@/components/sections/PageHero';
+import RendezVousForm from '@/components/sections/RendezVousForm';
 import Link from 'next/link';
 import { CheckCircle, Phone, Clock, Shield } from 'lucide-react';
 
@@ -85,58 +86,7 @@ export default function PrendreRendezVousPage() {
               <div className="bg-white rounded-2xl border border-[#e4eaf5] shadow-[0_4px_32px_rgba(9,62,152,.08)] px-9 py-10">
                 <h2 className="text-[20px] font-bold text-gray-900 mb-1.5">Demandez à être rappelé</h2>
                 <p className="text-[14px] text-gray-500 mb-7">Notre équipe vous contacte sous 24h ouvrées pour fixer le créneau.</p>
-
-                <form
-                  name="rendez-vous"
-                  method="POST"
-                  data-netlify="true"
-                  action="/prendre-rendez-vous?merci=1"
-                  className="flex flex-col gap-4"
-                >
-                  <input type="hidden" name="form-name" value="rendez-vous" />
-
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Nom & Prénom <span className="text-[#e03e3e]">*</span></label>
-                    <input type="text" name="nom-prenom" required placeholder="Dr. Jean Dupont"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
-                  </div>
-
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Téléphone <span className="text-[#e03e3e]">*</span></label>
-                    <input type="tel" name="telephone" required placeholder="06 00 00 00 00"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
-                  </div>
-
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Email</label>
-                    <input type="email" name="email" placeholder="jean.dupont@cabinet.fr"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
-                  </div>
-
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Secteur conventionnel</label>
-                    <select name="secteur"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
-                      <option value="">Sélectionnez</option>
-                      <option value="secteur-1">Secteur 1</option>
-                      <option value="secteur-2-optam">Secteur 2 OPTAM</option>
-                      <option value="secteur-2-non-optam">Secteur 2 non OPTAM</option>
-                      <option value="je-ne-sais-pas">Je ne sais pas</option>
-                    </select>
-                  </div>
-
-                  <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Disponibilités préférées</label>
-                    <input type="text" name="disponibilites" placeholder="Ex : mardi matin, jeudi après-midi"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
-                  </div>
-
-                  <button type="submit"
-                    className="mt-2 w-full py-4 rounded-xl bg-[#093e98] text-white text-[15px] font-semibold hover:opacity-90 active:opacity-80 transition-opacity">
-                    Demander à être rappelé
-                  </button>
-                  <p className="text-[12px] text-gray-400 text-center">Gratuit · Sans engagement · Réponse sous 24h</p>
-                </form>
+                <RendezVousForm />
               </div>
 
             </div>
