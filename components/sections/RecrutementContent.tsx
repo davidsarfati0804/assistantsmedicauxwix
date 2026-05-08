@@ -21,7 +21,7 @@ const etapes = [
     num: '3',
     title: 'Intégration et formation',
     duree: 'Semaines 5–8',
-    desc: 'Mesdocs signe le contrat de travail avec l\'assistant. La convention CPAM est finalisée. La formation CQP ou le parcours VAE est organisé avec nos partenaires agréés.',
+    desc: 'Mesdocs signe le contrat de travail avec l\'assistant. La convention CPAM est finalisée. La formation CQP, VAE ou FAE est organisée avec nos partenaires de formation.',
   },
   {
     Icon: ShieldCheck,
@@ -42,7 +42,7 @@ const gestionMesdocs = [
   'Relations avec l\'OPCO EP pour le financement formation',
   'Préparation et suivi du contrat CPAM',
   'Évaluations annuelles et renouvellement',
-  'Remplacement en cas d\'absence prolongée',
+  'Recherche d\'une solution de continuité en cas d\'absence prolongée ou de départ',
 ];
 
 const temoignages = [
@@ -73,7 +73,7 @@ const faq = [
   },
   {
     q: 'Qui gère la formation CQP de l\'assistant médical ?',
-    a: 'Mesdocs organise la formation en partenariat avec des organismes agréés et l\'OPCO EP. L\'assistant a 2 ans pour s\'inscrire et 3 ans pour obtenir son CQP. La VAE est possible pour les profils expérimentés, via notre partenaire VAE Formation.',
+    a: 'Mesdocs organise la formation en partenariat avec des partenaires de formation et l\'OPCO EP. L\'assistant a 2 ans pour s\'inscrire et 3 ans pour obtenir son CQP. La VAE est possible pour les profils expérimentés, via notre partenaire VAE Formation.',
   },
   {
     q: 'Comment se déroule la période d\'essai ?',
@@ -115,7 +115,8 @@ export default function RecrutementContent() {
       <section className="bg-[#f5f8ff] py-16 px-6">
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-4">Ce que vous n'avez jamais à gérer</h2>
-          <p className="text-[16px] text-gray-500 mb-8">Mesdocs prend en charge 100% des obligations employeur. Voici ce qui disparaît de votre liste de tâches :</p>
+          <p className="text-[16px] leading-[1.7] mb-4">Nous recrutons, salarions et mettons à disposition l&apos;assistant médical auprès de votre cabinet.</p>
+          <p className="text-[16px] text-gray-500 mb-8">Mesdocs prend en charge l'intégralité des obligations employeur. Voici ce qui disparaît de votre liste de tâches :</p>
           <div className="grid grid-cols-2 gap-3 max-md:grid-cols-1">
             {gestionMesdocs.map((item) => (
               <div key={item} className="flex items-start gap-3 bg-white border border-[#e4eaf5] rounded-xl px-5 py-3.5 text-[14px] text-gray-700">

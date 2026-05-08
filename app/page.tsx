@@ -11,7 +11,7 @@ import TestimonialSlider from '@/components/sections/TestimonialSlider';
 
 export const metadata: Metadata = {
   title: 'Assistant Médical pour Médecins Libéraux | Mesdocs GE',
-  description: 'Mesdocs Groupement d\'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. CPAM finance jusqu\'à 38 000 €/an. Zéro contrainte employeur.',
+  description: 'Mesdocs Groupement d\'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. CPAM finance jusqu\'à 38 000 €/an. Aucune obligation d\'employeur pour le médecin.',
   alternates: { canonical: 'https://www.assistants-medicaux.com/' },
   openGraph: {
     title: 'Assistant Médical pour Médecins Libéraux | Mesdocs GE',

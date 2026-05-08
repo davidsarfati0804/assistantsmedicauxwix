@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://www.assistants-medicaux.com/assistants-medicaux' },
   openGraph: {
     title: 'Mise à Disposition d\'un Assistant Médical | Mesdocs GE',
-    description: 'Mesdocs recrute et met à disposition votre assistant médical. Zéro contrainte employeur. CPAM finance jusqu\'à 38 000 €/an.',
+    description: 'Mesdocs recrute et met à disposition votre assistant médical. Aucune obligation d\'employeur pour le médecin. CPAM finance jusqu\'à 38 000 €/an.',
     url: 'https://www.assistants-medicaux.com/assistants-medicaux',
     type: 'website',
   },
@@ -27,7 +27,7 @@ export default function AssistantsMedicauxPage() {
           imageSrc="/assets/hero_home.jpg"
           imageAlt="Médecin libéral travaillant avec son assistant médical en cabinet"
           title={<>La Mise à Disposition d'un<br />Assistant Médical pour votre Cabinet</>}
-          body="Mesdocs Groupement d'Employeurs est votre intermédiaire officiel : nous sommes l'employeur, vous bénéficiez du service. Zéro contrainte administrative pour le médecin."
+          body="Mesdocs Groupement d'Employeurs est votre intermédiaire officiel : nous sommes l'employeur, vous bénéficiez du service. Aucune obligation d'employeur pour le médecin."
           ctaPrimary={{ label: 'Démarrer mon projet', href: '/prendre-rendez-vous' }}
           ctaLight={{ label: 'Voir le financement', href: '/avantages-demarches' }}
         />

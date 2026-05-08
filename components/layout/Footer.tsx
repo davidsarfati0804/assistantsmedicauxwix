@@ -114,8 +114,8 @@ export default function Footer() {
 
                 <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Cabinet / Structure</label>
-                    <input type="text" name="cabinet" placeholder="Cabinet médical Paris 16"
+                    <label className="text-[13px] font-medium text-gray-700">Cabinet / Structure <span className="text-[#e03e3e]">*</span></label>
+                    <input type="text" name="cabinet" required placeholder="Cabinet médical Paris 16"
                       className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
                   </div>
                   <div className="flex flex-col gap-1.5">
@@ -126,8 +126,8 @@ export default function Footer() {
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-[13px] font-medium text-gray-700">Votre besoin</label>
-                  <select name="besoin"
+                  <label className="text-[13px] font-medium text-gray-700">Votre besoin <span className="text-[#e03e3e]">*</span></label>
+                  <select name="besoin" required
                     className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
                     <option value="">Sélectionnez une option</option>
                     <option value="recrutement">Recruter un assistant médical</option>

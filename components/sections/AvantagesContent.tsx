@@ -55,7 +55,7 @@ export default function AvantagesContent() {
           <SectionLink href="#subvention">&gt; Subvention et Objectif de Progression de la Patientèle</SectionLink>
           <p className="text-[10px] uppercase tracking-wide mt-4 mb-1">LES DÉMARCHES</p>
           <SectionLink href="#rdv">&gt; Premier Rendez-vous</SectionLink>
-          <SectionLink href="#recrutement">&gt; Gestion Intégral du Recrutement et de la Formation</SectionLink>
+          <SectionLink href="#recrutement">&gt; Gestion intégrale du Recrutement et de la Formation</SectionLink>
           <SectionLink href="#financement">&gt; Financement de l&apos;Assistant Médical</SectionLink>
           <SectionLink href="#suivi">&gt; Suivi et évaluation</SectionLink>
         </div>
@@ -125,12 +125,12 @@ export default function AvantagesContent() {
         <Bullet>• <strong>Examen du profil de l&apos;assistant médical souhaité :</strong> Établissement d&apos;un profil détaillé pour le poste, incluant les compétences, les qualifications et les expériences requises. Planification de l&apos;intégration du nouvel employé, avec un accent sur l&apos;adaptation au sein de l&apos;équipe existante et la culture de la structure.</Bullet>
 
         {/* Étape 2 */}
-        <SubTitle id="recrutement">2. <span className="text-[#1d67cd]">Gestion Intégrale du Recrutement et de la Formation de l&apos;Assistant Médical</span></SubTitle>
+        <SubTitle id="recrutement">2. <span className="text-[#1d67cd]">Gestion intégrale du Recrutement et de la Formation de l&apos;Assistant Médical</span></SubTitle>
         <Bullet>• <strong>Conformité Légale et Gestion des Ressources Humaines :</strong> Nous prenons en charge tous les aspects du recrutement de l&apos;assistant médical, y compris la conformité avec le droit du travail et la convention collective.</Bullet>
         <BodyP>Cela comprend la gestion minutieuse des contrats de travail, des périodes d&apos;essai, des éventuelles procédures de licenciement, des congés et de la grille salariale.</BodyP>
         <Bullet>• <strong>Formalités Administratives Complètes :</strong> Notre GE s&apos;occupe de toutes les formalités administratives auprès de l&apos;Urssaf et d&apos;autres entités, garantissant une gestion sans faille des déclarations, de la paie, des congés payés, des absences pour maladie ou maternité.</Bullet>
         <Bullet>• <strong>Formation et Certification Professionnelle :</strong></Bullet>
-        <BodyP>Nous accompagnons la formation de l&apos;assistant médical en partenariat avec les organismes agréés et l&apos;OPCO EP afin de garantir l&apos;obtention du CQP dans les délais requis.</BodyP>
+        <BodyP>Nous accompagnons la formation de l&apos;assistant médical en partenariat avec nos partenaires de formation et l&apos;OPCO EP afin de garantir l&apos;obtention du CQP dans les délais requis.</BodyP>
         <BodyP>Grâce à notre partenaire <a href="https://vae-formation.com/" target="_blank" rel="noopener" className="text-[#1d67cd] underline hover:text-[#093e98]">VAE Formation</a>, nous proposons également un accompagnement en VAE CQP Assistant Médical permettant la reconnaissance des compétences et l&apos;obtention d&apos;une certification professionnelle adaptée.</BodyP>
 
         {/* Étape 3 */}

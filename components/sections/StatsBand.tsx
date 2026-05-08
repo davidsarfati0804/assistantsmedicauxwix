@@ -4,7 +4,7 @@ const stats = [
   { Icon: Users, value: '7 420', label: 'médecins satisfaits', sub: 'par le dispositif national' },
   { Icon: Banknote, value: '38 000 €', label: 'de financement', sub: 'maximum la 1ʳᵉ année' },
   { Icon: CalendarCheck, value: '5 ans', label: 'de contrat', sub: 'renouvelable CPAM' },
-  { Icon: ShieldCheck, value: '100%', label: 'pris en charge', sub: 'démarches & administration' },
+  { Icon: ShieldCheck, value: '100%', label: 'accompagnement', sub: 'démarches & gestion employeur' },
 ];
 
 export default function StatsBand() {

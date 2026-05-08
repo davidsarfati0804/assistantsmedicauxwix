@@ -29,7 +29,8 @@ export default function MentionsLegalesPage() {
                 <p><strong>Siège social :</strong> 24 rue Octave Feuillet, 75116 Paris</p>
                 <p><strong>Téléphone :</strong> <a href="tel:0970682220" className="text-[#1d67cd] hover:underline">09 70 68 22 20</a></p>
                 <p><strong>Email :</strong> <a href="mailto:contact@ge-mesdocs.fr" className="text-[#1d67cd] hover:underline">contact@ge-mesdocs.fr</a></p>
-                <p><strong>Directeur de la publication :</strong> Le Président de l&apos;association</p>
+                <p><strong>SIREN / SIRET :</strong> 942 339 052</p>
+                <p><strong>Responsable de publication :</strong> es@olami.eu</p>
               </div>
             </div>
 
@@ -38,7 +39,7 @@ export default function MentionsLegalesPage() {
               <h2 className="text-[20px] font-semibold text-gray-900 mb-4 pb-2 border-b border-[#e4eaf5]">2. Hébergement</h2>
               <div className="text-[15px] text-gray-700 leading-[1.8] space-y-1">
                 <p><strong>Hébergeur :</strong> Netlify, Inc.</p>
-                <p><strong>Adresse :</strong> 512 2nd Street, Suite 200, San Francisco, CA 94107, États-Unis</p>
+                <p><strong>Adresse :</strong> 101 2nd Street, San Francisco, CA 94105, États-Unis</p>
                 <p><strong>Site :</strong> <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer" className="text-[#1d67cd] hover:underline">www.netlify.com</a></p>
               </div>
             </div>
@@ -47,10 +48,7 @@ export default function MentionsLegalesPage() {
             <div className="mb-10">
               <h2 className="text-[20px] font-semibold text-gray-900 mb-4 pb-2 border-b border-[#e4eaf5]">3. Propriété intellectuelle</h2>
               <p className="text-[15px] text-gray-700 leading-[1.8]">
-                L&apos;ensemble des contenus présents sur le site <strong>assistants-medicaux.com</strong> (textes, images, logos, icônes, visuels) est la propriété exclusive de Mesdocs Groupement d&apos;Employeurs ou de ses partenaires, et est protégé par les lois françaises et internationales relatives à la propriété intellectuelle.
-              </p>
-              <p className="text-[15px] text-gray-700 leading-[1.8] mt-3">
-                Toute reproduction, représentation, modification, publication, adaptation ou exploitation, totale ou partielle, de ces contenus par quelque moyen ou procédé que ce soit, est interdite sans autorisation écrite préalable de Mesdocs Groupement d&apos;Employeurs.
+                L&apos;ensemble des contenus présents sur ce site, incluant les textes, visuels, logos, éléments graphiques et structure des pages, est protégé par le droit de la propriété intellectuelle. Toute reproduction, modification ou diffusion, totale ou partielle, sans autorisation préalable de Mesdocs Groupement d&apos;Employeurs, est interdite.
               </p>
             </div>
 
@@ -73,7 +71,7 @@ export default function MentionsLegalesPage() {
 
               <h3 className="text-[16px] font-semibold text-gray-800 mb-2">Finalité du traitement</h3>
               <p className="text-[15px] text-gray-700 leading-[1.8] mb-4">
-                Les données collectées sont utilisées exclusivement pour traiter les demandes de contact et de renseignements, et pour vous recontacter dans le cadre de votre projet d&apos;assistant médical. Elles ne sont ni vendues, ni cédées à des tiers.
+                Les données collectées via les formulaires du site sont utilisées uniquement pour répondre aux demandes de contact, analyser les besoins exprimés et assurer le suivi des échanges avec Mesdocs. Elles ne sont pas cédées à des tiers à des fins commerciales.
               </p>
 
               <h3 className="text-[16px] font-semibold text-gray-800 mb-2">Durée de conservation</h3>
@@ -83,7 +81,7 @@ export default function MentionsLegalesPage() {
 
               <h3 className="text-[16px] font-semibold text-gray-800 mb-2">Vos droits</h3>
               <p className="text-[15px] text-gray-700 leading-[1.8]">
-                Conformément au RGPD, vous disposez des droits suivants sur vos données : droit d&apos;accès, de rectification, d&apos;effacement, de limitation du traitement, d&apos;opposition et de portabilité. Pour exercer ces droits, contactez-nous à : <a href="mailto:contact@ge-mesdocs.fr" className="text-[#1d67cd] hover:underline">contact@ge-mesdocs.fr</a>. Vous pouvez également introduire une réclamation auprès de la <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" className="text-[#1d67cd] hover:underline">CNIL</a>.
+                Conformément au RGPD, vous disposez d&apos;un droit d&apos;accès, de rectification, d&apos;opposition, d&apos;effacement et de limitation du traitement de vos données. Ces droits peuvent être exercés à l&apos;adresse suivante : <a href="mailto:contact@ge-mesdocs.fr" className="text-[#1d67cd] hover:underline">contact@ge-mesdocs.fr</a>. Vous pouvez également introduire une réclamation auprès de la <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" className="text-[#1d67cd] hover:underline">CNIL</a>.
               </p>
             </div>
 
@@ -91,10 +89,7 @@ export default function MentionsLegalesPage() {
             <div className="mb-10">
               <h2 className="text-[20px] font-semibold text-gray-900 mb-4 pb-2 border-b border-[#e4eaf5]">5. Cookies</h2>
               <p className="text-[15px] text-gray-700 leading-[1.8] mb-4">
-                Ce site peut utiliser des cookies techniques nécessaires à son bon fonctionnement, ainsi que des cookies d&apos;analyse d&apos;audience (Google Analytics) pour mesurer le trafic et améliorer les contenus. Aucun cookie publicitaire de ciblage n&apos;est déposé.
-              </p>
-              <p className="text-[15px] text-gray-700 leading-[1.8]">
-                Conformément à la réglementation en vigueur, votre consentement est requis pour les cookies non essentiels. Vous pouvez paramétrer votre navigateur pour refuser les cookies ou être informé de leur dépôt.
+                Le site peut utiliser des cookies techniques nécessaires à son bon fonctionnement. Si des outils de mesure d&apos;audience sont utilisés, ils doivent être configurés conformément aux règles applicables en matière de consentement.
               </p>
             </div>
 
@@ -110,7 +105,7 @@ export default function MentionsLegalesPage() {
             <div className="mb-10">
               <h2 className="text-[20px] font-semibold text-gray-900 mb-4 pb-2 border-b border-[#e4eaf5]">7. Limitation de responsabilité</h2>
               <p className="text-[15px] text-gray-700 leading-[1.8]">
-                Les informations présentes sur ce site sont fournies à titre indicatif. Elles peuvent être modifiées à tout moment sans préavis. Mesdocs Groupement d&apos;Employeurs ne saurait être tenu responsable des erreurs ou omissions dans les informations diffusées, ni des dommages directs ou indirects résultant de l&apos;utilisation du site.
+                Les informations diffusées sur ce site sont fournies à titre informatif. Elles ne se substituent pas aux textes officiels, aux décisions de l&apos;Assurance Maladie, ni aux échanges directs avec les organismes compétents. Mesdocs s&apos;efforce de maintenir les informations à jour, mais ne peut garantir l&apos;absence d&apos;évolution des règles applicables.
               </p>
               <p className="text-[15px] text-gray-700 leading-[1.8] mt-3">
                 Pour toute information sur les montants et conditions du dispositif assistant médical, la source officielle est <a href="https://www.ameli.fr/medecin/exercice-liberal/vie-cabinet/aides-financieres/aide-emploi-assistants-medicaux" target="_blank" rel="noopener noreferrer" className="text-[#1d67cd] hover:underline">ameli.fr</a>.

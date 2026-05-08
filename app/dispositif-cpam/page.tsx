@@ -32,7 +32,7 @@ export default function DispositifCpamPage() {
           ctaLight={{ label: 'Voir les démarches', href: '/avantages-demarches' }}
         />
         <ResumeBanner>
-          Le dispositif assistant médical CPAM permet aux médecins libéraux conventionnés (secteur 1 et secteur 2 OPTAM) de recevoir une aide financière de 19 000 à 38 000 €/an pour employer un assistant médical. Les médecins en secteur 3 (non conventionnés) ne sont pas éligibles. Instauré par la Convention Médicale 2024–2029, ce contrat de 5 ans est renouvelable. Mesdocs Groupement d'Employeurs accompagne les médecins dans toutes les démarches CPAM, sans que le médecin ait à gérer les obligations d'employeur.
+          Le dispositif assistant médical CPAM permet aux médecins libéraux conventionnés (secteur 1 et secteur 2 OPTAM) de recevoir une aide financière allant de 19 000 jusqu'à 38 000 €/an pour employer un assistant médical. Les médecins en secteur 3 (non conventionnés) ne sont pas éligibles. Instauré par la Convention Médicale 2024–2029, ce contrat de 5 ans est renouvelable. Mesdocs Groupement d'Employeurs accompagne les médecins dans toutes les démarches CPAM, sans que le médecin ait à gérer les obligations d'employeur.
         </ResumeBanner>
         <DispositifCpamContent />
         <CtaSection

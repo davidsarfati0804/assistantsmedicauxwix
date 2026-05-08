@@ -20,7 +20,7 @@ export default function TrustBand() {
               <Image src="/assets/logo_ameli.png" alt="l'Assurance Maladie – ameli.fr" width={220} height={62} className="object-contain h-[52px] w-auto" />
             </a>
             <p className="text-[14px] text-gray-500 leading-[1.7] max-w-[500px]">
-              Mesdocs Groupement d&apos;Employeurs est référencé sur <strong className="text-[#093e98]">ameli.fr</strong> comme organisme agréé pour l&apos;emploi d&apos;assistants médicaux dans les cabinets de médecins libéraux.
+              Mesdocs Groupement d&apos;Employeurs est référencé sur <strong className="text-[#093e98]">ameli.fr</strong> dans le cadre du dispositif assistant médical de l&apos;Assurance Maladie, pour la mise à disposition d&apos;assistants médicaux dans les cabinets de médecins libéraux.
             </p>
           </div>
 

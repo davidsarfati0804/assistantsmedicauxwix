@@ -23,8 +23,8 @@ const montants = [
   { annee: '1re année', mitemps: '19 000 €', tempsPlein: '38 000 €', note: '' },
   { annee: '2e année', mitemps: '14 000 €', tempsPlein: '28 000 €', note: '' },
   { annee: '3e année et +', mitemps: '11 000 €', tempsPlein: '22 000 €', note: '' },
-  { annee: 'Majoration P90–P95', mitemps: '13 000 €', tempsPlein: '26 000 €', note: 'Médecins avec grande patientèle' },
-  { annee: 'Majoration P95+', mitemps: '19 000 €', tempsPlein: '38 000 €', note: 'Médecins avec très grande patientèle' },
+  { annee: 'Majoration (patientèle P90 à P94)', mitemps: '13 000 €', tempsPlein: '26 000 €', note: 'Médecins avec grande patientèle' },
+  { annee: 'Majoration (patientèle P95 et +)', mitemps: '19 000 €', tempsPlein: '38 000 €', note: 'Médecins avec très grande patientèle' },
 ];
 
 const etapes = [
@@ -37,7 +37,7 @@ const etapes = [
 const faq = [
   {
     q: 'Tous les médecins libéraux peuvent-ils bénéficier du dispositif ?',
-    a: 'Non, certaines spécialités techniques sont exclues (radiologues, anesthésistes, anatomo-pathologistes, médecins nucléaires, stomatologues, radiothérapeutes). Les médecins en secteur 1, 2 OPTAM et 3 sont éligibles. Mesdocs vérifie votre éligibilité gratuitement lors du premier entretien.',
+    a: 'Non, certaines spécialités techniques sont exclues (radiologues, anesthésistes, anatomo-pathologistes, médecins nucléaires, stomatologues, radiothérapeutes). Les médecins en secteur 1 et 2 OPTAM sont éligibles. Le secteur 3 (non conventionné) n\'est pas éligible. Mesdocs vérifie votre éligibilité gratuitement lors du premier entretien.',
   },
   {
     q: 'L\'aide CPAM est-elle versée directement au médecin ou à Mesdocs ?',
@@ -73,6 +73,9 @@ export default function DispositifCpamContent() {
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
             L'Assurance Maladie verse une aide financière directe au médecin, <strong>de 19 000 à 38 000 euros la première année</strong>, selon le temps de travail de l'assistant. En contrepartie, le médecin s'engage à accueillir de nouveaux patients.
+          </p>
+          <p className="text-[16px] leading-[1.7] mb-4">
+            L&apos;aide de l&apos;Assurance Maladie est versée au médecin signataire du contrat CPAM. Dans le cadre de Mesdocs, l&apos;assistant médical est salarié par le groupement d&apos;employeurs puis mis à disposition du médecin ou de la structure selon la convention signée.
           </p>
           <a
             href="https://www.ameli.fr/medecin/exercice-liberal/vie-cabinet/aides-financieres/aide-emploi-assistants-medicaux"
@@ -154,6 +157,9 @@ export default function DispositifCpamContent() {
               </tbody>
             </table>
           </div>
+          <p className="text-[13px] text-gray-500 italic mt-4 leading-[1.6]">
+            Les montants indiqués sont des plafonds d&apos;aide et peuvent varier selon la situation du médecin, le temps de travail de l&apos;assistant, l&apos;éligibilité et les règles applicables par l&apos;Assurance Maladie.
+          </p>
           <p className="text-[13px] text-gray-400 mt-3">Source : ameli.fr — Convention médicale 2024–2029</p>
         </div>
       </section>

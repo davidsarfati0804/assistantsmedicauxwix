@@ -4,7 +4,7 @@ import { CheckCircle } from 'lucide-react';
 
 const missions = [
   { title: 'Missions administratives', items: ['Accueil physique et téléphonique des patients', 'Gestion et mise à jour des dossiers médicaux', 'Organisation de l\'agenda et des rendez-vous', 'Mise en place de la télémédecine'] },
-  { title: 'Préparation des consultations', items: ['Aide au déshabillage / rhabillage', 'Prise des constantes (tension, poids, taille)', 'Mise à jour des dossiers de dépistage et vaccination', 'Préparation et aide aux actes techniques'] },
+  { title: 'Préparation des consultations', items: ['Aide au déshabillage / rhabillage (sous responsabilité du médecin)', 'Prise des constantes (tension, poids, taille)', 'Mise à jour des dossiers de dépistage et vaccination', 'Préparation du matériel et appui organisationnel à la consultation, sous la responsabilité du médecin'] },
   { title: 'Coordination des soins', items: ['Organisation des rendez-vous spécialistes', 'Coordination avec infirmières, kinés, sages-femmes', 'Suivi du parcours de soins du patient', 'Liens avec les services hospitaliers'] },
 ];
 
@@ -13,27 +13,27 @@ const geAdvantages = [
   'Zéro gestion de la paie, des congés, des absences',
   'Conformité URSSAF et CPAM assurée',
   'Formation CQP entièrement gérée',
-  'Remplacement en cas d\'absence de l\'assistant',
-  'Accompagnement sur 5 ans renouvelables',
+  'Recherche d\'une solution de continuité en cas d\'absence prolongée ou de départ',
+  'Accompagnement continu sans durée minimale d\'engagement',
 ];
 
 const comparaison = [
   { critere: 'Employeur', assistant: 'Mesdocs (GE)', secretaire: 'Le médecin lui-même' },
   { critere: 'Financement CPAM', assistant: 'Jusqu\'à 38 000 €/an', secretaire: 'Non applicable' },
-  { critere: 'Formation certifiante', assistant: 'CQP ou VAE inclus', secretaire: 'À la charge du médecin' },
+  { critere: 'Formation certifiante', assistant: 'CQP, VAE ou FAE inclus', secretaire: 'À la charge du médecin' },
   { critere: 'Gestion administrative', assistant: 'Entièrement par Mesdocs', secretaire: 'Entièrement par le médecin' },
-  { critere: 'Missions soignantes', assistant: 'Oui (constantes, préparation)', secretaire: 'Non' },
-  { critere: 'Durée du contrat', assistant: '5 ans renouvelables', secretaire: 'CDI classique' },
+  { critere: 'Missions d\'appui à la consultation', assistant: 'Oui (constantes, préparation, sous responsabilité du médecin)', secretaire: 'Non' },
+  { critere: 'Engagement', assistant: 'Adhésion à l\'association', secretaire: 'CDI classique' },
 ];
 
 const faq = [
   {
     q: 'Quelle est la différence entre un assistant médical et une secrétaire médicale ?',
-    a: 'L\'assistant médical, via un groupement d\'employeurs comme Mesdocs, peut effectuer des missions soignantes (prise de constantes, préparation de consultations) en plus des tâches administratives. La secrétaire médicale est limitée à l\'administratif. De plus, avec Mesdocs, le médecin n\'est pas l\'employeur : c\'est le GE qui assure toute la gestion RH.',
+    a: 'L\'assistant médical, via un groupement d\'employeurs comme Mesdocs, peut effectuer des missions d\'appui à la consultation (prise de constantes, préparation de consultations, sous responsabilité du médecin) en plus des tâches administratives. La secrétaire médicale est limitée à l\'administratif. De plus, avec Mesdocs, le médecin n\'est pas l\'employeur : c\'est le GE qui assure toute la gestion RH.',
   },
   {
     q: 'Le médecin devient-il l\'employeur de l\'assistant médical ?',
-    a: 'Non. Avec Mesdocs Groupement d\'Employeurs, c\'est Mesdocs qui est l\'employeur juridique de l\'assistant médical. Le médecin est l\'utilisateur des services de l\'assistant, mais n\'a aucune obligation d\'employeur (paie, contrat, URSSAF, licenciement...).',
+    a: 'Non. Avec Mesdocs Groupement d\'Employeurs, c\'est Mesdocs qui est l\'employeur juridique de l\'assistant médical. Le médecin est adhérent de l\'association : il a accès à l\'ensemble des ressources de Mesdocs, sans aucune obligation d\'employeur (paie, contrat, URSSAF, licenciement...). Nous vous accompagnons dans les démarches CPAM et assurons la gestion employeur de l\'assistant médical.',
   },
   {
     q: 'Puis-je définir moi-même les missions de l\'assistant médical ?',
@@ -41,11 +41,11 @@ const faq = [
   },
   {
     q: 'Quelles sont les conditions pour bénéficier de la mise à disposition ?',
-    a: 'Vous devez exercer en médecine libérale (secteur 1, 2 OPTAM, ou 3). Certaines spécialités techniques sont exclues (radiologues, anesthésistes, anatomo-pathologistes). Mesdocs vérifie votre éligibilité gratuitement lors du premier entretien.',
+    a: 'Vous devez exercer en médecine libérale (secteur 1 ou 2 OPTAM). Le secteur 3 (non conventionné) n\'est pas éligible. Certaines spécialités techniques sont exclues (radiologues, anesthésistes, anatomo-pathologistes). Mesdocs vérifie votre éligibilité gratuitement lors du premier entretien.',
   },
   {
     q: 'Que se passe-t-il si l\'assistant médical quitte le poste ?',
-    a: 'Mesdocs prend en charge le recrutement d\'un remplaçant. Vous n\'avez pas à gérer le départ ni à relancer un processus de recrutement vous-même. La continuité du service est assurée par le GE.',
+    a: 'Mesdocs engage des démarches pour trouver une solution de continuité. Vous n\'avez pas à gérer le départ ni à relancer le recrutement vous-même. Mesdocs assure le suivi RH dans le cadre de la convention de mise à disposition.',
   },
 ];
 
@@ -60,7 +60,7 @@ export default function AssistantsMedicauxContent() {
             Un <strong>groupement d'employeurs (GE)</strong> est une structure juridique qui recrute des salariés et les met à disposition de ses membres — ici, des médecins libéraux. <strong>Mesdocs Groupement d'Employeurs</strong>, <em>association loi 1901 à but non lucratif</em>, est l'employeur légal de l'assistant médical : c'est lui qui signe le contrat de travail, gère la paie, les congés, les formations et les démarches URSSAF.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le médecin, lui, est <strong>utilisateur</strong> du service : il bénéficie de l'assistant dans son cabinet au quotidien, sans jamais avoir à endosser la casquette d'employeur.
+            Le médecin, lui, est <strong>adhérent</strong> de l'association : en tant qu'adhérent, il a accès à l'ensemble des ressources de Mesdocs et bénéficie de l'assistant dans son cabinet au quotidien, sans jamais avoir à endosser la casquette d'employeur.
           </p>
           <div className="bg-[#f5f8ff] border border-[#e4eaf5] rounded-2xl p-8 mt-6">
             <p className="text-[17px] font-semibold text-[#093e98] mb-4">Avec Mesdocs, vous bénéficiez de :</p>
