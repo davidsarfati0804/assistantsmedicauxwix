@@ -11,11 +11,12 @@ export default function RendezVousForm() {
     setLoading(true);
     const form = e.currentTarget;
     try {
-      await fetch('/', {
+      const res = await fetch('/netlify-forms.html', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(new FormData(form) as unknown as Record<string, string>).toString(),
       });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
       setSubmitted(true);
     } catch {
       setLoading(false);
