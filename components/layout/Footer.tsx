@@ -64,11 +64,11 @@ export default function Footer() {
 
             {/* Trust strip */}
             <div className="border-t border-white/20 pt-7 flex flex-col gap-3">
-              <a href="tel:0970682220" className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
+              <a href="tel:0970682220" onClick={() => window.gtag?.('event', 'click_telephone')} className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
                 <Phone size={15} className="shrink-0" />
                 09 70 68 22 20
               </a>
-              <a href="mailto:contact@ge-mesdocs.fr" className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
+              <a href="mailto:contact@ge-mesdocs.fr" onClick={() => window.gtag?.('event', 'click_email')} className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
                 <Mail size={15} className="shrink-0" />
                 contact@ge-mesdocs.fr
               </a>
