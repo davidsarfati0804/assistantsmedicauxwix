@@ -18,6 +18,7 @@ export default function ContactForm() {
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       setSubmitted(true);
+      window.gtag?.('event', 'form_submit', { form_name: 'contact-page' });
     } catch {
       setLoading(false);
     }
