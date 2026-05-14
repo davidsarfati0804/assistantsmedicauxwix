@@ -160,6 +160,7 @@ export default function Footer() {
         <span>© {new Date().getFullYear()} Mesdocs Groupement d&apos;Employeurs — Association loi 1901 — Assistants Médicaux</span>
         <div className="flex gap-4">
           <a href="/mentions-legales" className="hover:text-[#093e98] underline transition-colors">Mentions légales</a>
+          <a href="/politique-confidentialite" className="hover:text-[#093e98] underline transition-colors">Politique de confidentialité</a>
           <a href="mailto:contact@ge-mesdocs.fr" className="hover:text-[#093e98] transition-colors">contact@ge-mesdocs.fr</a>
         </div>
       </div>

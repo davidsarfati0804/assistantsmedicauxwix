@@ -8,6 +8,7 @@ import VideoSection from '@/components/sections/VideoSection';
 import CtaSection from '@/components/sections/CtaSection';
 import StatsBand from '@/components/sections/StatsBand';
 import TestimonialSlider from '@/components/sections/TestimonialSlider';
+import EditorialHome from '@/components/sections/EditorialHome';
 import SchemaOrg, { faqSchema } from '@/components/seo/SchemaOrg';
 
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: "Mesdocs Groupement d'Employeurs – Assistants Médicaux" };
@@ -65,6 +66,7 @@ subLink={{
           }}
         />
         <StatsBand />
+        <EditorialHome />
         <TestimonialSlider />
       </main>
       <Footer />

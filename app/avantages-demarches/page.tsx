@@ -37,9 +37,9 @@ export default function AvantagesPage() {
       <main className="pt-[68px]">
         <PageHero
           imageSrc="/assets/hero_avantages.jpg"
-          imageAlt="Avantages et Démarches"
-          title="Avantages & Démarches"
-          body="Toutes les informations sur le dispositif assistant médical : avantages, financement et démarches à effectuer."
+          imageAlt="Avantages et démarches du dispositif assistant médical CPAM"
+          title={<>Avantages & Financement<br />du Dispositif Assistant Médical</>}
+          body="Aide CPAM de 19 000 à 38 000 €/an, démarches simplifiées, aucune obligation d'employeur : tout ce que vous devez savoir sur le dispositif assistant médical avec Mesdocs."
           ctaPrimary={{ label: 'En savoir plus', href: '#avantages' }}
           ctaLight={{ label: 'Nous contacter', href: '#contact' }}
         />

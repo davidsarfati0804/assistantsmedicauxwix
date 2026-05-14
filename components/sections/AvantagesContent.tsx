@@ -29,7 +29,7 @@ function SectionLink({ href, children }: { href: string; children: React.ReactNo
 }
 
 function SubTitle({ children, id }: { children: React.ReactNode; id?: string }) {
-  return <p id={id} className="text-[18px] text-[#1d67cd] mt-8 mb-2.5 scroll-mt-24">{children}</p>;
+  return <h3 id={id} className="text-[18px] text-[#1d67cd] mt-8 mb-2.5 scroll-mt-24">{children}</h3>;
 }
 
 function BodyP({ children }: { children: React.ReactNode }) {
