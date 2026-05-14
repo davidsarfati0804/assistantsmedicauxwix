@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     description: '20 minutes gratuites pour vérifier votre éligibilité au dispositif assistant médical CPAM. Sans engagement.',
     url: 'https://www.assistants-medicaux.com/prendre-rendez-vous',
     type: 'website',
+    images: [{ url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Prendre Rendez-vous avec Mesdocs' }],
   },
 };
 

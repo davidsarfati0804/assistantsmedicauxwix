@@ -5,6 +5,9 @@ import PageHero from '@/components/sections/PageHero';
 import RecrutementContent from '@/components/sections/RecrutementContent';
 import CtaSection from '@/components/sections/CtaSection';
 import ResumeBanner from '@/components/seo/ResumeBanner';
+import SchemaOrg, { serviceSchema } from '@/components/seo/SchemaOrg';
+
+const OG_IMAGE = { url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Recruter un Assistant Médical – Mesdocs' };
 
 export const metadata: Metadata = {
   title: 'Recruter un Assistant Médical – Mesdocs s\'occupe de tout',
@@ -15,12 +18,20 @@ export const metadata: Metadata = {
     description: 'Sélection, contrat, formation, CPAM : Mesdocs gère votre recrutement de A à Z. Vous choisissez, on gère.',
     url: 'https://www.assistants-medicaux.com/recrutement-assistant-medical',
     type: 'website',
+    images: [OG_IMAGE],
   },
 };
+
+const recrutementService = serviceSchema(
+  'Recrutement d\'un assistant médical pour médecin libéral',
+  'Mesdocs gère le recrutement de A à Z : analyse des besoins, sélection des candidats, contrat de travail, formation CQP et liaison CPAM. Délai moyen de 6 à 8 semaines.',
+  'https://www.assistants-medicaux.com/recrutement-assistant-medical'
+);
 
 export default function RecrutementPage() {
   return (
     <>
+      <SchemaOrg schema={recrutementService} />
       <Header />
       <main className="pt-[68px]">
         <PageHero

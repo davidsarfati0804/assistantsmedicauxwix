@@ -4,6 +4,29 @@ import Footer from '@/components/layout/Footer';
 import PageHero from '@/components/sections/PageHero';
 import ContactForm from '@/components/sections/ContactForm';
 import Link from 'next/link';
+import SchemaOrg from '@/components/seo/SchemaOrg';
+
+const contactPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: "Contacter Mesdocs Groupement d'Employeurs",
+  url: 'https://www.assistants-medicaux.com/contact',
+  description: "Contactez l'équipe Mesdocs par formulaire, téléphone ou email. Réponse sous 24h ouvrées.",
+  mainEntity: {
+    '@type': 'Organization',
+    name: "Mesdocs Groupement d'Employeurs",
+    telephone: '+33970682220',
+    email: 'contact@ge-mesdocs.fr',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '24 rue Octave Feuillet',
+      addressLocality: 'Paris',
+      postalCode: '75116',
+      addressCountry: 'FR',
+    },
+    openingHours: 'Mo-Fr 09:00-18:00',
+  },
+};
 
 export const metadata: Metadata = {
   title: 'Contactez Mesdocs – Assistants Médicaux | Réponse 24h',
@@ -14,12 +37,14 @@ export const metadata: Metadata = {
     description: 'Formulaire, téléphone ou email : l\'équipe Mesdocs répond sous 24h ouvrées.',
     url: 'https://www.assistants-medicaux.com/contact',
     type: 'website',
+    images: [{ url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Contactez Mesdocs' }],
   },
 };
 
 export default function ContactPage() {
   return (
     <>
+      <SchemaOrg schema={contactPageSchema} />
       <Header />
       <main className="pt-[68px]">
         <PageHero
