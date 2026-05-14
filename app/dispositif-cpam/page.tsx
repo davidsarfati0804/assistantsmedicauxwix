@@ -7,16 +7,16 @@ import CtaSection from '@/components/sections/CtaSection';
 import ResumeBanner from '@/components/seo/ResumeBanner';
 import SchemaOrg, { faqSchema, serviceSchema } from '@/components/seo/SchemaOrg';
 
-const OG_IMAGE = { url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Dispositif Assistant Médical CPAM – Mesdocs' };
+const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Dispositif Assistant Médical CPAM – Mesdocs' };
 
 export const metadata: Metadata = {
   title: 'Dispositif Assistant Médical CPAM – Conditions & Montants',
   description: 'Tout sur le dispositif officiel assistant médical CPAM : éligibilité, montants de l\'aide (19 000 à 38 000 €/an), durée du contrat et démarches. Expliqué simplement par Mesdocs.',
-  alternates: { canonical: 'https://www.assistants-medicaux.com/dispositif-cpam' },
+  alternates: { canonical: 'https://assistants-medicaux.com/dispositif-cpam' },
   openGraph: {
     title: 'Dispositif Assistant Médical CPAM – Conditions & Montants | Mesdocs',
     description: 'Éligibilité, montants, durée du contrat CPAM pour l\'assistant médical. Tout comprendre en un seul endroit.',
-    url: 'https://www.assistants-medicaux.com/dispositif-cpam',
+    url: 'https://assistants-medicaux.com/dispositif-cpam',
     type: 'website',
     images: [OG_IMAGE],
   },
@@ -34,7 +34,7 @@ const schemas = [
   serviceSchema(
     'Dispositif Assistant Médical CPAM',
     'Accompagnement des médecins libéraux dans le dispositif officiel CPAM de financement d\'un assistant médical (19 000 à 38 000 €/an). Mesdocs gère les démarches CPAM, le contrat et la mise à disposition.',
-    'https://www.assistants-medicaux.com/dispositif-cpam'
+    'https://assistants-medicaux.com/dispositif-cpam'
   ),
 ];
 

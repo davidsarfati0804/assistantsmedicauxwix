@@ -7,16 +7,16 @@ import CtaSection from '@/components/sections/CtaSection';
 import ResumeBanner from '@/components/seo/ResumeBanner';
 import SchemaOrg, { faqSchema, serviceSchema } from '@/components/seo/SchemaOrg';
 
-const OG_IMAGE = { url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Mise à Disposition d\'un Assistant Médical – Mesdocs' };
+const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Mise à Disposition d\'un Assistant Médical – Mesdocs' };
 
 export const metadata: Metadata = {
   title: 'Mise à Disposition d\'un Assistant Médical | Mesdocs GE',
   description: 'Mesdocs met à disposition un assistant médical formé pour votre cabinet : accueil, administratif, coordination soins. Vous n\'êtes pas l\'employeur. CPAM finance jusqu\'à 38 000 €/an.',
-  alternates: { canonical: 'https://www.assistants-medicaux.com/assistants-medicaux' },
+  alternates: { canonical: 'https://assistants-medicaux.com/assistants-medicaux' },
   openGraph: {
     title: 'Mise à Disposition d\'un Assistant Médical | Mesdocs GE',
     description: 'Mesdocs recrute et met à disposition votre assistant médical. Aucune obligation d\'employeur pour le médecin. CPAM finance jusqu\'à 38 000 €/an.',
-    url: 'https://www.assistants-medicaux.com/assistants-medicaux',
+    url: 'https://assistants-medicaux.com/assistants-medicaux',
     type: 'website',
     images: [OG_IMAGE],
   },
@@ -33,7 +33,7 @@ const schemas = [
   serviceSchema(
     'Mise à disposition d\'un assistant médical pour médecin libéral',
     'Mesdocs Groupement d\'Employeurs recrute, forme et met à disposition un assistant médical dans le cabinet du médecin. Le médecin n\'est pas l\'employeur. CPAM finance jusqu\'à 38 000 €/an.',
-    'https://www.assistants-medicaux.com/assistants-medicaux'
+    'https://assistants-medicaux.com/assistants-medicaux'
   ),
 ];
 

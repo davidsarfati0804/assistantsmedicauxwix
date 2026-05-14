@@ -1,0 +1,90 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - link "Assistants Médicaux Mesdocs Groupement d'employeurs" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Assistants Médicaux
+        - generic [ref=e7]: Mesdocs Groupement d'employeurs
+      - button "Menu" [ref=e8]:
+        - img [ref=e9]
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - img "Devenir Assistant Médical" [ref=e12]
+      - generic [ref=e14]:
+        - heading "Vous souhaitez devenir Assistant.e Médical ?" [level=1] [ref=e15]:
+          - text: Vous souhaitez devenir
+          - text: Assistant.e Médical ?
+        - paragraph [ref=e16]: Découvrez en quoi consiste le rôle d'Assistant Médical, comment vous pouvez soutenir les professionnels de la santé et apprenez quelles sont les exigences et les conditions nécessaires pour le devenir, y compris les qualifications, les compétences et les attentes.
+        - generic [ref=e17]:
+          - link "En savoir plus" [ref=e18] [cursor=pointer]:
+            - /url: "#qui"
+          - link "Nous contacter" [ref=e19] [cursor=pointer]:
+            - /url: "#contact"
+    - generic [ref=e21]:
+      - heading "Qui peut être assistant médical ?" [level=2] [ref=e22]
+      - paragraph [ref=e23]: La fonction d'Assistant Médical est ouverte à un large éventail de profils. Elle peut être assurée par des aides-soignants, des infirmières, des secrétaires médicales, ou tout autre professionnel intéressé à suivre cette voie. La clé pour devenir un Assistant Médical est la formation, ou l'engagement à suivre une formation spécifique conduite en alternance, qui est également éligible à la Validation des Acquis de Compétences (VAE). Après l'embauche, les assistants médicaux ont 2 ans pour engager leur formation et 3 ans pour obtenir leur Certificat de Qualification Professionnelle (CQP) d'Assistant Médical. Les infirmiers, auxiliaires de puériculture, et aides-soignants déjà diplômés peuvent obtenir une attestation de Formation d'Adaptation à l'Emploi (FAE) dans le domaine de l'organisation et de la gestion administrative d'un cabinet médical.
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - heading "Les missions de l'assistant médical ?" [level=2] [ref=e26]
+        - paragraph [ref=e27]: Les missions de l'Assistant Médical sont variées et adaptées à l'organisation de chaque cabinet médical.
+        - paragraph [ref=e28]: Ces missions permettent aux médecins, qu'ils soient généralistes ou spécialistes, de bénéficier d'un soutien précieux.
+        - paragraph [ref=e29]: "Les trois principaux types de missions sont les suivants :"
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img "Missions de nature administrative" [ref=e32]
+          - heading "Missions de nature administrative" [level=3] [ref=e33]
+          - paragraph [ref=e34]: Cela peut inclure l'accueil des patients, la gestion de leurs dossiers, et l'assistance dans la mise en place de la télémédecine au sein du cabinet.
+        - generic [ref=e35]:
+          - img "Préparation et déroulement de la consultation" [ref=e36]
+          - heading "Préparation et déroulement de la consultation" [level=3] [ref=e37]
+          - paragraph [ref=e38]: L'Assistant Médical aide les patients à s'habiller et se déshabiller, prend des constantes telles que la tension artérielle, le poids et la taille, met à jour les dossiers des patients pour les dépistages et les vaccinations, recueille des informations utiles sur les modes de vie, et prépare et aide à la réalisation d'actes techniques.
+        - generic [ref=e39]:
+          - img "Missions d'organisation et de coordination" [ref=e40]
+          - heading "Missions d'organisation et de coordination" [level=3] [ref=e41]
+          - paragraph [ref=e42]: L'Assistant Médical peut jouer un rôle clé dans l'organisation de rendez-vous avec des spécialistes, d'admissions à l'hôpital, et de coordination avec d'autres professionnels de la santé, tels que les infirmières, les kinésithérapeutes, ou les sages-femmes.
+    - generic [ref=e43]:
+      - heading "Vous êtes intéressé.e et souhaitez devenir assistant.e médical ?" [level=1] [ref=e44]:
+        - text: Vous êtes intéressé.e
+        - text: et souhaitez devenir assistant.e médical ?
+      - link "Nous Contacter" [ref=e45] [cursor=pointer]:
+        - /url: "#contact"
+  - contentinfo [ref=e46]:
+    - generic [ref=e47]:
+      - heading "Contactez-nous" [level=2] [ref=e48]
+      - paragraph [ref=e49]: 24 rue Octave Feuillet 75116 Paris
+      - paragraph [ref=e50]
+      - link "09 70 68 22 20" [ref=e51] [cursor=pointer]:
+        - /url: tel:0970682220
+      - link "Contact@ge-mesdocs.fr" [ref=e52] [cursor=pointer]:
+        - /url: mailto:Contact@ge-mesdocs.fr
+      - generic [ref=e53]:
+        - link [ref=e54] [cursor=pointer]:
+          - /url: mailto:Contact@ge-mesdocs.fr
+          - img [ref=e55]
+        - link [ref=e58] [cursor=pointer]:
+          - /url: tel:0970682220
+          - img [ref=e59]
+        - link [ref=e61] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=24+rue+Octave+Feuillet+75116+Paris
+          - img [ref=e62]
+      - paragraph [ref=e65]: © 2023 par Assistants Medicaux
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - generic [ref=e70]: Nom & Prénom *
+          - textbox [ref=e71]
+        - generic [ref=e72]:
+          - generic [ref=e73]: Email *
+          - textbox [ref=e74]
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - generic [ref=e77]: Profession *
+          - textbox [ref=e78]
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - generic [ref=e81]: Téléphone *
+            - textbox [ref=e82]
+          - button "❯" [ref=e83]
+  - button "Open Next.js Dev Tools" [ref=e89] [cursor=pointer]:
+    - img [ref=e90]
+  - alert [ref=e93]

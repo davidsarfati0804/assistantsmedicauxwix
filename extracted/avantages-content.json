@@ -1,0 +1,916 @@
+{
+  "title": "Avantages & Démarches | Assistant Medical",
+  "metaDescription": "Découvrez avec Mesdocs les avantages du dispositif assistant médical : subventions CPAM (19 000 € à 38 000 €), démarches simples et contrat de 5 ans.",
+  "sections": [
+    {
+      "tag": "button",
+      "text": "Passer au contenu principal",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(17, 109, 255)",
+      "bgColor": "rgb(255, 255, 255)",
+      "y": 60
+    },
+    {
+      "tag": "p",
+      "text": "Assistants Médicaux",
+      "href": null,
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 37
+    },
+    {
+      "tag": "a",
+      "text": "Assistants Médicaux",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 39
+    },
+    {
+      "tag": "p",
+      "text": "Mesdocs Groupement d'employeurs",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 65
+    },
+    {
+      "tag": "a",
+      "text": "Mesdocs Groupement d'employeurs",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 67
+    },
+    {
+      "tag": "li",
+      "text": "Accueil",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Accueil",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Accueil",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "li",
+      "text": "Avantages & Démarches",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Avantages & Démarches",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Avantages & Démarches",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(9, 62, 152)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "li",
+      "text": "Devenir Assistant Médical",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Devenir Assistant Médical",
+      "href": "https://www.assistants-medicaux.com/devenir-assistant-m%C3%A9dical",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Devenir Assistant Médical",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Vous souhaitez en savoir plus ?",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 578
+    },
+    {
+      "tag": "p",
+      "text": "Trouvez des informations plus détaillées sur le dispositif en explorant les sections spécifiques suivantes :",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 607
+    },
+    {
+      "tag": "li",
+      "text": "LES AVANTAGES DE L'EMPLOI D'UN ASSISTANT MÉDICAL",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 669
+    },
+    {
+      "tag": "a",
+      "text": "LES AVANTAGES DE L'EMPLOI D'UN ASSISTANT MÉDICAL",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 669
+    },
+    {
+      "tag": "li",
+      "text": "> Les bénéfices de l’intégration d’un Assistant Médical",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 703
+    },
+    {
+      "tag": "a",
+      "text": "> Les bénéfices de l’intégration d’un Assistant Médical",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 703
+    },
+    {
+      "tag": "li",
+      "text": "> Une organisation pensée pour votre cabinet",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 737
+    },
+    {
+      "tag": "a",
+      "text": "> Une organisation pensée pour votre cabinet",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 737
+    },
+    {
+      "tag": "li",
+      "text": "> Subvention et Objectif de Progression de la Patientèle",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 771
+    },
+    {
+      "tag": "a",
+      "text": "> Subvention et Objectif de Progression de la Patientèle",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 771
+    },
+    {
+      "tag": "li",
+      "text": "LES DÉMARCHES",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 821
+    },
+    {
+      "tag": "a",
+      "text": "LES DÉMARCHES",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 821
+    },
+    {
+      "tag": "li",
+      "text": "> Premier Rendez-vous",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 855
+    },
+    {
+      "tag": "a",
+      "text": "> Premier Rendez-vous",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 855
+    },
+    {
+      "tag": "li",
+      "text": "> Gestion Intégral du Recrutement et de la Formation",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 888
+    },
+    {
+      "tag": "a",
+      "text": "> Gestion Intégral du Recrutement et de la Formation",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 888
+    },
+    {
+      "tag": "li",
+      "text": "> Financement de l'Assistant Médical",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 922
+    },
+    {
+      "tag": "a",
+      "text": "> Financement de l'Assistant Médical",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 922
+    },
+    {
+      "tag": "li",
+      "text": "> Suivi et évaluation",
+      "href": null,
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 956
+    },
+    {
+      "tag": "a",
+      "text": "> Suivi et évaluation",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 956
+    },
+    {
+      "tag": "h1",
+      "text": "Les Avantages de l’Emploi d’un Assistant Médical",
+      "href": null,
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1093
+    },
+    {
+      "tag": "p",
+      "text": "L’intégration d’un assistant médical dans un cabinet médical offre de nombreux avantages significatifs :",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1153
+    },
+    {
+      "tag": "p",
+      "text": "Allègement du Travail\ndes Médecins",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1350
+    },
+    {
+      "tag": "p",
+      "text": "Les assistants médicaux prennent en charge des tâches administratives et de préparation des consultations, permettant aux médecins de se concentrer davantage sur les soins aux patients.",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1408
+    },
+    {
+      "tag": "p",
+      "text": "Amélioration de la Coordination des Soins",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1350
+    },
+    {
+      "tag": "p",
+      "text": "Ils facilitent la coordination avec d’autres professionnels de santé, assurant une meilleure gestion du parcours de soins des patients.",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1408
+    },
+    {
+      "tag": "p",
+      "text": "Flexibilité\net Adaptabilité",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1350
+    },
+    {
+      "tag": "p",
+      "text": "Les missions des assistants médicaux peuvent être personnalisées en fonction des besoins spécifiques du cabinet et des patients.",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1409
+    },
+    {
+      "tag": "p",
+      "text": "Contribution à l'efficacité globale du cabinet",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1350
+    },
+    {
+      "tag": "p",
+      "text": "En gérant efficacement les tâches administratives et en assistant dans le déroulement des consultations médicales, les assistants contribuent à l’amélioration globale de l’efficacité du cabinet.",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1409
+    },
+    {
+      "tag": "p",
+      "text": "1. Une organisation pensée pour votre cabinet",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1715
+    },
+    {
+      "tag": "p",
+      "text": "L’emploi d’un assistant médical est pensé pour s’adapter à vos pratiques et à la réalité de votre patientèle :​",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1746
+    },
+    {
+      "tag": "p",
+      "text": "Personnalisation des Missions",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1923
+    },
+    {
+      "tag": "p",
+      "text": "Chaque médecin a la liberté de définir\nles missions de l’assistant médical, en fonction de ses pratiques et de l’organisation de son cabinet.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1952
+    },
+    {
+      "tag": "p",
+      "text": "Adaptabilité à la Taille de la Patientèle",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1923
+    },
+    {
+      "tag": "p",
+      "text": "Les engagements pris pour accueillir de nouveaux patients sont proportionnels à la taille de la patientèle existante.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1954
+    },
+    {
+      "tag": "p",
+      "text": "2. Subvention et Objectif de Progression de la Patientèle\nL’aide à l’emploi d’un assistant médical comprend un système de financement et un objectif clair de progression de la patientèle :",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2206
+    },
+    {
+      "tag": "p",
+      "text": "Financement",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2459
+    },
+    {
+      "tag": "p",
+      "text": "L’aide financière varie entre 19 000 et 38 000 euros la première année et entre 11 000 et 22 000 euros\nà partir de la troisième année, selon\nle temps de travail de l’assistant.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2488
+    },
+    {
+      "tag": "p",
+      "text": "Cette aide est renouvelable tous les cinq ans, avec une majoration possible pour les médecins ayant les plus grandes patientèles.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2488
+    },
+    {
+      "tag": "p",
+      "text": "Renouvellement",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2459
+    },
+    {
+      "tag": "p",
+      "text": "Objectif de Progression Mesurable",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2459
+    },
+    {
+      "tag": "p",
+      "text": "L’objectif de progression de la patientèle est déterminé en fonction de la taille actuelle de la patientèle du médecin.",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2489
+    },
+    {
+      "tag": "h1",
+      "text": "Recruter un assistant médical, les démarches en détail",
+      "href": null,
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3276
+    },
+    {
+      "tag": "p",
+      "text": "Conscients du rôle essentiel des assistants médicaux dans l’organisation des cabinets, notre Groupement d’Employeurs facilite leur intégration en prenant en charge, pour votre compte, l’ensemble des aspects liés à l’emploi : recrutement, gestion administrative, paie, formation et suivi.",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3333
+    },
+    {
+      "tag": "p",
+      "text": "​​​",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3430
+    },
+    {
+      "tag": "p",
+      "text": "1. Premier rendez-vous : Présentation du GE et Évaluation du  besoin",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3487
+    },
+    {
+      "tag": "p",
+      "text": "• Mise à disposition de personnel : Le GE Mesdocs assure la mise à disposition du personnel  en prenant en charge la gestion administrative et contractuelle des salariés pour simplifier la vie des professionnels de santé.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3547
+    },
+    {
+      "tag": "p",
+      "text": "• Le rôle de l'adhérent : L'adhérent est responsable de l'organisation opérationnelle, incluant la planification du travail,  et la gestion des missions.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3634
+    },
+    {
+      "tag": "p",
+      "text": "• Examen du profil de l’assistant médical souhaité : Établissement d’un profil détaillé pour le poste, incluant les compétences, les qualifications et les expériences requises. Planification de l’intégration du nouvel employé, avec un accent sur l’adaptation au sein de l’équipe existante et la culture de la structure.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3720
+    },
+    {
+      "tag": "p",
+      "text": "​​​​",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3807
+    },
+    {
+      "tag": "p",
+      "text": "2. Gestion Intégrale du Recrutement et de la Formation de l’Assistant Médical",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3836
+    },
+    {
+      "tag": "p",
+      "text": "• Conformité Légale et Gestion des Ressources Humaines : Nous prenons en charge tous les aspects du recrutement de l’assistant médical, y compris la conformité avec le droit du travail et la convention collective.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3895
+    },
+    {
+      "tag": "p",
+      "text": "Cela comprend la gestion minutieuse des contrats de travail, des périodes d’essai, des éventuelles procédures de licenciement, des congés et de la grille salariale.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3953
+    },
+    {
+      "tag": "p",
+      "text": "• Formalités Administratives Complètes : Notre GE s’occupe de toutes les formalités administratives auprès de l’Urssaf et d’autres entités, garantissant une gestion sans faille des déclarations, de la paie, des congés payés, des absences pour maladie ou maternité.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4039
+    },
+    {
+      "tag": "p",
+      "text": "• Formation et Certification Professionnelle :",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4125
+    },
+    {
+      "tag": "p",
+      "text": "Nous accompagnons la formation de l’assistant médical en partenariat avec les organismes agréés et l’OPCO EP afin de garantir l’obtention du CQP dans les délais requis.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4154
+    },
+    {
+      "tag": "p",
+      "text": "Grâce à notre partenaire VAE Formation, nous proposons également un accompagnement en VAE CQP Assistant Médical permettant la reconnaissance des compétences et l’obtention d’une certification professionnelle adaptée.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4212
+    },
+    {
+      "tag": "a",
+      "text": "VAE Formation",
+      "href": "https://vae-formation.com/",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4216
+    },
+    {
+      "tag": "p",
+      "text": "​​",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4270
+    },
+    {
+      "tag": "p",
+      "text": "3  Financement de l’Assistant Médical",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4327
+    },
+    {
+      "tag": "p",
+      "text": "• Financement adaptatif : Le financement, variant selon la durée d’emploi de l’assistant médical, est conçu pour soutenir efficacement le salaire de l’assistant, qu’il soit à mi-temps ou à temps plein.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4387
+    },
+    {
+      "tag": "p",
+      "text": "• Échelle de financement : L’aide varie de 19 000 à 38 000 euros la première année, et de 11 000 à 22 000 euros dès la troisième année.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4473
+    },
+    {
+      "tag": "p",
+      "text": "• Renouvellement de l’aide : Cette aide est renouvelable à l’échéance du contrat quinquennal avec l’Assurance Maladie, avec possibilité de majoration pour les médecins traitant de nombreux patients.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4559
+    },
+    {
+      "tag": "p",
+      "text": "​​​",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4646
+    },
+    {
+      "tag": "p",
+      "text": "4. Suivi et évaluation",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4675
+    },
+    {
+      "tag": "p",
+      "text": "• Évaluations semestrielles : Mise en place d’un système d’évaluation interne pour examiner les performances et l’impact de l’assistant médical sur la qualité des soins et l’efficacité opérationnelle.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4734
+    },
+    {
+      "tag": "p",
+      "text": "• Formation continue de l’assistant médical : Planification de sessions de formation régulières pour l’assistant médical, en mettant l’accent sur le développement des compétences et l’adaptation aux évolutions du secteur de la santé.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 4820
+    },
+    {
+      "tag": "h1",
+      "text": "Vous êtes intéressé.e\net souhaitez recruter votre futur assistant ?",
+      "href": null,
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 5205
+    },
+    {
+      "tag": "a",
+      "text": "Nous Contacter",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgb(9, 62, 152)",
+      "y": 5340
+    },
+    {
+      "tag": "h2",
+      "text": "Contactez-nous",
+      "href": null,
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 5585
+    },
+    {
+      "tag": "p",
+      "text": "24 rue Octave Feuillet 75116 Paris",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 5641
+    },
+    {
+      "tag": "p",
+      "text": "09  70  68  22  20",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 5697
+    },
+    {
+      "tag": "a",
+      "text": "09  70  68  22  20",
+      "href": "tel:07 56 99 26 83",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(253, 253, 254)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 5698
+    },
+    {
+      "tag": "p",
+      "text": "contact@ge-mesdocs.fr",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 5723
+    },
+    {
+      "tag": "a",
+      "text": "contact@ge-mesdocs.fr",
+      "href": "mailto:contact@ge-mesdocs.fr",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(253, 253, 254)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 5723
+    },
+    {
+      "tag": "p",
+      "text": "© 2023 par Assistants Medicaux",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 5845
+    }
+  ]
+}

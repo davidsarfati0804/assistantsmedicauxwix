@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - link "Assistants Médicaux Mesdocs Groupement d'employeurs" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Assistants Médicaux
+        - generic [ref=e7]: Mesdocs Groupement d'employeurs
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Accueil" [ref=e10] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e11]:
+          - link "Avantages & Démarches" [ref=e12] [cursor=pointer]:
+            - /url: /avantages-demarches
+        - listitem [ref=e13]:
+          - link "Devenir Assistant Médical" [ref=e14] [cursor=pointer]:
+            - /url: /devenir-assistant-medical
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "Devenir Assistant Médical" [ref=e17]
+      - generic [ref=e19]:
+        - heading "Vous souhaitez devenir Assistant.e Médical ?" [level=1] [ref=e20]:
+          - text: Vous souhaitez devenir
+          - text: Assistant.e Médical ?
+        - paragraph [ref=e21]: Découvrez en quoi consiste le rôle d'Assistant Médical, comment vous pouvez soutenir les professionnels de la santé et apprenez quelles sont les exigences et les conditions nécessaires pour le devenir, y compris les qualifications, les compétences et les attentes.
+        - generic [ref=e22]:
+          - link "En savoir plus" [ref=e23] [cursor=pointer]:
+            - /url: "#qui"
+          - link "Nous contacter" [ref=e24] [cursor=pointer]:
+            - /url: "#contact"
+    - generic [ref=e26]:
+      - heading "Qui peut être assistant médical ?" [level=2] [ref=e27]
+      - paragraph [ref=e28]: La fonction d'Assistant Médical est ouverte à un large éventail de profils. Elle peut être assurée par des aides-soignants, des infirmières, des secrétaires médicales, ou tout autre professionnel intéressé à suivre cette voie. La clé pour devenir un Assistant Médical est la formation, ou l'engagement à suivre une formation spécifique conduite en alternance, qui est également éligible à la Validation des Acquis de Compétences (VAE). Après l'embauche, les assistants médicaux ont 2 ans pour engager leur formation et 3 ans pour obtenir leur Certificat de Qualification Professionnelle (CQP) d'Assistant Médical. Les infirmiers, auxiliaires de puériculture, et aides-soignants déjà diplômés peuvent obtenir une attestation de Formation d'Adaptation à l'Emploi (FAE) dans le domaine de l'organisation et de la gestion administrative d'un cabinet médical.
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Les missions de l'assistant médical ?" [level=2] [ref=e31]
+        - paragraph [ref=e32]: Les missions de l'Assistant Médical sont variées et adaptées à l'organisation de chaque cabinet médical.
+        - paragraph [ref=e33]: Ces missions permettent aux médecins, qu'ils soient généralistes ou spécialistes, de bénéficier d'un soutien précieux.
+        - paragraph [ref=e34]: "Les trois principaux types de missions sont les suivants :"
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - img "Missions de nature administrative" [ref=e37]
+          - heading "Missions de nature administrative" [level=3] [ref=e38]
+          - paragraph [ref=e39]: Cela peut inclure l'accueil des patients, la gestion de leurs dossiers, et l'assistance dans la mise en place de la télémédecine au sein du cabinet.
+        - generic [ref=e40]:
+          - img "Préparation et déroulement de la consultation" [ref=e41]
+          - heading "Préparation et déroulement de la consultation" [level=3] [ref=e42]
+          - paragraph [ref=e43]: L'Assistant Médical aide les patients à s'habiller et se déshabiller, prend des constantes telles que la tension artérielle, le poids et la taille, met à jour les dossiers des patients pour les dépistages et les vaccinations, recueille des informations utiles sur les modes de vie, et prépare et aide à la réalisation d'actes techniques.
+        - generic [ref=e44]:
+          - img "Missions d'organisation et de coordination" [ref=e45]
+          - heading "Missions d'organisation et de coordination" [level=3] [ref=e46]
+          - paragraph [ref=e47]: L'Assistant Médical peut jouer un rôle clé dans l'organisation de rendez-vous avec des spécialistes, d'admissions à l'hôpital, et de coordination avec d'autres professionnels de la santé, tels que les infirmières, les kinésithérapeutes, ou les sages-femmes.
+    - generic [ref=e48]:
+      - heading "Vous êtes intéressé.e et souhaitez devenir assistant.e médical ?" [level=1] [ref=e49]:
+        - text: Vous êtes intéressé.e
+        - text: et souhaitez devenir assistant.e médical ?
+      - link "Nous Contacter" [ref=e50] [cursor=pointer]:
+        - /url: "#contact"
+  - contentinfo [ref=e51]:
+    - generic [ref=e52]:
+      - heading "Contactez-nous" [level=2] [ref=e53]
+      - paragraph [ref=e54]: 24 rue Octave Feuillet 75116 Paris
+      - paragraph [ref=e55]
+      - link "09 70 68 22 20" [ref=e56] [cursor=pointer]:
+        - /url: tel:0970682220
+      - link "Contact@ge-mesdocs.fr" [ref=e57] [cursor=pointer]:
+        - /url: mailto:Contact@ge-mesdocs.fr
+      - generic [ref=e58]:
+        - link [ref=e59] [cursor=pointer]:
+          - /url: mailto:Contact@ge-mesdocs.fr
+          - img [ref=e60]
+        - link [ref=e63] [cursor=pointer]:
+          - /url: tel:0970682220
+          - img [ref=e64]
+        - link [ref=e66] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=24+rue+Octave+Feuillet+75116+Paris
+          - img [ref=e67]
+      - paragraph [ref=e70]: © 2023 par Assistants Medicaux
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]: Nom & Prénom *
+          - textbox [ref=e76]
+        - generic [ref=e77]:
+          - generic [ref=e78]: Email *
+          - textbox [ref=e79]
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]: Profession *
+          - textbox [ref=e83]
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: Téléphone *
+            - textbox [ref=e87]
+          - button "❯" [ref=e88]
+  - button "Open Next.js Dev Tools" [ref=e94] [cursor=pointer]:
+    - img [ref=e95]
+  - alert [ref=e98]

@@ -1,0 +1,396 @@
+{
+  "title": "Devenir Assistant Médical | Assistant Medical",
+  "metaDescription": "Formation, contrat et accompagnement complet : Mesdocs facilite votre parcours pour devenir Assistant Médical et travailler auprès des médecin",
+  "sections": [
+    {
+      "tag": "button",
+      "text": "Passer au contenu principal",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(17, 109, 255)",
+      "bgColor": "rgb(255, 255, 255)",
+      "y": 60
+    },
+    {
+      "tag": "p",
+      "text": "Assistants Médicaux",
+      "href": null,
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 37
+    },
+    {
+      "tag": "a",
+      "text": "Assistants Médicaux",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 39
+    },
+    {
+      "tag": "p",
+      "text": "Mesdocs Groupement d'employeurs",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 65
+    },
+    {
+      "tag": "a",
+      "text": "Mesdocs Groupement d'employeurs",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 67
+    },
+    {
+      "tag": "li",
+      "text": "Accueil",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Accueil",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Accueil",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "li",
+      "text": "Avantages & Démarches",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Avantages & Démarches",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Avantages & Démarches",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "li",
+      "text": "Devenir Assistant Médical",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Devenir Assistant Médical",
+      "href": "https://www.assistants-medicaux.com/devenir-assistant-m%C3%A9dical",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Devenir Assistant Médical",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(9, 62, 152)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "h1",
+      "text": "Vous souhaitez devenir Assistant.e Médical ?",
+      "href": null,
+      "fontSize": "41px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 259
+    },
+    {
+      "tag": "h1",
+      "text": "Découvrez en quoi consiste le rôle d'Assistant Médical, comment vous pouvez soutenir les professionnels de la santé et apprenez quelles sont les exigences et les conditions nécessaires pour le devenir, y compris les qualifications, les compétences et les attentes.",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 382
+    },
+    {
+      "tag": "a",
+      "text": "En savoir plus",
+      "href": "https://www.assistants-medicaux.com/devenir-assistant-m%C3%A9dical",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgb(9, 62, 152)",
+      "y": 517
+    },
+    {
+      "tag": "a",
+      "text": "Nous contacter",
+      "href": "https://www.assistants-medicaux.com/devenir-assistant-m%C3%A9dical",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgb(225, 238, 255)",
+      "y": 517
+    },
+    {
+      "tag": "h1",
+      "text": "Qui peut être assistant médical ?",
+      "href": null,
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 843
+    },
+    {
+      "tag": "p",
+      "text": "La fonction d'Assistant Médical est ouverte à un large éventail de profils. Elle peut être assurée par des aides-soignants, des infirmières, des secrétaires médicales, ou tout autre professionnel intéressé à suivre cette voie. La clé pour devenir un Assistant Médical est la formation, ou l'engagement à suivre une formation spécifique conduite en alternance, qui est également éligible à la Validation des Acquis de Compétences (VAE). Après l'embauche, les assistants médicaux ont 2 ans pour engager leur formation et 3 ans pour obtenir leur Certificat de Qualification Professionnelle (CQP) d'Assistant Médical. Les infirmiers, auxiliaires de puériculture, et aides-soignants déjà diplômés peuvent obtenir une attestation de Formation d'Adaptation à l'Emploi (FAE) dans le domaine de l'organisation et de la gestion administrative d'un cabinet médical.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 891
+    },
+    {
+      "tag": "h1",
+      "text": "Les missions de l'assistant médical ?",
+      "href": null,
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1196
+    },
+    {
+      "tag": "p",
+      "text": "Les missions de l'Assistant Médical sont variées et adaptées à l'organisation de chaque cabinet médical.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1243
+    },
+    {
+      "tag": "p",
+      "text": "Ces missions permettent aux médecins, qu'ils soient généralistes ou spécialistes, de bénéficier d'un soutien précieux.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1272
+    },
+    {
+      "tag": "p",
+      "text": "Les trois principaux types de missions sont les suivants :​",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1301
+    },
+    {
+      "tag": "p",
+      "text": "Missions de nature administrative",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1529
+    },
+    {
+      "tag": "p",
+      "text": "Cela peut inclure l'accueil des patients, la gestion de leurs dossiers, et l'assistance dans la mise en place de la télémédecine au sein du cabinet.",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1586
+    },
+    {
+      "tag": "p",
+      "text": "Préparation et déroulement\nde la consultation",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1529
+    },
+    {
+      "tag": "p",
+      "text": "L'Assistant Médical aide les patients à s'habiller et se déshabiller, prend des constantes telles que la tension artérielle, le poids et la taille, met à jour les dossiers des patients pour les dépistages et les vaccinations, recueille des informations utiles sur les modes de vie, et prépare et aide à la réalisation d'actes techniques.",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1587
+    },
+    {
+      "tag": "p",
+      "text": "Missions d'organisation\net de coordination",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1529
+    },
+    {
+      "tag": "p",
+      "text": "L'Assistant Médical peut jouer un rôle clé dans l'organisation de rendez-vous avec des spécialistes, d'admissions à l'hôpital, et de coordination avec d'autres professionnels de la santé, tels que les infirmières, les kinésithérapeutes, ou les sages-femmes.",
+      "href": null,
+      "fontSize": "15px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1588
+    },
+    {
+      "tag": "h1",
+      "text": "Vous êtes intéressé.e\net souhaitez devenir assistant.e médical ?",
+      "href": null,
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1993
+    },
+    {
+      "tag": "a",
+      "text": "Nous Contacter",
+      "href": "https://www.assistants-medicaux.com/devenir-assistant-m%C3%A9dical",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgb(9, 62, 152)",
+      "y": 2128
+    },
+    {
+      "tag": "h2",
+      "text": "Contactez-nous",
+      "href": null,
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2384
+    },
+    {
+      "tag": "p",
+      "text": "24 rue Octave Feuillet 75116 Paris",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2445
+    },
+    {
+      "tag": "p",
+      "text": "09 70 68 22 20",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2538
+    },
+    {
+      "tag": "a",
+      "text": "09 70 68 22 20",
+      "href": "tel:07 56 99 26 83",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(253, 253, 254)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2539
+    },
+    {
+      "tag": "p",
+      "text": "contact@ge-mesdocs.fr",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2567
+    },
+    {
+      "tag": "a",
+      "text": "contact@ge-mesdocs.fr",
+      "href": "mailto:contact@ge-mesdocs.fr",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(253, 253, 254)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2567
+    },
+    {
+      "tag": "p",
+      "text": "© 2023 par Assistants Medicaux",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2692
+    }
+  ]
+}

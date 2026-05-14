@@ -1,0 +1,647 @@
+[  114512ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  114547ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  114566ms] [WARNING] Image with src "/assets/icone_temps.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  114566ms] [WARNING] Image with src "/assets/icone_documents.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  114566ms] [WARNING] Image with src "/assets/icone_sante.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  114566ms] [WARNING] Image with src "/assets/icone_argent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  154943ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  154954ms] [WARNING] Image with src "/assets/icone_patient.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  154955ms] [WARNING] Image with src "/assets/icone_flexibilite.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  154955ms] [WARNING] Image with src "/assets/icone_coordination.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  154955ms] [WARNING] Image with src "/assets/icone_fonctionnalites.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  499237ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  499522ms] [LOG] [Fast Refresh] done in 327ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  511930ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  512007ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  656422ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  656471ms] [LOG] [Fast Refresh] done in 44ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  719861ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  719917ms] [LOG] [Fast Refresh] done in 49ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  813855ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  813943ms] [LOG] [Fast Refresh] done in 58ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1152529ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1152530ms] [LOG] [Fast Refresh] done in 101ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1495141ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1495184ms] [LOG] [Fast Refresh] done in 52ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1510815ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1510941ms] [LOG] [Fast Refresh] done in 57ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1516520ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1516556ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1525074ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1525156ms] [LOG] [Fast Refresh] done in 70ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1534043ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1534091ms] [LOG] [Fast Refresh] done in 17ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1542687ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 1542733ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 2016856ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 2017158ms] [LOG] [Fast Refresh] done in 285ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 2017404ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 2017426ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 2189032ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 2189190ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:3318
+[ 2189232ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:3318
+[ 2189289ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/?_rsc=q3mOO9BClNZHexY7:0
+[ 2189324ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/?_rsc=q3mOO9BClNZHexY7:0
+[ 2189352ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 2189356ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/?_rsc=q3mOO9BClNZHexY7:0
+[ 2189360ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/:0
+[ 2189406ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_react-dom_0r1-80b._.js:15305
+[ 2189467ms] Error: ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx
+
+
+    at <unknown> (Error: ./Desktop/wix-clone/components/layout/Footer.tsx:8:41)
+    at Object.getCompilationErrors (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/base-server.js:1753:26)
+[ 2189502ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226
+[ 2189503ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[ 2189504ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[ 2189504ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/avantages-demarches/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[ 2189504ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/devenir-assistant-medical/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[ 2189536ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[ 2189605ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226
+[ 2197049ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[ 2197105ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[ 2197172ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226
+[ 2208932ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226
+[ 2209118ms] [LOG] [Fast Refresh] done in 192ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226
+[ 2209744ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226
+[ 2210057ms] [LOG] [Fast Refresh] done in 414ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226
+[ 2210334ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[ 2210342ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[41969248ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[41969264ms] [LOG] [Fast Refresh] done in 119ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43460536ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43460742ms] [WARNING] Image with src "/assets/icone_coordination.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43460743ms] [WARNING] Image with src "/assets/icone_patient.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43460743ms] [WARNING] Image with src "/assets/icone_flexibilite.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43460743ms] [WARNING] Image with src "/assets/icone_fonctionnalites.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43609711ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43609873ms] [LOG] [Fast Refresh] done in 262ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43609994ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43610126ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43610347ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43610366ms] [LOG] [Fast Refresh] done in 121ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43615770ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[43615771ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[44250478ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[44250635ms] [LOG] [Fast Refresh] done in 180ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[44250762ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[44250776ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[44260392ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[44260411ms] [LOG] [Fast Refresh] done in 119ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[44741182ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[44741220ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45028150ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45028257ms] [LOG] [Fast Refresh] done in 167ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45042070ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45042141ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45048785ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45048867ms] [LOG] [Fast Refresh] done in 30ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45052935ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45053085ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45053259ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45053260ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45057570ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45057602ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45252154ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45252187ms] [LOG] [Fast Refresh] done in 135ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45286783ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45286822ms] [LOG] [Fast Refresh] done in 85ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45308972ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45309059ms] [LOG] [Fast Refresh] done in 135ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45315669ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45315735ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45388590ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45389221ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45389809ms] [LOG] [Fast Refresh] done in 1263ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45389869ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45390351ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45390545ms] [LOG] [Fast Refresh] done in 295ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45391138ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45391203ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45425133ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45425180ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45669792ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45669817ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45684788ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45684854ms] [LOG] [Fast Refresh] done in 42ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45699921ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45699992ms] [LOG] [Fast Refresh] done in 96ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45719237ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45719340ms] [LOG] [Fast Refresh] done in 202ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45719456ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45719477ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45735142ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45735178ms] [LOG] [Fast Refresh] done in 74ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45934271ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[45934282ms] [LOG] [Fast Refresh] done in 73ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46273125ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46273138ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46290394ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46290755ms] [LOG] [Fast Refresh] done in 265ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46304716ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46304798ms] [LOG] [Fast Refresh] done in 88ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46503399ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46503434ms] [LOG] [Fast Refresh] done in 93ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46527763ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46527789ms] [LOG] [Fast Refresh] done in 53ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46533025ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46533109ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46538082ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46538174ms] [LOG] [Fast Refresh] done in 51ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46688953ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46689023ms] [LOG] [Fast Refresh] done in 119ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46703404ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46703435ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46714293ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46714309ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46727984ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46728123ms] [LOG] [Fast Refresh] done in 76ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46744043ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46744057ms] [LOG] [Fast Refresh] done in 91ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46750821ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46750939ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46751048ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46751075ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46751542ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46751602ms] [LOG] [Fast Refresh] done in 161ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46889012ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46889037ms] [LOG] [Fast Refresh] done in 79ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46889214ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46889229ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46902423ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46902523ms] [LOG] [Fast Refresh] done in 152ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46902686ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46902723ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46903160ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46903191ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46919373ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46919456ms] [LOG] [Fast Refresh] done in 145ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46919603ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[46919799ms] [LOG] [Fast Refresh] done in 297ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47000657ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47000680ms] [LOG] [Fast Refresh] done in 114ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47000931ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47000948ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47006075ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47006145ms] [LOG] [Fast Refresh] done in 17ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47014455ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47014506ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47014676ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47014687ms] [LOG] [Fast Refresh] done in 112ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47019090ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47019105ms] [LOG] [Fast Refresh] done in 57ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47206821ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47206867ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47207059ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47207234ms] [LOG] [Fast Refresh] done in 276ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47207475ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47207644ms] [LOG] [Fast Refresh] done in 269ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47207787ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47208042ms] [LOG] [Fast Refresh] done in 356ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47213278ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47213297ms] [LOG] [Fast Refresh] done in 42ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47221314ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47221323ms] [LOG] [Fast Refresh] done in 65ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47228781ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47228986ms] [LOG] [Fast Refresh] done in 270ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47229102ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47229500ms] [LOG] [Fast Refresh] done in 500ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47230037ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47230039ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47230145ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47230171ms] [LOG] [Fast Refresh] done in 127ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47233481ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47233571ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47959823ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[47959873ms] [LOG] [Fast Refresh] done in 152ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48100178ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48100308ms] [LOG] [Fast Refresh] done in 222ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48166008ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48167143ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48168397ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48168464ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48173401ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48173535ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48173710ms] [LOG] [Fast Refresh] done in 173ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48173825ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48173870ms] [LOG] [Fast Refresh] done in 146ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48174419ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48174444ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48176540ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48176690ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48176691ms] [LOG] [Fast Refresh] done in 160ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48176699ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48177410ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48177426ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48513040ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48513088ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48566690ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48566730ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48611044ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48611100ms] [LOG] [Fast Refresh] done in 69ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48629031ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48629517ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48629518ms] [LOG] [Fast Refresh] done in 550ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48629822ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48629898ms] [LOG] [Fast Refresh] done in 177ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48630540ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48630571ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48639490ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48639786ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48639788ms] [LOG] [Fast Refresh] done in 340ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48640868ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48640892ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48649750ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48650034ms] [LOG] [Fast Refresh] done in 141ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48650056ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48650769ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48650789ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48681462ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48681800ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48681802ms] [LOG] [Fast Refresh] done in 368ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48682615ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48682637ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48718295ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48718572ms] [LOG] [Fast Refresh] done in 102ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48718636ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48718907ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48718924ms] [LOG] [Fast Refresh] done in 119ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48719312ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48719334ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48728213ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48728235ms] [LOG] [Fast Refresh] done in 86ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48734128ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48734157ms] [LOG] [Fast Refresh] done in 47ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48743035ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48743164ms] [LOG] [Fast Refresh] done in 98ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48751230ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48751325ms] [LOG] [Fast Refresh] done in 48ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48885398ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48885400ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48891045ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48891116ms] [LOG] [Fast Refresh] done in 30ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48895375ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48895581ms] [LOG] [Fast Refresh] done in 257ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48895771ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48895790ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48895893ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48895942ms] [LOG] [Fast Refresh] done in 150ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48899271ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48899303ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48899407ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48899499ms] [LOG] [Fast Refresh] done in 193ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48907621ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[48907755ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49006919ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49006927ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49029630ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49030586ms] [LOG] [Fast Refresh] done in 1057ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49060004ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49060293ms] [LOG] [Fast Refresh] done in 392ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49115531ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49115570ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49139182ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49139211ms] [LOG] [Fast Refresh] done in 50ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49145908ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49145963ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49153954ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49154058ms] [LOG] [Fast Refresh] done in 83ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49158356ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49158494ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49163688ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49163799ms] [LOG] [Fast Refresh] done in 37ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49163901ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49163932ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49213199ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49213455ms] [LOG] [Fast Refresh] done in 357ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49443841ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49443868ms] [LOG] [Fast Refresh] done in 46ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49457359ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49457383ms] [LOG] [Fast Refresh] done in 42ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49478316ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49478391ms] [LOG] [Fast Refresh] done in 112ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49478496ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49478544ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49485703ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49485741ms] [LOG] [Fast Refresh] done in 42ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49491299ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49491340ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49495252ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49495483ms] [LOG] [Fast Refresh] done in 194ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49511190ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49511687ms] [LOG] [Fast Refresh] done in 553ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49511818ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49511961ms] [LOG] [Fast Refresh] done in 245ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49526783ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49526832ms] [LOG] [Fast Refresh] done in 98ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49527558ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49527617ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49546446ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49546484ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49586841ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49587428ms] [LOG] [Fast Refresh] done in 262ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49587477ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49587783ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49587803ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49587912ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49588008ms] [LOG] [Fast Refresh] done in 197ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49588638ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49588668ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49595545ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[49595570ms] [LOG] [Fast Refresh] done in 93ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[50235343ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[50235370ms] [LOG] [Fast Refresh] done in 131ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[50281331ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[50282487ms] [LOG] [Fast Refresh] done in 1258ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[50478489ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[50478555ms] [LOG] [Fast Refresh] done in 168ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51087878ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51087991ms] [LOG] [Fast Refresh] done in 212ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51088472ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51088869ms] [LOG] [Fast Refresh] done in 497ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51123047ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51124067ms] [LOG] [Fast Refresh] done in 1121ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51124730ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51124811ms] [LOG] [Fast Refresh] done in 183ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51125502ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51125568ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51512660ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51513611ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51513612ms] [LOG] [Fast Refresh] done in 1041ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51513862ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51514359ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51514446ms] [LOG] [Fast Refresh] done in 188ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51514681ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51514729ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51515067ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51515109ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51522904ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51525044ms] [LOG] [Fast Refresh] done in 2072ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51525187ms] [WARNING] [HMR] Invalid message: {"isTrusted":true}
+TypeError: Cannot convert undefined or null to object
+    at Object.keys (<anonymous>)
+    at extractModulesFromTurbopackMessage (http://localhost:3002/_next/static/chunks/0bnc_next_dist_client_0khjle-._.js:13654:39)
+    at TurbopackHmr.onTurbopackMessage (http://localhost:3002/_next/static/chunks/0bnc_next_dist_client_0khjle-._.js:13601:32)
+    at processMessage (http://localhost:3002/_next/static/chunks/0bnc_next_dist_client_0khjle-._.js:13959:30)
+    at WebSocket.handleMessage (http://localhost:3002/_next/static/chunks/0bnc_next_dist_client_0khjle-._.js:13358:52) @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51526855ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51526888ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51532422ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51532574ms] [LOG] [Fast Refresh] done in 255ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51591009ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51591096ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51925874ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51925906ms] [LOG] [Fast Refresh] done in 121ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51996034ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[51996095ms] [LOG] [Fast Refresh] done in 30ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[52012412ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[52012658ms] [LOG] [Fast Refresh] done in 250ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[52012828ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[52013150ms] [LOG] [Fast Refresh] done in 422ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[53916010ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[53916132ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477

@@ -17,8 +17,8 @@ export const organizationSchema = {
   name: "Mesdocs Groupement d'Employeurs",
   alternateName: ['Mesdocs GE', 'GE Mesdocs'],
   legalName: "Mesdocs Groupement d'Employeurs (Association loi 1901)",
-  url: 'https://www.assistants-medicaux.com',
-  logo: 'https://www.assistants-medicaux.com/assets/logo.png',
+  url: 'https://assistants-medicaux.com',
+  logo: 'https://assistants-medicaux.com/assets/logo.png',
   telephone: '+33970682220',
   email: 'contact@ge-mesdocs.fr',
   address: {
@@ -65,7 +65,7 @@ export function serviceSchema(name: string, description: string, url: string) {
     provider: {
       '@type': 'Organization',
       name: "Mesdocs Groupement d'Employeurs",
-      url: 'https://www.assistants-medicaux.com',
+      url: 'https://assistants-medicaux.com',
     },
     areaServed: 'France',
     serviceType: 'Mise à disposition d\'assistant médical',

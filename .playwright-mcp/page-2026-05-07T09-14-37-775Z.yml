@@ -1,0 +1,558 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - link [ref=e9] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e13]:
+      - navigation "Menu" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "CQP Assistant(e) médical(e) " [ref=e17] [cursor=pointer]:
+              - /url: /#devenir
+              - text: CQP Assistant(e) médical(e)
+              - generic [ref=e18]:
+                - generic: 
+          - listitem [ref=e19]:
+            - link "Formation continue" [ref=e20] [cursor=pointer]:
+              - /url: https://devenirassistantemedicale.fr/formation-continue/
+          - listitem [ref=e21]:
+            - link "Actualités" [ref=e22] [cursor=pointer]:
+              - /url: https://devenirassistantemedicale.fr/actualites-devenir-assistante-medicale/
+          - listitem [ref=e23]:
+            - link "Info pratiques " [ref=e24] [cursor=pointer]:
+              - /url: "#"
+              - text: Info pratiques
+              - generic [ref=e25]:
+                - generic: 
+          - listitem [ref=e26]:
+            - link "Nous contacter" [ref=e27] [cursor=pointer]:
+              - /url: /#contact
+      - text:    
+  - main [ref=e28]:
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - img [ref=e37]
+        - generic [ref=e45]:
+          - heading "Devenir Assistant médical" [level=1] [ref=e48]:
+            - text: Devenir
+            - text: Assistant médical
+          - generic [ref=e50]:
+            - paragraph [ref=e51]:
+              - strong [ref=e52]: CQP l
+              - text: Certificat Qualification Professionnelle
+            - paragraph [ref=e53]:
+              - strong [ref=e54]: FAE l
+              - text: Formation d’Adaptation à l’Emploi
+            - paragraph [ref=e55]: VAE l Validation des Acquis de l’Expérience
+          - generic [ref=e57]:
+            - paragraph [ref=e58]: L’assistant médical épaule le médecin généraliste ou spécialiste dans son quotidien. Il ou elle réalise des actes médicaux simples et des tâches administratives. Découvrez la richesse du métier d’assistant médical.
+            - paragraph [ref=e59]
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - generic [ref=e65]: 
+              - generic [ref=e66]: Pour faire face aux besoins exprimés par les médecins.
+            - listitem [ref=e67]:
+              - generic [ref=e69]: 
+              - generic [ref=e70]: Pour donner des perspectives de reconnaissance et d’évolution professionnelle aux salariés.
+            - listitem [ref=e71]:
+              - generic [ref=e73]: 
+              - generic [ref=e74]: Pour approfondir ses connaissances en tant qu'assistant médical
+          - link "JE M'INSCRIS" [ref=e78] [cursor=pointer]:
+            - /url: https://devenirassistantemedicale.fr/votre-candidature-et-vos-document/
+            - generic [ref=e80]: JE M'INSCRIS
+      - generic [ref=e83]:
+        - img [ref=e85]
+        - generic [ref=e89]:
+          - generic [ref=e91]:
+            - generic [ref=e97]:
+              - paragraph [ref=e98]:
+                - strong [ref=e99]: Type de formation
+                - text: ":"
+              - paragraph [ref=e100]: Formation en alternance
+            - generic [ref=e106]:
+              - paragraph [ref=e107]:
+                - generic [ref=e108]:
+                  - strong [ref=e109]: Durée d’accès à la certification
+                  - text: ":"
+              - paragraph [ref=e110]: 8 mois
+            - generic [ref=e116]:
+              - paragraph [ref=e117]:
+                - generic [ref=e118]:
+                  - strong [ref=e119]: Heures de formation
+                  - text: ":"
+              - paragraph [ref=e120]: 279 H
+              - paragraph [ref=e121]
+            - paragraph [ref=e128]:
+              - generic [ref=e129]: Profil
+              - text: ": aide-soignant(e) , auxiliaire de puériculture , infirmier(e) , secrétaire médical(e) en poste ou en reconversion, demandeurs d’emploi ne possédant pas d’expérience dans le secteur de la santé"
+          - generic [ref=e131]:
+            - paragraph [ref=e132]:
+              - strong [ref=e133]:
+                - text: Le CQP Assistant médical (niveau 4) est inscrit
+                - link "au RNCP." [ref=e134] [cursor=pointer]:
+                  - /url: https://www.francecompetences.fr/recherche/rncp/40913/
+            - paragraph [ref=e135]: "Enregistrement au RNCP : fiche n° RNCP40913"
+            - paragraph
+            - paragraph [ref=e136]: "Date d’enregistrement : 25/06/2025 – Échéance : 25/06/2030"
+            - paragraph [ref=e137]:
+              - strong [ref=e138]: Convention collective nationale
+              - text: ": 3168 – Personnel des cabinets médicaux"
+            - paragraph [ref=e139]:
+              - strong [ref=e140]: Code NSF
+              - text: ": 33 331 : Santé"
+            - paragraph [ref=e141]:
+              - strong [ref=e142]: "Formacodes :"
+              - strong [ref=e143]: "35015"
+              - text: ": Secrétariat assistanat médico-social /"
+              - strong [ref=e144]: "43401"
+              - text: ": Dossier soin /"
+              - strong [ref=e145]: "43414"
+              - text: ": Relation soin /"
+              - strong [ref=e146]: "44074"
+              - text: ": Prévention éducation santé"
+            - paragraph [ref=e147]: "Code ROME : J1303 Assistance médico-technique"
+            - paragraph [ref=e148]:
+              - text: Délivré par la
+              - link "CPNEFP" [ref=e149] [cursor=pointer]:
+                - /url: https://ccn-cabinets-medicaux.fr/assistants-medicaux
+              - emphasis [ref=e150]: (Commission Paritaire Nationale de l’Emploi et de la Formation Professionnelle des Cabinets Médicaux)
+              - text: par délibération du jury final.
+      - generic [ref=e154]:
+        - paragraph [ref=e157]: UN NOUVEAU METIER AU COEUR DU PARCOURS DE SOINS
+        - heading "Le CQP Assistant Médical" [level=2] [ref=e160]
+        - generic [ref=e166]:
+          - paragraph [ref=e167]:
+            - generic [ref=e168]:
+              - text: La création du métier d’assistant médical est la mesure phare du
+              - strong [ref=e169]: plan de réforme du système de santé 2022.
+              - text: Elle a pour objectif de libérer du temps de consultation pour les médecins et de répondre ainsi à la crise de la démographie médicale et de l’accès aux soins.
+            - text: Ce métier va permettre de renforcer la qualité et la coordination des soins entre les différents acteurs de santé au bénéfice du patient.
+          - paragraph [ref=e170]:
+            - generic [ref=e171]:
+              - text: La
+              - strong [ref=e172]: CPNEFP des cabinets médicaux
+              - text: a créé le Certificat de Qualification Professionnelle (CQP) ASSISTANT MÉDICAL, d’une part pour
+              - strong [ref=e173]: répondre aux attentes du Plan « Ma santé 2022 »
+              - text: ", en cadrant la formation des futurs assistants médicaux et permettre ainsi le développement de leurs compétences dans les meilleures conditions possibles, d’autre part pour permettre"
+              - strong [ref=e174]: une reconnaissance des compétences acquises
+              - text: de façon informelle pour certains salariés des cabinets médicaux et leur offrir une perspective d’évolution.
+        - generic [ref=e176]:
+          - paragraph [ref=e177]:
+            - generic [ref=e178]: "Les éléments règlementaires afférents à l’encadrement législatif et règlementaires du métier d’assistant médical sont :"
+          - list [ref=e179]:
+            - listitem [ref=e180]:
+              - paragraph [ref=e181]:
+                - generic [ref=e183]:
+                  - text: Arrêté du 14 août 2019 portant approbation de
+                  - link "l’avenant n° 7" [ref=e184] [cursor=pointer]:
+                    - /url: https://www.ameli.fr/sites/default/files/Documents/612139/document/avenant_7.pdf
+                  - text: à la convention nationale
+            - listitem [ref=e185]:
+              - paragraph [ref=e186]:
+                - generic [ref=e187]: Loi n° 2019-774 du 24 juillet 2019 relative à l’organisation et à la transformation du système de santé
+            - listitem [ref=e188]:
+              - paragraph [ref=e189]:
+                - generic [ref=e190]: Arrêté du 7 novembre 2019 relatif à l’exercice de l’activité d’assistant médical est paru au Journal Officiel le 13 novembre 2019 ( FAE).
+      - generic [ref=e201]:
+        - img [ref=e203]
+        - img [ref=e206]
+      - generic [ref=e213]:
+        - img [ref=e215]
+        - img [ref=e218]
+        - generic [ref=e222]:
+          - paragraph [ref=e225]: L’ASSISTANT MÉDICAL AU COEUR DU PARCOURS DE SOINS
+          - heading "LE MÉTIER D'ASSISTANT MÉDICAL" [level=2] [ref=e228]
+      - heading "LE CQP ASSSISTANT Médical AU CHEM" [level=3] [ref=e237]
+      - heading "LES LIEUX ET DATES DES PROCHAINES FORMATIONS ASSISTANT Médical*" [level=3] [ref=e244]:
+        - text: LES LIEUX ET DATES
+        - text: DES PROCHAINES FORMATIONS ASSISTANT Médical*
+      - generic [ref=e249]:
+        - img [ref=e251]
+        - generic [ref=e255]:
+          - generic [ref=e257]: Une question ?
+          - heading "LE FINANCEMENT DU CQP ASSISTANT MéDICAL" [level=3] [ref=e260]:
+            - text: LE FINANCEMENT
+            - text: DU CQP ASSISTANT MéDICAL
+          - generic [ref=e262]:
+            - paragraph [ref=e263]:
+              - strong [ref=e264]: Plusieurs dispositifs de financement
+              - text: "sont possibles pour cette formation en alternance (hors apprentissage) :"
+            - list [ref=e265]:
+              - listitem [ref=e266]:
+                - strong [ref=e267]: Le Plan de Développement des Compétences
+                - text: ": pour les salariés au-delà de BAC+2"
+            - list [ref=e268]:
+              - listitem [ref=e269]:
+                - text: Le
+                - strong [ref=e270]: contrat de professionnalisation
+            - generic [ref=e271]:
+              - paragraph [ref=e272]: Pour l’ensemble de ces dispositifs, les frais pédagogiques et les frais annexes sont pris en charge par l’OPCOEP* au titre de la formation professionnelle continue selon les règles en vigueur.
+              - paragraph [ref=e273]: Les frais de salaires du collaborateur pour le temps passé en formation ne sont plus pris en charge depuis le 1er janvier 2024, l’aide de la CPAM versée au cabinet couvrant déjà ce poste.
+              - paragraph [ref=e274]:
+                - text: "N’hésitez pas à consulter le site de l’OPCO EP :"
+                - link "https://www.opcoep.fr/" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.opcoep.fr/
+                - text: et vous rapprocher de votre agence locale.
+              - paragraph [ref=e276]: L’équipe de l’école CHEM peut également répondre à vos questions sur les possibilités de financement. »
+      - generic [ref=e280]:
+        - generic [ref=e286]: VOTRE SATISFACTION, nOTRE PLUS BELLE RECONNAISSANCE
+        - heading "Témoignages" [level=3] [ref=e289]
+        - generic [ref=e291]:
+          - paragraph [ref=e292]:
+            - text: Nous récoltons
+            - strong [ref=e293]: l’avis de nos stagiaires
+            - text: pour vous offrir la plus grande
+            - strong [ref=e294]: transparence
+            - text: et nous aider à
+            - strong [ref=e295]: progresser
+            - text: en continu
+            - strong [ref=e296]: .
+          - paragraph [ref=e297]:
+            - strong [ref=e298]: La qualité de notre formation
+            - text: est incarnée par
+            - strong [ref=e299]: un réseau pédagogique d’intervenants professionnels de santé, motivés
+            - text: pour faire évoluer vos compétences.
+          - paragraph [ref=e300]:
+            - strong [ref=e301]: Rejoignez environ 600 stagiaires assistants médicaux qui nous font confiance.
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - group "4 / 6" [ref=e307]:
+              - generic [ref=e308]:
+                - generic [ref=e310]: Le Dr CHANE est un excellent intervenant. J'ai pris beaucoup de plaisir à suivre ses cours. Il est très précis, rigoureux et méthodique. Il n'hésite pas à partager son expérience professionnelle
+                - generic [ref=e312]:
+                  - generic [ref=e313]: Eric
+                  - generic [ref=e314]: Assistante Médicale
+            - group "5 / 6" [ref=e315]:
+              - generic [ref=e316]:
+                - generic [ref=e318]: Intervention de Camille inspirante qui suscite beaucoup d’enthousiasme. Des contenus pédagogiques passionnants, riches et motivants.
+                - generic [ref=e320]:
+                  - generic [ref=e321]: Anne
+                  - generic [ref=e322]: Assistante Médicale
+            - group "6 / 6" [ref=e323]:
+              - generic [ref=e324]:
+                - generic [ref=e326]: "Formation extrêmement claire et ciblant les points importants à retenir, intervenant très pédagogique et à l’écoute de ses stagiaires et soucieux de leur transmettre une information pertinente dans la forme et le contenu : vraiment au top !"
+                - generic [ref=e328]:
+                  - generic [ref=e329]: Lise
+                  - generic [ref=e330]: Assistante Médicale
+            - group "1 / 6" [ref=e331]:
+              - generic [ref=e332]:
+                - generic [ref=e334]: Intervenante très agréables et cours très ludiques
+                - generic [ref=e336]:
+                  - generic [ref=e337]: Sophie
+                  - generic [ref=e338]: Assistante Médicale
+            - group "2 / 6" [ref=e339]:
+              - generic [ref=e340]:
+                - generic [ref=e342]: Sensible à l’approche participative de Muriel ! Contenus informatifs et variés qui enrichissent notre formation
+                - generic [ref=e343]:
+                  - img "Sylvie" [ref=e345]
+                  - generic [ref=e346]:
+                    - generic [ref=e347]: Sylvie
+                    - generic [ref=e348]: Assistante Médicale
+            - group "3 / 6" [ref=e349]:
+              - generic [ref=e350]:
+                - generic [ref=e352]: Un formateur au top et à l’écoute ! Toujours de bon conseil et dans le partage c’était un vrai plaisir de vous retrouver chaque semaine merci beaucoup 😊
+                - generic [ref=e353]:
+                  - img "Louisa" [ref=e355]
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: Louisa
+                    - generic [ref=e358]: Assistante Médicale
+            - group "4 / 6" [ref=e359]:
+              - generic [ref=e360]:
+                - generic [ref=e362]: Le Dr CHANE est un excellent intervenant. J'ai pris beaucoup de plaisir à suivre ses cours. Il est très précis, rigoureux et méthodique. Il n'hésite pas à partager son expérience professionnelle
+                - generic [ref=e364]:
+                  - generic [ref=e365]: Eric
+                  - generic [ref=e366]: Assistante Médicale
+            - group "5 / 6" [ref=e367]:
+              - generic [ref=e368]:
+                - generic [ref=e370]: Intervention de Camille inspirante qui suscite beaucoup d’enthousiasme. Des contenus pédagogiques passionnants, riches et motivants.
+                - generic [ref=e372]:
+                  - generic [ref=e373]: Anne
+                  - generic [ref=e374]: Assistante Médicale
+            - group "6 / 6" [ref=e375]:
+              - generic [ref=e376]:
+                - generic [ref=e378]: "Formation extrêmement claire et ciblant les points importants à retenir, intervenant très pédagogique et à l’écoute de ses stagiaires et soucieux de leur transmettre une information pertinente dans la forme et le contenu : vraiment au top !"
+                - generic [ref=e380]:
+                  - generic [ref=e381]: Lise
+                  - generic [ref=e382]: Assistante Médicale
+            - group "1 / 6" [ref=e383]:
+              - generic [ref=e384]:
+                - generic [ref=e386]: Intervenante très agréables et cours très ludiques
+                - generic [ref=e388]:
+                  - generic [ref=e389]: Sophie
+                  - generic [ref=e390]: Assistante Médicale
+            - group "2 / 6" [ref=e391]:
+              - generic [ref=e392]:
+                - generic [ref=e394]: Sensible à l’approche participative de Muriel ! Contenus informatifs et variés qui enrichissent notre formation
+                - generic [ref=e395]:
+                  - img "Sylvie" [ref=e397]
+                  - generic [ref=e398]:
+                    - generic [ref=e399]: Sylvie
+                    - generic [ref=e400]: Assistante Médicale
+            - group "3 / 6" [ref=e401]:
+              - generic [ref=e402]:
+                - generic [ref=e404]: Un formateur au top et à l’écoute ! Toujours de bon conseil et dans le partage c’était un vrai plaisir de vous retrouver chaque semaine merci beaucoup 😊
+                - generic [ref=e405]:
+                  - img "Louisa" [ref=e407]
+                  - generic [ref=e408]:
+                    - generic [ref=e409]: Louisa
+                    - generic [ref=e410]: Assistante Médicale
+          - generic [ref=e411]:
+            - button "Go to slide 1" [ref=e412] [cursor=pointer]
+            - button "Go to slide 2" [ref=e413] [cursor=pointer]
+            - button "Go to slide 3" [ref=e414] [cursor=pointer]
+            - button "Go to slide 4" [ref=e415] [cursor=pointer]
+            - button "Go to slide 5" [ref=e416] [cursor=pointer]
+            - button "Go to slide 6" [ref=e417] [cursor=pointer]
+          - button "Previous slide" [ref=e418] [cursor=pointer]:
+            - generic [ref=e419]: 
+            - generic [ref=e420]: Précédent
+          - button "Next slide" [ref=e421] [cursor=pointer]:
+            - generic [ref=e422]: 
+            - generic [ref=e423]: Suivant
+        - generic [ref=e425]:
+          - generic [ref=e427]:
+            - heading "SATISFACTION GLOBALE" [level=4] [ref=e430]
+            - paragraph [ref=e433]: 4,7 / 5
+            - generic "4.7/5" [ref=e437]:
+              - generic [ref=e438]:  
+              - generic [ref=e439]:  
+              - generic [ref=e440]:  
+              - generic [ref=e441]:  
+              - generic [ref=e442]:  
+              - generic [ref=e443]: 4.7/5
+          - generic [ref=e445]:
+            - heading "TAUX DE RéUSSITE" [level=4] [ref=e448]
+            - paragraph [ref=e451]: 98 %
+            - generic "5/5" [ref=e455]:
+              - generic [ref=e456]:  
+              - generic [ref=e457]:  
+              - generic [ref=e458]:  
+              - generic [ref=e459]:  
+              - generic [ref=e460]:  
+              - generic [ref=e461]: 5/5
+          - generic [ref=e463]:
+            - heading "TAUX D'INSERTION DANS L'EMPLOI*" [level=4] [ref=e466]
+            - paragraph [ref=e469]: 82 %
+            - generic "4.3/5" [ref=e473]:
+              - generic [ref=e474]:  
+              - generic [ref=e475]:  
+              - generic [ref=e476]:  
+              - generic [ref=e477]:  
+              - generic [ref=e478]:  
+              - generic [ref=e479]: 4.3/5
+            - paragraph [ref=e482]: "*Enquête de suivi d’insertion dans l’emploi réalisée 6 mois après la fin de la formation"
+      - generic [ref=e490]:
+        - generic [ref=e492]: Une question ?
+        - heading "INSCRIPTION ET CONTACT" [level=2] [ref=e495]
+      - generic [ref=e497]:
+        - img [ref=e504]
+        - generic [ref=e603]:
+          - generic [ref=e604]: Vos coordonnées ou celles du cabinet
+          - generic [ref=e605]:
+            - generic: Civilité
+            - generic [ref=e606]:
+              - generic:
+                - generic: 
+              - combobox "Civilité" [ref=e607]:
+                - option "--" [selected]
+                - option "Dr"
+                - option "Mme"
+                - option "M."
+          - generic [ref=e608]:
+            - generic: Nom
+            - textbox "Nom" [ref=e609]:
+              - /placeholder: "Nom "
+          - generic [ref=e610]:
+            - generic: Prénom
+            - textbox "Prénom" [ref=e611]:
+              - /placeholder: "Prénom "
+          - generic [ref=e612]:
+            - generic: E-mail
+            - textbox "E-mail" [ref=e613]
+          - generic [ref=e614]:
+            - generic: Téléphone
+            - textbox "Téléphone" [ref=e615]:
+              - /placeholder: "Téléphone "
+          - generic [ref=e616]:
+            - generic: Code postal
+            - textbox "Code postal" [ref=e617]
+          - generic [ref=e618]:
+            - generic: Ville
+            - textbox "Ville" [ref=e619]
+          - generic [ref=e620]: Votre situation professionnelle
+          - generic [ref=e621]:
+            - generic: Votre situation professionnelle actuelle
+            - generic [ref=e622]:
+              - generic:
+                - generic: 
+              - combobox "Votre situation professionnelle actuelle" [ref=e623]:
+                - option "--" [selected]
+                - option "Secrétaire Médicale"
+                - option "Assistant Médical"
+                - option "Auxiliaire de puériculture"
+                - option "Aide-Soignant"
+                - option "Infirmier"
+                - option "Médecin généraliste"
+                - option "Médecin spécialiste"
+                - option "Ophtalmologiste"
+                - option "Coordinateur maison de santé"
+                - option "Demandeur emploi"
+                - option "Autres"
+                - option "--"
+                - option
+                - option
+          - generic [ref=e624]:
+            - generic: Autres situation professionnelle actuelle
+            - textbox "Autres situation professionnelle actuelle" [ref=e625]:
+              - /placeholder: "Autre situation professionnelle, précisez "
+          - generic [ref=e626]: Type de formation souhaité
+          - generic [ref=e627]:
+            - generic: Type de formation
+            - generic [ref=e628]:
+              - generic:
+                - generic: 
+              - combobox "Type de formation" [ref=e629]:
+                - option "--" [selected]
+                - option "CQP"
+                - option "FAE"
+          - generic [ref=e630]: Lieu de formation souhaité
+          - generic [ref=e631]:
+            - generic: Lieu de formation souhaité
+            - generic [ref=e632]:
+              - generic:
+                - generic: 
+              - combobox "Lieu de formation souhaité" [ref=e633]:
+                - option "--" [selected]
+                - option "Arras"
+                - option "Brest"
+                - option "Caen"
+                - option "Calais"
+                - option "Compiègne"
+                - option "Evreux"
+                - option "Lille"
+                - option "Rennes"
+                - option "Rouen"
+                - option "Saint-Brieuc"
+                - option "St-Lô"
+                - option "Valenciennes"
+                - option "Vannes"
+                - option "FAE"
+          - generic [ref=e634]:
+            - generic: Message
+            - textbox "Message" [ref=e635]
+          - generic [ref=e636]:
+            - generic: Accord pub
+            - generic [ref=e638]:
+              - checkbox "Accord pub J'accepte de recevoir des courriels du CHEM Santé et de son Ecole." [ref=e639]
+              - text: J'accepte de recevoir des courriels du CHEM Santé et de son Ecole.
+          - generic [ref=e640]: Les informations portées sur ce formulaire sont obligatoires pour la validation de votre demande d'information auprès du CHEM Santé. Elles nous permetttront de vous accompagner au mieux dans votre projet. Elles font l’objet d’un traitement informatisé. Conformément à la loi «informatique et libertés» du 6 janvier 1978 modifiée, vous bénéfi ciez d’un droit d’accès et de rectification aux informations qui vous concernent. Si vous souhaitez l’exercer veuillez vous adresser à ecole@chem-sante.fr
+          - button "Envoyer" [ref=e642] [cursor=pointer]:
+            - generic [ref=e644]: Envoyer
+  - contentinfo [ref=e649]
+  - generic [ref=e650]:
+    - generic [ref=e651]:
+      - img [ref=e653]
+      - generic [ref=e659]:
+        - generic [ref=e661]:
+          - heading "École CHEM" [level=2] [ref=e664]
+          - generic [ref=e666]:
+            - paragraph [ref=e667]:
+              - link "Devenir Assistant Médical" [ref=e668] [cursor=pointer]:
+                - /url: https://devenirassistantemedicale.fr/#devenir
+            - paragraph [ref=e669]:
+              - link "Le métier" [ref=e670] [cursor=pointer]:
+                - /url: https://devenirassistantemedicale.fr/
+            - paragraph [ref=e671]:
+              - link "Le financement" [ref=e672] [cursor=pointer]:
+                - /url: https://devenirassistantemedicale.fr/#financement
+            - paragraph [ref=e673]:
+              - link "La formation" [ref=e674] [cursor=pointer]:
+                - /url: https://devenirassistantemedicale.fr/
+            - paragraph [ref=e675]:
+              - link "Nos lieux de formation" [ref=e676] [cursor=pointer]:
+                - /url: /#lieux
+            - paragraph [ref=e677]:
+              - link "Recrutement" [ref=e678] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/recrutements/
+            - paragraph [ref=e679]:
+              - link "Conditions générales de vente" [ref=e680] [cursor=pointer]:
+                - /url: https://devenirassistantemedicale.fr/conditions-generales-de-vente/
+          - link [ref=e683] [cursor=pointer]:
+            - /url: https://devenirassistantemedicale.fr/wp-content/uploads/2024/10/CERTIFICAT_QUALIOPI_CHEM_06102024.pdf
+        - generic [ref=e685]:
+          - heading "CHEM" [level=2] [ref=e688]
+          - generic [ref=e690]:
+            - paragraph [ref=e691]:
+              - link "Nos formations DPC" [ref=e692] [cursor=pointer]:
+                - /url: https://www.chem-sante.fr/formations/
+            - paragraph [ref=e693]:
+              - link "Nos E-learning" [ref=e694] [cursor=pointer]:
+                - /url: https://www.chem-sante.fr/formations-e-learning-mg-3/
+            - paragraph [ref=e695]:
+              - link "Médecins généralistes" [ref=e696] [cursor=pointer]:
+                - /url: https://www.chem-sante.fr/formations/
+            - paragraph [ref=e697]:
+              - link "Pharmaciens" [ref=e698] [cursor=pointer]:
+                - /url: https://www.chem-sante.fr/formations/
+            - paragraph [ref=e699]:
+              - link "Infirmiers" [ref=e700] [cursor=pointer]:
+                - /url: https://www.chem-sante.fr/formations/
+            - paragraph [ref=e701]:
+              - link "Kinésithérapeutes" [ref=e702] [cursor=pointer]:
+                - /url: https://www.chem-sante.fr/formations/
+            - paragraph [ref=e703]:
+              - link "Podologues" [ref=e704] [cursor=pointer]:
+                - /url: https://www.chem-sante.fr/formations/
+        - generic [ref=e714]:
+          - heading "NOS ÉVENEMENTS" [level=2] [ref=e717]
+          - generic [ref=e719]:
+            - paragraph [ref=e720]:
+              - link "Les Assises" [ref=e721] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/assises/
+            - paragraph [ref=e722]:
+              - link "Les IDEales" [ref=e723] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/ideales/
+            - paragraph [ref=e724]:
+              - link "Les Intermed" [ref=e725] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/intermed/
+            - paragraph [ref=e726]:
+              - link "Nos webinars" [ref=e727] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/webinars-du-chem
+          - generic [ref=e730]:
+            - link "Facebook " [ref=e732] [cursor=pointer]:
+              - /url: https://www.facebook.com/devenirAssistanteMedicale
+              - generic [ref=e733]: Facebook
+              - generic [ref=e734]: 
+            - link "Linkedin " [ref=e736] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/70505361/admin/
+              - generic [ref=e737]: Linkedin
+              - generic [ref=e738]: 
+    - generic [ref=e740]:
+      - paragraph [ref=e745]: TOUS DROITS RÉSERVÉS ©Assistant Médical
+      - generic [ref=e747]:
+        - generic [ref=e749]:
+          - navigation "Menu" [ref=e750]:
+            - list [ref=e751]:
+              - listitem [ref=e752]:
+                - link "CQP Assistant(e) médical(e) " [ref=e753] [cursor=pointer]:
+                  - /url: /#devenir
+                  - text: CQP Assistant(e) médical(e)
+                  - generic [ref=e754]:
+                    - generic: 
+              - listitem [ref=e755]:
+                - link "Formation continue" [ref=e756] [cursor=pointer]:
+                  - /url: https://devenirassistantemedicale.fr/formation-continue/
+              - listitem [ref=e757]:
+                - link "Actualités" [ref=e758] [cursor=pointer]:
+                  - /url: https://devenirassistantemedicale.fr/actualites-devenir-assistante-medicale/
+              - listitem [ref=e759]:
+                - link "Info pratiques " [ref=e760] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Info pratiques
+                  - generic [ref=e761]:
+                    - generic: 
+              - listitem [ref=e762]:
+                - link "Nous contacter" [ref=e763] [cursor=pointer]:
+                  - /url: /#contact
+          - text:  
+        - text:    
+  - generic [ref=e764]: desktop

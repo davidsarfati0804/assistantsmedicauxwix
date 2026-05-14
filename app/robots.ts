@@ -16,6 +16,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: 'CCBot', disallow: '/' },
       { userAgent: 'Bytespider', disallow: '/' },
     ],
-    sitemap: 'https://www.assistants-medicaux.com/sitemap.xml',
+    sitemap: 'https://assistants-medicaux.com/sitemap.xml',
   };
 }

@@ -10,7 +10,7 @@ const contactPageSchema = {
   '@context': 'https://schema.org',
   '@type': 'ContactPage',
   name: "Contacter Mesdocs Groupement d'Employeurs",
-  url: 'https://www.assistants-medicaux.com/contact',
+  url: 'https://assistants-medicaux.com/contact',
   description: "Contactez l'équipe Mesdocs par formulaire, téléphone ou email. Réponse sous 24h ouvrées.",
   mainEntity: {
     '@type': 'Organization',
@@ -31,13 +31,13 @@ const contactPageSchema = {
 export const metadata: Metadata = {
   title: 'Contactez Mesdocs – Assistants Médicaux | Réponse 24h',
   description: 'Contactez l\'équipe Mesdocs par formulaire, téléphone ou email. Médecin ou candidat, notre équipe vous répond sous 24h ouvrées. Paris 75116.',
-  alternates: { canonical: 'https://www.assistants-medicaux.com/contact' },
+  alternates: { canonical: 'https://assistants-medicaux.com/contact' },
   openGraph: {
     title: 'Contactez Mesdocs – Assistants Médicaux | Réponse 24h',
     description: 'Formulaire, téléphone ou email : l\'équipe Mesdocs répond sous 24h ouvrées.',
-    url: 'https://www.assistants-medicaux.com/contact',
+    url: 'https://assistants-medicaux.com/contact',
     type: 'website',
-    images: [{ url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Contactez Mesdocs' }],
+    images: [{ url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Contactez Mesdocs' }],
   },
 };
 

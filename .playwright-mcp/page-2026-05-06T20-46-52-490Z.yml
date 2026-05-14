@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - link "Assistants Médicaux Mesdocs Groupement d'employeurs" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Assistants Médicaux
+        - generic [ref=e7]: Mesdocs Groupement d'employeurs
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Accueil" [ref=e10] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e11]:
+          - link "Avantages & Démarches" [ref=e12] [cursor=pointer]:
+            - /url: /avantages-demarches
+        - listitem [ref=e13]:
+          - link "Devenir Assistant Médical" [ref=e14] [cursor=pointer]:
+            - /url: /devenir-assistant-medical
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "Avantages et Démarches" [ref=e17]
+      - generic [ref=e19]:
+        - heading "Avantages & Démarches" [level=1] [ref=e20]
+        - paragraph [ref=e21]: "Toutes les informations sur le dispositif assistant médical : avantages, financement et démarches à effectuer."
+        - generic [ref=e22]:
+          - link "En savoir plus" [ref=e23] [cursor=pointer]:
+            - /url: "#avantages"
+          - link "Nous contacter" [ref=e24] [cursor=pointer]:
+            - /url: "#contact"
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: Vous souhaitez en savoir plus ?
+        - paragraph [ref=e29]: "Trouvez des informations plus détaillées sur le dispositif en explorant les sections spécifiques suivantes :"
+        - paragraph [ref=e30]: LES AVANTAGES DE L'EMPLOI D'UN ASSISTANT MÉDICAL
+        - link "> Les bénéfices de l'intégration d'un Assistant Médical" [ref=e31] [cursor=pointer]:
+          - /url: "#benefices"
+        - link "> Une organisation pensée pour votre cabinet" [ref=e32] [cursor=pointer]:
+          - /url: "#organisation"
+        - link "> Subvention et Objectif de Progression de la Patientèle" [ref=e33] [cursor=pointer]:
+          - /url: "#subvention"
+        - paragraph [ref=e34]: LES DÉMARCHES
+        - link "> Premier Rendez-vous" [ref=e35] [cursor=pointer]:
+          - /url: "#rdv"
+        - link "> Gestion Intégral du Recrutement et de la Formation" [ref=e36] [cursor=pointer]:
+          - /url: "#recrutement"
+        - link "> Financement de l'Assistant Médical" [ref=e37] [cursor=pointer]:
+          - /url: "#financement"
+        - link "> Suivi et évaluation" [ref=e38] [cursor=pointer]:
+          - /url: "#suivi"
+      - heading "Les Avantages de l'Emploi d'un Assistant Médical" [level=2] [ref=e39]
+      - paragraph [ref=e40]: "L'intégration d'un assistant médical dans un cabinet médical offre de nombreux avantages significatifs :"
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - img "Allègement du Travail des Médecins" [ref=e43]
+          - paragraph [ref=e44]: Allègement du Travail des Médecins
+          - paragraph [ref=e45]: Les assistants médicaux prennent en charge des tâches administratives et de préparation des consultations, permettant aux médecins de se concentrer davantage sur les soins aux patients.
+        - generic [ref=e46]:
+          - img "Amélioration de la Coordination des Soins" [ref=e47]
+          - paragraph [ref=e48]: Amélioration de la Coordination des Soins
+          - paragraph [ref=e49]: Ils facilitent la coordination avec d'autres professionnels de santé, assurant une meilleure gestion du parcours de soins des patients.
+        - generic [ref=e50]:
+          - img "Flexibilité et Adaptabilité" [ref=e51]
+          - paragraph [ref=e52]: Flexibilité et Adaptabilité
+          - paragraph [ref=e53]: Les missions des assistants médicaux peuvent être personnalisées en fonction des besoins spécifiques du cabinet et des patients.
+        - generic [ref=e54]:
+          - img "Contribution à l'efficacité globale du cabinet" [ref=e55]
+          - paragraph [ref=e56]: Contribution à l'efficacité globale du cabinet
+          - paragraph [ref=e57]: En gérant efficacement les tâches administratives et en assistant dans le déroulement des consultations médicales, les assistants contribuent à l'amélioration globale de l'efficacité du cabinet.
+      - paragraph [ref=e58]: 1. Une organisation pensée pour votre cabinet
+      - paragraph [ref=e59]: "L'emploi d'un assistant médical est pensé pour s'adapter à vos pratiques et à la réalité de votre patientèle :"
+      - paragraph [ref=e60]:
+        - strong [ref=e61]: Personnalisation des Missions
+        - text: Chaque médecin a la liberté de définir les missions de l'assistant médical, en fonction de ses pratiques et de l'organisation de son cabinet.
+      - paragraph [ref=e62]:
+        - strong [ref=e63]: Adaptabilité à la Taille de la Patientèle
+        - text: Les engagements pris pour accueillir de nouveaux patients sont proportionnels à la taille de la patientèle existante.
+      - paragraph [ref=e64]: 2. Subvention et Objectif de Progression de la Patientèle
+      - paragraph [ref=e65]: "L'aide à l'emploi d'un assistant médical comprend un système de financement et un objectif clair de progression de la patientèle :"
+      - paragraph [ref=e66]:
+        - strong [ref=e67]: Financement
+        - text: L'aide financière varie entre 19 000 et 38 000 euros la première année et entre 11 000 et 22 000 euros à partir de la troisième année, selon le temps de travail de l'assistant.
+      - paragraph [ref=e68]: Cette aide est renouvelable tous les cinq ans, avec une majoration possible pour les médecins ayant les plus grandes patientèles.
+      - paragraph [ref=e69]:
+        - strong [ref=e70]: Renouvellement
+      - paragraph [ref=e71]:
+        - strong [ref=e72]: Objectif de Progression Mesurable
+        - text: L'objectif de progression de la patientèle est déterminé en fonction de la taille actuelle de la patientèle du médecin.
+      - heading "Recruter un assistant médical, les démarches en détail" [level=2] [ref=e73]
+      - paragraph [ref=e74]: "Conscients du rôle essentiel des assistants médicaux dans l'organisation des cabinets, notre Groupement d'Employeurs facilite leur intégration en prenant en charge, pour votre compte, l'ensemble des aspects liés à l'emploi : recrutement, gestion administrative, paie, formation et suivi."
+      - paragraph [ref=e75]: "1. Premier rendez-vous : Présentation du GE et Évaluation du besoin"
+      - paragraph [ref=e76]:
+        - text: •
+        - strong [ref=e77]: "Mise à disposition de personnel :"
+        - text: Le GE Mesdocs assure la mise à disposition du personnel en prenant en charge la gestion administrative et contractuelle des salariés pour simplifier la vie des professionnels de santé.
+      - paragraph [ref=e78]:
+        - text: •
+        - strong [ref=e79]: "Le rôle de l'adhérent :"
+        - text: L'adhérent est responsable de l'organisation opérationnelle, incluant la planification du travail, et la gestion des missions.
+      - paragraph [ref=e80]:
+        - text: •
+        - strong [ref=e81]: "Examen du profil de l'assistant médical souhaité :"
+        - text: Établissement d'un profil détaillé pour le poste, incluant les compétences, les qualifications et les expériences requises. Planification de l'intégration du nouvel employé, avec un accent sur l'adaptation au sein de l'équipe existante et la culture de la structure.
+      - paragraph [ref=e82]: 2. Gestion Intégrale du Recrutement et de la Formation de l'Assistant Médical
+      - paragraph [ref=e83]:
+        - text: •
+        - strong [ref=e84]: "Conformité Légale et Gestion des Ressources Humaines :"
+        - text: Nous prenons en charge tous les aspects du recrutement de l'assistant médical, y compris la conformité avec le droit du travail et la convention collective.
+      - paragraph [ref=e85]: Cela comprend la gestion minutieuse des contrats de travail, des périodes d'essai, des éventuelles procédures de licenciement, des congés et de la grille salariale.
+      - paragraph [ref=e86]:
+        - text: •
+        - strong [ref=e87]: "Formalités Administratives Complètes :"
+        - text: Notre GE s'occupe de toutes les formalités administratives auprès de l'Urssaf et d'autres entités, garantissant une gestion sans faille des déclarations, de la paie, des congés payés, des absences pour maladie ou maternité.
+      - paragraph [ref=e88]:
+        - text: •
+        - strong [ref=e89]: "Formation et Certification Professionnelle :"
+      - paragraph [ref=e90]: Nous accompagnons la formation de l'assistant médical en partenariat avec les organismes agréés et l'OPCO EP afin de garantir l'obtention du CQP dans les délais requis.
+      - paragraph [ref=e91]:
+        - text: Grâce à notre partenaire
+        - link "VAE Formation" [ref=e92] [cursor=pointer]:
+          - /url: https://vae-formation.com/
+        - text: ", nous proposons également un accompagnement en VAE CQP Assistant Médical permettant la reconnaissance des compétences et l'obtention d'une certification professionnelle adaptée."
+      - paragraph [ref=e93]: 3. Financement de l'Assistant Médical
+      - paragraph [ref=e94]:
+        - text: •
+        - strong [ref=e95]: "Financement adaptatif :"
+        - text: Le financement, variant selon la durée d'emploi de l'assistant médical, est conçu pour soutenir efficacement le salaire de l'assistant, qu'il soit à mi-temps ou à temps plein.
+      - paragraph [ref=e96]:
+        - text: •
+        - strong [ref=e97]: "Échelle de financement :"
+        - text: L'aide varie de 19 000 à 38 000 euros la première année, et de 11 000 à 22 000 euros dès la troisième année.
+      - paragraph [ref=e98]:
+        - text: •
+        - strong [ref=e99]: "Renouvellement de l'aide :"
+        - text: Cette aide est renouvelable à l'échéance du contrat quinquennal avec l'Assurance Maladie, avec possibilité de majoration pour les médecins traitant de nombreux patients.
+      - paragraph [ref=e100]: 4. Suivi et évaluation
+      - paragraph [ref=e101]:
+        - text: •
+        - strong [ref=e102]: "Évaluations semestrielles :"
+        - text: Mise en place d'un système d'évaluation interne pour examiner les performances et l'impact de l'assistant médical sur la qualité des soins et l'efficacité opérationnelle.
+      - paragraph [ref=e103]:
+        - text: •
+        - strong [ref=e104]: "Formation continue de l'assistant médical :"
+        - text: Planification de sessions de formation régulières pour l'assistant médical, en mettant l'accent sur le développement des compétences et l'adaptation aux évolutions du secteur de la santé.
+    - generic [ref=e105]:
+      - heading "Vous êtes intéressé.e et souhaitez recruter votre futur assistant ?" [level=1] [ref=e106]:
+        - text: Vous êtes intéressé.e
+        - text: et souhaitez recruter votre futur assistant ?
+      - link "Nous Contacter" [ref=e107] [cursor=pointer]:
+        - /url: "#contact"
+  - contentinfo [ref=e108]:
+    - generic [ref=e109]:
+      - heading "Contactez-nous" [level=2] [ref=e110]
+      - paragraph [ref=e111]: 24 rue Octave Feuillet 75116 Paris
+      - paragraph [ref=e112]
+      - link "09 70 68 22 20" [ref=e113] [cursor=pointer]:
+        - /url: tel:0970682220
+      - link "Contact@ge-mesdocs.fr" [ref=e114] [cursor=pointer]:
+        - /url: mailto:Contact@ge-mesdocs.fr
+      - generic [ref=e115]:
+        - link [ref=e116] [cursor=pointer]:
+          - /url: mailto:Contact@ge-mesdocs.fr
+          - img [ref=e117]
+        - link [ref=e120] [cursor=pointer]:
+          - /url: tel:0970682220
+          - img [ref=e121]
+        - link [ref=e123] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=24+rue+Octave+Feuillet+75116+Paris
+          - img [ref=e124]
+      - paragraph [ref=e127]: © 2023 par Assistants Medicaux
+    - generic [ref=e129]:
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]: Nom & Prénom *
+          - textbox [ref=e133]
+        - generic [ref=e134]:
+          - generic [ref=e135]: Email *
+          - textbox [ref=e136]
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - generic [ref=e139]: Profession *
+          - textbox [ref=e140]
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e143]: Téléphone *
+            - textbox [ref=e144]
+          - button "❯" [ref=e145]
+  - button "Open Next.js Dev Tools" [ref=e151] [cursor=pointer]:
+    - img [ref=e152]
+  - alert [ref=e155]

@@ -1,0 +1,4 @@
+[    1943ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://evenements.chem-sante.fr/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    4520ms] [LOG] [PushOwl Web Push Notifications] starting up @ https://cdn.pushowl.com/latest/sdks/pushowl-sib.js?environment=production&platform=sendinblue&id=231013&name=CHEM+Sant%C3%A9&subdomain=evenements.chem-sante.fr&logo=https%3A%2F%2Fimg.mailinblue.com%2F2367717%2Fimages%2Fcontent_library%2Foriginal%2F66b4b963f8067258c1799dc1.png&guid=70feaa274189b1040c2241430c4353fb&default=true&visitor_id=b27e676e-6330-4b4b-88df-dc2ff5617798:0
+[    4524ms] [WARNING] Manifest: property 'start_url' ignored, URL is invalid. @ blob:https://evenements.chem-sante.fr/fe857164-0cc9-4b04-aeff-9299539d2099:0
+[    4524ms] [WARNING] Manifest: property 'scope' ignored, URL is invalid. @ blob:https://evenements.chem-sante.fr/fe857164-0cc9-4b04-aeff-9299539d2099:0

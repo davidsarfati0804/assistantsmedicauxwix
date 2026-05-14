@@ -1,0 +1,186 @@
+[     168ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[     179ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[     202ms] [WARNING] Image with src "/assets/icone_documents.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[     203ms] [WARNING] Image with src "/assets/icone_sante.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[     203ms] [WARNING] Image with src "/assets/icone_coordination2.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   13159ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   13164ms] [WARNING] Image with src "/assets/icone_patient.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   13165ms] [WARNING] Image with src "/assets/icone_coordination.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   13165ms] [WARNING] Image with src "/assets/icone_flexibilite.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   13165ms] [WARNING] Image with src "/assets/icone_fonctionnalites.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   17334ms] [WARNING] Image with src "/assets/icone_argent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   17334ms] [WARNING] Image with src "/assets/icone_temps.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   22791ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   22797ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   22817ms] [WARNING] Image with src "/assets/icone_temps.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   22817ms] [WARNING] Image with src "/assets/icone_documents.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   22817ms] [WARNING] Image with src "/assets/icone_argent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   29919ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   29930ms] [WARNING] Image with src "/assets/icone_patient.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   29930ms] [WARNING] Image with src "/assets/icone_coordination.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   29930ms] [WARNING] Image with src "/assets/icone_flexibilite.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[   29930ms] [WARNING] Image with src "/assets/icone_fonctionnalites.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  115557ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  115569ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  115586ms] [WARNING] Image with src "/assets/icone_temps.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  115586ms] [WARNING] Image with src "/assets/icone_documents.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  115586ms] [WARNING] Image with src "/assets/icone_argent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  128294ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  128302ms] [WARNING] Image with src "/assets/icone_patient.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  128302ms] [WARNING] Image with src "/assets/icone_coordination.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  128303ms] [WARNING] Image with src "/assets/icone_flexibilite.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  128308ms] [WARNING] Image with src "/assets/icone_fonctionnalites.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  437645ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  437946ms] [LOG] [Fast Refresh] done in 284ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  438184ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  438216ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  601883ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  601899ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  601928ms] [WARNING] Image with src "/assets/icone_patient.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  601928ms] [WARNING] Image with src "/assets/icone_coordination.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  601928ms] [WARNING] Image with src "/assets/icone_flexibilite.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  601928ms] [WARNING] Image with src "/assets/icone_fonctionnalites.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  606015ms] [WARNING] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  609820ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:2477
+[  609978ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:3318
+[  609978ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/?_rsc=q3mOO9BClNZHexY7:0
+[  609998ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/?_rsc=q3mOO9BClNZHexY7:0
+[  610022ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0hnfry5._.js:3318
+[  610119ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/:0
+[  610180ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/0bnc_react-dom_0r1-80b._.js:15305
+[  610215ms] Error: ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx
+
+
+    at <unknown> (Error: ./Desktop/wix-clone/components/layout/Footer.tsx:8:41)
+    at Object.getCompilationErrors (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/ethan/Desktop/wix-clone/node_modules/next/dist/server/base-server.js:1753:26)
+[  610211ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226
+[  610238ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[  610238ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/avantages-demarches/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[  610238ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/devenir-assistant-medical/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[  610290ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[  610324ms] [ERROR] ./Desktop/wix-clone/components/layout/Footer.tsx:8:41
+Expected ',', got 'ident'
+   6 |   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
+   7 |   { Icon: UserPlus, text: 'Nous sélectionnons le profil idéal pour votre cabinet' },
+>  8 |   { Icon: Shield, text: 'Nous gérons l'ensemble des démarches administratives' },
+     |                                        ^^^^^^^^
+   9 |   { Icon: CheckCircle, text: 'Vous bénéficiez d'un accompagnement continu' },
+  10 | ];
+  11 |
+
+Parsing ecmascript source code failed
+
+Import trace:
+  Server Component:
+    ./Desktop/wix-clone/components/layout/Footer.tsx
+    ./Desktop/wix-clone/app/page.tsx @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1945
+[  610392ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/0bnc_next_dist_0rv7lw.._.js:1226

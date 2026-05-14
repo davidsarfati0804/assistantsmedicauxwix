@@ -9,13 +9,13 @@ import { CheckCircle, Phone, Clock, Shield } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Prendre Rendez-vous avec Mesdocs – Consultation Gratuite',
   description: 'Prenez rendez-vous gratuitement avec un conseiller Mesdocs. En 20 minutes, nous analysons votre éligibilité au dispositif assistant médical CPAM. Sans engagement.',
-  alternates: { canonical: 'https://www.assistants-medicaux.com/prendre-rendez-vous' },
+  alternates: { canonical: 'https://assistants-medicaux.com/prendre-rendez-vous' },
   openGraph: {
     title: 'Prendre Rendez-vous avec Mesdocs – Consultation Gratuite',
     description: '20 minutes gratuites pour vérifier votre éligibilité au dispositif assistant médical CPAM. Sans engagement.',
-    url: 'https://www.assistants-medicaux.com/prendre-rendez-vous',
+    url: 'https://assistants-medicaux.com/prendre-rendez-vous',
     type: 'website',
-    images: [{ url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Prendre Rendez-vous avec Mesdocs' }],
+    images: [{ url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Prendre Rendez-vous avec Mesdocs' }],
   },
 };
 

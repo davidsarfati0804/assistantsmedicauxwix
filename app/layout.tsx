@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | Mesdocs Groupement d'Employeurs",
   },
   description: "Mesdocs Groupement d'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. CPAM finance jusqu'à 38 000 €/an. Aucune obligation d'employeur pour le médecin.",
-  metadataBase: new URL('https://www.assistants-medicaux.com'),
+  metadataBase: new URL('https://assistants-medicaux.com'),
   verification: {
     google: 'XpqdQ1qMJkMcwr2LPQM4DyLVNP5Op8e5NEUsC_nBDaQ',
   },

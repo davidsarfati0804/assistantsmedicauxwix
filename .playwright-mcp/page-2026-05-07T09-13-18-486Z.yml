@@ -1,0 +1,462 @@
+- generic [active] [ref=e1]:
+  - link "Aller au contenu" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - generic [ref=e6]:
+        - link "Logo du CHEM" [ref=e9] [cursor=pointer]:
+          - /url: https://evenements.chem-sante.fr
+          - img "Logo du CHEM" [ref=e10]
+        - navigation "Menu" [ref=e13]:
+          - generic "Permuter le menu" [ref=e14]:
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - generic [ref=e17]:
+                  - link "Nos formations" [ref=e18] [cursor=pointer]:
+                    - /url: /formations/
+                    - generic [ref=e19]: Nos formations
+                  - button "Ouvrir Nos formations" [ref=e20] [cursor=pointer]:
+                    - generic [ref=e21]:
+                      - img [ref=e22]
+                      - generic [ref=e24]: Ouvrir Nos formations
+              - listitem [ref=e25]:
+                - link "Catalogues" [ref=e27] [cursor=pointer]:
+                  - /url: /ressource/catalogues
+                  - generic [ref=e28]: Catalogues
+              - listitem [ref=e29]:
+                - link "Événements" [ref=e31] [cursor=pointer]:
+                  - /url: /evenements
+                  - generic [ref=e32]: Événements
+              - listitem [ref=e33]:
+                - link "Activités" [ref=e35] [cursor=pointer]:
+                  - /url: /activites/
+                  - generic [ref=e36]: Activités
+              - listitem [ref=e37]:
+                - link "Ressources" [ref=e39] [cursor=pointer]:
+                  - /url: /nos-ressources
+                  - generic [ref=e40]: Ressources
+        - generic [ref=e41]:
+          - link [ref=e45] [cursor=pointer]:
+            - /url: /contact/
+            - img [ref=e48]
+          - link "02 98 46 44 97" [ref=e53] [cursor=pointer]:
+            - /url: tel:+33298464497
+            - generic [ref=e54]:
+              - img [ref=e56]
+              - generic [ref=e58]: 02 98 46 44 97
+  - main [ref=e59]:
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e66]:
+          - generic [ref=e67]:
+            - link "Accueil" [ref=e69] [cursor=pointer]:
+              - /url: https://evenements.chem-sante.fr/
+            - text: "› CQP Assistant Médical : rentrées et remises de diplômes"
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - generic [ref=e74]:
+              - text: Publié le
+              - time [ref=e75]: 16/09/2025
+          - listitem [ref=e76]:
+            - link "Actualités" [ref=e79] [cursor=pointer]:
+              - /url: https://evenements.chem-sante.fr/ressource/actualites/
+        - 'heading "CQP Assistant Médical : rentrées et remises de diplômes" [level=1] [ref=e82]'
+      - generic [ref=e83]:
+        - img [ref=e88]
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - generic [ref=e95]:
+              - link "Assistants médicaux" [ref=e96] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/profession/assistants-medicaux/
+              - text: ","
+              - link "Médecins généralistes" [ref=e97] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/profession/medecins-generalistes/
+              - text: ","
+              - link "Ophtalmologistes" [ref=e98] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/profession/ophtalmologistes/
+              - text: ","
+              - link "Psychiatres" [ref=e99] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/profession/psychiatres/
+    - generic [ref=e103]:
+      - generic [ref=e106]:
+        - paragraph [ref=e107]: "CQP Assistant Médical : rentrée et remises de diplômes"
+        - paragraph [ref=e108]:
+          - text: Ce second semestre 2025 marque un temps fort pour
+          - link "l’École CHEM des Assistants Médicaux" [ref=e109] [cursor=pointer]:
+            - /url: https://devenirassistantemedicale.fr/
+            - text: l’
+            - strong [ref=e110]: École CHEM des Assistants Médicaux
+          - text: ", avec une activité particulièrement dynamique. En quelques semaines seulement, ce sont"
+          - strong [ref=e111]: 3 nouvelles promotions qui vont fait leur rentrée
+          - text: à Vannes, Rennes et Rouen, tandis que
+          - strong [ref=e112]: 3 autres promotions sur ces mêmes villes vont célébrer leur remise de diplômes
+          - text: .
+        - paragraph [ref=e113]: Une belle illustration de la vitalité de la formation et de l’engagement des médecins employeurs aux côtés de leurs futurs Assistants Médicaux.
+        - paragraph [ref=e114]: Tour d’horizon sur l’actualité de l’Ecole CHEM !
+        - heading "🎓 Une rentrée dynamique pour l’École CHEM" [level=2] [ref=e115]:
+          - img "🎓" [ref=e116]
+          - text: Une rentrée dynamique pour l’École CHEM
+        - paragraph [ref=e117]:
+          - text: Créée en 2021 par le CHEM Santé, l’
+          - strong [ref=e118]: École CHEM
+          - text: est l’un des rares organismes en France habilités à dispenser le
+          - strong [ref=e119]: CQP Assistant Médical
+          - text: ", une formation qualifiante reconnue au RNCP (Registre National des Certifications Professionnelles)."
+        - paragraph [ref=e120]:
+          - text: Présente en
+          - strong [ref=e121]: Bretagne, Normandie et Hauts-de-France
+          - text: ", elle accompagne depuis 4 ans le développement de ce métier clé du plan"
+          - emphasis [ref=e122]: Ma Santé 2022
+          - text: .
+        - paragraph [ref=e123]:
+          - text: Le
+          - strong [ref=e124]: CQP Assistant Médical
+          - text: se déroule sur
+          - strong [ref=e125]: 8 mois en alternance
+          - text: ":"
+        - list [ref=e126]:
+          - listitem [ref=e127]:
+            - strong [ref=e128]: 2 jours de formation théorique
+            - text: dispensés par des professionnels de santé,
+          - listitem [ref=e129]:
+            - strong [ref=e130]: 3 jours de pratique en cabinet médical
+            - text: ", auprès d’un médecin généraliste ou spécialiste."
+        - paragraph [ref=e131]: "Ce parcours professionnalisant permet aux stagiaires d’acquérir toutes les compétences nécessaires : accueil et suivi administratif des patients, aide à la consultation, hygiène et qualité, coordination des parcours de soins."
+        - heading "Trois nouvelles rentrées à Vannes, Rennes et Rouen" [level=2] [ref=e132]
+        - paragraph [ref=e133]: "Trois nouvelles promotions ouvrent :"
+        - list [ref=e134]:
+          - listitem [ref=e135]:
+            - strong [ref=e136]: Vannes
+            - text: accueille sa
+            - strong [ref=e137]: 4ᵉ promotion
+            - text: le
+            - strong [ref=e138]: 18 septembre 2025
+            - text: .
+          - listitem [ref=e139]:
+            - strong [ref=e140]: Rennes
+            - text: fait sa
+            - strong [ref=e141]: 7ᵉ rentrée
+            - text: le
+            - strong [ref=e142]: 25 septembre 2025
+            - text: .
+          - listitem [ref=e143]:
+            - strong [ref=e144]: Rouen
+            - text: lance sa
+            - strong [ref=e145]: 4ᵉ promotion
+            - text: le
+            - strong [ref=e146]: 2 octobre 2025
+            - text: .
+        - paragraph [ref=e147]: Ces promotions confirment la dynamique de l’École CHEM et l’engouement croissant pour ce métier.
+        - heading "Des remises de diplômes pour saluer la réussite" [level=2] [ref=e148]
+        - paragraph [ref=e149]: "En parallèle, plusieurs promotions ont terminé leur parcours avec succès ! Nous organisons les remises de diplômes de :"
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - text: la
+            - strong [ref=e152]: 3ᵉ promotion de Rouen
+            - text: ","
+          - listitem [ref=e153]:
+            - text: la
+            - strong [ref=e154]: 3ᵉ promotion de Vannes
+            - text: ","
+          - listitem [ref=e155]:
+            - text: et la
+            - strong [ref=e156]: 5ᵉ promotion de Rennes
+            - text: .
+        - paragraph [ref=e157]:
+          - text: Ces cérémonies de
+          - strong [ref=e158]: remise de diplômes
+          - text: mettent à l’honneur le sérieux et l’engagement des assistants médicaux diplômés, mais aussi la confiance des médecins employeurs qui participent activement à cette nouvelle organisation des soins.
+        - heading "Pourquoi recruter un Assistant Médical ?" [level=2] [ref=e159]
+        - paragraph [ref=e160]:
+          - text: Que vous soyez
+          - strong [ref=e161]: médecin généraliste ou spécialiste
+          - text: ", recruter un Assistant Médical présente de nombreux avantages :"
+        - list [ref=e162]:
+          - listitem [ref=e163]:
+            - strong [ref=e164]: Libérer du temps médical
+            - text: en déléguant des tâches administratives, organisationnelles ou techniques (prise de constantes, gestion des dossiers, suivi des courriers).
+          - listitem [ref=e165]:
+            - strong [ref=e166]: Fluidifier la prise en charge des patients
+            - text: et réduire les délais de rendez-vous.
+          - listitem [ref=e167]:
+            - strong [ref=e168]: Améliorer la qualité du parcours de soins
+            - text: en optimisant la préparation des consultations.
+          - listitem [ref=e169]:
+            - strong [ref=e170]: Renforcer l’attractivité du cabinet
+            - text: en offrant un meilleur confort aux patients comme aux praticiens.
+        - paragraph [ref=e171]: "Un atout organisationnel, mais aussi humain, qui permet aux médecins de se recentrer sur leur cœur de métier : le soin."
+        - 'heading "📅 Rentrées 2026 : les candidatures sont ouvertes" [level=2] [ref=e172]':
+          - img "📅" [ref=e173]
+          - text: "Rentrées 2026 : les candidatures sont ouvertes"
+        - paragraph [ref=e174]:
+          - text: L’activité se poursuit dès le
+          - strong [ref=e175]: 1er semestre 2026
+          - text: ", avec plusieurs sessions déjà programmées :"
+        - list [ref=e176]:
+          - listitem [ref=e177]:
+            - strong [ref=e178]: Brest
+            - text: ": 22 janvier 2026"
+          - listitem [ref=e179]:
+            - strong [ref=e180]: Compiègne
+            - text: ": 22 janvier 2026"
+          - listitem [ref=e181]:
+            - strong [ref=e182]: Arras
+            - text: ": 29 janvier 2026"
+          - listitem [ref=e183]:
+            - strong [ref=e184]: Calais
+            - text: ": 5 février 2026"
+          - listitem [ref=e185]:
+            - strong [ref=e186]: Lille
+            - text: ": 12 février 2026"
+          - listitem [ref=e187]:
+            - strong [ref=e188]: Caen
+            - text: ": 1er juin 2026"
+        - figure [ref=e189]
+        - paragraph [ref=e190]:
+          - text: De nouveaux projets d’ouverture sont également en cours à
+          - strong [ref=e191]: Saint-Brieuc, Saint-Lô, Évreux et Valenciennes
+          - text: .
+        - paragraph [ref=e192]:
+          - img "👉" [ref=e193]
+          - text: Les candidatures sont ouvertes et en cours, inscrivez votre assistant(e) médical(e) ou votre secrétaire médical(e) à ce métier et libérez vous du temps médical !
+        - link "Accéder au dossier de candidature" [ref=e196] [cursor=pointer]:
+          - /url: https://devenirassistantemedicale.fr/votre-candidature-et-vos-document/
+          - strong [ref=e197]: Accéder au dossier de candidature
+      - generic [ref=e198]:
+        - complementary [ref=e199]:
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - generic [ref=e205]: Actualités
+          - heading "Articles associés" [level=2] [ref=e208]
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - link [ref=e213] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/la-fnaas-partenaire-des-rencontres-regionales-des-aides-soignants-2026/
+              - heading "La FNAAS partenaire des Rencontres Régionales des aides-soignants 2026" [level=3] [ref=e216]:
+                - link "La FNAAS partenaire des Rencontres Régionales des aides-soignants 2026" [ref=e217] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/la-fnaas-partenaire-des-rencontres-regionales-des-aides-soignants-2026/
+            - listitem [ref=e218]:
+              - 'link "Flashcards de la dermoscopie : un nouvel outil pour entraîner votre œil clinique" [ref=e219] [cursor=pointer]':
+                - /url: https://evenements.chem-sante.fr/flashcards-de-la-dermoscopie-un-nouvel-outil-pour-entrainer-votre-oeil-clinique/
+                - 'img "Flashcards de la dermoscopie : un nouvel outil pour entraîner votre œil clinique" [ref=e221]'
+              - 'heading "Flashcards de la dermoscopie : un nouvel outil pour entraîner votre œil clinique" [level=3] [ref=e223]':
+                - 'link "Flashcards de la dermoscopie : un nouvel outil pour entraîner votre œil clinique" [ref=e224] [cursor=pointer]':
+                  - /url: https://evenements.chem-sante.fr/flashcards-de-la-dermoscopie-un-nouvel-outil-pour-entrainer-votre-oeil-clinique/
+            - listitem [ref=e225]:
+              - link [ref=e226] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/bilan-de-competences-professionnels-de-sante-mieux-exercer-sans-forcement-changer-de-metier/
+              - 'heading "Bilan de compétences pour les professionnels de santé : mieux exercer sans forcément changer de métier" [level=3] [ref=e229]':
+                - 'link "Bilan de compétences pour les professionnels de santé : mieux exercer sans forcément changer de métier" [ref=e230] [cursor=pointer]':
+                  - /url: https://evenements.chem-sante.fr/bilan-de-competences-professionnels-de-sante-mieux-exercer-sans-forcement-changer-de-metier/
+        - complementary [ref=e231]:
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - generic [ref=e237]: Assistants médicaux, Médecins généralistes, Ophtalmologistes, Psychiatres
+          - heading "Vous serez intéressés" [level=2] [ref=e240]
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - link [ref=e245] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/ep10-pma-comment-accompagner-ces-parcours-en-officine/
+              - 'heading "Ep10. PMA : comment accompagner ces parcours en officine ?" [level=3] [ref=e248]':
+                - 'link "Ep10. PMA : comment accompagner ces parcours en officine ?" [ref=e249] [cursor=pointer]':
+                  - /url: https://evenements.chem-sante.fr/ep10-pma-comment-accompagner-ces-parcours-en-officine/
+            - listitem [ref=e250]:
+              - link [ref=e251] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/ep9-pma-quel-role-pour-les-ide/
+              - 'heading "Ep9. PMA : quel rôle pour les IDE ? Avec Anne-Charlotte Reisse, infirmière en libéral" [level=3] [ref=e254]':
+                - 'link "Ep9. PMA : quel rôle pour les IDE ? Avec Anne-Charlotte Reisse, infirmière en libéral" [ref=e255] [cursor=pointer]':
+                  - /url: https://evenements.chem-sante.fr/ep9-pma-quel-role-pour-les-ide/
+            - listitem [ref=e256]:
+              - link [ref=e257] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/assistant-medical-un-metier-qui-evolue-des-referentiels-qui-changent/
+              - 'heading "Assistant médical : un métier qui évolue, des référentiels qui changent" [level=3] [ref=e260]':
+                - 'link "Assistant médical : un métier qui évolue, des référentiels qui changent" [ref=e261] [cursor=pointer]':
+                  - /url: https://evenements.chem-sante.fr/assistant-medical-un-metier-qui-evolue-des-referentiels-qui-changent/
+    - generic [ref=e263]:
+      - heading "Pourquoi le CHEM Santé" [level=2] [ref=e266]
+      - generic [ref=e268]:
+        - generic [ref=e270]:
+          - img [ref=e275]
+          - generic [ref=e292]: "Qualité du réseau de formateurs et d’experts : qualité scientifique et pédagogique"
+        - generic [ref=e294]:
+          - img [ref=e299]
+          - generic [ref=e309]: 35 ans d’expérience, premier organisme associatif certifié DPC
+        - generic [ref=e311]:
+          - img [ref=e316]
+          - generic [ref=e331]: Plus de 27 000 professionnels de santé formés ces 3 dernières années
+        - generic [ref=e333]:
+          - img [ref=e338]
+          - generic [ref=e356]: Transparence financière et certification ANDPC
+  - contentinfo [ref=e357]:
+    - contentinfo [ref=e364]:
+      - generic [ref=e366]:
+        - generic [ref=e368]:
+          - heading "Restez informés" [level=2] [ref=e371]
+          - paragraph [ref=e374]: Abonnez-vous à notre Newsletter pour ne rien manquer des nouvelles formations, événements et actualités du CHEM Santé.
+        - form "Formulaire inscription newsletter" [ref=e379]:
+          - generic [ref=e380]:
+            - generic [ref=e381]:
+              - generic [ref=e382] [cursor=pointer]: Votre e-mail
+              - textbox "Votre e-mail" [ref=e383]
+            - button "S'inscrire" [ref=e385] [cursor=pointer]:
+              - generic [ref=e387]: S'inscrire
+      - generic [ref=e389]:
+        - generic [ref=e390]:
+          - heading "Plan du site" [level=2] [ref=e393]
+          - generic [ref=e394]:
+            - list [ref=e397]:
+              - listitem [ref=e398]:
+                - link "Accueil" [ref=e399] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/
+                  - generic [ref=e400]: Accueil
+              - listitem [ref=e401]:
+                - link "Nos événements" [ref=e402] [cursor=pointer]:
+                  - /url: /evenements/
+                  - generic [ref=e403]: Nos événements
+              - listitem [ref=e404]:
+                - link "Les Assises" [ref=e405] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/assises/
+                  - generic [ref=e406]: Les Assises
+              - listitem [ref=e407]:
+                - link "Transmed" [ref=e408] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/transmed/
+                  - generic [ref=e409]: Transmed
+              - listitem [ref=e410]:
+                - link "FormaPASSION" [ref=e411] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/formapassion/
+                  - generic [ref=e412]: FormaPASSION
+              - listitem [ref=e413]:
+                - link "FormaTRAIL" [ref=e414] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/formatrail/
+                  - generic [ref=e415]: FormaTRAIL
+              - listitem [ref=e416]:
+                - link "FormaZEN" [ref=e417] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/formazen/
+                  - generic [ref=e418]: FormaZEN
+              - listitem [ref=e419]:
+                - link "Rencontres régionales des aides-soignants" [ref=e420] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/les-rencontres-regionales-des-aides-soignants/
+                  - generic [ref=e421]: Rencontres régionales des aides-soignants
+              - listitem [ref=e422]:
+                - link "Les journées du Bois-Guy" [ref=e423] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/les-journees-du-bois-guy/
+                  - generic [ref=e424]: Les journées du Bois-Guy
+            - list [ref=e427]:
+              - listitem [ref=e428]:
+                - link "Sommets de la dermoscopie" [ref=e429] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/les-sommets-de-la-dermoscopie/
+                  - generic [ref=e430]: Sommets de la dermoscopie
+              - listitem [ref=e431]:
+                - link "Soirées du Chem" [ref=e432] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/evenement/les-soirees-du-chem/
+                  - generic [ref=e433]: Soirées du Chem
+              - listitem [ref=e434]:
+                - link "Nos autres activités" [ref=e435] [cursor=pointer]:
+                  - /url: /activites/
+                  - generic [ref=e436]: Nos autres activités
+              - listitem [ref=e437]:
+                - link "DU dermatologie" [ref=e438] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/produits/du-dermatologie/
+                  - generic [ref=e439]: DU dermatologie
+              - listitem [ref=e440]:
+                - link "Les éditions du Chem" [ref=e441] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/produits/les-editions-du-chem/
+                  - generic [ref=e442]: Les éditions du Chem
+              - listitem [ref=e443]:
+                - link "Bilan de compétences" [ref=e444] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/produits/bilan-de-competences/
+                  - generic [ref=e445]: Bilan de compétences
+              - listitem [ref=e446]:
+                - link "Formation continue" [ref=e447] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/formations-continues/
+                  - generic [ref=e448]: Formation continue
+              - listitem [ref=e449]:
+                - link "École Chem - Devenir assistante médicale" [ref=e450] [cursor=pointer]:
+                  - /url: /activites/ecole-chem/
+                  - generic [ref=e451]: École Chem - Devenir assistante médicale
+              - listitem [ref=e452]:
+                - link "Être animateur au CHEM Santé" [ref=e453] [cursor=pointer]:
+                  - /url: https://evenements.chem-sante.fr/etre-animateur-au-chem-sante/
+                  - generic [ref=e454]: Être animateur au CHEM Santé
+        - generic [ref=e455]:
+          - heading "Liens utiles" [level=2] [ref=e458]
+          - list [ref=e462]:
+            - listitem [ref=e463]:
+              - link "Nos catalogues" [ref=e464] [cursor=pointer]:
+                - /url: /ressource/catalogues/
+                - generic [ref=e465]: Nos catalogues
+            - listitem [ref=e466]:
+              - link "Ressources" [ref=e467] [cursor=pointer]:
+                - /url: /nos-ressources/
+                - generic [ref=e468]: Ressources
+            - listitem [ref=e469]:
+              - link "L’actu santé" [ref=e470] [cursor=pointer]:
+                - /url: /ressource/actualites/
+                - generic [ref=e471]: L’actu santé
+            - listitem [ref=e472]:
+              - link "Webinars" [ref=e473] [cursor=pointer]:
+                - /url: /ressource/webinars/
+                - generic [ref=e474]: Webinars
+            - listitem [ref=e475]:
+              - link "Paroles d'experts" [ref=e476] [cursor=pointer]:
+                - /url: /ressource/paroles-dexperts/
+                - generic [ref=e477]: Paroles d'experts
+            - listitem [ref=e478]:
+              - link "Podcasts" [ref=e479] [cursor=pointer]:
+                - /url: /ressource/podcasts/
+                - generic [ref=e480]: Podcasts
+            - listitem [ref=e481]:
+              - link "Nous contacter" [ref=e482] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/contact/
+                - generic [ref=e483]: Nous contacter
+            - listitem [ref=e484]:
+              - link "Recrutement" [ref=e485] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/recrutements/
+                - generic [ref=e486]: Recrutement
+            - listitem [ref=e487]:
+              - link "Plan d'action handicap" [ref=e488] [cursor=pointer]:
+                - /url: https://evenements.chem-sante.fr/plan-action-handicap/
+                - generic [ref=e489]: Plan d'action handicap
+        - generic [ref=e490]:
+          - heading "Suivez-nous" [level=2] [ref=e493]
+          - list [ref=e496]:
+            - listitem [ref=e497]:
+              - link "Facebook" [ref=e498] [cursor=pointer]:
+                - /url: https://www.facebook.com/CHEMSante
+                - generic [ref=e499]: Facebook
+                - img [ref=e500]
+            - listitem [ref=e502]:
+              - link "Twitter" [ref=e503] [cursor=pointer]:
+                - /url: https://twitter.com/CHEM_Sante
+                - generic [ref=e504]: Twitter
+                - img [ref=e505]
+            - listitem [ref=e507]:
+              - link "Youtube" [ref=e508] [cursor=pointer]:
+                - /url: https://www.youtube.com/@CHEMSante-tz9yn
+                - generic [ref=e509]: Youtube
+                - img [ref=e510]
+            - listitem [ref=e512]:
+              - link "Linkedin" [ref=e513] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/chemdpc
+                - generic [ref=e514]: Linkedin
+                - img [ref=e515]
+            - listitem [ref=e517]:
+              - link "Instagram" [ref=e518] [cursor=pointer]:
+                - /url: https://www.instagram.com/chemsante?igsh=N2dlbWYzMzBwY2Fi
+                - generic [ref=e519]: Instagram
+                - img [ref=e520]
+      - generic [ref=e523]:
+        - paragraph [ref=e526]:
+          - link "2026 CHEM Santé" [ref=e527] [cursor=pointer]:
+            - /url: https://www.chem-sante.fr/
+        - list [ref=e530]:
+          - listitem [ref=e531]:
+            - link "Mentions légales" [ref=e532] [cursor=pointer]:
+              - /url: https://evenements.chem-sante.fr/mentions-legales/
+              - generic [ref=e533]: Mentions légales
+          - listitem [ref=e534]:
+            - link "Politique de confidentialité" [ref=e535] [cursor=pointer]:
+              - /url: https://evenements.chem-sante.fr/politiques-de-confidentialite/
+              - generic [ref=e536]: Politique de confidentialité
+  - generic [ref=e537]: desktop
+  - status [ref=e538]

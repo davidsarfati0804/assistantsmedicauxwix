@@ -10,16 +10,16 @@ import StatsBand from '@/components/sections/StatsBand';
 import TestimonialSlider from '@/components/sections/TestimonialSlider';
 import SchemaOrg, { faqSchema } from '@/components/seo/SchemaOrg';
 
-const OG_IMAGE = { url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: "Mesdocs Groupement d'Employeurs – Assistants Médicaux" };
+const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: "Mesdocs Groupement d'Employeurs – Assistants Médicaux" };
 
 export const metadata: Metadata = {
   title: 'Assistant Médical pour Médecins Libéraux | Mesdocs GE',
   description: 'Mesdocs Groupement d\'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. CPAM finance jusqu\'à 38 000 €/an. Aucune obligation d\'employeur pour le médecin.',
-  alternates: { canonical: 'https://www.assistants-medicaux.com/' },
+  alternates: { canonical: 'https://assistants-medicaux.com/' },
   openGraph: {
     title: 'Assistant Médical pour Médecins Libéraux | Mesdocs GE',
     description: 'Mesdocs recrute votre assistant médical et gère tout : CPAM, contrat, paie, formation. Financement jusqu\'à 38 000 €/an.',
-    url: 'https://www.assistants-medicaux.com/',
+    url: 'https://assistants-medicaux.com/',
     type: 'website',
     images: [OG_IMAGE],
   },

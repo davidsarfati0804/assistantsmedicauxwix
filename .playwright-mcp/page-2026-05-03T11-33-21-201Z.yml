@@ -1,0 +1,226 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - link "Logo Mesdocs Assistants Médicaux Mesdocs Groupement d'Employeurs" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Logo Mesdocs" [ref=e6]
+        - generic [ref=e7]:
+          - generic [ref=e8]: Assistants Médicaux
+          - generic [ref=e9]: Mesdocs Groupement d'Employeurs
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Accueil" [ref=e12] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e13]:
+          - link "Avantages & Démarches" [ref=e14] [cursor=pointer]:
+            - /url: /avantages-demarches/
+        - listitem [ref=e15]:
+          - link "Devenir Assistant Médical" [ref=e16] [cursor=pointer]:
+            - /url: /devenir-assistant-medical/
+      - link "Nous contacter" [ref=e17] [cursor=pointer]:
+        - /url: "#contact"
+  - main [ref=e18]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: Dispositif Assistant Médical
+        - heading "Optimisez votre pratique avec l'Assistant Médical" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Nous comprenons à quel point votre temps en tant que médecin est précieux. Le dispositif Assistant Médical vous permet de déléguer les tâches administratives et de vous concentrer pleinement sur vos patients.
+        - generic [ref=e26]:
+          - link "En savoir plus" [ref=e27] [cursor=pointer]:
+            - /url: /avantages-demarches/
+          - link "Nous contacter" [ref=e28] [cursor=pointer]:
+            - /url: "#contact"
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: 7 420
+          - generic [ref=e32]: Médecins satisfaits
+        - generic [ref=e33]:
+          - generic [ref=e34]: 38 000 €
+          - generic [ref=e35]: De financement max/an
+        - generic [ref=e36]:
+          - generic [ref=e37]: 100%
+          - generic [ref=e38]: Gestion administrative prise en charge
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]: ✓
+        - generic [ref=e44]: Financement Assurance Maladie
+      - generic [ref=e45]:
+        - generic [ref=e46]: ✓
+        - generic [ref=e47]: Recrutement intégral géré
+      - generic [ref=e48]:
+        - generic [ref=e49]: ✓
+        - generic [ref=e50]: Formation certifiante CQP
+      - generic [ref=e51]:
+        - generic [ref=e52]: ✓
+        - generic [ref=e53]: Suivi semestriel inclus
+      - img "Assurance Maladie" [ref=e55]
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: Pourquoi choisir un assistant médical
+        - heading "Les avantages du dispositif" [level=2] [ref=e60]
+        - paragraph [ref=e61]: Un assistant médical transforme votre quotidien en cabinet, améliore la qualité des soins et vous permet de recevoir davantage de patients.
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - img "Gain de temps" [ref=e65]
+          - heading "Gain de temps médical" [level=3] [ref=e66]
+          - paragraph [ref=e67]: Déléguez les tâches chronophages pour consacrer plus de temps à l'acte médical et à vos patients.
+        - generic [ref=e68]:
+          - img "Réduction administrative" [ref=e70]
+          - heading "Réduction des tâches administratives" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Accueil patients, gestion des dossiers, coordination — votre assistant prend tout en charge à votre place.
+        - generic [ref=e73]:
+          - img "Qualité des soins" [ref=e75]
+          - heading "Amélioration de la qualité des soins" [level=3] [ref=e76]
+          - paragraph [ref=e77]: Un assistant bien formé améliore la coordination avec les professionnels de santé et le suivi de vos patients.
+        - generic [ref=e78]:
+          - img "Aide financière" [ref=e80]
+          - heading "Aide financière significative" [level=3] [ref=e81]
+          - paragraph [ref=e82]:
+            - text: L'Assurance Maladie finance jusqu'à
+            - strong [ref=e83]: 38 000 €/an
+            - text: pour couvrir le salaire de votre assistant médical.
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]: Financement Assurance Maladie
+        - heading "Un financement attractif pour votre cabinet" [level=2] [ref=e89]
+        - paragraph [ref=e90]: L'Assurance Maladie prend en charge une part importante du salaire de votre assistant médical, renouvelable tous les cinq ans. Le montant est déterminé en fonction de la taille de votre patientèle.
+        - paragraph [ref=e91]: L'objectif de progression de la patientèle est établi proportionnellement à votre patientèle existante, avec des engagements réalistes et progressifs.
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]: 19 000 € – 38 000 €
+            - generic [ref=e95]: Première année
+          - generic [ref=e96]:
+            - generic [ref=e97]: 11 000 € – 22 000 €
+            - generic [ref=e98]: À partir de la 3e année
+      - img "Médecin avec son assistant" [ref=e100]
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - generic [ref=e104]: Notre processus
+        - heading "Recruter votre assistant en 4 étapes" [level=2] [ref=e105]
+        - paragraph [ref=e106]: GE Mesdocs vous accompagne à chaque étape, de l'évaluation de vos besoins jusqu'au suivi continu de votre assistant.
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: "1"
+          - heading "Premier rendez-vous" [level=3] [ref=e110]
+          - paragraph [ref=e111]: Présentation du Groupement d'Employeurs et évaluation précise de vos besoins, de votre organisation et des profils recherchés.
+        - generic [ref=e112]:
+          - generic [ref=e113]: "2"
+          - heading "Recrutement & Formation" [level=3] [ref=e114]
+          - paragraph [ref=e115]: "Gestion intégrale du recrutement : droit du travail, contrats, formation CQP certifiante, VAE et paie inclus."
+        - generic [ref=e116]:
+          - generic [ref=e117]: "3"
+          - heading "Financement" [level=3] [ref=e118]
+          - paragraph [ref=e119]: Mise en place du financement Assurance Maladie avec contrat quinquennal, renouvelable avec possibilité d'augmentation.
+        - generic [ref=e120]:
+          - generic [ref=e121]: "4"
+          - heading "Suivi & Évaluation" [level=3] [ref=e122]
+          - paragraph [ref=e123]: Évaluations semestrielles, formation continue et accompagnement permanent pour garantir la qualité des soins.
+      - link "Voir le processus complet" [ref=e125] [cursor=pointer]:
+        - /url: /avantages-demarches/
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e129]: Témoignages
+        - heading "Ce que disent nos médecins" [level=2] [ref=e130]
+      - generic [ref=e131]:
+        - text: “
+        - paragraph [ref=e132]: "« L'assistante prend en charge l'accueil, le dossier patient, les constantes… Cela a profondément allégé mes journées. Je peux enfin me concentrer sur ce qui compte vraiment : mes patients. »"
+        - generic [ref=e133]:
+          - img "Dr. Zaghdoun" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Dr. Zaghdoun
+            - generic [ref=e138]: Médecin Généraliste
+    - generic [ref=e140]:
+      - heading "Vous souhaitez recruter votre futur assistant ?" [level=2] [ref=e141]
+      - paragraph [ref=e142]: Contactez nos conseillers pour évaluer vos besoins et démarrer le processus de recrutement sans engagement.
+      - generic [ref=e143]:
+        - link "Découvrir les avantages" [ref=e144] [cursor=pointer]:
+          - /url: /avantages-demarches/
+        - link "Prendre rendez-vous" [ref=e145] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]: Contact
+          - heading "Parlons de votre projet" [level=2] [ref=e152]
+          - paragraph [ref=e153]: Nos conseillers spécialisés sont disponibles pour répondre à toutes vos questions sur le dispositif Assistant Médical et vous accompagner dans vos démarches.
+        - generic [ref=e154]:
+          - generic [ref=e155]: 📍
+          - generic [ref=e156]:
+            - strong [ref=e157]: Adresse
+            - text: 24 rue Octave Feuillet
+            - text: 75116 Paris
+        - generic [ref=e158]:
+          - generic [ref=e159]: 📞
+          - generic [ref=e160]:
+            - strong [ref=e161]: Téléphone
+            - link "09 70 68 22 20" [ref=e162] [cursor=pointer]:
+              - /url: tel:0970682220
+        - generic [ref=e163]:
+          - generic [ref=e164]: ✉️
+          - generic [ref=e165]:
+            - strong [ref=e166]: Email
+            - link "contact@ge-mesdocs.fr" [ref=e167] [cursor=pointer]:
+              - /url: mailto:contact@ge-mesdocs.fr
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - generic [ref=e172]: Nom & Prénom *
+            - textbox "Nom & Prénom *" [ref=e173]:
+              - /placeholder: Dr. Jean Dupont
+          - generic [ref=e174]:
+            - generic [ref=e175]: Email *
+            - textbox "Email *" [ref=e176]:
+              - /placeholder: jean.dupont@cabinet.fr
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic [ref=e179]: Profession
+            - combobox "Profession" [ref=e180]:
+              - option "Sélectionnez…" [selected]
+              - option "Médecin Généraliste"
+              - option "Spécialiste"
+              - option "Autre professionnel de santé"
+              - option "Candidat assistant médical"
+          - generic [ref=e181]:
+            - generic [ref=e182]: Téléphone
+            - textbox "Téléphone" [ref=e183]:
+              - /placeholder: 06 00 00 00 00
+        - generic [ref=e184]:
+          - generic [ref=e185]: Message
+          - textbox "Message" [ref=e186]:
+            - /placeholder: Décrivez votre situation et vos besoins…
+        - button "Envoyer ma demande" [ref=e187] [cursor=pointer]
+  - contentinfo [ref=e188]:
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - generic [ref=e193]: Assistants Médicaux
+            - generic [ref=e194]: Mesdocs Groupement d'Employeurs
+          - paragraph [ref=e195]: "Nous accompagnons les médecins dans la mise en place du dispositif Assistant Médical : recrutement, formation, financement et suivi."
+        - generic [ref=e196]:
+          - heading "Navigation" [level=4] [ref=e197]
+          - list [ref=e198]:
+            - listitem [ref=e199]:
+              - link "Accueil" [ref=e200] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e201]:
+              - link "Avantages & Démarches" [ref=e202] [cursor=pointer]:
+                - /url: /avantages-demarches/
+            - listitem [ref=e203]:
+              - link "Devenir Assistant Médical" [ref=e204] [cursor=pointer]:
+                - /url: /devenir-assistant-medical/
+            - listitem [ref=e205]:
+              - link "Nous contacter" [ref=e206] [cursor=pointer]:
+                - /url: "#contact"
+        - generic [ref=e207]:
+          - heading "Contact" [level=4] [ref=e208]
+          - generic [ref=e209]:
+            - text: 24 rue Octave Feuillet
+            - text: 75116 Paris
+            - link "09 70 68 22 20" [ref=e210] [cursor=pointer]:
+              - /url: tel:0970682220
+            - link "contact@ge-mesdocs.fr" [ref=e211] [cursor=pointer]:
+              - /url: mailto:contact@ge-mesdocs.fr
+      - generic [ref=e212]:
+        - generic [ref=e213]: © 2023 Assistants Médicaux — Mesdocs Groupement d'Employeurs
+        - generic [ref=e214]: Site développé en HTML / CSS / JS vanilla

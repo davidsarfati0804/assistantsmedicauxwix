@@ -5,9 +5,3 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# Redirige non-www → www (301 permanent) pour éviter le contenu dupliqué
-[[redirects]]
-  from = "https://assistants-medicaux.com/*"
-  to = "https://www.assistants-medicaux.com/:splat"
-  status = 301
-  force = true

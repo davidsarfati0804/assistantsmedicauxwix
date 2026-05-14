@@ -1,0 +1,140 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - link "Assistants Médicaux Mesdocs Groupement d'employeurs" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Assistants Médicaux
+        - generic [ref=e7]: Mesdocs Groupement d'employeurs
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Accueil" [ref=e10] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e11]:
+          - link "Avantages & Démarches" [ref=e12] [cursor=pointer]:
+            - /url: /avantages-demarches
+        - listitem [ref=e13]:
+          - link "Devenir Assistant Médical" [ref=e14] [cursor=pointer]:
+            - /url: /devenir-assistant-medical
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "docteur assistant médical" [ref=e17]
+      - generic [ref=e19]:
+        - heading "Optimisez votre pratique avec l'Assistant Médical" [level=1] [ref=e20]:
+          - text: Optimisez votre pratique
+          - text: avec l'Assistant Médical
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: Assistants Médicaux :Mesdocs Groupement d'employeurs comprend à quel point votre temps en tant que médecin est précieux.
+          - paragraph [ref=e23]: "C'est pourquoi le Dispositif d'Assistant Médical a été créé, une solution conçue pour vous libérer des tâches administratives et vous permettre de vous concentrer sur l'essentiel : les soins de vos patients."
+        - generic [ref=e24]:
+          - link "En savoir plus" [ref=e25] [cursor=pointer]:
+            - /url: /avantages-demarches
+          - link "Nous contacter" [ref=e26] [cursor=pointer]:
+            - /url: "#contact"
+    - generic [ref=e28]:
+      - heading "Les avantages de l'Assistant Médical" [level=2] [ref=e29]
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - img "gain de temps" [ref=e33]
+          - paragraph [ref=e34]:
+            - generic [ref=e35]: Un gain
+            - generic [ref=e36]: de temps médical
+            - text: précieux
+        - generic [ref=e37]:
+          - img "tâches administratives" [ref=e39]
+          - paragraph [ref=e40]:
+            - generic [ref=e41]: Une réduction
+            - generic [ref=e42]: des tâches
+            - text: administratives
+        - generic [ref=e43]:
+          - img "qualité des soins" [ref=e45]
+          - paragraph [ref=e46]:
+            - generic [ref=e47]: Une amélioration
+            - generic [ref=e48]: de la qualité
+            - text: des soins
+        - generic [ref=e49]:
+          - img "aide financière" [ref=e51]
+          - paragraph [ref=e52]:
+            - generic [ref=e53]: Une aide financière
+            - generic [ref=e54]: couvrant les charges
+            - text: de l'assistant
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - link "Dispositif Assistant Médical – Assurance Maladie ▶" [ref=e59] [cursor=pointer]:
+          - /url: https://www.youtube.com/watch?v=P8M6xS8TEBE
+          - img "Dispositif Assistant Médical – Assurance Maladie" [ref=e60]
+          - generic [ref=e61]: ▶
+        - paragraph [ref=e62]: Source Assurance Maladie
+      - generic [ref=e63]:
+        - heading "Découvrez les avantages du dispositif d'assistant médical" [level=2] [ref=e64]
+        - paragraph [ref=e65]: Nous savons que votre temps est limité, c'est pourquoi nous vous proposons de visionner la video de l'assurance Maladie une vidéo informative qui explique en détail comment l'Assistant Médical peut transformer votre pratique médicale.
+        - paragraph [ref=e66]:
+          - strong [ref=e67]: Vous souhaitez en savoir plus ?
+          - text: Vous trouverez des informations plus détaillées sur le dispositif en explorant les sections spécifiques de notre site tels que les
+          - link "Avantages" [ref=e68] [cursor=pointer]:
+            - /url: /avantages-demarches
+          - text: et
+          - link "Démarches" [ref=e69] [cursor=pointer]:
+            - /url: /avantages-demarches#demarches
+    - generic [ref=e70]:
+      - heading "Vous êtes intéressé.e et souhaitez recruter votre futur assistant ?" [level=1] [ref=e71]:
+        - text: Vous êtes intéressé.e
+        - text: et souhaitez recruter votre futur assistant ?
+      - link "Nous Contacter" [ref=e72] [cursor=pointer]:
+        - /url: "#contact"
+      - link "Vous souhaitez en savoir plus sur les démarches à effectuer ? Plus d'informations ici >" [ref=e73] [cursor=pointer]:
+        - /url: /avantages-demarches#demarches
+        - text: Vous souhaitez en savoir plus sur les démarches à effectuer ?
+        - text: Plus d'informations ici >
+    - heading "Déjà 7420 médecins satisfaits par le dispositif" [level=2] [ref=e75]
+    - generic [ref=e76]:
+      - img "Bureau stethoscope" [ref=e77]
+      - button "‹" [ref=e78]
+      - generic [ref=e79]:
+        - generic [ref=e80]: ❝❝
+        - paragraph [ref=e81]: L'assistante prend en charge l'accueil, le dossier patient, les constantes… Cela a profondément allégé mes journées. Je n'envisage plus de travailler sans ce soutien.
+        - paragraph [ref=e82]: Dr Zaghdoun , Généraliste
+        - generic [ref=e83]:
+          - button [ref=e84]
+          - button [ref=e85]
+          - button [ref=e86]
+      - button "›" [ref=e87]
+  - contentinfo [ref=e88]:
+    - generic [ref=e89]:
+      - heading "Contactez-nous" [level=2] [ref=e90]
+      - paragraph [ref=e91]: 24 rue Octave Feuillet 75116 Paris
+      - paragraph [ref=e92]
+      - link "09 70 68 22 20" [ref=e93] [cursor=pointer]:
+        - /url: tel:0970682220
+      - link "Contact@ge-mesdocs.fr" [ref=e94] [cursor=pointer]:
+        - /url: mailto:Contact@ge-mesdocs.fr
+      - generic [ref=e95]:
+        - link [ref=e96] [cursor=pointer]:
+          - /url: mailto:Contact@ge-mesdocs.fr
+          - img [ref=e97]
+        - link [ref=e100] [cursor=pointer]:
+          - /url: tel:0970682220
+          - img [ref=e101]
+        - link [ref=e103] [cursor=pointer]:
+          - /url: https://maps.google.com/?q=24+rue+Octave+Feuillet+75116+Paris
+          - img [ref=e104]
+      - paragraph [ref=e107]: © 2023 par Assistants Medicaux
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - generic [ref=e112]: Nom & Prénom *
+          - textbox [ref=e113]
+        - generic [ref=e114]:
+          - generic [ref=e115]: Email *
+          - textbox [ref=e116]
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: Profession *
+          - textbox [ref=e120]
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Téléphone *
+            - textbox [ref=e124]
+          - button "❯" [ref=e125]
+  - button "Open Next.js Dev Tools" [ref=e131] [cursor=pointer]:
+    - img [ref=e132]
+  - alert [ref=e135]

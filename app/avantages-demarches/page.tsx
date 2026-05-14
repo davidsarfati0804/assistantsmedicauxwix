@@ -6,16 +6,16 @@ import AvantagesContent from '@/components/sections/AvantagesContent';
 import CtaSection from '@/components/sections/CtaSection';
 import SchemaOrg, { faqSchema } from '@/components/seo/SchemaOrg';
 
-const OG_IMAGE = { url: 'https://www.assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Avantages & Financement du Dispositif Assistant Médical' };
+const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Avantages & Financement du Dispositif Assistant Médical' };
 
 export const metadata: Metadata = {
   title: 'Avantages & Financement du Dispositif Assistant Médical',
   description: 'Aide CPAM de 19 000 à 38 000 €/an, démarches simplifiées, accompagnement complet : découvrez tous les avantages du dispositif assistant médical avec Mesdocs.',
-  alternates: { canonical: 'https://www.assistants-medicaux.com/avantages-demarches' },
+  alternates: { canonical: 'https://assistants-medicaux.com/avantages-demarches' },
   openGraph: {
     title: 'Avantages & Financement du Dispositif Assistant Médical | Mesdocs',
     description: 'CPAM finance jusqu\'à 38 000 €/an. Démarches expliquées étape par étape avec Mesdocs Groupement d\'Employeurs.',
-    url: 'https://www.assistants-medicaux.com/avantages-demarches',
+    url: 'https://assistants-medicaux.com/avantages-demarches',
     type: 'website',
     images: [OG_IMAGE],
   },

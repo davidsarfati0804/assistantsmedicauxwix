@@ -1,0 +1,155 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e4]:
+      - link "Assistants Médicaux Mesdocs Groupement d'employeurs" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Assistants Médicaux
+        - generic [ref=e7]: Mesdocs Groupement d'employeurs
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Accueil" [ref=e10] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e11]:
+          - link "Avantages & Démarches" [ref=e12] [cursor=pointer]:
+            - /url: /avantages-demarches
+        - listitem [ref=e13]:
+          - link "Devenir Assistant Médical" [ref=e14] [cursor=pointer]:
+            - /url: /devenir-assistant-medical
+  - main [ref=e15]:
+    - generic [ref=e16]:
+      - img "Devenir Assistant Médical" [ref=e17]
+      - generic [ref=e19]:
+        - heading "Vous souhaitez devenir Assistant.e Médical ?" [level=1] [ref=e20]:
+          - text: Vous souhaitez devenir
+          - text: Assistant.e Médical ?
+        - paragraph [ref=e21]: Découvrez en quoi consiste le rôle d'Assistant Médical, comment vous pouvez soutenir les professionnels de la santé et apprenez quelles sont les exigences et les conditions nécessaires pour le devenir, y compris les qualifications, les compétences et les attentes.
+        - generic [ref=e22]:
+          - link "En savoir plus" [ref=e23] [cursor=pointer]:
+            - /url: "#qui"
+          - link "Nous contacter" [ref=e24] [cursor=pointer]:
+            - /url: "#contact"
+    - generic [ref=e26]:
+      - heading "Qui peut être assistant médical ?" [level=2] [ref=e27]
+      - paragraph [ref=e28]: La fonction d'Assistant Médical est ouverte à un large éventail de profils. Elle peut être assurée par des aides-soignants, des infirmières, des secrétaires médicales, ou tout autre professionnel intéressé à suivre cette voie. La clé pour devenir un Assistant Médical est la formation, ou l'engagement à suivre une formation spécifique conduite en alternance, qui est également éligible à la Validation des Acquis de Compétences (VAE). Après l'embauche, les assistants médicaux ont 2 ans pour engager leur formation et 3 ans pour obtenir leur Certificat de Qualification Professionnelle (CQP) d'Assistant Médical. Les infirmiers, auxiliaires de puériculture, et aides-soignants déjà diplômés peuvent obtenir une attestation de Formation d'Adaptation à l'Emploi (FAE) dans le domaine de l'organisation et de la gestion administrative d'un cabinet médical.
+    - generic [ref=e29]:
+      - generic [ref=e30]:
+        - heading "Les missions de l'assistant médical ?" [level=2] [ref=e31]
+        - paragraph [ref=e32]: Les missions de l'Assistant Médical sont variées et adaptées à l'organisation de chaque cabinet médical.
+        - paragraph [ref=e33]: Ces missions permettent aux médecins, qu'ils soient généralistes ou spécialistes, de bénéficier d'un soutien précieux.
+        - paragraph [ref=e34]: "Les trois principaux types de missions sont les suivants :"
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - img "Missions de nature administrative" [ref=e38]
+          - heading "Missions de nature administrative" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Cela peut inclure l'accueil des patients, la gestion de leurs dossiers, et l'assistance dans la mise en place de la télémédecine au sein du cabinet.
+        - generic [ref=e41]:
+          - img "Préparation et déroulement de la consultation" [ref=e43]
+          - heading "Préparation et déroulement de la consultation" [level=3] [ref=e44]
+          - paragraph [ref=e45]: L'Assistant Médical aide les patients à s'habiller et se déshabiller, prend des constantes telles que la tension artérielle, le poids et la taille, met à jour les dossiers des patients pour les dépistages et les vaccinations, recueille des informations utiles sur les modes de vie, et prépare et aide à la réalisation d'actes techniques.
+        - generic [ref=e46]:
+          - img "Missions d'organisation et de coordination" [ref=e48]
+          - heading "Missions d'organisation et de coordination" [level=3] [ref=e49]
+          - paragraph [ref=e50]: L'Assistant Médical peut jouer un rôle clé dans l'organisation de rendez-vous avec des spécialistes, d'admissions à l'hôpital, et de coordination avec d'autres professionnels de la santé, tels que les infirmières, les kinésithérapeutes, ou les sages-femmes.
+    - generic [ref=e52]:
+      - heading "Obtenir le CQP par la VAE" [level=2] [ref=e53]
+      - paragraph [ref=e54]:
+        - text: La
+        - strong [ref=e55]: Validation des Acquis de l'Expérience (VAE)
+        - text: permet d'obtenir le Certificat de Qualification Professionnelle (CQP) d'Assistant Médical en faisant reconnaître les compétences acquises au cours de votre expérience professionnelle — sans avoir à suivre une formation complète en alternance.
+      - generic [ref=e56]:
+        - heading "Qui peut bénéficier de la VAE ?" [level=3] [ref=e57]
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - generic [ref=e60]: →
+            - text: Les aides-soignants et auxiliaires de puériculture diplômés
+          - listitem [ref=e61]:
+            - generic [ref=e62]: →
+            - text: Les infirmiers souhaitant évoluer vers un rôle d'assistant médical
+          - listitem [ref=e63]:
+            - generic [ref=e64]: →
+            - text: Toute personne justifiant d'au moins 1 an d'expérience dans un domaine en lien avec le poste
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - heading "Notre partenaire VAE Formation" [level=3] [ref=e68]
+          - paragraph [ref=e69]:
+            - text: En partenariat avec
+            - strong [ref=e70]: VAE Formation
+            - text: ", Mesdocs Groupement d'Employeurs vous accompagne tout au long de votre démarche VAE CQP Assistant Médical : constitution du dossier, préparation à l'entretien jury, et obtention de votre certification professionnelle reconnue."
+        - generic [ref=e71]:
+          - link "Découvrir VAE Formation →" [ref=e72] [cursor=pointer]:
+            - /url: https://vae-formation.com
+          - link "Nous contacter" [ref=e73] [cursor=pointer]:
+            - /url: "#contact"
+    - generic [ref=e74]:
+      - heading "Vous êtes intéressé.e et souhaitez devenir assistant.e médical ?" [level=2] [ref=e75]:
+        - text: Vous êtes intéressé.e
+        - text: et souhaitez devenir assistant.e médical ?
+      - link "Nous Contacter" [ref=e76] [cursor=pointer]:
+        - /url: "#contact"
+  - contentinfo [ref=e77]:
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - heading "Échangeons sur votre projet" [level=2] [ref=e81]
+        - paragraph [ref=e82]: Notre équipe vous accompagne de A à Z dans le recrutement et l'intégration de votre assistant médical. Remplissez le formulaire, nous vous recontactons sous 24h.
+        - list [ref=e83]:
+          - listitem [ref=e84]:
+            - img [ref=e86]
+            - generic [ref=e89]: Nous analysons vos besoins et votre organisation
+          - listitem [ref=e90]:
+            - img [ref=e92]
+            - generic [ref=e95]: Nous sélectionnons le profil idéal pour votre cabinet
+          - listitem [ref=e96]:
+            - img [ref=e98]
+            - generic [ref=e100]: Nous gérons l'ensemble des démarches administratives
+          - listitem [ref=e101]:
+            - img [ref=e103]
+            - generic [ref=e106]: Vous bénéficiez d'un accompagnement continu
+        - generic [ref=e107]:
+          - link "09 70 68 22 20" [ref=e108] [cursor=pointer]:
+            - /url: tel:0970682220
+            - img [ref=e109]
+            - text: 09 70 68 22 20
+          - link "contact@ge-mesdocs.fr" [ref=e111] [cursor=pointer]:
+            - /url: mailto:contact@ge-mesdocs.fr
+            - img [ref=e112]
+            - text: contact@ge-mesdocs.fr
+          - generic [ref=e115]:
+            - img [ref=e116]
+            - text: 24 rue Octave Feuillet — 75116 Paris
+      - generic [ref=e119]:
+        - heading "Demandez à être recontacté" [level=3] [ref=e120]
+        - paragraph [ref=e121]: Réponse garantie sous 24h ouvrées.
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - generic [ref=e125]: Nom & Prénom *
+              - textbox "Jean Dupont" [ref=e126]
+            - generic [ref=e127]:
+              - generic [ref=e128]: Téléphone *
+              - textbox "06 00 00 00 00" [ref=e129]
+          - generic [ref=e130]:
+            - generic [ref=e131]: Email *
+            - textbox "jean.dupont@cabinet.fr" [ref=e132]
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: Cabinet / Structure
+              - textbox "Cabinet médical Paris 16" [ref=e136]
+            - generic [ref=e137]:
+              - generic [ref=e138]: Ville
+              - textbox "Paris" [ref=e139]
+          - generic [ref=e140]:
+            - generic [ref=e141]: Votre besoin
+            - combobox [ref=e142] [cursor=pointer]:
+              - option "Sélectionnez une option" [selected]
+              - option "Recruter un assistant médical"
+              - option "Obtenir des informations"
+              - option "Demander un devis"
+              - option "Autre"
+          - generic [ref=e143]:
+            - generic [ref=e144]: Message
+            - textbox "Décrivez votre situation ou vos questions..." [ref=e145]
+          - button "Être recontacté" [ref=e146]
+    - generic [ref=e147]: © 2026Mesdocs Groupement d'Employeurs — Assistants Médicaux
+  - button "Open Next.js Dev Tools" [ref=e153] [cursor=pointer]:
+    - img [ref=e154]
+  - alert [ref=e157]

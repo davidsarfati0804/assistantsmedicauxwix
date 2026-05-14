@@ -1,0 +1,436 @@
+{
+  "title": "Assistant médical pour médecins libéraux – recrutement & aide (jusqu’à 38 000 €/an) | Mesdocs Groupement d'employeurs",
+  "metaDescription": "Recrutez un assistant médical avec Mesdocs Groupement d'employeurs. Nous accompagnons les médecins libéraux : démarches CPAM, portage salarial, formation CQP et gestion administrative clé en main.\n",
+  "sections": [
+    {
+      "tag": "button",
+      "text": "Passer au contenu principal",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(17, 109, 255)",
+      "bgColor": "rgb(255, 255, 255)",
+      "y": 60
+    },
+    {
+      "tag": "p",
+      "text": "Assistants Médicaux",
+      "href": null,
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 37
+    },
+    {
+      "tag": "a",
+      "text": "Assistants Médicaux",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 39
+    },
+    {
+      "tag": "p",
+      "text": "Mesdocs Groupement d'employeurs",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 65
+    },
+    {
+      "tag": "a",
+      "text": "Mesdocs Groupement d'employeurs",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 67
+    },
+    {
+      "tag": "li",
+      "text": "Accueil",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Accueil",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Accueil",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(9, 62, 152)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "li",
+      "text": "Avantages & Démarches",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Avantages & Démarches",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Avantages & Démarches",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "li",
+      "text": "Devenir Assistant Médical",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "a",
+      "text": "Devenir Assistant Médical",
+      "href": "https://www.assistants-medicaux.com/devenir-assistant-m%C3%A9dical",
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "p",
+      "text": "Devenir Assistant Médical",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(29, 103, 205)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 30
+    },
+    {
+      "tag": "h1",
+      "text": "Optimisez votre pratique\navec l'Assistant Médical",
+      "href": null,
+      "fontSize": "41px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 259
+    },
+    {
+      "tag": "h1",
+      "text": "Assistants Médicaux :Mesdocs Groupement d'employeurs comprend à quel point votre temps en tant que médecin est précieux.\nC'est pourquoi le Dispositif d'Assistant Médical a été créé, une solution conçue pour vous libérer des tâches administratives et vous permettre de vous concentrer\nsur l'essentiel : les soins de vos patients.",
+      "href": null,
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 382
+    },
+    {
+      "tag": "a",
+      "text": "En savoir plus",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgb(9, 62, 152)",
+      "y": 567
+    },
+    {
+      "tag": "a",
+      "text": "Nous contacter",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgb(225, 238, 255)",
+      "y": 567
+    },
+    {
+      "tag": "h1",
+      "text": "Les avantages de l'Assistant Médical",
+      "href": null,
+      "fontSize": "24px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 777
+    },
+    {
+      "tag": "h1",
+      "text": "Un gain\nde temps médical\nprécieux",
+      "href": null,
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 956
+    },
+    {
+      "tag": "h1",
+      "text": "Une réduction\ndes tâches administratives",
+      "href": null,
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 956
+    },
+    {
+      "tag": "h1",
+      "text": "Une amélioration\nde la qualité\ndes soins",
+      "href": null,
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 965
+    },
+    {
+      "tag": "h1",
+      "text": "Une aide financière\ncouvrant les charges\nde l'assistant",
+      "href": null,
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 965
+    },
+    {
+      "tag": "h3",
+      "text": "Source Assurance Maladie",
+      "href": null,
+      "fontSize": "11px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1279
+    },
+    {
+      "tag": "h1",
+      "text": "Découvrez les avantages du dispositif d'assistant médical",
+      "href": null,
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1180
+    },
+    {
+      "tag": "p",
+      "text": "Nous savons que votre temps est limité, c'est pourquoi nous vous proposons de visionner la video de l'assurance Maladie une vidéo informative qui explique en détail comment l'Assistant Médical peut transformer votre pratique médicale.",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1305
+    },
+    {
+      "tag": "p",
+      "text": "Vous souhaitez en savoir plus ?",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1508
+    },
+    {
+      "tag": "p",
+      "text": "Vous trouverez des informations plus détaillées sur le dispositif en explorant les sections spécifiques de notre site tels que les Avantages et Démarches",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1537
+    },
+    {
+      "tag": "a",
+      "text": "Avantages",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1628
+    },
+    {
+      "tag": "a",
+      "text": "Démarches",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1628
+    },
+    {
+      "tag": "h1",
+      "text": "Vous êtes intéressé.e\net souhaitez recruter votre futur assistant ?",
+      "href": null,
+      "fontSize": "38px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 1773
+    },
+    {
+      "tag": "a",
+      "text": "Nous Contacter",
+      "href": "https://www.assistants-medicaux.com/",
+      "fontSize": "10px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 238)",
+      "bgColor": "rgb(9, 62, 152)",
+      "y": 1908
+    },
+    {
+      "tag": "h1",
+      "text": "Vous souhaitez en savoir plus sur les démarches à effectuer ?\nPlus d'informations ici >",
+      "href": null,
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2013
+    },
+    {
+      "tag": "a",
+      "text": "Vous souhaitez en savoir plus sur les démarches à effectuer ?\nPlus d'informations ici >",
+      "href": "https://www.assistants-medicaux.com/avantages-demarches",
+      "fontSize": "20px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2013
+    },
+    {
+      "tag": "h1",
+      "text": "Déjà 7420 médecins satisfaits par le dispositif",
+      "href": null,
+      "fontSize": "32px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2284
+    },
+    {
+      "tag": "p",
+      "text": "Dr Zaghdoun , Généraliste",
+      "href": null,
+      "fontSize": "28px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2736
+    },
+    {
+      "tag": "h2",
+      "text": "Contactez-nous",
+      "href": null,
+      "fontSize": "30px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 2963
+    },
+    {
+      "tag": "p",
+      "text": "24 rue Octave Feuillet 75116 Paris",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3019
+    },
+    {
+      "tag": "p",
+      "text": "09 70 68 22 20",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3075
+    },
+    {
+      "tag": "a",
+      "text": "09 70 68 22 20",
+      "href": "tel:07 56 99 26 83",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(253, 253, 254)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3076
+    },
+    {
+      "tag": "p",
+      "text": "Contact@ge-mesdocs.fr",
+      "href": null,
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3101
+    },
+    {
+      "tag": "a",
+      "text": "Contact@ge-mesdocs.fr",
+      "href": "mailto:Contact@ge-mesdocs.fr",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(253, 253, 254)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3101
+    },
+    {
+      "tag": "p",
+      "text": "© 2023 par Assistants Medicaux",
+      "href": null,
+      "fontSize": "14px",
+      "fontWeight": "400",
+      "color": "rgb(0, 0, 0)",
+      "bgColor": "rgba(0, 0, 0, 0)",
+      "y": 3223
+    }
+  ]
+}
