@@ -147,6 +147,13 @@ export default function DashboardPage() {
     .filter((c) => c.sentDate)
     .sort((a, b) => new Date(b.sentDate!).getTime() - new Date(a.sentDate!).getTime())[0];
 
+  const totalDelivered = sentCampaigns.reduce((a, c) => a + (c.statistics?.globalStats?.delivered ?? 0), 0);
+  const totalUniqueOpens = sentCampaigns.reduce((a, c) => a + (c.statistics?.globalStats?.uniqueViews ?? 0), 0);
+  const totalUniqueClicks = sentCampaigns.reduce((a, c) => a + (c.statistics?.globalStats?.uniqueClicks ?? 0), 0);
+  const totalUnsub = sentCampaigns.reduce((a, c) => a + (c.statistics?.globalStats?.unsubscribed ?? 0), 0);
+  const avgOpenRate = totalDelivered > 0 ? ((totalUniqueOpens / totalDelivered) * 100).toFixed(1) + ' %' : '—';
+  const avgClickRate = totalDelivered > 0 ? ((totalUniqueClicks / totalDelivered) * 100).toFixed(1) + ' %' : '—';
+
   const planLabel =
     account?.plan?.[0]?.type ?? '—';
 
@@ -192,21 +199,13 @@ export default function DashboardPage() {
 
       <div className="max-w-[1200px] mx-auto px-6 py-8 space-y-6">
         {/* Stats */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-          <StatCard label="Total campagnes" value={campaigns.length} />
-          <StatCard label="Campagnes envoyées" value={sentCampaigns.length} />
-          <StatCard
-            label="Dernier envoi"
-            value={
-              lastSent?.sentDate
-                ? new Date(lastSent.sentDate).toLocaleDateString('fr-FR', {
-                    day: '2-digit',
-                    month: '2-digit',
-                    year: 'numeric',
-                  })
-                : '—'
-            }
-          />
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+          <StatCard label="Campagnes" value={campaigns.length} />
+          <StatCard label="Envoyées" value={sentCampaigns.length} />
+          <StatCard label="Emails délivrés" value={totalDelivered > 0 ? totalDelivered.toLocaleString('fr-FR') : '—'} />
+          <StatCard label="Taux d'ouverture" value={avgOpenRate} />
+          <StatCard label="Taux de clics" value={avgClickRate} />
+          <StatCard label="Désabonnements" value={totalUnsub > 0 ? totalUnsub.toLocaleString('fr-FR') : '—'} />
         </div>
 
         {/* Message d'envoi */}

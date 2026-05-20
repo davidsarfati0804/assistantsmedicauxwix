@@ -67,6 +67,7 @@ export default function CampaignsList({ campaigns, onView, onSend, sendingId }: 
             <th className="text-left px-4 py-3 font-semibold hidden md:table-cell">Date d&apos;envoi</th>
             <th className="text-left px-4 py-3 font-semibold hidden lg:table-cell">Ouvertures</th>
             <th className="text-left px-4 py-3 font-semibold hidden lg:table-cell">Clics</th>
+            <th className="text-left px-4 py-3 font-semibold hidden lg:table-cell">Désabonnements</th>
             <th className="text-right px-4 py-3 font-semibold rounded-tr-xl">Actions</th>
           </tr>
         </thead>
@@ -117,6 +118,11 @@ export default function CampaignsList({ campaigns, onView, onSend, sendingId }: 
                 </td>
                 <td className="px-4 py-3 hidden lg:table-cell text-gray-600">
                   {formatRate(clickRate)}
+                </td>
+                <td className="px-4 py-3 hidden lg:table-cell text-gray-600">
+                  {campaign.status === 'sent'
+                    ? (campaign.statistics?.globalStats?.unsubscribed ?? 0).toLocaleString('fr-FR')
+                    : '—'}
                 </td>
                 <td className="px-4 py-3 text-right">
                   <div className="flex items-center justify-end gap-2">
