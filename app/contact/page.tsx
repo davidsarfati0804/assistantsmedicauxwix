@@ -4,7 +4,12 @@ import Footer from '@/components/layout/Footer';
 import PageHero from '@/components/sections/PageHero';
 import ContactForm from '@/components/sections/ContactForm';
 import Link from 'next/link';
-import SchemaOrg from '@/components/seo/SchemaOrg';
+import SchemaOrg, { breadcrumbSchema } from '@/components/seo/SchemaOrg';
+
+const contactBreadcrumb = breadcrumbSchema([
+  { name: 'Accueil', item: 'https://assistants-medicaux.com/' },
+  { name: 'Contact', item: 'https://assistants-medicaux.com/contact' },
+]);
 
 const contactPageSchema = {
   '@context': 'https://schema.org',
@@ -44,7 +49,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <SchemaOrg schema={contactPageSchema} />
+      <SchemaOrg schema={[contactPageSchema, contactBreadcrumb]} />
       <Header />
       <main className="pt-[68px]">
         <PageHero

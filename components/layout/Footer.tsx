@@ -144,6 +144,16 @@ export default function Footer() {
                     className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400 resize-none" />
                 </div>
 
+                <div className="flex items-start gap-3">
+                  <input type="checkbox" name="rgpd" id="rgpd-footer" required
+                    className="mt-1 w-4 h-4 accent-[#093e98] shrink-0 cursor-pointer" />
+                  <label htmlFor="rgpd-footer" className="text-[12px] text-gray-500 leading-[1.5]">
+                    J'accepte que mes données soient utilisées pour traiter ma demande, conformément à la{' '}
+                    <a href="/politique-confidentialite" className="underline hover:text-[#093e98] transition-colors">politique de confidentialité</a>.{' '}
+                    <span className="text-[#e03e3e]">*</span>
+                  </label>
+                </div>
+
                 <button type="submit" disabled={loading}
                   className="mt-2 w-full py-4 rounded-xl bg-[#093e98] text-white text-[15px] font-semibold hover:opacity-90 active:opacity-80 transition-opacity disabled:opacity-60">
                   {loading ? 'Envoi en cours…' : 'Être recontacté'}

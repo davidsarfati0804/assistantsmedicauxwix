@@ -5,7 +5,7 @@ import PageHero from '@/components/sections/PageHero';
 import RecrutementContent from '@/components/sections/RecrutementContent';
 import CtaSection from '@/components/sections/CtaSection';
 import ResumeBanner from '@/components/seo/ResumeBanner';
-import SchemaOrg, { serviceSchema, faqSchema } from '@/components/seo/SchemaOrg';
+import SchemaOrg, { serviceSchema, faqSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Recruter un Assistant Médical – Mesdocs' };
 
@@ -21,6 +21,11 @@ export const metadata: Metadata = {
     images: [OG_IMAGE],
   },
 };
+
+const recrutementBreadcrumb = breadcrumbSchema([
+  { name: 'Accueil', item: 'https://assistants-medicaux.com/' },
+  { name: 'Recruter un Assistant Médical', item: 'https://assistants-medicaux.com/recrutement-assistant-medical' },
+]);
 
 const recrutementService = serviceSchema(
   'Recrutement d\'un assistant médical pour médecin libéral',
@@ -39,7 +44,7 @@ const recrutementFaq = faqSchema([
 export default function RecrutementPage() {
   return (
     <>
-      <SchemaOrg schema={[recrutementService, recrutementFaq]} />
+      <SchemaOrg schema={[recrutementService, recrutementFaq, recrutementBreadcrumb]} />
       <Header />
       <main className="pt-[68px]">
         <PageHero

@@ -5,7 +5,7 @@ import PageHero from '@/components/sections/PageHero';
 import AssistantsMedicauxContent from '@/components/sections/AssistantsMedicauxContent';
 import CtaSection from '@/components/sections/CtaSection';
 import ResumeBanner from '@/components/seo/ResumeBanner';
-import SchemaOrg, { faqSchema, serviceSchema } from '@/components/seo/SchemaOrg';
+import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Mise à Disposition d\'un Assistant Médical – Mesdocs' };
 
@@ -21,6 +21,11 @@ export const metadata: Metadata = {
     images: [OG_IMAGE],
   },
 };
+
+const assistantsBreadcrumb = breadcrumbSchema([
+  { name: 'Accueil', item: 'https://assistants-medicaux.com/' },
+  { name: 'Mise à Disposition d\'un Assistant Médical', item: 'https://assistants-medicaux.com/assistants-medicaux' },
+]);
 
 const schemas = [
   faqSchema([
@@ -40,7 +45,7 @@ const schemas = [
 export default function AssistantsMedicauxPage() {
   return (
     <>
-      <SchemaOrg schema={schemas} />
+      <SchemaOrg schema={[...schemas, assistantsBreadcrumb]} />
       <Header />
       <main className="pt-[68px]">
         <PageHero

@@ -18,7 +18,12 @@ export const organizationSchema = {
   alternateName: ['Mesdocs GE', 'GE Mesdocs'],
   legalName: "Mesdocs Groupement d'Employeurs (Association loi 1901)",
   url: 'https://assistants-medicaux.com',
-  logo: 'https://assistants-medicaux.com/assets/logo.png',
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://assistants-medicaux.com/assets/logo.png',
+    width: 1448,
+    height: 1086,
+  },
   telephone: '+33970682220',
   email: 'contact@ge-mesdocs.fr',
   address: {
@@ -31,8 +36,8 @@ export const organizationSchema = {
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: '48.8636',
-    longitude: '2.2769',
+    latitude: '48.86483',
+    longitude: '2.27703',
   },
   openingHours: 'Mo-Fr 09:00-18:00',
   description: "Mesdocs Groupement d'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. L'Assurance Maladie (CPAM) finance jusqu'à 38 000 €/an.",
@@ -51,6 +56,19 @@ export function faqSchema(questions: { q: string; a: string }[]) {
       '@type': 'Question',
       name: q,
       acceptedAnswer: { '@type': 'Answer', text: a },
+    })),
+  };
+}
+
+export function breadcrumbSchema(items: { name: string; item: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map(({ name, item }, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name,
+      item,
     })),
   };
 }

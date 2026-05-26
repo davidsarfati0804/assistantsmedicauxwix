@@ -39,6 +39,9 @@ export default function DashboardPage() {
 
   const [totalContacts, setTotalContacts] = useState<number | null>(null);
 
+  const [sortField, setSortField] = useState<'date' | 'name' | 'ouvertures'>('date');
+  const [sortDir, setSortDir] = useState<'desc' | 'asc'>('desc');
+
   const [selectedCampaign, setSelectedCampaign] = useState<BrevoEmailCampaign | null>(null);
   const [sendingId, setSendingId] = useState<number | null>(null);
   const [sendMessage, setSendMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
@@ -140,6 +143,22 @@ export default function DashboardPage() {
       setSendingId(null);
     }
   }
+
+  const sortedCampaigns = [...campaigns].sort((a, b) => {
+    let cmp = 0;
+    if (sortField === 'date') {
+      const da = new Date(a.sentDate || a.scheduledAt || 0).getTime();
+      const db = new Date(b.sentDate || b.scheduledAt || 0).getTime();
+      cmp = da - db;
+    } else if (sortField === 'name') {
+      cmp = a.name.localeCompare(b.name, 'fr');
+    } else if (sortField === 'ouvertures') {
+      const oa = a.statistics?.globalStats?.uniqueViews ?? 0;
+      const ob = b.statistics?.globalStats?.uniqueViews ?? 0;
+      cmp = oa - ob;
+    }
+    return sortDir === 'asc' ? cmp : -cmp;
+  });
 
   // Stats
   const sentCampaigns = campaigns.filter((c) => c.status === 'sent');
@@ -256,14 +275,38 @@ export default function DashboardPage() {
             {/* Onglet Campagnes */}
             {activeTab === 'campagnes' && (
               <div>
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
                   <h2 className="text-lg font-semibold text-gray-800">Liste des campagnes</h2>
-                  <button
-                    onClick={loadCampaigns}
-                    className="text-sm text-[#093e98] hover:underline"
-                  >
-                    Actualiser
-                  </button>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    {/* Champ de tri */}
+                    <select
+                      value={sortField}
+                      onChange={(e) => setSortField(e.target.value as 'date' | 'name' | 'ouvertures')}
+                      className="text-sm border border-[#e4eaf5] rounded-lg px-3 py-1.5 text-gray-700 bg-white outline-none focus:border-[#093e98] cursor-pointer"
+                    >
+                      <option value="date">Trier par date</option>
+                      <option value="name">Trier par nom</option>
+                      <option value="ouvertures">Trier par ouvertures</option>
+                    </select>
+                    {/* Direction */}
+                    <button
+                      onClick={() => setSortDir((d) => d === 'asc' ? 'desc' : 'asc')}
+                      className="flex items-center gap-1.5 text-sm border border-[#e4eaf5] rounded-lg px-3 py-1.5 text-gray-700 bg-white hover:bg-[#f7f9fd] transition-colors"
+                      title={sortDir === 'asc' ? 'Croissant' : 'Décroissant'}
+                    >
+                      {sortDir === 'asc' ? (
+                        <><span>↑</span><span>Croissant</span></>
+                      ) : (
+                        <><span>↓</span><span>Décroissant</span></>
+                      )}
+                    </button>
+                    <button
+                      onClick={loadCampaigns}
+                      className="text-sm text-[#093e98] hover:underline"
+                    >
+                      Actualiser
+                    </button>
+                  </div>
                 </div>
                 {campaignsLoading && <LoadingSpinner />}
                 {campaignsError && !campaignsLoading && (
@@ -273,7 +316,7 @@ export default function DashboardPage() {
                 )}
                 {!campaignsLoading && !campaignsError && (
                   <CampaignsList
-                    campaigns={campaigns}
+                    campaigns={sortedCampaigns}
                     onView={handleViewCampaign}
                     onSend={handleSendCampaign}
                     sendingId={sendingId}

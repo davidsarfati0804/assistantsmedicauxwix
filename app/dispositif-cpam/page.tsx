@@ -5,7 +5,7 @@ import PageHero from '@/components/sections/PageHero';
 import DispositifCpamContent from '@/components/sections/DispositifCpamContent';
 import CtaSection from '@/components/sections/CtaSection';
 import ResumeBanner from '@/components/seo/ResumeBanner';
-import SchemaOrg, { faqSchema, serviceSchema } from '@/components/seo/SchemaOrg';
+import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Dispositif Assistant Médical CPAM – Mesdocs' };
 
@@ -21,6 +21,11 @@ export const metadata: Metadata = {
     images: [OG_IMAGE],
   },
 };
+
+const dispositifBreadcrumb = breadcrumbSchema([
+  { name: 'Accueil', item: 'https://assistants-medicaux.com/' },
+  { name: 'Dispositif CPAM', item: 'https://assistants-medicaux.com/dispositif-cpam' },
+]);
 
 const schemas = [
   faqSchema([
@@ -41,7 +46,7 @@ const schemas = [
 export default function DispositifCpamPage() {
   return (
     <>
-      <SchemaOrg schema={schemas} />
+      <SchemaOrg schema={[...schemas, dispositifBreadcrumb]} />
       <Header />
       <main className="pt-[68px]">
         <PageHero
