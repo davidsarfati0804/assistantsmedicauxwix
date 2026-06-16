@@ -11,9 +11,25 @@ export default function SchemaOrg({ schema }: SchemaOrgProps) {
   );
 }
 
+export const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: "Mesdocs Groupement d'Employeurs",
+  url: 'https://assistants-medicaux.com',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://assistants-medicaux.com/?q={search_term_string}',
+    },
+    'query-input': 'required name=search_term_string',
+  },
+};
+
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': ['Organization', 'LocalBusiness'],
+  '@id': 'https://assistants-medicaux.com/#organization',
   name: "Mesdocs Groupement d'Employeurs",
   alternateName: ['Mesdocs GE', 'GE Mesdocs'],
   legalName: "Mesdocs Groupement d'Employeurs (Association loi 1901)",
@@ -36,8 +52,8 @@ export const organizationSchema = {
   },
   geo: {
     '@type': 'GeoCoordinates',
-    latitude: '48.86483',
-    longitude: '2.27703',
+    latitude: 48.86483,
+    longitude: 2.27703,
   },
   openingHours: 'Mo-Fr 09:00-18:00',
   description: "Mesdocs Groupement d'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. L'Assurance Maladie (CPAM) finance jusqu'à 38 000 €/an.",
