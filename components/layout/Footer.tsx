@@ -13,10 +13,12 @@ const reassurances = [
 export default function Footer() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
+    setError(false);
     const form = e.currentTarget;
     try {
       const res = await fetch('/netlify-forms.html', {
@@ -29,6 +31,8 @@ export default function Footer() {
       window.gtag?.('event', 'form_submit', { form_name: 'contact' });
     } catch {
       setLoading(false);
+      setError(true);
+      window.gtag?.('event', 'form_error', { form_name: 'contact' });
     }
   }
 
@@ -115,8 +119,8 @@ export default function Footer() {
 
                 <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Cabinet / Structure <span className="text-[#e03e3e]">*</span></label>
-                    <input type="text" name="cabinet" required placeholder="Cabinet médical Paris 16"
+                    <label className="text-[13px] font-medium text-gray-700">Cabinet / Structure</label>
+                    <input type="text" name="cabinet" placeholder="Cabinet médical Paris 16"
                       className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
                   </div>
                   <div className="flex flex-col gap-1.5">
@@ -127,8 +131,8 @@ export default function Footer() {
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-[13px] font-medium text-gray-700">Votre besoin <span className="text-[#e03e3e]">*</span></label>
-                  <select name="besoin" required
+                  <label className="text-[13px] font-medium text-gray-700">Votre besoin</label>
+                  <select name="besoin"
                     className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
                     <option value="">Sélectionnez une option</option>
                     <option value="recrutement">Recruter un assistant médical</option>
@@ -136,12 +140,6 @@ export default function Footer() {
                     <option value="devis">Demander un devis</option>
                     <option value="autre">Autre</option>
                   </select>
-                </div>
-
-                <div className="flex flex-col gap-1.5">
-                  <label className="text-[13px] font-medium text-gray-700">Message</label>
-                  <textarea name="message" rows={3} placeholder="Décrivez votre situation ou vos questions..."
-                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400 resize-none" />
                 </div>
 
                 <div className="flex items-start gap-3">
@@ -153,6 +151,12 @@ export default function Footer() {
                     <span className="text-[#e03e3e]">*</span>
                   </label>
                 </div>
+
+                {error && (
+                  <div className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-[13px] text-red-700">
+                    Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous contacter directement au 09 70 68 22 20.
+                  </div>
+                )}
 
                 <button type="submit" disabled={loading}
                   className="mt-2 w-full py-4 rounded-xl bg-[#093e98] text-white text-[15px] font-semibold hover:opacity-90 active:opacity-80 transition-opacity disabled:opacity-60">
