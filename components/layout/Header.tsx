@@ -57,11 +57,18 @@ export default function Header() {
               key={link.href}
               href={link.href}
               onClick={() => setOpen(false)}
-              className="block py-3 text-[14px] text-[#1d67cd] border-b border-[#eef2f8] last:border-0"
+              className="block py-3 text-[14px] text-[#1d67cd] border-b border-[#eef2f8]"
             >
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/prendre-rendez-vous"
+            onClick={() => setOpen(false)}
+            className="mt-4 inline-flex justify-center items-center px-5 py-2.5 rounded-full bg-[#093e98] text-white text-[13px] font-semibold hover:opacity-90 transition-opacity"
+          >
+            Prendre RDV
+          </Link>
         </nav>
       )}
     </header>

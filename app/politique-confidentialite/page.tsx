@@ -3,7 +3,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: 'Politique de Confidentialité | Mesdocs Groupement d\'Employeurs',
+  title: 'Politique de Confidentialité',
   description: 'Politique de confidentialité et traitement des données personnelles de Mesdocs Groupement d\'Employeurs, conformément au RGPD.',
   alternates: { canonical: 'https://assistants-medicaux.com/politique-confidentialite' },
   robots: { index: false },
