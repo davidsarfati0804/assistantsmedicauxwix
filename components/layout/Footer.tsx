@@ -142,6 +142,19 @@ export default function Footer() {
                   </select>
                 </div>
 
+                <div className="flex flex-col gap-1.5">
+                  <label className="text-[13px] font-medium text-gray-700">Créneau de disponibilité</label>
+                  <select name="disponibilites"
+                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
+                    <option value="">Sélectionnez</option>
+                    <option value="9h-12h">9h - 12h</option>
+                    <option value="12h-14h">12h - 14h</option>
+                    <option value="14h-17h">14h - 17h</option>
+                    <option value="17h-19h">17h - 19h</option>
+                    <option value="peu-importe">Peu importe</option>
+                  </select>
+                </div>
+
                 <div className="flex items-start gap-3">
                   <input type="checkbox" name="rgpd" id="rgpd-footer" required
                     className="mt-1 w-4 h-4 accent-[#093e98] shrink-0 cursor-pointer" />
