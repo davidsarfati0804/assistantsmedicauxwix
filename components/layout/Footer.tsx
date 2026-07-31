@@ -189,6 +189,7 @@ export default function Footer() {
           <a href="/cout-assistant-medical-aide-cpam" className="hover:text-[#093e98] underline transition-colors">Coût réel assistant médical</a>
           <a href="/assistant-medical-medecin-specialiste" className="hover:text-[#093e98] underline transition-colors">Spécialistes &amp; éligibilité</a>
           <a href="/groupement-employeurs-medecin-liberal" className="hover:text-[#093e98] underline transition-colors">Groupement d&apos;employeurs</a>
+          <a href="/aide-collective-assistant-medical" className="hover:text-[#093e98] underline transition-colors">Aide collective (groupe de médecins)</a>
           <a href="/assistant-medical-vs-secretaire-medicale" className="hover:text-[#093e98] underline transition-colors">Assistant vs secrétaire</a>
           <a href="/assistant-medical-maison-de-sante" className="hover:text-[#093e98] underline transition-colors">MSP &amp; cabinet de groupe</a>
           <a href="/mentions-legales" className="hover:text-[#093e98] underline transition-colors">Mentions légales</a>

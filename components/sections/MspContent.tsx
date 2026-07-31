@@ -143,6 +143,7 @@ export default function MspContent() {
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
           <Link href="/groupement-employeurs-medecin-liberal" className="text-[#1d67cd] underline hover:text-[#093e98]">Comprendre le groupement d'employeurs →</Link>
           <Link href="/dispositif-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Le financement CPAM →</Link>
+          <Link href="/aide-collective-assistant-medical" className="text-[#1d67cd] underline hover:text-[#093e98]">L'aide collective pour votre groupe →</Link>
           <Link href="/prendre-rendez-vous" className="text-[#1d67cd] underline hover:text-[#093e98]">Étudier mon projet MSP avec Mesdocs →</Link>
         </div>
       </section>

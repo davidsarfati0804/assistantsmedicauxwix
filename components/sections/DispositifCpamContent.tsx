@@ -217,6 +217,7 @@ export default function DispositifCpamContent() {
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
           <Link href="/avantages-demarches" className="text-[#1d67cd] underline hover:text-[#093e98]">Voir toutes les démarches →</Link>
           <Link href="/assistants-medicaux" className="text-[#1d67cd] underline hover:text-[#093e98]">Le rôle de l'assistant médical →</Link>
+          <Link href="/aide-collective-assistant-medical" className="text-[#1d67cd] underline hover:text-[#093e98]">Aide collective pour un groupe de médecins →</Link>
           <Link href="/recrutement-assistant-medical" className="text-[#1d67cd] underline hover:text-[#093e98]">Lancer mon recrutement →</Link>
         </div>
       </section>
