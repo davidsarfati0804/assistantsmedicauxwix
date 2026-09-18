@@ -10,7 +10,7 @@ import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/compone
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Mise à Disposition d\'un Assistant Médical – Mesdocs' };
 
 export const metadata: Metadata = {
-  title: 'Mise à Disposition d\'un Assistant Médical | Mesdocs GE',
+  title: 'Mise à Disposition d\'un Assistant Médical',
   description: 'Mesdocs met à disposition un assistant médical formé pour votre cabinet : accueil, administratif, coordination soins. Vous n\'êtes pas l\'employeur. CPAM finance jusqu\'à 38 000 €/an.',
   alternates: { canonical: 'https://assistants-medicaux.com/assistants-medicaux' },
   openGraph: {
@@ -38,7 +38,8 @@ const schemas = [
   serviceSchema(
     'Mise à disposition d\'un assistant médical pour médecin libéral',
     'Mesdocs Groupement d\'Employeurs recrute, forme et met à disposition un assistant médical dans le cabinet du médecin. Le médecin n\'est pas l\'employeur. CPAM finance jusqu\'à 38 000 €/an.',
-    'https://assistants-medicaux.com/assistants-medicaux'
+    'https://assistants-medicaux.com/assistants-medicaux',
+    '2026-05-26'
   ),
 ];
 

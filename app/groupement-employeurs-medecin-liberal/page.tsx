@@ -8,7 +8,7 @@ import ResumeBanner from '@/components/seo/ResumeBanner';
 import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 export const metadata: Metadata = {
-  title: "Groupement d'Employeurs pour Médecin Libéral — Comment ça Marche",
+  title: "Groupement d'Employeurs pour Médecin Libéral",
   description: "Qu'est-ce qu'un groupement d'employeurs pour médecin libéral ? Mesdocs est l'employeur de l'assistant médical à votre place. Zéro gestion RH, aide CPAM.",
   alternates: { canonical: 'https://assistants-medicaux.com/groupement-employeurs-medecin-liberal' },
   openGraph: {
@@ -35,7 +35,8 @@ const schemas = [
   serviceSchema(
     "Groupement d'Employeurs pour Médecin Libéral — Mesdocs",
     "Mesdocs Groupement d'Employeurs est l'employeur légal de l'assistant médical à la place du médecin. Le médecin bénéficie du dispositif CPAM sans aucune obligation RH.",
-    'https://assistants-medicaux.com/groupement-employeurs-medecin-liberal'
+    'https://assistants-medicaux.com/groupement-employeurs-medecin-liberal',
+    '2026-06-16'
   ),
 ];
 

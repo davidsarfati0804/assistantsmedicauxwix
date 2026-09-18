@@ -8,7 +8,7 @@ import ResumeBanner from '@/components/seo/ResumeBanner';
 import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 export const metadata: Metadata = {
-  title: "Coût Réel d'un Assistant Médical Après Aide CPAM — Reste à Charge",
+  title: "Coût Réel d'un Assistant Médical Après Aide CPAM",
   description: "Combien coûte vraiment un assistant médical ? Formule simple : salaire brut × 1,6 = tout compris. Tableau du reste à charge année par année après aide CPAM.",
   alternates: { canonical: 'https://assistants-medicaux.com/cout-assistant-medical-aide-cpam' },
   openGraph: {
@@ -34,7 +34,8 @@ const schemas = [
   serviceSchema(
     "Calcul du coût réel d'un assistant médical — Mesdocs",
     "Mesdocs calcule le coût net de l'assistant médical avec un coefficient 1,6 appliqué au salaire brut CQP. Tout est inclus : charges, paie, frais de gestion. Reste à charge nul en 1re année grâce à l'aide CPAM.",
-    'https://assistants-medicaux.com/cout-assistant-medical-aide-cpam'
+    'https://assistants-medicaux.com/cout-assistant-medical-aide-cpam',
+    '2026-06-21'
   ),
   pageBreadcrumb,
 ];
@@ -50,7 +51,7 @@ export default function CoutReelPage() {
           imageAlt="Médecin libéral calculant le coût réel d'un assistant médical après aide CPAM"
           title={<>Combien Coûte Vraiment<br />un Assistant Médical ?</>}
           body="Une formule simple : salaire brut × 1,6 = coût tout compris. En 1re année, l'aide CPAM couvre l'intégralité — le reste à charge est nul."
-          ctaPrimary={{ label: 'Calculer mon reste à charge', href: '/prendre-rendez-vous' }}
+          ctaPrimary={{ label: 'Estimer mon reste à charge avec un conseiller', href: '/prendre-rendez-vous' }}
           ctaLight={{ label: 'Voir le dispositif CPAM', href: '/dispositif-cpam' }}
         />
         <ResumeBanner>

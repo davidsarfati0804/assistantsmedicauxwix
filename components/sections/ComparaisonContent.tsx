@@ -172,6 +172,7 @@ export default function ComparaisonContent() {
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
           <Link href="/dispositif-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Le dispositif CPAM en détail →</Link>
           <Link href="/assistants-medicaux" className="text-[#1d67cd] underline hover:text-[#093e98]">Les missions de l'assistant médical →</Link>
+          <Link href="/cout-assistant-medical-aide-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Calculer le coût réel après aide CPAM →</Link>
           <Link href="/prendre-rendez-vous" className="text-[#1d67cd] underline hover:text-[#093e98]">Vérifier mon éligibilité →</Link>
         </div>
       </section>

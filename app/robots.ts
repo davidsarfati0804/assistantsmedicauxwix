@@ -4,7 +4,7 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       // Autoriser tous les crawlers standards + IA
-      { userAgent: '*', allow: '/', disallow: ['/api/'] },
+      { userAgent: '*', allow: '/', disallow: ['/api/', '/dashboard'] },
       // Crawlers IA explicitement autorisés
       { userAgent: 'GPTBot', allow: '/' },
       { userAgent: 'OAI-SearchBot', allow: '/' },

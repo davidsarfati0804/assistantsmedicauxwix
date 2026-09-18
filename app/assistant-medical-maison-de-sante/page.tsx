@@ -8,7 +8,7 @@ import ResumeBanner from '@/components/seo/ResumeBanner';
 import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 export const metadata: Metadata = {
-  title: 'Assistant Médical en Maison de Santé — Partage entre Médecins',
+  title: 'Assistant Médical en Maison de Santé',
   description: 'Comment partager un assistant médical entre plusieurs médecins en MSP ou cabinet de groupe ? Chaque médecin perçoit son aide CPAM. Mesdocs organise tout.',
   alternates: { canonical: 'https://assistants-medicaux.com/assistant-medical-maison-de-sante' },
   openGraph: {
@@ -34,7 +34,8 @@ const schemas = [
   serviceSchema(
     'Assistant Médical Partagé en Maison de Santé Pluriprofessionnelle',
     "Mesdocs organise la mise à disposition d'un assistant médical partagé entre plusieurs médecins en MSP ou cabinet de groupe, avec aide CPAM individuelle pour chaque praticien.",
-    'https://assistants-medicaux.com/assistant-medical-maison-de-sante'
+    'https://assistants-medicaux.com/assistant-medical-maison-de-sante',
+    '2026-06-16'
   ),
 ];
 

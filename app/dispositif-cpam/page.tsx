@@ -10,7 +10,7 @@ import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/compone
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Dispositif Assistant Médical CPAM – Mesdocs' };
 
 export const metadata: Metadata = {
-  title: 'Dispositif Assistant Médical CPAM – Conditions & Montants',
+  title: 'Dispositif Assistant Médical CPAM',
   description: 'Tout sur le dispositif officiel assistant médical CPAM : éligibilité, montants de l\'aide (19 000 à 38 000 €/an), durée du contrat et démarches. Expliqué simplement par Mesdocs.',
   alternates: { canonical: 'https://assistants-medicaux.com/dispositif-cpam' },
   openGraph: {
@@ -39,7 +39,8 @@ const schemas = [
   serviceSchema(
     'Dispositif Assistant Médical CPAM',
     'Accompagnement des médecins libéraux dans le dispositif officiel CPAM de financement d\'un assistant médical (19 000 à 38 000 €/an). Mesdocs gère les démarches CPAM, le contrat et la mise à disposition.',
-    'https://assistants-medicaux.com/dispositif-cpam'
+    'https://assistants-medicaux.com/dispositif-cpam',
+    '2026-05-26'
   ),
 ];
 
@@ -54,7 +55,7 @@ export default function DispositifCpamPage() {
           imageAlt="Médecin consultant les informations sur le dispositif assistant médical CPAM"
           title={<>Le Dispositif Assistant Médical CPAM<br />— Tout Comprendre</>}
           body="Conditions d'éligibilité, montants de l'aide, durée du contrat, démarches : tout ce que vous devez savoir sur le financement CPAM du dispositif assistant médical, expliqué simplement."
-          ctaPrimary={{ label: 'Vérifier mon éligibilité', href: '/prendre-rendez-vous' }}
+          ctaPrimary={{ label: 'Vérifier mon éligibilité avec un conseiller', href: '/prendre-rendez-vous' }}
           ctaLight={{ label: 'Voir les démarches', href: '/avantages-demarches' }}
         />
         <ResumeBanner>

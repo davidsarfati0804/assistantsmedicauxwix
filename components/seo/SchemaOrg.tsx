@@ -16,19 +16,11 @@ export const websiteSchema = {
   '@type': 'WebSite',
   name: "Mesdocs Groupement d'Employeurs",
   url: 'https://assistants-medicaux.com',
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: 'https://assistants-medicaux.com/?q={search_term_string}',
-    },
-    'query-input': 'required name=search_term_string',
-  },
 };
 
 export const organizationSchema = {
   '@context': 'https://schema.org',
-  '@type': ['Organization', 'LocalBusiness'],
+  '@type': ['Organization', 'EmploymentAgency'],
   '@id': 'https://assistants-medicaux.com/#organization',
   name: "Mesdocs Groupement d'Employeurs",
   alternateName: ['Mesdocs GE', 'GE Mesdocs'],
@@ -89,19 +81,16 @@ export function breadcrumbSchema(items: { name: string; item: string }[]) {
   };
 }
 
-export function serviceSchema(name: string, description: string, url: string) {
+export function serviceSchema(name: string, description: string, url: string, dateModified?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name,
     description,
     url,
-    provider: {
-      '@type': 'Organization',
-      name: "Mesdocs Groupement d'Employeurs",
-      url: 'https://assistants-medicaux.com',
-    },
+    provider: { '@id': 'https://assistants-medicaux.com/#organization' },
     areaServed: 'France',
     serviceType: 'Mise à disposition d\'assistant médical',
+    ...(dateModified ? { dateModified } : {}),
   };
 }

@@ -8,7 +8,7 @@ import ResumeBanner from '@/components/seo/ResumeBanner';
 import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 export const metadata: Metadata = {
-  title: "Assistant Médical pour Médecin Spécialiste — Éligibilité CPAM",
+  title: "Assistant Médical pour Médecin Spécialiste",
   description: "Pédiatre, gynécologue, cardiologue, dermatologue… Vérifiez si votre spécialité est éligible à l'aide CPAM pour un assistant médical. Liste complète et conditions.",
   alternates: { canonical: 'https://assistants-medicaux.com/assistant-medical-medecin-specialiste' },
   openGraph: {
@@ -35,7 +35,8 @@ const schemas = [
   serviceSchema(
     "Assistant médical pour médecin spécialiste — Mesdocs Groupement d'Employeurs",
     "Mesdocs vérifie l'éligibilité des médecins spécialistes au dispositif CPAM et organise le recrutement et la mise à disposition d'un assistant médical adapté à leur spécialité.",
-    'https://assistants-medicaux.com/assistant-medical-medecin-specialiste'
+    'https://assistants-medicaux.com/assistant-medical-medecin-specialiste',
+    '2026-06-21'
   ),
   pageBreadcrumb,
 ];

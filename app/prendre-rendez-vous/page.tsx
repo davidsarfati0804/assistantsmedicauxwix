@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { CheckCircle, Phone, Clock, Shield } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Prendre Rendez-vous avec Mesdocs – Consultation Gratuite',
+  title: 'Prendre Rendez-vous avec Mesdocs',
   description: 'Prenez rendez-vous gratuitement avec un conseiller Mesdocs. En 20 minutes, nous analysons votre éligibilité au dispositif assistant médical CPAM. Sans engagement.',
   alternates: { canonical: 'https://assistants-medicaux.com/prendre-rendez-vous' },
   openGraph: {

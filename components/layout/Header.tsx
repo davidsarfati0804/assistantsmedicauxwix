@@ -1,8 +1,8 @@
 'use client';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useState, useRef, useEffect } from 'react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 
 const navLinks = [
   { href: '/', label: 'Accueil' },
@@ -12,9 +12,31 @@ const navLinks = [
   { href: '/devenir-assistant-medical', label: 'Devenir Assistant' },
 ];
 
+const resourceLinks = [
+  { href: '/recrutement-assistant-medical', label: 'Recruter un assistant médical' },
+  { href: '/cout-assistant-medical-aide-cpam', label: 'Coût réel & reste à charge' },
+  { href: '/aide-collective-assistant-medical', label: 'Aide collective (groupe de médecins)' },
+  { href: '/groupement-employeurs-medecin-liberal', label: "Groupement d'employeurs : comment ça marche" },
+  { href: '/assistant-medical-vs-secretaire-medicale', label: 'Assistant médical vs secrétaire médicale' },
+  { href: '/assistant-medical-maison-de-sante', label: 'Assistant médical en MSP / cabinet de groupe' },
+  { href: '/assistant-medical-medecin-specialiste', label: 'Assistant médical pour médecin spécialiste' },
+];
+
 export default function Header() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [resourcesOpen, setResourcesOpen] = useState(false);
+  const resourcesRef = useRef<HTMLLIElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(e: MouseEvent) {
+      if (resourcesRef.current && !resourcesRef.current.contains(e.target as Node)) {
+        setResourcesOpen(false);
+      }
+    }
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#e4eaf5]">
@@ -37,6 +59,32 @@ export default function Header() {
                 </Link>
               </li>
             ))}
+            <li className="relative" ref={resourcesRef}>
+              <button
+                type="button"
+                onClick={() => setResourcesOpen((v) => !v)}
+                aria-expanded={resourcesOpen}
+                className="flex items-center gap-1 text-[14px] text-[#1d67cd] transition-colors hover:text-[#093e98] hover:underline"
+              >
+                Ressources
+                <ChevronDown size={14} className={`transition-transform ${resourcesOpen ? 'rotate-180' : ''}`} />
+              </button>
+              {resourcesOpen && (
+                <ul className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-1/2 w-[320px] bg-white rounded-xl border border-[#e4eaf5] shadow-[0_8px_32px_rgba(9,62,152,.12)] py-2 z-50">
+                  {resourceLinks.map((link) => (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        onClick={() => setResourcesOpen(false)}
+                        className="block px-4 py-2.5 text-[13.5px] text-gray-700 hover:bg-[#f4f8fe] hover:text-[#093e98] transition-colors"
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
           </ul>
           <Link href="/prendre-rendez-vous" className="hidden md:inline-flex items-center px-5 py-2.5 rounded-full bg-[#093e98] text-white text-[13px] font-semibold hover:opacity-90 transition-opacity whitespace-nowrap">
             Prendre RDV
@@ -53,6 +101,17 @@ export default function Header() {
       {open && (
         <nav className="md:hidden flex flex-col bg-white border-b border-[#e4eaf5] shadow-md px-6 pb-4">
           {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={() => setOpen(false)}
+              className="block py-3 text-[14px] text-[#1d67cd] border-b border-[#eef2f8]"
+            >
+              {link.label}
+            </Link>
+          ))}
+          <span className="pt-3 pb-1 text-[12px] font-semibold uppercase tracking-wide text-gray-400">Ressources</span>
+          {resourceLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}

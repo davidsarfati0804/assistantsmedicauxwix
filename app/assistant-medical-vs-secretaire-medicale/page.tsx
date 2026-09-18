@@ -8,7 +8,7 @@ import ResumeBanner from '@/components/seo/ResumeBanner';
 import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 export const metadata: Metadata = {
-  title: 'Assistant Médical vs Secrétaire Médicale : Quelles Différences ?',
+  title: 'Assistant Médical vs Secrétaire Médicale',
   description: 'Comparatif complet assistant médical vs secrétaire médicale : missions, formation, coût, aide CPAM. Tout pour choisir le bon profil pour votre cabinet.',
   alternates: { canonical: 'https://assistants-medicaux.com/assistant-medical-vs-secretaire-medicale' },
   openGraph: {
@@ -28,7 +28,8 @@ const schemas = [
   serviceSchema(
     'Assistant Médical vs Secrétaire Médicale — Comparatif Mesdocs',
     "Mesdocs compare l'assistant médical et la secrétaire médicale : missions, formation, coût et aide CPAM. L'assistant médical bénéficie d'un financement CPAM jusqu'à 38 000 €/an.",
-    'https://assistants-medicaux.com/assistant-medical-vs-secretaire-medicale'
+    'https://assistants-medicaux.com/assistant-medical-vs-secretaire-medicale',
+    '2026-06-16'
   ),
   faqSchema([
     { q: 'Peut-on avoir à la fois un assistant médical et une secrétaire médicale ?', a: "Oui. Ce sont deux rôles complémentaires. L'assistant médical libère le médecin des tâches cliniques répétitives, la secrétaire médicale gère le standard téléphonique et la facturation. Dans un cabinet à fort volume, les deux profils coexistent." },

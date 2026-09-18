@@ -10,7 +10,7 @@ import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/compone
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: "Aide collective à l'emploi d'assistants médicaux pour un groupe de médecins – Mesdocs" };
 
 export const metadata: Metadata = {
-  title: "Aide Collective Assistant Médical — Groupe de Médecins (CPAM)",
+  title: "Aide Collective Assistant Médical CPAM",
   description: "En vigueur depuis février 2026 : l'aide collective CPAM permet à un groupe de généralistes (SCP, SCM, SISA) de mutualiser l'emploi d'assistants médicaux. 38 000 à 22 000 €/an par ETP, seuil de 775 patients (P30), contrat de 5 ans.",
   alternates: { canonical: 'https://assistants-medicaux.com/aide-collective-assistant-medical' },
   openGraph: {
@@ -41,7 +41,8 @@ const schemas = [
   serviceSchema(
     'Aide collective CPAM assistant médical — Groupe de médecins',
     "Mesdocs accompagne les groupes de médecins (SCP, SCM, SISA) dans la mise en place du contrat collectif CPAM d'aide à l'emploi d'assistants médicaux mutualisés.",
-    'https://assistants-medicaux.com/aide-collective-assistant-medical'
+    'https://assistants-medicaux.com/aide-collective-assistant-medical',
+    '2026-07-31'
   ),
 ];
 

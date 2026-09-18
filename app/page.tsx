@@ -9,7 +9,7 @@ import CtaSection from '@/components/sections/CtaSection';
 import StatsBand from '@/components/sections/StatsBand';
 import TestimonialSlider from '@/components/sections/TestimonialSlider';
 import EditorialHome from '@/components/sections/EditorialHome';
-import SchemaOrg, { faqSchema, organizationSchema, websiteSchema } from '@/components/seo/SchemaOrg';
+import SchemaOrg, { faqSchema, websiteSchema } from '@/components/seo/SchemaOrg';
 
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: "Mesdocs Groupement d'Employeurs – Assistants Médicaux" };
 
@@ -37,7 +37,7 @@ const homeFaq = faqSchema([
 export default function HomePage() {
   return (
     <>
-      <SchemaOrg schema={[organizationSchema, websiteSchema, homeFaq]} />
+      <SchemaOrg schema={[websiteSchema, homeFaq]} />
       <Header />
       <main className="pt-[68px]">
         <Hero
@@ -46,11 +46,11 @@ export default function HomePage() {
           title={<>Optimisez votre pratique<br />avec l&apos;Assistant Médical</>}
           body={
             <>
-              <p className="mb-2">Assistants Médicaux :Mesdocs Groupement d&apos;employeurs comprend à quel point votre temps en tant que médecin est précieux.</p>
+              <p className="mb-2">Mesdocs Groupement d&apos;Employeurs sait à quel point votre temps de médecin est précieux.</p>
               <p>C&apos;est pourquoi le Dispositif d&apos;Assistant Médical a été créé, une solution conçue pour vous libérer des tâches administratives et vous permettre de vous concentrer sur l&apos;essentiel : les soins de vos patients.</p>
             </>
           }
-          ctaPrimary={{ label: 'Vérifier mon éligibilité', href: '/prendre-rendez-vous' }}
+          ctaPrimary={{ label: 'Vérifier mon éligibilité avec un conseiller', href: '/prendre-rendez-vous' }}
           ctaLight={{ label: 'Nous contacter', href: '#contact' }}
         />
         <BenefitsCard />

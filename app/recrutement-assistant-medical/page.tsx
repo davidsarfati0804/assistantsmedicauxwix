@@ -10,7 +10,7 @@ import SchemaOrg, { serviceSchema, faqSchema, breadcrumbSchema } from '@/compone
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: 'Recruter un Assistant Médical – Mesdocs' };
 
 export const metadata: Metadata = {
-  title: 'Recruter un Assistant Médical – Mesdocs s\'occupe de tout',
+  title: 'Recruter un Assistant Médical',
   description: 'Confiez votre recrutement à Mesdocs : sélection des profils, contrat, formation CQP, gestion CPAM. Vous choisissez votre assistant, nous gérons tout le reste.',
   alternates: { canonical: 'https://assistants-medicaux.com/recrutement-assistant-medical' },
   openGraph: {
@@ -30,7 +30,8 @@ const recrutementBreadcrumb = breadcrumbSchema([
 const recrutementService = serviceSchema(
   'Recrutement d\'un assistant médical pour médecin libéral',
   'Mesdocs gère le recrutement de A à Z : analyse des besoins, sélection des candidats, contrat de travail, formation CQP et liaison CPAM. Délai moyen de 6 à 8 semaines.',
-  'https://assistants-medicaux.com/recrutement-assistant-medical'
+  'https://assistants-medicaux.com/recrutement-assistant-medical',
+  '2026-05-26'
 );
 
 const recrutementFaq = faqSchema([

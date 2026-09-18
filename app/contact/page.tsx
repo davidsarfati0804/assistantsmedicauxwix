@@ -17,24 +17,11 @@ const contactPageSchema = {
   name: "Contacter Mesdocs Groupement d'Employeurs",
   url: 'https://assistants-medicaux.com/contact',
   description: "Contactez l'équipe Mesdocs par formulaire, téléphone ou email. Réponse sous 24h ouvrées.",
-  mainEntity: {
-    '@type': 'Organization',
-    name: "Mesdocs Groupement d'Employeurs",
-    telephone: '+33970682220',
-    email: 'contact@ge-mesdocs.fr',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '24 rue Octave Feuillet',
-      addressLocality: 'Paris',
-      postalCode: '75116',
-      addressCountry: 'FR',
-    },
-    openingHours: 'Mo-Fr 09:00-18:00',
-  },
+  mainEntity: { '@id': 'https://assistants-medicaux.com/#organization' },
 };
 
 export const metadata: Metadata = {
-  title: 'Contactez Mesdocs – Assistants Médicaux | Réponse 24h',
+  title: 'Contact – Réponse sous 24h',
   description: 'Contactez l\'équipe Mesdocs par formulaire, téléphone ou email. Médecin ou candidat, notre équipe vous répond sous 24h ouvrées. Paris 75116.',
   alternates: { canonical: 'https://assistants-medicaux.com/contact' },
   openGraph: {

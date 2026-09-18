@@ -1,12 +1,20 @@
 import type { Metadata } from "next";
+import { Work_Sans } from 'next/font/google';
 import Script from 'next/script';
 import "./globals.css";
 import SchemaOrg, { organizationSchema } from '@/components/seo/SchemaOrg';
 
+const workSans = Work_Sans({
+  subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '600', '700'],
+  display: 'swap',
+  variable: '--font-work-sans',
+});
+
 export const metadata: Metadata = {
   title: {
     default: "Assistant Médical pour Médecins Libéraux | Mesdocs GE",
-    template: "%s | Mesdocs Groupement d'Employeurs",
+    template: "%s | Mesdocs GE",
   },
   description: "Mesdocs Groupement d'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. CPAM finance jusqu'à 38 000 €/an. Aucune obligation d'employeur pour le médecin.",
   metadataBase: new URL('https://assistants-medicaux.com'),
@@ -26,11 +34,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className="scroll-smooth">
+    <html lang="fr" className={`scroll-smooth ${workSans.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
         {/* Google Tag Manager */}
         <Script id="gtm-head" strategy="afterInteractive">{`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -40,7 +45,7 @@ export default function RootLayout({
           })(window,document,'script','dataLayer','GTM-TKVGWC8F');
         `}</Script>
       </head>
-      <body className="antialiased" style={{ fontFamily: "'Work Sans', Arial, sans-serif" }}>
+      <body className={`antialiased ${workSans.className}`}>
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe
