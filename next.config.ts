@@ -41,6 +41,7 @@ const nextConfig: NextConfig = {
       { source: '/copie-de-d%C3%A9marches', destination: '/avantages-demarches', permanent: true },
       { source: '/copie-de-demarches', destination: '/avantages-demarches', permanent: true },
       { source: '/book-online', destination: '/prendre-rendez-vous', permanent: true },
+      { source: '/cout-assistant-medical-aide-cpam', destination: '/dispositif-cpam', permanent: true },
     ];
   },
 };

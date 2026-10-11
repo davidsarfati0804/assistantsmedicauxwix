@@ -63,7 +63,7 @@ export default function SpecialistePage() {
           title={<>Votre spécialité est éligible ?<br />Étudions votre projet ensemble.</>}
           buttonLabel="Prendre rendez-vous gratuit"
           buttonHref="/prendre-rendez-vous"
-          subLink={{ label: 'Voir le coût réel après aide CPAM >', href: '/cout-assistant-medical-aide-cpam' }}
+          subLink={{ label: 'Voir le dispositif CPAM en détail >', href: '/dispositif-cpam' }}
         />
       </main>
       <Footer />

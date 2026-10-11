@@ -35,7 +35,7 @@ const schemas = [
     { q: 'Peut-on avoir à la fois un assistant médical et une secrétaire médicale ?', a: "Oui. Ce sont deux rôles complémentaires. L'assistant médical libère le médecin des tâches cliniques répétitives, la secrétaire médicale gère le standard téléphonique et la facturation. Dans un cabinet à fort volume, les deux profils coexistent." },
     { q: 'La secrétaire médicale peut-elle réaliser des gestes cliniques ?', a: "Non. La secrétaire médicale n'est pas habilitée à effectuer des gestes cliniques (prise de constantes, électrocardiogramme, pansements). Ces actes relèvent exclusivement de l'assistant médical titulaire du CQP ou d'une auxiliaire de santé qualifiée." },
     { q: "L'aide CPAM s'applique-t-elle si j'emploie une secrétaire médicale ?", a: "Non. Le dispositif CPAM de financement est strictement réservé au poste d'assistant médical, tel que défini par la Convention Médicale 2024–2029. Une secrétaire médicale ne donne droit à aucune aide de l'Assurance Maladie." },
-    { q: 'Quelle est la différence de salaire entre les deux profils ?', a: "Un assistant médical à temps plein perçoit environ 1 642 € brut/mois (niveau CQP). Une secrétaire médicale expérimentée perçoit entre 1 500 et 1 900 € brut/mois. La différence de coût pour le médecin est significative après déduction de l'aide CPAM pour l'assistant médical." },
+    { q: 'Quelle est la différence de salaire entre les deux profils ?', a: "Le salaire brut d'un assistant médical à temps plein ne peut être inférieur au SMIC, soit 1 867 €/mois (barème 2026). Une secrétaire médicale expérimentée perçoit entre 1 500 et 1 900 € brut/mois. La différence de coût pour le médecin est à mettre en regard de l'aide CPAM, réservée au poste d'assistant médical." },
   ]),
 ];
 

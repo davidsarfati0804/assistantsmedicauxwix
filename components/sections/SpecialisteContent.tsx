@@ -129,22 +129,6 @@ export default function SpecialisteContent() {
         </div>
       </section>
 
-      {/* Coût */}
-      <section className="bg-[#f5f8ff] py-16 px-6">
-        <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-5">Quel est le coût pour un spécialiste ?</h2>
-          <p className="text-[16px] leading-[1.7] mb-4">
-            Le calcul est identique quelle que soit la spécialité : <strong>salaire brut de l&apos;assistant × 1,6 = coût tout compris</strong> (charges, paie, frais de gestion Mesdocs). Pour 1 ETP, cela représente <strong>2 627 €/mois</strong>.
-          </p>
-          <p className="text-[16px] leading-[1.7] mb-4">
-            En 1re année, l&apos;aide CPAM de <strong>38 000 €/an</strong> (3 167 €/mois) dépasse ce coût. Le reste à charge est nul. À partir de la 3e année, il est d&apos;environ 794 €/mois pour 1 ETP.
-          </p>
-          <Link href="/cout-assistant-medical-aide-cpam" className="inline-flex items-center gap-2 text-[14px] text-[#1d67cd] underline hover:text-[#093e98]">
-            Voir le tableau complet du reste à charge →
-          </Link>
-        </div>
-      </section>
-
       {/* FAQ */}
       <section className="py-16 px-6">
         <div className="max-w-[860px] mx-auto">
@@ -164,7 +148,6 @@ export default function SpecialisteContent() {
       <section className="py-10 px-6">
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
           <Link href="/dispositif-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Le dispositif CPAM en détail →</Link>
-          <Link href="/cout-assistant-medical-aide-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Calculer le coût réel →</Link>
           <Link href="/prendre-rendez-vous" className="text-[#1d67cd] underline hover:text-[#093e98]">Vérifier mon éligibilité →</Link>
         </div>
       </section>

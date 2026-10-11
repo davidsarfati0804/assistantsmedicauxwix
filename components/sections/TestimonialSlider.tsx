@@ -15,12 +15,6 @@ const slides = [
     specialty: 'Gynécologue',
     stars: 5,
   },
-  {
-    text: "Mon assistante gère l'administratif, accueille les familles, prépare les dossiers… Je peux me concentrer pleinement sur les soins.",
-    author: 'Dr Kasende',
-    specialty: 'Médecin Généraliste',
-    stars: 5,
-  },
 ];
 
 export default function TestimonialSlider() {

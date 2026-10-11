@@ -47,14 +47,14 @@ const gestionMesdocs = [
 
 const temoignages = [
   {
-    nom: 'Dr. Zaghdoun',
+    nom: 'Dr Zaghdoun',
     specialite: 'Médecine Générale',
-    texte: 'L\'assistante prend en charge l\'accueil, le dossier patient, les constantes. Cela m\'a libéré environ 30% de mon temps. Je peux voir plus de patients sans travailler plus.',
+    texte: "L'assistante prend en charge l'accueil, le dossier patient, les constantes… Cela a profondément allégé mes journées. Je n'envisage plus de travailler sans ce soutien.",
   },
   {
     nom: 'Dr. Daoud',
-    specialite: 'Gynécologie',
-    texte: 'La mise en place a été rapide et sans stress. Mesdocs a géré tout l\'administratif avec la CPAM. Je n\'ai eu qu\'à choisir le profil et signer.',
+    specialite: 'Gynécologue',
+    texte: "Le recours à un assistant formé a permis d'optimiser le déroulement de mes consultations. Gain de temps, meilleure concentration et moins de fatigue en fin de journée.",
   },
 ];
 

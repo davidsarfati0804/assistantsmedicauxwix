@@ -16,7 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/groupement-employeurs-medecin-liberal`, lastModified: '2026-06-16', changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/assistant-medical-vs-secretaire-medicale`, lastModified: '2026-06-16', changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/assistant-medical-maison-de-sante`, lastModified: '2026-06-16', changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/cout-assistant-medical-aide-cpam`, lastModified: '2026-06-21', changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/assistant-medical-medecin-specialiste`, lastModified: '2026-06-21', changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/contact`, lastModified: '2026-05-26', changeFrequency: 'yearly', priority: 0.7 },
     { url: `${BASE_URL}/prendre-rendez-vous`, lastModified: '2026-05-14', changeFrequency: 'yearly', priority: 0.75 },

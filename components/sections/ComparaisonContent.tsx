@@ -74,7 +74,7 @@ const faq = [
   },
   {
     q: 'Quelle est la différence de salaire entre les deux profils ?',
-    a: "Un assistant médical à temps plein perçoit environ 1 642 € brut/mois (niveau CQP). Une secrétaire médicale expérimentée perçoit entre 1 500 et 1 900 € brut/mois. La différence de coût pour le médecin est significative après déduction de l'aide CPAM pour l'assistant médical.",
+    a: "Le salaire brut d'un assistant médical à temps plein ne peut être inférieur au SMIC, soit 1 867 €/mois (barème 2026). Une secrétaire médicale expérimentée perçoit entre 1 500 et 1 900 € brut/mois. La différence de coût pour le médecin est à mettre en regard de l'aide CPAM, réservée au poste d'assistant médical.",
   },
 ];
 
@@ -172,7 +172,6 @@ export default function ComparaisonContent() {
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
           <Link href="/dispositif-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Le dispositif CPAM en détail →</Link>
           <Link href="/assistants-medicaux" className="text-[#1d67cd] underline hover:text-[#093e98]">Les missions de l'assistant médical →</Link>
-          <Link href="/cout-assistant-medical-aide-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Calculer le coût réel après aide CPAM →</Link>
           <Link href="/prendre-rendez-vous" className="text-[#1d67cd] underline hover:text-[#093e98]">Vérifier mon éligibilité →</Link>
         </div>
       </section>

@@ -197,7 +197,6 @@ export default function Footer() {
         <span>© {new Date().getFullYear()} Mesdocs Groupement d&apos;Employeurs — Association loi 1901 — Assistants Médicaux</span>
         <div className="flex gap-4">
           <a href="/recrutement-assistant-medical" className="hover:text-[#093e98] underline transition-colors">Recruter un assistant médical</a>
-          <a href="/cout-assistant-medical-aide-cpam" className="hover:text-[#093e98] underline transition-colors">Coût réel assistant médical</a>
           <a href="/assistant-medical-medecin-specialiste" className="hover:text-[#093e98] underline transition-colors">Spécialistes &amp; éligibilité</a>
           <a href="/groupement-employeurs-medecin-liberal" className="hover:text-[#093e98] underline transition-colors">Groupement d&apos;employeurs</a>
           <a href="/aide-collective-assistant-medical" className="hover:text-[#093e98] underline transition-colors">Aide collective (groupe de médecins)</a>

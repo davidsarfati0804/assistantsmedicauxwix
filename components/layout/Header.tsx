@@ -14,7 +14,6 @@ const navLinks = [
 
 const resourceLinks = [
   { href: '/recrutement-assistant-medical', label: 'Recruter un assistant médical' },
-  { href: '/cout-assistant-medical-aide-cpam', label: 'Coût réel & reste à charge' },
   { href: '/aide-collective-assistant-medical', label: 'Aide collective (groupe de médecins)' },
   { href: '/groupement-employeurs-medecin-liberal', label: "Groupement d'employeurs : comment ça marche" },
   { href: '/assistant-medical-vs-secretaire-medicale', label: 'Assistant médical vs secrétaire médicale' },
