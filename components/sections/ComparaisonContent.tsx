@@ -28,11 +28,6 @@ const comparaison = [
     secretaire: 'Oui : cœur de métier',
   },
   {
-    critere: 'Coût mensuel net médecin',
-    assistant: 'Environ 300 à 900 €/mois après aide CPAM (Y1)',
-    secretaire: '1 500 à 2 200 €/mois (charges incluses)',
-  },
-  {
     critere: 'Partage entre médecins',
     assistant: 'Oui — possible en MSP / maison de santé',
     secretaire: 'Rare — contrat individuel',
