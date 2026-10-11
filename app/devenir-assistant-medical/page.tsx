@@ -34,9 +34,9 @@ export default function DevenirPage() {
         <PageHero
           imageSrc="/assets/hero_devenir.jpg"
           imageAlt="Devenir Assistant Médical"
-          title={<>Vous souhaitez devenir<br />Assistant.e Médical ?</>}
-          body="Découvrez en quoi consiste le rôle d'Assistant Médical, comment vous pouvez soutenir les professionnels de la santé et apprenez quelles sont les exigences et les conditions nécessaires pour le devenir, y compris les qualifications, les compétences et les attentes."
-          ctaPrimary={{ label: 'En savoir plus', href: '#qui' }}
+          title={<>Comment devenir<br />Assistant.e Médical ?</>}
+          body="CQP, VAE ou FAE selon votre profil, formation intégralement financée, mise en relation avec des médecins libéraux : Mesdocs vous accompagne de la candidature à la prise de poste."
+          ctaPrimary={{ label: 'Voir les 3 étapes', href: '#comment' }}
           ctaLight={{ label: 'Nous contacter', href: '#contact' }}
         />
         <DevenirContent />

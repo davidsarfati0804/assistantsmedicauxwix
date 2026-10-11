@@ -1,7 +1,8 @@
 'use client';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { Search, Shield, UserPlus, CheckCircle, Phone, Mail, MapPin } from 'lucide-react';
 import Image from 'next/image';
+import { pushEvent, notifyLeadStart, extractLeadData } from '@/lib/gtm';
 
 const reassurances = [
   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
@@ -14,6 +15,15 @@ export default function Footer() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
+  const startedRef = useRef(false);
+
+  function handleFormBlur(e: React.FocusEvent<HTMLFormElement>) {
+    if (startedRef.current) return;
+    const data = extractLeadData(e.currentTarget);
+    if (Object.keys(data).length === 0) return;
+    startedRef.current = true;
+    notifyLeadStart('contact', data);
+  }
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -28,11 +38,11 @@ export default function Footer() {
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       setSubmitted(true);
-      window.gtag?.('event', 'form_submit', { form_name: 'contact' });
+      pushEvent('form_submit', { form_name: 'contact' });
     } catch {
       setLoading(false);
       setError(true);
-      window.gtag?.('event', 'form_error', { form_name: 'contact' });
+      pushEvent('form_error', { form_name: 'contact' });
     }
   }
 
@@ -68,11 +78,11 @@ export default function Footer() {
 
             {/* Trust strip */}
             <div className="border-t border-white/20 pt-7 flex flex-col gap-3">
-              <a href="tel:0970682220" onClick={() => window.gtag?.('event', 'click_telephone')} className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
+              <a href="tel:0970682220" onClick={() => pushEvent('click_telephone')} className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
                 <Phone size={15} className="shrink-0" />
                 09 70 68 22 20
               </a>
-              <a href="mailto:contact@ge-mesdocs.fr" onClick={() => window.gtag?.('event', 'click_email')} className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
+              <a href="mailto:contact@ge-mesdocs.fr" onClick={() => pushEvent('click_email')} className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
                 <Mail size={15} className="shrink-0" />
                 contact@ge-mesdocs.fr
               </a>
@@ -95,45 +105,45 @@ export default function Footer() {
                 <p className="text-[15px] text-gray-500">Nous vous recontactons dans les 24 heures.</p>
               </div>
             ) : (
-              <form name="contact" method="POST" onSubmit={handleSubmit} className="flex flex-col gap-4">
+              <form name="contact" method="POST" onSubmit={handleSubmit} onBlur={handleFormBlur} className="flex flex-col gap-4">
                 <input type="hidden" name="form-name" value="contact" />
 
                 <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
                   <div className="flex flex-col gap-1.5">
                     <label className="text-[13px] font-medium text-gray-700">Nom &amp; Prénom <span className="text-[#e03e3e]">*</span></label>
                     <input type="text" name="nom-prenom" required placeholder="Jean Dupont"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
+                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <label className="text-[13px] font-medium text-gray-700">Téléphone <span className="text-[#e03e3e]">*</span></label>
                     <input type="tel" name="telephone" required placeholder="06 00 00 00 00"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
+                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
                   </div>
                 </div>
 
                 <div className="flex flex-col gap-1.5">
                   <label className="text-[13px] font-medium text-gray-700">Email <span className="text-[#e03e3e]">*</span></label>
                   <input type="email" name="email" required placeholder="jean.dupont@cabinet.fr"
-                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
+                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
                   <div className="flex flex-col gap-1.5">
                     <label className="text-[13px] font-medium text-gray-700">Cabinet / Structure</label>
                     <input type="text" name="cabinet" placeholder="Cabinet médical Paris 16"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
+                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
                   </div>
                   <div className="flex flex-col gap-1.5">
                     <label className="text-[13px] font-medium text-gray-700">Ville</label>
                     <input type="text" name="ville" placeholder="Paris"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
+                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
                   </div>
                 </div>
 
                 <div className="flex flex-col gap-1.5">
                   <label className="text-[13px] font-medium text-gray-700">Votre besoin</label>
                   <select name="besoin"
-                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
+                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
                     <option value="">Sélectionnez une option</option>
                     <option value="recrutement">Recruter un assistant médical</option>
                     <option value="information">Obtenir des informations</option>
@@ -145,7 +155,7 @@ export default function Footer() {
                 <div className="flex flex-col gap-1.5">
                   <label className="text-[13px] font-medium text-gray-700">Créneau de disponibilité</label>
                   <select name="disponibilites"
-                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
+                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
                     <option value="">Sélectionnez</option>
                     <option value="9h-12h">9h - 12h</option>
                     <option value="12h-14h">12h - 14h</option>
@@ -166,7 +176,7 @@ export default function Footer() {
                 </div>
 
                 {error && (
-                  <div className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-[13px] text-red-700">
+                  <div role="alert" className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-[13px] text-red-700">
                     Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous contacter directement au 09 70 68 22 20.
                   </div>
                 )}

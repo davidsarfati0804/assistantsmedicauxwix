@@ -44,7 +44,7 @@ export default function PrendreRendezVousPage() {
           title={<>Prenez Rendez-vous<br />avec un Conseiller Mesdocs</>}
           body="Une consultation gratuite de 20 minutes pour tout comprendre sur le dispositif assistant médical et vérifier votre éligibilité. Sans engagement."
           ctaPrimary={{ label: 'Nous appeler maintenant', href: 'tel:0970682220' }}
-          ctaLight={{ label: 'Nous écrire', href: '/contact' }}
+          ctaLight={{ label: 'Remplir le formulaire', href: '#form' }}
         />
 
         <section className="py-16 px-6">
@@ -84,7 +84,7 @@ export default function PrendreRendezVousPage() {
               </div>
 
               {/* Colonne droite — formulaire demande de RDV */}
-              <div className="bg-white rounded-2xl border border-[#e4eaf5] shadow-[0_4px_32px_rgba(9,62,152,.08)] px-9 py-10">
+              <div id="form" className="bg-white rounded-2xl border border-[#e4eaf5] shadow-[0_4px_32px_rgba(9,62,152,.08)] px-9 py-10 scroll-mt-[88px]">
                 <h2 className="text-[20px] font-bold text-gray-900 mb-1.5">Demandez à être rappelé</h2>
                 <p className="text-[14px] text-gray-500 mb-7">Notre équipe vous contacte sous 24h ouvrées pour fixer le créneau.</p>
                 <RendezVousForm />

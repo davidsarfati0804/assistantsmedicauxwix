@@ -41,17 +41,17 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-[#e4eaf5]">
       <div className="max-w-[1140px] mx-auto px-6">
-        <nav className="flex items-center justify-between h-[68px]">
-          <Link href="/" className="flex flex-col leading-tight">
-            <span className="text-[20px] font-bold text-[#1161b4]">Assistants Médicaux</span>
-            <span className="text-[13px] text-[#1161b4]">Mesdocs Groupement d&apos;employeurs</span>
+        <nav className="flex items-center justify-between gap-4 h-[68px]">
+          <Link href="/" className="flex flex-col leading-tight shrink-0">
+            <span className="text-[20px] font-bold text-[#1161b4] whitespace-nowrap">Assistants Médicaux</span>
+            <span className="hidden xl:block text-[13px] text-[#1161b4] whitespace-nowrap">Mesdocs Groupement d&apos;employeurs</span>
           </Link>
-          <ul className="hidden md:flex items-center gap-9">
+          <ul className="hidden xl:flex items-center gap-6 shrink-0">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className={`text-[14px] transition-colors hover:text-[#093e98] hover:underline ${
+                  className={`text-[13.5px] whitespace-nowrap transition-colors hover:text-[#093e98] hover:underline ${
                     pathname === link.href ? 'text-[#093e98] underline' : 'text-[#1d67cd]'
                   }`}
                 >
@@ -64,13 +64,13 @@ export default function Header() {
                 type="button"
                 onClick={() => setResourcesOpen((v) => !v)}
                 aria-expanded={resourcesOpen}
-                className="flex items-center gap-1 text-[14px] text-[#1d67cd] transition-colors hover:text-[#093e98] hover:underline"
+                className="flex items-center gap-1 text-[13.5px] whitespace-nowrap text-[#1d67cd] transition-colors hover:text-[#093e98] hover:underline"
               >
                 Ressources
                 <ChevronDown size={14} className={`transition-transform ${resourcesOpen ? 'rotate-180' : ''}`} />
               </button>
               {resourcesOpen && (
-                <ul className="absolute top-[calc(100%+12px)] left-1/2 -translate-x-1/2 w-[320px] bg-white rounded-xl border border-[#e4eaf5] shadow-[0_8px_32px_rgba(9,62,152,.12)] py-2 z-50">
+                <ul className="absolute top-[calc(100%+12px)] right-0 w-[320px] bg-white rounded-xl border border-[#e4eaf5] shadow-[0_8px_32px_rgba(9,62,152,.12)] py-2 z-50">
                   {resourceLinks.map((link) => (
                     <li key={link.href}>
                       <Link
@@ -86,11 +86,11 @@ export default function Header() {
               )}
             </li>
           </ul>
-          <Link href="/prendre-rendez-vous" className="hidden md:inline-flex items-center px-5 py-2.5 rounded-full bg-[#093e98] text-white text-[13px] font-semibold hover:opacity-90 transition-opacity whitespace-nowrap">
+          <Link href="/prendre-rendez-vous" className="hidden xl:inline-flex items-center px-5 py-2.5 rounded-full bg-[#093e98] text-white text-[13px] font-semibold hover:opacity-90 transition-opacity whitespace-nowrap shrink-0">
             Prendre RDV
           </Link>
           <button
-            className="md:hidden flex flex-col gap-[5px] p-1"
+            className="xl:hidden flex flex-col gap-[5px] p-1"
             onClick={() => setOpen(!open)}
             aria-label="Menu"
           >
@@ -99,7 +99,7 @@ export default function Header() {
         </nav>
       </div>
       {open && (
-        <nav className="md:hidden flex flex-col bg-white border-b border-[#e4eaf5] shadow-md px-6 pb-4">
+        <nav className="xl:hidden flex flex-col bg-white border-b border-[#e4eaf5] shadow-md px-6 pb-4 max-h-[calc(100vh-68px)] overflow-y-auto">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -124,7 +124,7 @@ export default function Header() {
           <Link
             href="/prendre-rendez-vous"
             onClick={() => setOpen(false)}
-            className="mt-4 inline-flex justify-center items-center px-5 py-2.5 rounded-full bg-[#093e98] text-white text-[13px] font-semibold hover:opacity-90 transition-opacity"
+            className="mt-4 mb-4 inline-flex justify-center items-center px-5 py-2.5 rounded-full bg-[#093e98] text-white text-[13px] font-semibold hover:opacity-90 transition-opacity"
           >
             Prendre RDV
           </Link>

@@ -1,14 +1,26 @@
 'use client';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { CheckCircle } from 'lucide-react';
+import { pushEvent, notifyLeadStart, extractLeadData } from '@/lib/gtm';
 
 export default function RendezVousForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+  const startedRef = useRef(false);
+
+  function handleFormBlur(e: React.FocusEvent<HTMLFormElement>) {
+    if (startedRef.current) return;
+    const data = extractLeadData(e.currentTarget);
+    if (Object.keys(data).length === 0) return;
+    startedRef.current = true;
+    notifyLeadStart('rendez-vous', data);
+  }
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setLoading(true);
+    setError(false);
     const form = e.currentTarget;
     try {
       const res = await fetch('/netlify-forms.html', {
@@ -18,9 +30,11 @@ export default function RendezVousForm() {
       });
       if (!res.ok) throw new Error('HTTP ' + res.status);
       setSubmitted(true);
-      window.gtag?.('event', 'form_submit', { form_name: 'rendez-vous' });
+      pushEvent('form_submit', { form_name: 'rendez-vous' });
     } catch {
       setLoading(false);
+      setError(true);
+      pushEvent('form_error', { form_name: 'rendez-vous' });
     }
   }
 
@@ -35,31 +49,31 @@ export default function RendezVousForm() {
   }
 
   return (
-    <form name="rendez-vous" method="POST" onSubmit={handleSubmit} className="flex flex-col gap-4">
+    <form name="rendez-vous" method="POST" onSubmit={handleSubmit} onBlur={handleFormBlur} className="flex flex-col gap-4">
       <input type="hidden" name="form-name" value="rendez-vous" />
 
       <div className="flex flex-col gap-1.5">
         <label className="text-[13px] font-medium text-gray-700">Nom & Prénom <span className="text-[#e03e3e]">*</span></label>
         <input type="text" name="nom-prenom" required placeholder="Dr. Jean Dupont"
-          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
+          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
       </div>
 
       <div className="flex flex-col gap-1.5">
         <label className="text-[13px] font-medium text-gray-700">Téléphone <span className="text-[#e03e3e]">*</span></label>
         <input type="tel" name="telephone" required placeholder="06 00 00 00 00"
-          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
+          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
       </div>
 
       <div className="flex flex-col gap-1.5">
         <label className="text-[13px] font-medium text-gray-700">Email</label>
         <input type="email" name="email" placeholder="jean.dupont@cabinet.fr"
-          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors placeholder:text-gray-400" />
+          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
       </div>
 
       <div className="flex flex-col gap-1.5">
         <label className="text-[13px] font-medium text-gray-700">Secteur conventionnel</label>
         <select name="secteur"
-          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
+          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
           <option value="">Sélectionnez</option>
           <option value="secteur-1">Secteur 1</option>
           <option value="secteur-2-optam">Secteur 2 OPTAM</option>
@@ -71,7 +85,7 @@ export default function RendezVousForm() {
       <div className="flex flex-col gap-1.5">
         <label className="text-[13px] font-medium text-gray-700">Créneau de disponibilité</label>
         <select name="disponibilites"
-          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:bg-white transition-colors appearance-none cursor-pointer">
+          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
           <option value="">Sélectionnez</option>
           <option value="9h-12h">9h - 12h</option>
           <option value="12h-14h">12h - 14h</option>
@@ -80,6 +94,12 @@ export default function RendezVousForm() {
           <option value="peu-importe">Peu importe</option>
         </select>
       </div>
+
+      {error && (
+        <div role="alert" className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-[13px] text-red-700">
+          Une erreur est survenue lors de l&apos;envoi. Vos réponses sont conservées : vous pouvez réessayer, ou nous appeler directement au 09 70 68 22 20.
+        </div>
+      )}
 
       <button type="submit" disabled={loading}
         className="mt-2 w-full py-4 rounded-xl bg-[#093e98] text-white text-[15px] font-semibold hover:opacity-90 active:opacity-80 transition-opacity disabled:opacity-60">

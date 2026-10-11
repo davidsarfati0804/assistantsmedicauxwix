@@ -51,6 +51,29 @@ const parcours = [
 export default function DevenirContent() {
   return (
     <>
+      {/* Comment devenir AM — réponse directe, en haut de page */}
+      <section className="py-14 px-6 bg-[#f4f8fe]" id="comment">
+        <div className="max-w-[900px] mx-auto">
+          <h2 className="text-[28px] font-light mb-5">Comment devenir assistant médical ?</h2>
+          <p className="text-[16px] leading-[1.7] mb-8">
+            Trois voies permettent d&apos;obtenir la qualification d&apos;assistant médical, selon votre profil de départ : le CQP en alternance pour les débutants, la VAE pour les personnes déjà expérimentées, et la FAE — la plus rapide — pour les infirmiers, aides-soignants et auxiliaires de puériculture déjà diplômés. Mesdocs évalue gratuitement votre situation pour vous orienter vers la voie la plus adaptée, puis vous met en relation avec un médecin libéral qui recherche un assistant.
+          </p>
+          <div className="grid grid-cols-3 gap-5 max-md:grid-cols-1">
+            {[
+              { num: '1', title: 'Candidater auprès de Mesdocs', desc: 'Vous déposez votre candidature via le formulaire ou par téléphone. Mesdocs évalue gratuitement votre profil et votre éligibilité.' },
+              { num: '2', title: 'Être mis en relation', desc: 'Mesdocs vous présente à des médecins libéraux de votre zone qui recherchent un assistant, et organise les entretiens.' },
+              { num: '3', title: 'Se former (CQP, VAE ou FAE)', desc: 'Une fois le poste confirmé, votre formation est organisée et intégralement financée par l’OPCO EP — aucun coût pour vous.' },
+            ].map((s) => (
+              <div key={s.num} className="bg-white rounded-2xl border border-[#e4eaf5] p-6">
+                <div className="w-9 h-9 rounded-full bg-[#093e98] text-white flex items-center justify-center text-[15px] font-bold mb-3">{s.num}</div>
+                <h3 className="text-[15px] font-semibold text-gray-900 mb-2">{s.title}</h3>
+                <p className="text-[14px] text-gray-600 leading-[1.6]">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Qui peut être AM */}
       <section className="py-14 px-6" id="qui">
         <div className="max-w-[900px] mx-auto">
@@ -131,6 +154,34 @@ export default function DevenirContent() {
                 Nous contacter
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAE */}
+      <section className="py-[60px] px-6" id="fae">
+        <div className="max-w-[900px] mx-auto">
+          <h2 className="text-[28px] font-light mb-5">La FAE, la voie la plus rapide pour devenir assistant médical</h2>
+          <p className="text-[16px] leading-[1.7] mb-6">
+            La <strong>Formation d&apos;Adaptation à l&apos;Emploi (FAE)</strong> est réservée aux professionnels déjà diplômés dans le secteur du soin. Elle dure seulement <strong>112 heures</strong>, contre 279 heures pour le CQP initial — c&apos;est la voie la plus courte pour devenir assistant médical.
+          </p>
+          <div className="bg-[#f4f8fe] rounded-2xl border border-[#e4eaf5] p-8">
+            <h3 className="text-[18px] font-semibold text-[#093e98] mb-4">Qui peut bénéficier de la FAE ?</h3>
+            <ul className="flex flex-col gap-3">
+              {[
+                'Les infirmiers diplômés d\'État',
+                'Les aides-soignants diplômés',
+                'Les auxiliaires de puériculture diplômés',
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3 text-[15px] leading-[1.65] text-gray-700">
+                  <span className="text-[#093e98] font-bold mt-0.5 shrink-0">→</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <p className="text-[14px] text-gray-500 mt-5">
+              Comme le CQP, la FAE est intégralement prise en charge par l&apos;OPCO EP — aucun coût pour le candidat. Mesdocs organise la formation dès la prise de poste.
+            </p>
           </div>
         </div>
       </section>
