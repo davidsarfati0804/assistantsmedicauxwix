@@ -1,21 +1,13 @@
 'use client';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { CheckCircle } from 'lucide-react';
-import { pushEvent, notifyLeadStart, extractLeadData } from '@/lib/gtm';
+import { pushEvent, useLeadAlertForm } from '@/lib/gtm';
 
 export default function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const startedRef = useRef(false);
-
-  function handleFormBlur(e: React.FocusEvent<HTMLFormElement>) {
-    if (startedRef.current) return;
-    const data = extractLeadData(e.currentTarget);
-    if (Object.keys(data).length === 0) return;
-    startedRef.current = true;
-    notifyLeadStart('contact-page', data);
-  }
+  const { formRef, onBlur } = useLeadAlertForm('contact-page');
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -49,7 +41,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form name="contact-page" method="POST" onSubmit={handleSubmit} onBlur={handleFormBlur} className="flex flex-col gap-4">
+    <form ref={formRef} name="contact-page" method="POST" onSubmit={handleSubmit} onBlur={onBlur} className="flex flex-col gap-4">
       <input type="hidden" name="form-name" value="contact-page" />
 
       <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">

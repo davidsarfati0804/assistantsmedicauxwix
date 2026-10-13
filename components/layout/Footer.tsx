@@ -1,8 +1,8 @@
 'use client';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import { Search, Shield, UserPlus, CheckCircle, Phone, Mail, MapPin } from 'lucide-react';
 import Image from 'next/image';
-import { pushEvent, notifyLeadStart, extractLeadData } from '@/lib/gtm';
+import { pushEvent, useLeadAlertForm } from '@/lib/gtm';
 
 const reassurances = [
   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
@@ -15,15 +15,7 @@ export default function Footer() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const startedRef = useRef(false);
-
-  function handleFormBlur(e: React.FocusEvent<HTMLFormElement>) {
-    if (startedRef.current) return;
-    const data = extractLeadData(e.currentTarget);
-    if (Object.keys(data).length === 0) return;
-    startedRef.current = true;
-    notifyLeadStart('contact', data);
-  }
+  const { formRef, onBlur } = useLeadAlertForm('contact');
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -105,7 +97,7 @@ export default function Footer() {
                 <p className="text-[15px] text-gray-500">Nous vous recontactons dans les 24 heures.</p>
               </div>
             ) : (
-              <form name="contact" method="POST" onSubmit={handleSubmit} onBlur={handleFormBlur} className="flex flex-col gap-4">
+              <form ref={formRef} name="contact" method="POST" onSubmit={handleSubmit} onBlur={onBlur} className="flex flex-col gap-4">
                 <input type="hidden" name="form-name" value="contact" />
 
                 <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">

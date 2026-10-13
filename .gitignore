@@ -56,3 +56,6 @@ avantages-*.jpeg
 devenir-*.jpeg
 reference-*.jpeg
 officiel-*.jpeg
+
+# Local Netlify folder
+.netlify
