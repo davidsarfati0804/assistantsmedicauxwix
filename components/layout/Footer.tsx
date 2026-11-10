@@ -1,8 +1,7 @@
 'use client';
-import { useState } from 'react';
 import { Search, Shield, UserPlus, CheckCircle, Phone, Mail, MapPin } from 'lucide-react';
 import Image from 'next/image';
-import { pushEvent, useLeadAlertForm } from '@/lib/gtm';
+import { useLeadForm } from '@/lib/useLeadForm';
 
 const reassurances = [
   { Icon: Search, text: 'Nous analysons vos besoins et votre organisation' },
@@ -12,31 +11,7 @@ const reassurances = [
 ];
 
 export default function Footer() {
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
-  const { formRef, onBlur } = useLeadAlertForm('contact');
-
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setLoading(true);
-    setError(false);
-    const form = e.currentTarget;
-    try {
-      const res = await fetch('/netlify-forms.html', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(new FormData(form) as unknown as Record<string, string>).toString(),
-      });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      setSubmitted(true);
-      pushEvent('form_submit', { form_name: 'contact' });
-    } catch {
-      setLoading(false);
-      setError(true);
-      pushEvent('form_error', { form_name: 'contact' });
-    }
-  }
+  const { submitted, loading, error, onSubmit, onStart, onInvalid, onChange } = useLeadForm('contact');
 
   return (
     <footer id="contact" className="bg-[#f5f8ff]">
@@ -49,7 +24,7 @@ export default function Footer() {
               Échangeons sur votre projet
             </h2>
             <p className="text-[15px] text-white/80 leading-[1.65] mb-9">
-              Notre équipe vous accompagne de A à Z dans le recrutement et l&apos;intégration de votre assistant médical. Remplissez le formulaire, nous vous recontactons sous 24h.
+              Notre équipe vous accompagne de A à Z dans le recrutement et l&apos;intégration de votre assistant médical. Remplissez le formulaire pour être recontacté par notre équipe.
             </p>
 
             <ul className="flex flex-col gap-5 mb-10">
@@ -70,11 +45,11 @@ export default function Footer() {
 
             {/* Trust strip */}
             <div className="border-t border-white/20 pt-7 flex flex-col gap-3">
-              <a href="tel:0970682220" onClick={() => pushEvent('click_telephone')} className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
+              <a href="tel:0970682220" className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
                 <Phone size={15} className="shrink-0" />
                 09 70 68 22 20
               </a>
-              <a href="mailto:contact@ge-mesdocs.fr" onClick={() => pushEvent('click_email')} className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
+              <a href="mailto:contact@ge-mesdocs.fr" className="flex items-center gap-3 text-[14px] text-white/85 hover:text-white transition-colors">
                 <Mail size={15} className="shrink-0" />
                 contact@ge-mesdocs.fr
               </a>
@@ -88,53 +63,63 @@ export default function Footer() {
           {/* Right — form card */}
           <div className="bg-white rounded-2xl border border-[#e4eaf5] shadow-[0_4px_32px_rgba(9,62,152,.08)] px-10 py-11 max-md:px-6 max-md:py-8">
             <h3 className="text-[20px] font-bold text-gray-900 mb-1.5">Demandez à être recontacté</h3>
-            <p className="text-[14px] text-gray-500 mb-7">Réponse garantie sous 24h ouvrées.</p>
+            <p className="text-[14px] text-gray-500 mb-7">Notre équipe vous recontacte sous 24h ouvrées.</p>
 
             {submitted ? (
-              <div className="flex flex-col items-center justify-center py-14 text-center">
+              <div role="status" aria-live="polite" className="flex flex-col items-center justify-center py-14 text-center">
                 <CheckCircle size={44} className="text-[#093e98] mb-4" />
                 <p className="text-[18px] font-semibold text-gray-900 mb-2">Message bien reçu !</p>
-                <p className="text-[15px] text-gray-500">Nous vous recontactons dans les 24 heures.</p>
+                <p className="text-[15px] text-gray-500">Notre équipe vous recontacte sous 24h ouvrées.</p>
               </div>
             ) : (
-              <form ref={formRef} name="contact" method="POST" onSubmit={handleSubmit} onBlur={onBlur} className="flex flex-col gap-4">
+              <form name="contact" method="POST" onSubmit={onSubmit} onFocus={onStart} onChange={onChange} onInvalidCapture={onInvalid} aria-busy={loading} className="flex flex-col gap-4">
                 <input type="hidden" name="form-name" value="contact" />
+      <div className="flex flex-col gap-1.5">
+        <label htmlFor="footer-profil" className="text-[13px] font-medium text-gray-700">Je suis</label>
+        <select id="footer-profil" name="profil" className="w-full rounded-xl border border-[#e4eaf5] bg-[#f9fbff] px-4 py-3 text-sm text-gray-800 focus:outline-2 focus:outline-blue-800">
+          <option value="">Sélectionnez</option>
+          <option value="medecin">Médecin libéral</option>
+          <option value="structure">Maison de santé / structure</option>
+          <option value="candidat">Candidat assistant médical</option>
+          <option value="autre">Autre</option>
+        </select>
+      </div>
 
                 <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Nom &amp; Prénom <span className="text-[#e03e3e]">*</span></label>
-                    <input type="text" name="nom-prenom" required placeholder="Jean Dupont"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
+                    <label htmlFor="footer-nom-prenom" className="text-[13px] font-medium text-gray-700">Nom &amp; Prénom <span className="text-[#e03e3e]">*</span></label>
+                    <input id="footer-nom-prenom" autoComplete="name" type="text" name="nom-prenom" required placeholder="Jean Dupont"
+                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500" />
                   </div>
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Téléphone <span className="text-[#e03e3e]">*</span></label>
-                    <input type="tel" name="telephone" required placeholder="06 00 00 00 00"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
+                    <label htmlFor="footer-telephone" className="text-[13px] font-medium text-gray-700">Téléphone <span className="text-[#e03e3e]">*</span></label>
+                    <input id="footer-telephone" autoComplete="tel" type="tel" name="telephone" required placeholder="06 00 00 00 00"
+                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500" />
                   </div>
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-[13px] font-medium text-gray-700">Email <span className="text-[#e03e3e]">*</span></label>
-                  <input type="email" name="email" required placeholder="jean.dupont@cabinet.fr"
-                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
+                  <label htmlFor="footer-email" className="text-[13px] font-medium text-gray-700">Email <span className="text-[#e03e3e]">*</span></label>
+                  <input id="footer-email" autoComplete="email" type="email" name="email" required placeholder="jean.dupont@cabinet.fr"
+                    className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500" />
                 </div>
 
                 <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Cabinet / Structure</label>
-                    <input type="text" name="cabinet" placeholder="Cabinet médical Paris 16"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
+                    <label htmlFor="footer-cabinet" className="text-[13px] font-medium text-gray-700">Cabinet / Structure</label>
+                    <input id="footer-cabinet" autoComplete="organization" type="text" name="cabinet" placeholder="Cabinet médical Paris 16"
+                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500" />
                   </div>
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-[13px] font-medium text-gray-700">Ville</label>
-                    <input type="text" name="ville" placeholder="Paris"
-                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
+                    <label htmlFor="footer-ville" className="text-[13px] font-medium text-gray-700">Ville</label>
+                    <input id="footer-ville" autoComplete="address-level2" type="text" name="ville" placeholder="Paris"
+                      className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500" />
                   </div>
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-[13px] font-medium text-gray-700">Votre besoin</label>
-                  <select name="besoin"
+                  <label htmlFor="footer-besoin" className="text-[13px] font-medium text-gray-700">Votre besoin</label>
+                  <select id="footer-besoin" name="besoin"
                     className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
                     <option value="">Sélectionnez une option</option>
                     <option value="recrutement">Recruter un assistant médical</option>
@@ -145,8 +130,8 @@ export default function Footer() {
                 </div>
 
                 <div className="flex flex-col gap-1.5">
-                  <label className="text-[13px] font-medium text-gray-700">Créneau de disponibilité</label>
-                  <select name="disponibilites"
+                  <label htmlFor="footer-disponibilites" className="text-[13px] font-medium text-gray-700">Créneau de disponibilité</label>
+                  <select id="footer-disponibilites" name="disponibilites"
                     className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] text-gray-800 bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
                     <option value="">Sélectionnez</option>
                     <option value="9h-12h">9h - 12h</option>
@@ -161,7 +146,7 @@ export default function Footer() {
                   <input type="checkbox" name="rgpd" id="rgpd-footer" required
                     className="mt-1 w-4 h-4 accent-[#093e98] shrink-0 cursor-pointer" />
                   <label htmlFor="rgpd-footer" className="text-[12px] text-gray-500 leading-[1.5]">
-                    J'accepte que mes données soient utilisées pour traiter ma demande, conformément à la{' '}
+                    J&apos;accepte que mes données soient utilisées pour traiter ma demande, conformément à la{' '}
                     <a href="/politique-confidentialite" className="underline hover:text-[#093e98] transition-colors">politique de confidentialité</a>.{' '}
                     <span className="text-[#e03e3e]">*</span>
                   </label>
@@ -169,7 +154,7 @@ export default function Footer() {
 
                 {error && (
                   <div role="alert" className="rounded-xl bg-red-50 border border-red-200 px-4 py-3 text-[13px] text-red-700">
-                    Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous contacter directement au 09 70 68 22 20.
+                    Une erreur est survenue lors de l&apos;envoi. Veuillez réessayer ou nous contacter directement au 09 70 68 22 20.
                   </div>
                 )}
 
@@ -185,9 +170,9 @@ export default function Footer() {
       </div>
 
       {/* Copyright bar */}
-      <div className="border-t border-[#e4eaf5] bg-white py-5 text-center text-[13px] text-gray-400 flex flex-col items-center gap-1.5">
+      <div className="border-t border-[#e4eaf5] bg-white px-6 py-5 text-center text-[13px] text-gray-600 flex flex-col items-center gap-1.5">
         <span>© {new Date().getFullYear()} Mesdocs Groupement d&apos;Employeurs — Association loi 1901 — Assistants Médicaux</span>
-        <div className="flex gap-4">
+        <div className="flex w-full max-w-[1140px] flex-wrap justify-center gap-x-4 gap-y-3 break-words">
           <a href="/recrutement-assistant-medical" className="hover:text-[#093e98] underline transition-colors">Recruter un assistant médical</a>
           <a href="/assistant-medical-medecin-specialiste" className="hover:text-[#093e98] underline transition-colors">Spécialistes &amp; éligibilité</a>
           <a href="/groupement-employeurs-medecin-liberal" className="hover:text-[#093e98] underline transition-colors">Groupement d&apos;employeurs</a>

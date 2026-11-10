@@ -54,7 +54,7 @@ export default function MspPage() {
           ctaLight={{ label: 'Voir le financement CPAM', href: '/dispositif-cpam' }}
         />
         <ResumeBanner>
-          En maison de santé pluriprofessionnelle (MSP) ou cabinet de groupe, plusieurs médecins peuvent partager un même assistant médical via Mesdocs Groupement d'Employeurs. Chaque médecin éligible signe son propre contrat CPAM et perçoit son aide individuellement (jusqu'à 19 000 €/an pour 0,5 ETP la 1re année). Mesdocs est l'employeur unique, organise les plannings et gère l'ensemble des obligations RH.
+          En maison de santé pluriprofessionnelle (MSP) ou cabinet de groupe, plusieurs médecins peuvent partager un même assistant médical via Mesdocs Groupement d&apos;Employeurs. Chaque médecin éligible signe son propre contrat CPAM et perçoit son aide individuellement (jusqu&apos;à 19 000 €/an pour 0,5 ETP la 1re année). Mesdocs est l&apos;employeur unique, organise les plannings et gère l&apos;ensemble des obligations RH.
         </ResumeBanner>
         <MspContent />
         <CtaSection

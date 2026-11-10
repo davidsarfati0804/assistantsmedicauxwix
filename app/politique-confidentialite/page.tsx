@@ -18,7 +18,7 @@ export default function PolitiqueConfidentialitePage() {
           <div className="max-w-[860px] mx-auto">
 
             <h1 className="text-[32px] font-bold text-gray-900 mb-2">Politique de Confidentialité</h1>
-            <p className="text-[14px] text-gray-400 mb-10">Dernière mise à jour : mai 2026</p>
+            <p className="text-[14px] text-gray-600 mb-10">Dernière mise à jour : 10 novembre 2026</p>
 
             <div className="prose prose-gray max-w-none text-[16px] leading-[1.8] flex flex-col gap-8">
 
@@ -40,7 +40,8 @@ export default function PolitiqueConfidentialitePage() {
                   <li>Nom et prénom</li>
                   <li>Adresse email professionnelle</li>
                   <li>Numéro de téléphone</li>
-                  <li>Spécialité médicale et secteur d&apos;exercice (secteur 1, 2 ou autre)</li>
+                  <li>Profil (médecin, candidat, structure ou autre) et besoin déclaré</li>
+                  <li>Cabinet, ville, secteur conventionnel et disponibilités, selon le formulaire</li>
                   <li>Message libre (si formulaire de contact)</li>
                 </ul>
                 <p className="mt-3">Ces données sont collectées exclusivement dans le cadre de votre demande de rendez-vous ou de contact avec nos équipes.</p>
@@ -70,7 +71,7 @@ export default function PolitiqueConfidentialitePage() {
               <section>
                 <h2 className="text-[20px] font-semibold text-gray-900 mb-3">6. Destinataires des données</h2>
                 <p>Vos données sont traitées par les équipes de Mesdocs Groupement d&apos;Employeurs. Elles ne sont pas revendues à des tiers. Elles peuvent être transmises à des sous-traitants techniques (hébergement, emailing) dans le strict cadre de la prestation, sous contrat de traitement conforme au RGPD.</p>
-                <p className="mt-3">Nos outils actuels : <strong>Brevo</strong> (emailing), <strong>Netlify</strong> (hébergement).</p>
+                <p className="mt-3">Nos outils actuels : <strong>Brevo</strong> (emailing), <strong>Netlify</strong> (hébergement et réception des formulaires), <strong>Google Analytics 4</strong> (mesure d’audience uniquement après votre accord).</p>
               </section>
 
               <section>
@@ -90,7 +91,9 @@ export default function PolitiqueConfidentialitePage() {
 
               <section>
                 <h2 className="text-[20px] font-semibold text-gray-900 mb-3">8. Cookies</h2>
-                <p>Ce site utilise des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie publicitaire ou de tracking tiers n&apos;est déposé sans votre consentement préalable.</p>
+                <p>Google Analytics 4 est chargé uniquement si vous acceptez la mesure d’audience. Il nous permet de comprendre les pages consultées, les sources de visite et l’utilisation des formulaires. Les noms, emails, téléphones et messages saisis dans les formulaires ne sont pas transmis dans les événements Analytics.</p>
+                <p className="mt-3">Le choix est conservé pendant six mois dans votre navigateur. Vous pouvez refuser sans empêcher l’envoi d’une demande, ou retirer votre accord à tout moment avec « Gérer mes cookies », en bas de chaque page. Le retrait arrête les prochains envois Analytics et supprime les cookies Analytics accessibles au site.</p>
+                <p className="mt-3">Les informations du formulaire sont envoyées à sa validation pour traiter votre demande. Aucune alerte contenant une saisie partielle n’est envoyée avant validation.</p>
               </section>
 
               <section>

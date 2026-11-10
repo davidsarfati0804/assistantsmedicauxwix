@@ -172,7 +172,7 @@ async function extractPage(browser, pageInfo) {
       }
       imageMap[imgUrl] = `/assets/images/${fname}`;
       downloaded.push(fname);
-    } catch (e) {
+    } catch {
       // skip failed
     }
   }
@@ -198,7 +198,7 @@ async function main() {
   for (const pageInfo of PAGES) {
     try {
       results[pageInfo.name] = await extractPage(browser, pageInfo);
-    } catch (e) {
+    } catch {
       console.error(`Failed ${pageInfo.name}:`, e.message);
     }
   }

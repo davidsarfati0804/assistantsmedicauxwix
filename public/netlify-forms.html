@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head><meta charset="UTF-8"><title>Netlify Forms Definitions</title></head>
+<head><meta charset="UTF-8"><title>Netlify Forms Definitions</title><meta name="robots" content="noindex, nofollow"></head>
 <body>
   <!-- Définition statique des formulaires pour Netlify Forms -->
 
   <form name="contact" netlify hidden>
+    <select name="profil"><option value=""></option></select>
     <input name="nom-prenom" type="text" />
     <input name="telephone" type="tel" />
     <input name="email" type="email" />
@@ -16,10 +17,10 @@
   </form>
 
   <form name="contact-page" netlify hidden>
+    <select name="profil"><option value=""></option></select>
     <input name="nom-prenom" type="text" />
     <input name="telephone" type="tel" />
     <input name="email" type="email" />
-    <select name="profil"><option value=""></option></select>
     <select name="besoin"><option value=""></option></select>
     <select name="disponibilites"><option value=""></option></select>
     <textarea name="message"></textarea>
@@ -27,9 +28,11 @@
   </form>
 
   <form name="rendez-vous" netlify hidden>
+    <select name="profil"><option value=""></option></select>
     <input name="nom-prenom" type="text" />
     <input name="telephone" type="tel" />
     <input name="email" type="email" />
+    <input name="rgpd" type="checkbox" />
     <select name="secteur"><option value=""></option></select>
     <select name="disponibilites"><option value=""></option></select>
   </form>

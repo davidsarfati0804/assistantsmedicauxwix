@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
 p {
-  text-align: justify;
+  text-align: left;
   hyphens: auto;
   -webkit-hyphens: auto;
+}
+
+button, a, input, select, textarea {
+  scroll-margin-top: 6rem;
+}
+:focus-visible {
+  outline: 2px solid #093e98;
+  outline-offset: 3px;
 }

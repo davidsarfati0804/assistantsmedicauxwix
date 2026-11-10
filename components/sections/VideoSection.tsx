@@ -15,7 +15,7 @@ export default function VideoSection() {
             </a>
             <div className="flex items-center gap-2 mt-3">
               <Image src="/assets/logo_ameli.png" alt="Assurance Maladie" width={90} height={26} className="object-contain h-[22px] w-auto opacity-70" />
-              <span className="text-[12px] text-gray-400">— Source officielle Assurance Maladie</span>
+              <span className="text-[12px] text-gray-600">— Source officielle Assurance Maladie</span>
             </div>
           </div>
           <div>

@@ -1,4 +1,6 @@
 interface Window {
-  gtag?: (command: string, action: string, params?: Record<string, unknown>) => void;
+  gtag?: (...args: unknown[]) => void;
   dataLayer?: unknown[];
+  mesdocsAnalyticsConsent?: 'accepted' | 'refused' | null;
+  'ga-disable-G-72CR5EDK0P'?: boolean;
 }

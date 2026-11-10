@@ -31,7 +31,7 @@ const exclus = [
 const casTypes = [
   {
     titre: "Pédiatre en cabinet de ville",
-    detail: "Un pédiatre en secteur 2 OPTAM avec 800 patients actifs est éligible. L'assistant médical prend en charge l'accueil, les courbes de croissance, les vaccinations de routine et la gestion des dossiers. Le médecin consacre 100 % de son temps aux actes cliniques.",
+    detail: "Un pédiatre en secteur 2 OPTAM avec 800 patients actifs est éligible. L'assistant médical prend en charge l'accueil, les courbes de croissance, la préparation des consultations et la gestion des dossiers. Le médecin peut consacrer davantage de temps à la consultation.",
   },
   {
     titre: "Gynécologue médical en cabinet de groupe",
@@ -77,7 +77,7 @@ export default function SpecialisteContent() {
             Le dispositif d&apos;assistant médical n&apos;est pas réservé aux médecins généralistes. La plupart des <strong>spécialistes cliniques</strong> — pédiatres, gynécologues, cardiologues, dermatologues, ORL, psychiatres — peuvent recruter un assistant médical financé par la CPAM, sous réserve d&apos;exercer en secteur 1 ou secteur 2 OPTAM.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Seules les spécialités dites <strong>techniques</strong> (radiologie, anesthésie, anatomo-pathologie…) sont exclues. Pour toutes les autres, le montant de l&apos;aide est identique : <strong>jusqu&apos;à 38 000 €/an la 1re année</strong> pour 1 ETP.
+            Seules les spécialités dites <strong>techniques</strong> (radiologie, anesthésie, anatomo-pathologie…) sont exclues. Pour toutes les autres, le montant de l&apos;aide est identique : <strong>jusqu&apos;à 38 000 € la 1re année pour 1 ETP, sous conditions</strong> pour 1 ETP.
           </p>
         </div>
       </section>
@@ -108,7 +108,7 @@ export default function SpecialisteContent() {
                   </li>
                 ))}
               </ul>
-              <p className="text-[13px] text-gray-400 mt-6 italic">Source : Convention Médicale 2024–2029</p>
+              <p className="text-[13px] text-gray-600 mt-6 italic">Source : Convention Médicale 2024–2029</p>
             </div>
           </div>
         </div>

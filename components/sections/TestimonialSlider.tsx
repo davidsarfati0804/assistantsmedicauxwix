@@ -34,7 +34,7 @@ export default function TestimonialSlider() {
 
       <div className="relative max-w-[900px] mx-auto px-6 pt-14 max-md:pt-10">
 
-        <p className="text-center text-[12px] uppercase tracking-[0.18em] text-gray-400 font-medium mb-10">
+        <p className="text-center text-[12px] uppercase tracking-[0.18em] text-gray-600 font-medium mb-10">
           Ils nous font confiance
         </p>
 
@@ -62,7 +62,7 @@ export default function TestimonialSlider() {
 
           <div className="flex flex-col items-center gap-1">
             <span className="text-[15px] font-bold text-[#093e98]">{slides[current].author}</span>
-            <span className="text-[13px] text-gray-400">{slides[current].specialty}</span>
+            <span className="text-[13px] text-gray-600">{slides[current].specialty}</span>
           </div>
 
           <button onClick={prev} className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full border border-[#e4eaf5] bg-white flex items-center justify-center hover:border-[#093e98] hover:text-[#093e98] text-gray-300 transition-colors shadow-sm" aria-label="Précédent">

@@ -113,12 +113,12 @@ export default function AideCollectiveContent() {
       {/* Intro */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-5">Qu'est-ce que l'aide collective à l'emploi d'assistants médicaux ?</h2>
+          <h2 className="text-[28px] font-light mb-5">Qu&apos;est-ce que l&apos;aide collective à l&apos;emploi d&apos;assistants médicaux ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le dispositif collectif d'aide à l'emploi d'un ou plusieurs assistants médicaux est <strong>entré en vigueur le 25 février 2026</strong>, après validation par la commission paritaire nationale (CPN). Il s'agit d'une <strong>aide financière pérenne</strong> qui permet à un groupe de médecins généralistes associés dans une même structure — cabinet de groupe ou maison de santé pluriprofessionnelle (MSP) — de bénéficier ensemble du renfort d'un ou plusieurs assistants médicaux.
+            Le dispositif collectif d&apos;aide à l&apos;emploi d&apos;un ou plusieurs assistants médicaux est <strong>entré en vigueur le 25 février 2026</strong>, après validation par la commission paritaire nationale (CPN). Il s&apos;agit d&apos;une <strong>aide financière pérenne</strong> qui permet à un groupe de médecins généralistes associés dans une même structure — cabinet de groupe ou maison de santé pluriprofessionnelle (MSP) — de bénéficier ensemble du renfort d&apos;un ou plusieurs assistants médicaux.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Ce n'est plus chaque médecin qui signe séparément avec sa CPAM : c'est la société d'exercice (SCP, SCM ou SISA) qui signe un contrat collectif unique, tandis que chaque médecin associé qui souhaite en bénéficier signe un bulletin d'adhésion individuelle annexé au contrat.
+            Ce n&apos;est plus chaque médecin qui signe séparément avec sa CPAM : c&apos;est la société d&apos;exercice (SCP, SCM ou SISA) qui signe un contrat collectif unique, tandis que chaque médecin associé qui souhaite en bénéficier signe un bulletin d&apos;adhésion individuelle annexé au contrat.
           </p>
           <a
             href="https://www.ameli.fr/hauts-de-seine/medecin/exercice-liberal/vie-cabinet/aides-financieres/aide-emploi-assistants-medicaux-dans-les-cabinets/aide-collective-emploi-assistants-medicaux/aide-collective-assistants-medicaux-groupe-medecin"
@@ -136,7 +136,7 @@ export default function AideCollectiveContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-8">Quelles structures peuvent signer un contrat collectif ?</h2>
           <p className="text-[16px] text-gray-600 mb-6 leading-[1.7]">
-            Seule une société ayant une activité propre de soins, dont les associés sont des professionnels de santé en leur nom propre, peut signer. Une société d'exercice libéral (SEL) ne peut pas signer de contrat collectif.
+            Seule une société ayant une activité propre de soins, dont les associés sont des professionnels de santé en leur nom propre, peut signer. Une société d&apos;exercice libéral (SEL) ne peut pas signer de contrat collectif.
           </p>
           <ul className="flex flex-col gap-4">
             {structures.map((s) => (
@@ -147,7 +147,7 @@ export default function AideCollectiveContent() {
             ))}
           </ul>
           <p className="text-[13px] text-gray-500 mt-4 leading-[1.6]">
-            Une SCM ou une SCP dispose d'un numéro AM, comme tout offreur de soins conventionné. Une SISA est identifiée par un numéro Finess propre. Tous les médecins du groupe doivent être associés en leur nom propre au capital de la société et nommément désignés dans le contrat.
+            Une SCM ou une SCP dispose d&apos;un numéro AM, comme tout offreur de soins conventionné. Une SISA est identifiée par un numéro Finess propre. Tous les médecins du groupe doivent être associés en leur nom propre au capital de la société et nommément désignés dans le contrat.
           </p>
         </div>
       </section>
@@ -155,7 +155,7 @@ export default function AideCollectiveContent() {
       {/* Éligibilité */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-8">Conditions d'éligibilité du groupe</h2>
+          <h2 className="text-[28px] font-light mb-8">Conditions d&apos;éligibilité du groupe</h2>
           <div className="bg-white rounded-2xl border border-[#e4eaf5] p-7">
             <ul className="flex flex-col gap-3">
               {eligibilite.map((e) => (
@@ -169,7 +169,7 @@ export default function AideCollectiveContent() {
           <div className="mt-6 flex items-center gap-4 bg-[#eef4ff] rounded-xl p-5 border border-[#cddcf8]">
             <Users size={28} className="text-[#093e98] shrink-0" />
             <p className="text-[15px] text-[#093e98] leading-[1.6]">
-              <strong>Contrairement au dispositif individuel</strong>, l'aide collective est réservée aux médecins <strong>généralistes</strong> (hors médecins à exercice particulier). Les spécialistes ne sont pas éligibles à ce contrat collectif.
+              <strong>Contrairement au dispositif individuel</strong>, l&apos;aide collective est réservée aux médecins <strong>généralistes</strong> (hors médecins à exercice particulier). Les spécialistes ne sont pas éligibles à ce contrat collectif.
             </p>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function AideCollectiveContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Quelle qualification pour les assistants médicaux recrutés ?</h2>
           <p className="text-[16px] leading-[1.7]">
-            Comme pour le contrat individuel, les assistants médicaux financés par l'aide collective doivent être titulaires du <strong>CQP Assistant Médical (RNCP n°36358)</strong>, sauf s'ils sont déjà infirmiers, aides-soignants ou auxiliaires de puériculture. À défaut, ils doivent obtenir le CQP dans les <strong>2 ans suivant leur embauche</strong>, en formation en alternance avec leur activité au cabinet ou à la MSP.
+            Comme pour le contrat individuel, les assistants médicaux financés par l&apos;aide collective doivent être titulaires du <strong>CQP Assistant Médical (RNCP n°36358)</strong>, sauf s&apos;ils sont déjà infirmiers, aides-soignants ou auxiliaires de puériculture. À défaut, ils doivent obtenir le CQP dans les <strong>2 ans suivant leur embauche</strong>, en formation en alternance avec leur activité au cabinet ou à la MSP.
           </p>
         </div>
       </section>
@@ -188,7 +188,7 @@ export default function AideCollectiveContent() {
       {/* Tableau montants */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-4">Quel montant d'aide par assistant médical ?</h2>
+          <h2 className="text-[28px] font-light mb-4">Quel montant d&apos;aide par assistant médical ?</h2>
           <p className="text-[16px] text-gray-500 mb-8">Aide financière pérenne, par assistant médical à temps plein, versée à la société signataire.</p>
           <div className="overflow-x-auto rounded-xl border border-[#e4eaf5]">
             <table className="w-full text-[14px] border-collapse">
@@ -209,23 +209,23 @@ export default function AideCollectiveContent() {
             </table>
           </div>
           <p className="text-[13px] text-gray-500 italic mt-4 leading-[1.6]">
-            À partir de la 3e année, le surcroît d'activité généré par le ou les assistants médicaux permet aux médecins du groupe de contribuer ensemble au financement de leurs assistants médicaux.
+            À partir de la 3e année, le surcroît d&apos;activité généré par le ou les assistants médicaux permet aux médecins du groupe de contribuer ensemble au financement de leurs assistants médicaux.
           </p>
-          <p className="text-[13px] text-gray-400 mt-3">Source : ameli.fr — dispositif entré en vigueur le 25 février 2026</p>
+          <p className="text-[13px] text-gray-600 mt-3">Source : ameli.fr — dispositif entré en vigueur le 25 février 2026</p>
         </div>
       </section>
 
       {/* ETP et docteurs juniors */}
       <section className="bg-[#f5f8ff] py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-5">Combien de postes d'assistants médicaux le groupe peut-il financer ?</h2>
+          <h2 className="text-[28px] font-light mb-5">Combien de postes d&apos;assistants médicaux le groupe peut-il financer ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
             Le nombre de postes en équivalent temps plein (ETP) ne peut pas dépasser le <strong>nombre de médecins du groupe adhérents</strong> au contrat collectif.
           </p>
           <div className="bg-white rounded-2xl border border-[#e4eaf5] p-7">
             <p className="text-[15px] font-semibold text-[#093e98] mb-2">Bonus « docteurs juniors » à partir de novembre 2026</p>
             <p className="text-[15px] text-gray-700 leading-[1.7] mb-3">
-              Si des médecins du groupe ont la qualité de maître de stage des universités (PAMSU) et accueillent un docteur junior (étudiant en fin de 3e cycle), le plafond d'ETP peut être augmenté de <strong>0,5 ETP par médecin PAMSU</strong>. Si la structure elle-même (une MSP par exemple) est agréée comme terrain de stage ambulatoire, ce bonus de 0,5 ETP s'applique pour chaque médecin du groupe.
+              Si des médecins du groupe ont la qualité de maître de stage des universités (PAMSU) et accueillent un docteur junior (étudiant en fin de 3e cycle), le plafond d&apos;ETP peut être augmenté de <strong>0,5 ETP par médecin PAMSU</strong>. Si la structure elle-même (une MSP par exemple) est agréée comme terrain de stage ambulatoire, ce bonus de 0,5 ETP s&apos;applique pour chaque médecin du groupe.
             </p>
             <p className="text-[14px] text-gray-500 leading-[1.6] italic">
               Exemple : un groupe de 4 médecins, dont 2 PAMSU, souhaitant le maximum de 4 assistants médicaux, peut bénéficier de 5 ETP au total (4 + 0,5 × 2).
@@ -239,7 +239,7 @@ export default function AideCollectiveContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-4">Quels objectifs de patientèle pour le groupe ?</h2>
           <p className="text-[16px] text-gray-600 mb-8 leading-[1.7]">
-            Pour chaque ETP d'assistant médical financé, le groupe dispose de <strong>2 ans</strong> pour augmenter collectivement sa patientèle :
+            Pour chaque ETP d&apos;assistant médical financé, le groupe dispose de <strong>2 ans</strong> pour augmenter collectivement sa patientèle :
           </p>
           <div className="grid grid-cols-2 gap-6 max-md:grid-cols-1 mb-8">
             {objectifs.map((o) => (
@@ -252,11 +252,11 @@ export default function AideCollectiveContent() {
           <div className="flex items-start gap-4 bg-[#fff7ed] rounded-xl p-5 border border-[#fbd9a8] mb-4">
             <AlertTriangle size={22} className="text-[#b45309] shrink-0 mt-0.5" />
             <p className="text-[14px] text-[#92400e] leading-[1.6]">
-              Si l'objectif n'est pas intégralement atteint à partir de la 3e année, l'aide de cette année (et des suivantes) est <strong>proratisée</strong>. Si la patientèle totale du groupe baisse par rapport au niveau de départ, la CPAM peut résilier le contrat en l'absence de solution — en revanche, repasser sous le seuil P30 en cours de contrat (par exemple après le départ d'un médecin) n'est <strong>pas</strong> à lui seul un motif de résiliation.
+              Si l&apos;objectif n&apos;est pas intégralement atteint à partir de la 3e année, l&apos;aide de cette année (et des suivantes) est <strong>proratisée</strong>. Si la patientèle totale du groupe baisse par rapport au niveau de départ, la CPAM peut résilier le contrat en l&apos;absence de solution — en revanche, repasser sous le seuil P30 en cours de contrat (par exemple après le départ d&apos;un médecin) n&apos;est <strong>pas</strong> à lui seul un motif de résiliation.
             </p>
           </div>
           <p className="text-[14px] text-gray-500 leading-[1.6]">
-            Cas particulier : un médecin nouvellement installé (moins de 12 mois) doit atteindre, après 3 ans d'adhésion au contrat collectif, le 50e percentile national (P50) : <strong>1 045 patients médecin traitant</strong> et <strong>1 514 patients file active</strong>. L'objectif du groupe tient compte, en le réduisant, des patients déjà gagnés par d'anciens contrats individuels des médecins avant leur adhésion au collectif.
+            Cas particulier : un médecin nouvellement installé (moins de 12 mois) doit atteindre, après 3 ans d&apos;adhésion au contrat collectif, le 50e percentile national (P50) : <strong>1 045 patients médecin traitant</strong> et <strong>1 514 patients file active</strong>. L&apos;objectif du groupe tient compte, en le réduisant, des patients déjà gagnés par d&apos;anciens contrats individuels des médecins avant leur adhésion au collectif.
           </p>
         </div>
       </section>
@@ -266,10 +266,10 @@ export default function AideCollectiveContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Durée et vie du contrat collectif</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le contrat collectif est signé par le représentant légal de la société pour <strong>5 ans, renouvelables</strong>. Chaque médecin qui souhaite en bénéficier signe un bulletin d'adhésion individuelle, annexé au contrat — un associé peut choisir de ne pas y adhérer. Les médecins signataires restent libres d'entrer ou de sortir du contrat collectif à sa date anniversaire, sans incidence sur le nombre d'ETP choisi initialement.
+            Le contrat collectif est signé par le représentant légal de la société pour <strong>5 ans, renouvelables</strong>. Chaque médecin qui souhaite en bénéficier signe un bulletin d&apos;adhésion individuelle, annexé au contrat — un associé peut choisir de ne pas y adhérer. Les médecins signataires restent libres d&apos;entrer ou de sortir du contrat collectif à sa date anniversaire, sans incidence sur le nombre d&apos;ETP choisi initialement.
           </p>
           <p className="text-[16px] leading-[1.7]">
-            Pour signer un contrat collectif, tout contrat individuel antérieur des médecins du groupe doit impérativement être clos au préalable — le cumul entre contrat individuel et contrat collectif n'est pas possible.
+            Pour signer un contrat collectif, tout contrat individuel antérieur des médecins du groupe doit impérativement être clos au préalable — le cumul entre contrat individuel et contrat collectif n&apos;est pas possible.
           </p>
         </div>
       </section>
@@ -277,14 +277,14 @@ export default function AideCollectiveContent() {
       {/* Gestion administrative et GE */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-5">Qui gère les fonds, et peut-on passer par un groupement d'employeurs ?</h2>
+          <h2 className="text-[28px] font-light mb-5">Qui gère les fonds, et peut-on passer par un groupement d&apos;employeurs ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            La société signataire perçoit directement les fonds de l'aide sur un compte bancaire français qui lui est propre. La répartition du temps de travail des assistants et du financement entre médecins est définie par les statuts ou le règlement intérieur de la société — la CPAM n'intervient pas dans ces différends internes.
+            La société signataire perçoit directement les fonds de l&apos;aide sur un compte bancaire français qui lui est propre. La répartition du temps de travail des assistants et du financement entre médecins est définie par les statuts ou le règlement intérieur de la société — la CPAM n&apos;intervient pas dans ces différends internes.
           </p>
           <div className="mt-4 flex items-center gap-4 bg-[#eef4ff] rounded-xl p-5 border border-[#cddcf8]">
             <Users size={28} className="text-[#093e98] shrink-0" />
             <p className="text-[15px] text-[#093e98] leading-[1.6]">
-              <strong>Point clé :</strong> l'Assurance Maladie autorise explicitement le recours à un <strong>groupement d'employeurs prestataire</strong> pour l'emploi des assistants médicaux financés par l'aide collective, à condition que leur contrat de travail relève de la convention collective des personnels des cabinets médicaux. C'est exactement le rôle que joue Mesdocs : la société du groupe reste signataire du contrat CPAM, Mesdocs reste l'employeur légal des assistants médicaux mis à disposition.
+              <strong>Point clé :</strong> l&apos;Assurance Maladie autorise explicitement le recours à un <strong>groupement d&apos;employeurs prestataire</strong> pour l&apos;emploi des assistants médicaux financés par l&apos;aide collective, à condition que leur contrat de travail relève de la convention collective des personnels des cabinets médicaux. C&apos;est exactement le rôle que joue Mesdocs : la société du groupe reste signataire du contrat CPAM, Mesdocs reste l&apos;employeur légal des assistants médicaux mis à disposition.
             </p>
           </div>
           <p className="text-[14px] text-gray-500 mt-6 mb-3">Documents à réunir pour la signature :</p>
@@ -302,7 +302,7 @@ export default function AideCollectiveContent() {
       {/* Etapes */}
       <section className="bg-[#f5f8ff] py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-8">Comment mettre en place l'aide collective avec Mesdocs ?</h2>
+          <h2 className="text-[28px] font-light mb-8">Comment mettre en place l&apos;aide collective avec Mesdocs ?</h2>
           <div className="flex flex-col gap-5">
             {etapes.map((e) => (
               <div key={e.num} className="flex gap-5 items-start">
@@ -322,7 +322,7 @@ export default function AideCollectiveContent() {
       {/* FAQ */}
       <section className="py-16 px-6">
         <div className="max-w-[860px] mx-auto">
-          <h2 className="text-[28px] font-light mb-8">Questions fréquentes sur l'aide collective</h2>
+          <h2 className="text-[28px] font-light mb-8">Questions fréquentes sur l&apos;aide collective</h2>
           <div className="flex flex-col gap-5">
             {faq.map((item) => (
               <div key={item.q} className="border border-[#e4eaf5] rounded-xl p-7 bg-white">
@@ -339,8 +339,8 @@ export default function AideCollectiveContent() {
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
           <Link href="/dispositif-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Voir le dispositif CPAM individuel →</Link>
           <Link href="/assistant-medical-maison-de-sante" className="text-[#1d67cd] underline hover:text-[#093e98]">Assistant médical en MSP →</Link>
-          <Link href="/groupement-employeurs-medecin-liberal" className="text-[#1d67cd] underline hover:text-[#093e98]">Comprendre le groupement d'employeurs →</Link>
-          <Link href="/prendre-rendez-vous" className="text-[#1d67cd] underline hover:text-[#093e98]">Étudier l'aide collective pour mon groupe →</Link>
+          <Link href="/groupement-employeurs-medecin-liberal" className="text-[#1d67cd] underline hover:text-[#093e98]">Comprendre le groupement d&apos;employeurs →</Link>
+          <Link href="/prendre-rendez-vous" className="text-[#1d67cd] underline hover:text-[#093e98]">Étudier l&apos;aide collective pour mon groupe →</Link>
         </div>
       </section>
     </>

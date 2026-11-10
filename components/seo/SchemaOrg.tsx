@@ -48,12 +48,9 @@ export const organizationSchema = {
     longitude: 2.27703,
   },
   openingHours: 'Mo-Fr 09:00-18:00',
-  description: "Mesdocs Groupement d'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. L'Assurance Maladie (CPAM) finance jusqu'à 38 000 €/an.",
+  description: "Mesdocs Groupement d'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. L'Assurance Maladie (CPAM) peut financer jusqu'à 38 000 € la première année pour un équivalent temps plein, sous conditions.",
   areaServed: 'France',
   knowsAbout: ['Assistant médical', 'Médecine libérale', 'Groupement d\'employeurs', 'Dispositif CPAM', 'Formation CQP'],
-  sameAs: [
-    'https://www.ameli.fr/medecin/exercice-liberal/vie-cabinet/aides-financieres/aide-emploi-assistants-medicaux',
-  ],
 };
 
 export function faqSchema(questions: { q: string; a: string }[]) {

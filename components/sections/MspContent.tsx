@@ -57,17 +57,17 @@ export default function MspContent() {
       {/* Intro */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-5">Le groupement d'employeurs, conçu pour la médecine de groupe</h2>
+          <h2 className="text-[28px] font-light mb-5">Le groupement d&apos;employeurs, conçu pour la médecine de groupe</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le modèle de <strong>groupement d'employeurs (GE)</strong> est structurellement adapté aux maisons de santé pluriprofessionnelles (MSP) et aux cabinets de groupe. Plusieurs médecins partagent un même assistant médical, chacun bénéficie de son aide CPAM individuelle, et Mesdocs gère l'ensemble des contraintes employeur.
+            Le modèle de <strong>groupement d&apos;employeurs (GE)</strong> est structurellement adapté aux maisons de santé pluriprofessionnelles (MSP) et aux cabinets de groupe. Plusieurs médecins partagent un même assistant médical, chacun bénéficie de son aide CPAM individuelle, et Mesdocs gère l&apos;ensemble des contraintes employeur.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Résultat : le coût total est divisé entre les praticiens, la charge administrative est mutualisée, et l'assistant médical développe une polyvalence précieuse pour votre équipe.
+            Résultat : le coût total est divisé entre les praticiens, la charge administrative est mutualisée, et l&apos;assistant médical développe une polyvalence précieuse pour votre équipe.
           </p>
           <div className="mt-6 flex items-center gap-4 bg-[#eef4ff] rounded-xl p-5 border border-[#cddcf8]">
             <Users size={28} className="text-[#093e98] shrink-0" />
             <p className="text-[15px] text-[#093e98] leading-[1.6]">
-              <strong>Exemple :</strong> 2 médecins généralistes en cabinet de groupe = aide CPAM totale de <strong>38 000 €/an</strong> la 1re année (2 × 19 000 €), pour un assistant partagé à temps plein.
+              <strong>Exemple :</strong> 2 médecins généralistes en cabinet de groupe = aide CPAM totale de <strong>38 000 € la première année pour 1 ETP, sous conditions</strong> la 1re année (2 × 19 000 €), pour un assistant partagé à temps plein.
             </p>
           </div>
         </div>
@@ -141,9 +141,9 @@ export default function MspContent() {
       {/* Liens internes */}
       <section className="py-10 px-6">
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
-          <Link href="/groupement-employeurs-medecin-liberal" className="text-[#1d67cd] underline hover:text-[#093e98]">Comprendre le groupement d'employeurs →</Link>
+          <Link href="/groupement-employeurs-medecin-liberal" className="text-[#1d67cd] underline hover:text-[#093e98]">Comprendre le groupement d&apos;employeurs →</Link>
           <Link href="/dispositif-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Le financement CPAM →</Link>
-          <Link href="/aide-collective-assistant-medical" className="text-[#1d67cd] underline hover:text-[#093e98]">L'aide collective pour votre groupe →</Link>
+          <Link href="/aide-collective-assistant-medical" className="text-[#1d67cd] underline hover:text-[#093e98]">L&apos;aide collective pour votre groupe →</Link>
           <Link href="/prendre-rendez-vous" className="text-[#1d67cd] underline hover:text-[#093e98]">Étudier mon projet MSP avec Mesdocs →</Link>
         </div>
       </section>

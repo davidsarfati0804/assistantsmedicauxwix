@@ -13,10 +13,10 @@ export default function TrustBand() {
 
           {/* Content */}
           <div className="flex-1 flex flex-col items-start gap-5 max-md:items-center max-md:text-center">
-            <p className="text-[12px] uppercase tracking-[0.15em] text-gray-400 font-medium">
+            <p className="text-[12px] uppercase tracking-[0.15em] text-gray-600 font-medium">
               Association loi 1901 · Référencé par l&apos;Assurance Maladie
             </p>
-            <a href="https://www.ameli.fr" target="_blank" rel="noopener" className="opacity-85 hover:opacity-100 transition-opacity">
+            <a href="https://www.ameli.fr/node/916286" target="_blank" rel="noopener" className="opacity-85 hover:opacity-100 transition-opacity">
               <Image src="/assets/logo_ameli.png" alt="l'Assurance Maladie – ameli.fr" width={220} height={62} className="object-contain h-[52px] w-auto" />
             </a>
             <p className="text-[14px] text-gray-500 leading-[1.7] max-w-[500px]">

@@ -79,14 +79,14 @@ export default function PrendreRendezVousPage() {
                 <div className="bg-[#f5f8ff] border border-[#e4eaf5] rounded-2xl p-6">
                   <p className="text-[14px] text-gray-500 mb-2">Préférez-vous nous appeler directement ?</p>
                   <a href="tel:0970682220" className="text-[20px] font-bold text-[#093e98] hover:underline block mb-1">09 70 68 22 20</a>
-                  <p className="text-[13px] text-gray-400">Lundi – Vendredi : 9h – 18h</p>
+                  <p className="text-[13px] text-gray-600">Lundi – Vendredi : 9h – 18h</p>
                 </div>
               </div>
 
               {/* Colonne droite — formulaire demande de RDV */}
               <div id="form" className="bg-white rounded-2xl border border-[#e4eaf5] shadow-[0_4px_32px_rgba(9,62,152,.08)] px-9 py-10 scroll-mt-[88px]">
                 <h2 className="text-[20px] font-bold text-gray-900 mb-1.5">Demandez à être rappelé</h2>
-                <p className="text-[14px] text-gray-500 mb-7">Notre équipe vous contacte sous 24h ouvrées pour fixer le créneau.</p>
+                <p className="text-[14px] text-gray-500 mb-7">Notre équipe vous contacte pour fixer le créneau.</p>
                 <RendezVousForm />
               </div>
 

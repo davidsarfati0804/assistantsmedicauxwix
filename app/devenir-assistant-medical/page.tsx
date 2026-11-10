@@ -35,7 +35,7 @@ export default function DevenirPage() {
           imageSrc="/assets/hero_devenir.jpg"
           imageAlt="Devenir Assistant Médical"
           title={<>Comment devenir<br />Assistant.e Médical ?</>}
-          body="CQP, VAE ou FAE selon votre profil, formation intégralement financée, mise en relation avec des médecins libéraux : Mesdocs vous accompagne de la candidature à la prise de poste."
+          body="CQP, VAE ou FAE selon votre profil, possibilités de financement à étudier, mise en relation avec des médecins libéraux : Mesdocs vous accompagne de la candidature à la prise de poste."
           ctaPrimary={{ label: 'Voir les 3 étapes', href: '#comment' }}
           ctaLight={{ label: 'Nous contacter', href: '#contact' }}
         />

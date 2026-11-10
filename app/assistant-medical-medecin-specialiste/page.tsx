@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://assistants-medicaux.com/assistant-medical-medecin-specialiste' },
   openGraph: {
     title: "Assistant Médical pour Médecin Spécialiste | Mesdocs",
-    description: "La plupart des spécialistes cliniques sont éligibles à l'aide CPAM jusqu'à 38 000 €/an. Liste des spécialités éligibles et exclues. Conditions et démarches.",
+    description: "La plupart des spécialistes cliniques sont éligibles à l'aide CPAM jusqu'à 38 000 € la première année pour 1 ETP, sous conditions. Liste des spécialités éligibles et exclues. Conditions et démarches.",
     url: 'https://assistants-medicaux.com/assistant-medical-medecin-specialiste',
     type: 'website',
   },
@@ -51,12 +51,12 @@ export default function SpecialistePage() {
           imageSrc="/assets/hero_avantages.jpg"
           imageAlt="Médecin spécialiste vérifiant son éligibilité au dispositif assistant médical CPAM"
           title={<>Assistant Médical pour<br />Médecin Spécialiste</>}
-          body="Pédiatre, gynécologue, cardiologue, dermatologue… La plupart des spécialistes cliniques sont éligibles à l'aide CPAM jusqu'à 38 000 €/an. Vérifiez votre situation."
+          body="Pédiatre, gynécologue, cardiologue, dermatologue… La plupart des spécialistes cliniques sont éligibles à l'aide CPAM jusqu'à 38 000 € la première année pour 1 ETP, sous conditions. Vérifiez votre situation."
           ctaPrimary={{ label: 'Vérifier mon éligibilité', href: '/prendre-rendez-vous' }}
           ctaLight={{ label: 'Voir le dispositif CPAM', href: '/dispositif-cpam' }}
         />
         <ResumeBanner>
-          Le dispositif d&apos;assistant médical financé par la CPAM n&apos;est pas réservé aux généralistes. Les spécialistes cliniques — pédiatres, gynécologues, cardiologues, ORL, dermatologues, psychiatres et de nombreuses autres spécialités — peuvent en bénéficier, sous réserve d&apos;exercer en secteur 1 ou secteur 2 OPTAM. Seules les spécialités techniques (radiologie, anesthésie…) sont exclues. L&apos;aide CPAM est identique : jusqu&apos;à 38 000 €/an la 1re année.
+          Le dispositif d&apos;assistant médical financé par la CPAM n&apos;est pas réservé aux généralistes. Les spécialistes cliniques — pédiatres, gynécologues, cardiologues, ORL, dermatologues, psychiatres et de nombreuses autres spécialités — peuvent en bénéficier, sous réserve d&apos;exercer en secteur 1 ou secteur 2 OPTAM. Seules les spécialités techniques (radiologie, anesthésie…) sont exclues. L&apos;aide CPAM est identique : jusqu&apos;à 38 000 € la 1re année pour 1 ETP, sous conditions.
         </ResumeBanner>
         <SpecialisteContent />
         <CtaSection

@@ -9,10 +9,10 @@ const sansGe = [
 ];
 
 const avecGe = [
-  "Mesdocs est l'employeur — vous n'avez aucune obligation RH",
+  "Mesdocs est l'employeur — Mesdocs gère la paie et le contrat de travail",
   'Mesdocs gère la paie, les charges, les congés, les remplacements',
   'Mesdocs prend en charge le risque juridique employeur',
-  "Vous payez une contribution mensuelle à Mesdocs après réception de l'aide CPAM",
+  "Une convention précise votre contribution et les modalités de règlement",
 ];
 
 const faq = [
@@ -22,7 +22,7 @@ const faq = [
   },
   {
     q: "Le médecin a-t-il un lien juridique avec l'assistant médical ?",
-    a: "Oui, mais sous une forme allégée : une « convention de mise à disposition » est signée entre Mesdocs et le médecin. Elle précise les horaires, les missions et la durée. En revanche, le médecin n'est pas employeur — il ne peut pas licencier l'assistant, ne gère pas les congés payés et n'est pas responsable des cotisations sociales.",
+    a: "Oui, mais sous une forme allégée : une « convention de mise à disposition » est signée entre Mesdocs et le médecin. Elle précise les horaires, les missions et la durée. En revanche, le médecin n'est pas employeur — Mesdocs gère le contrat et la paie. Le médecin reste responsable des conditions d’exécution du travail dans son cabinet, selon les textes applicables et la convention de mise à disposition.",
   },
   {
     q: 'Mesdocs est-il le seul GE pour les médecins libéraux en France ?',
@@ -44,12 +44,12 @@ export default function GeContent() {
       {/* Intro */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-5">Le groupement d'employeurs : un employeur à votre place</h2>
+          <h2 className="text-[28px] font-light mb-5">Le groupement d&apos;employeurs : un employeur à votre place</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Un <strong>groupement d'employeurs (GE)</strong> est une association loi 1901 qui embauche des salariés et les met à disposition de ses membres adhérents. Dans le secteur médical, Mesdocs joue ce rôle : c'est Mesdocs qui est l'employeur de l'assistant médical, pas vous.
+            Un <strong>groupement d&apos;employeurs (GE)</strong> est une association loi 1901 qui embauche des salariés et les met à disposition de ses membres adhérents. Dans le secteur médical, Mesdocs joue ce rôle : c&apos;est Mesdocs qui est l&apos;employeur de l&apos;assistant médical, pas vous.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Ce modèle est prévu par le <strong>Code du travail (articles L. 1253-1 et suivants)</strong> et reconnu par la Convention Médicale 2024–2029. Il permet aux médecins libéraux de bénéficier d'un collaborateur salarié sans assumer les contraintes de la gestion RH.
+            Ce modèle est prévu par le <strong>Code du travail (articles L. 1253-1 et suivants)</strong> et reconnu par la Convention Médicale 2024–2029. Il permet aux médecins libéraux de bénéficier d&apos;un collaborateur salarié sans assumer les contraintes de la gestion RH.
           </p>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function GeContent() {
       {/* Comparaison avec/sans GE */}
       <section className="bg-[#f5f8ff] py-16 px-6">
         <div className="max-w-[960px] mx-auto">
-          <h2 className="text-[28px] font-light mb-8">Avec ou sans groupement d'employeurs ?</h2>
+          <h2 className="text-[28px] font-light mb-8">Avec ou sans groupement d&apos;employeurs ?</h2>
           <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1">
             <div className="bg-white rounded-2xl border border-[#e4eaf5] p-8">
               <p className="text-[17px] font-bold text-gray-500 mb-5">✗ Sans GE — Emploi direct</p>
@@ -90,10 +90,10 @@ export default function GeContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Comment fonctionne la mise à disposition ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Mesdocs recrute l'assistant médical et signe avec lui un <strong>contrat de travail CDI</strong>. Une <strong>convention de mise à disposition</strong> est ensuite signée entre Mesdocs et votre cabinet. Cette convention précise les horaires, les missions confiées et la durée de la mise à disposition.
+            Mesdocs recrute l&apos;assistant médical et signe avec lui un <strong>contrat de travail CDI</strong>. Une <strong>convention de mise à disposition</strong> est ensuite signée entre Mesdocs et votre cabinet. Cette convention précise les horaires, les missions confiées et la durée de la mise à disposition.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Vous recevez l'aide CPAM directement sur votre compte. Vous reversez ensuite à Mesdocs une contribution qui couvre le salaire, les charges sociales et les frais de gestion. <strong>La 1re année, l'aide CPAM couvre généralement la totalité de cette contribution.</strong>
+            Vous recevez l&apos;aide CPAM directement sur votre compte. Vous reversez ensuite à Mesdocs une contribution qui couvre le salaire, les charges sociales et les frais de gestion. Le reste à charge est calculé selon le coût de la mise à disposition et le montant de l’aide accordée.
           </p>
         </div>
       </section>
@@ -101,7 +101,7 @@ export default function GeContent() {
       {/* FAQ */}
       <section className="bg-[#f5f8ff] py-16 px-6">
         <div className="max-w-[860px] mx-auto">
-          <h2 className="text-[28px] font-light mb-8">Questions sur le groupement d'employeurs</h2>
+          <h2 className="text-[28px] font-light mb-8">Questions sur le groupement d&apos;employeurs</h2>
           <div className="flex flex-col gap-5">
             {faq.map((item) => (
               <div key={item.q} className="border border-[#e4eaf5] rounded-xl p-7 bg-white">

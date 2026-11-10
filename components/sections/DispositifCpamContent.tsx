@@ -67,12 +67,12 @@ export default function DispositifCpamContent() {
       {/* Intro */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-5">Qu'est-ce que le dispositif assistant médical CPAM ?</h2>
+          <h2 className="text-[28px] font-light mb-5">Qu&apos;est-ce que le dispositif assistant médical CPAM ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le dispositif assistant médical a été instauré par l'<strong>Avenant 7 à la Convention Médicale</strong>, puis renforcé par la Convention Médicale 2024–2029. Il permet aux médecins libéraux de recruter un assistant médical avec le soutien financier de l'Assurance Maladie, afin de <strong>libérer du temps médical</strong> et améliorer l'accès aux soins.
+            Le dispositif assistant médical a été instauré par l&apos;<strong>Avenant 7 à la Convention Médicale</strong>, puis renforcé par la Convention Médicale 2024–2029. Il permet aux médecins libéraux de recruter un assistant médical avec le soutien financier de l&apos;Assurance Maladie, afin de <strong>libérer du temps médical</strong> et améliorer l&apos;accès aux soins.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            L'Assurance Maladie verse une aide financière directe au médecin, <strong>de 19 000 à 38 000 euros la première année</strong>, selon le temps de travail de l'assistant. En contrepartie, le médecin s'engage à accueillir de nouveaux patients.
+            L&apos;Assurance Maladie verse une aide financière directe au médecin, <strong>de 19 000 à 38 000 euros la première année</strong>, selon le temps de travail de l&apos;assistant. En contrepartie, le médecin s&apos;engage à accueillir de nouveaux patients.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
             L&apos;aide de l&apos;Assurance Maladie est versée au médecin signataire du contrat CPAM. Dans le cadre de Mesdocs, l&apos;assistant médical est salarié par le groupement d&apos;employeurs puis mis à disposition du médecin ou de la structure selon la convention signée.
@@ -109,7 +109,7 @@ export default function DispositifCpamContent() {
               <ul className="flex flex-col gap-3">
                 {nonEligible.map((e) => (
                   <li key={e} className="flex items-start gap-3 text-[14px] text-gray-500 leading-[1.6]">
-                    <span className="shrink-0 mt-0.5 text-gray-400">—</span>
+                    <span className="shrink-0 mt-0.5 text-gray-600">—</span>
                     {e}
                   </li>
                 ))}
@@ -117,7 +117,7 @@ export default function DispositifCpamContent() {
                   <p className="text-[13px] font-medium text-gray-500 mb-2">Spécialités techniques exclues :</p>
                   <ul className="flex flex-col gap-1.5">
                     {exclusions.map((e) => (
-                      <li key={e} className="flex items-start gap-2.5 text-[13px] text-gray-400 leading-[1.6]">
+                      <li key={e} className="flex items-start gap-2.5 text-[13px] text-gray-600 leading-[1.6]">
                         <span className="shrink-0 mt-0.5">—</span>
                         {e}
                       </li>
@@ -133,7 +133,7 @@ export default function DispositifCpamContent() {
       {/* Tableau montants */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-4">Quel montant d'aide selon votre situation ?</h2>
+          <h2 className="text-[28px] font-light mb-4">Quel montant d&apos;aide selon votre situation ?</h2>
           <p className="text-[16px] text-gray-500 mb-8">Montants revalorisés de 5% dans le cadre de la Convention Médicale 2024.</p>
           <div className="overflow-x-auto rounded-xl border border-[#e4eaf5]">
             <table className="w-full text-[14px] border-collapse">
@@ -160,7 +160,7 @@ export default function DispositifCpamContent() {
           <p className="text-[13px] text-gray-500 italic mt-4 leading-[1.6]">
             Les montants indiqués sont des plafonds d&apos;aide et peuvent varier selon la situation du médecin, le temps de travail de l&apos;assistant, l&apos;éligibilité et les règles applicables par l&apos;Assurance Maladie.
           </p>
-          <p className="text-[13px] text-gray-400 mt-3">Source : ameli.fr — Convention médicale 2024–2029</p>
+          <p className="text-[13px] text-gray-600 mt-3">Source : ameli.fr — Convention médicale 2024–2029. Montants selon la quotité, l’année du contrat et l’atteinte des objectifs.</p>
         </div>
       </section>
 
@@ -169,10 +169,10 @@ export default function DispositifCpamContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Durée et conditions du contrat CPAM</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le contrat avec la CPAM est signé pour une durée de <strong>5 ans, renouvelable</strong>. Il précise les objectifs de progression de la patientèle que le médecin s'engage à atteindre grâce au temps libéré par son assistant.
+            Le contrat avec la CPAM est signé pour une durée de <strong>5 ans, renouvelable</strong>. Il précise les objectifs de progression de la patientèle que le médecin s&apos;engage à atteindre grâce au temps libéré par son assistant.
           </p>
           <p className="text-[16px] leading-[1.7]">
-            Des évaluations annuelles permettent de suivre les résultats et d'adapter le dispositif. En cas de renouvellement, les montants sont ajustés selon les résultats obtenus et la taille de la patientèle.
+            Des évaluations annuelles permettent de suivre les résultats et d&apos;adapter le dispositif. En cas de renouvellement, les montants sont ajustés selon les résultats obtenus et la taille de la patientèle.
           </p>
         </div>
       </section>
@@ -180,7 +180,7 @@ export default function DispositifCpamContent() {
       {/* Étapes */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-8">Comment s'inscrire au dispositif avec Mesdocs ?</h2>
+          <h2 className="text-[28px] font-light mb-8">Comment s&apos;inscrire au dispositif avec Mesdocs ?</h2>
           <div className="flex flex-col gap-5">
             {etapes.map((e) => (
               <div key={e.num} className="flex gap-5 items-start">
@@ -216,7 +216,7 @@ export default function DispositifCpamContent() {
       <section className="py-10 px-6">
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
           <Link href="/avantages-demarches" className="text-[#1d67cd] underline hover:text-[#093e98]">Voir toutes les démarches →</Link>
-          <Link href="/assistants-medicaux" className="text-[#1d67cd] underline hover:text-[#093e98]">Le rôle de l'assistant médical →</Link>
+          <Link href="/assistants-medicaux" className="text-[#1d67cd] underline hover:text-[#093e98]">Le rôle de l&apos;assistant médical →</Link>
           <Link href="/aide-collective-assistant-medical" className="text-[#1d67cd] underline hover:text-[#093e98]">Aide collective pour un groupe de médecins →</Link>
           <Link href="/recrutement-assistant-medical" className="text-[#1d67cd] underline hover:text-[#093e98]">Lancer mon recrutement →</Link>
         </div>

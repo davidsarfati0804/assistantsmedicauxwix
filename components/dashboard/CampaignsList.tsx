@@ -49,7 +49,7 @@ function formatRate(value?: number): string {
 export default function CampaignsList({ campaigns, onView, onSend, sendingId }: CampaignsListProps) {
   if (campaigns.length === 0) {
     return (
-      <div className="text-center py-12 text-gray-400">
+      <div className="text-center py-12 text-gray-600">
         <div className="text-4xl mb-3">📭</div>
         <p className="text-lg font-medium">Aucune campagne trouvée</p>
         <p className="text-sm mt-1">Créez votre première campagne ci-dessous</p>
@@ -97,7 +97,7 @@ export default function CampaignsList({ campaigns, onView, onSend, sendingId }: 
                   <div className="font-medium text-gray-800 truncate max-w-[180px]">
                     {campaign.name}
                   </div>
-                  <div className="text-xs text-gray-400 truncate max-w-[180px] mt-0.5">
+                  <div className="text-xs text-gray-600 truncate max-w-[180px] mt-0.5">
                     {campaign.subject}
                   </div>
                 </td>

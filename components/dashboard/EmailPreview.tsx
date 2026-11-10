@@ -39,7 +39,7 @@ export default function EmailPreview({ html, subject }: EmailPreviewProps) {
         >
           Mobile
         </button>
-        <span className="text-xs text-gray-400 ml-2">{width}px</span>
+        <span className="text-xs text-gray-600 ml-2">{width}px</span>
       </div>
       <div className="flex justify-center bg-gray-100 rounded-xl p-4 overflow-auto">
         <div

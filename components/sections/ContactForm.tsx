@@ -1,82 +1,58 @@
 'use client';
-import { useState } from 'react';
 import { CheckCircle } from 'lucide-react';
-import { pushEvent, useLeadAlertForm } from '@/lib/gtm';
+import { useLeadForm } from '@/lib/useLeadForm';
 
 export default function ContactForm() {
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
-  const { formRef, onBlur } = useLeadAlertForm('contact-page');
-
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setLoading(true);
-    setError(false);
-    const form = e.currentTarget;
-    try {
-      const res = await fetch('/netlify-forms.html', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(new FormData(form) as unknown as Record<string, string>).toString(),
-      });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      setSubmitted(true);
-      pushEvent('form_submit', { form_name: 'contact-page' });
-    } catch {
-      setLoading(false);
-      setError(true);
-      pushEvent('form_error', { form_name: 'contact-page' });
-    }
-  }
+  const { submitted, loading, error, onSubmit, onStart, onInvalid, onChange } = useLeadForm('contact-page');
 
   if (submitted) {
     return (
-      <div className="flex flex-col items-center justify-center py-14 text-center">
+      <div role="status" aria-live="polite" className="flex flex-col items-center justify-center py-14 text-center">
         <CheckCircle size={44} className="text-[#093e98] mb-4" />
         <p className="text-[18px] font-semibold text-gray-900 mb-2">Message bien reçu !</p>
-        <p className="text-[15px] text-gray-500">Nous vous recontactons dans les 24 heures.</p>
+        <p className="text-[15px] text-gray-500">Notre équipe vous recontacte sous 24h ouvrées.</p>
       </div>
     );
   }
 
   return (
-    <form ref={formRef} name="contact-page" method="POST" onSubmit={handleSubmit} onBlur={onBlur} className="flex flex-col gap-4">
+    <form name="contact-page" method="POST" onSubmit={onSubmit} onFocus={onStart} onChange={onChange} onInvalidCapture={onInvalid} aria-busy={loading} className="flex flex-col gap-4">
       <input type="hidden" name="form-name" value="contact-page" />
 
       <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
         <div className="flex flex-col gap-1.5">
-          <label className="text-[13px] font-medium text-gray-700">Nom & Prénom <span className="text-[#e03e3e]">*</span></label>
-          <input type="text" name="nom-prenom" required placeholder="Jean Dupont"
-            className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
+          <label htmlFor="contact-nom-prenom" className="text-[13px] font-medium text-gray-700">Nom & Prénom <span className="text-[#e03e3e]">*</span></label>
+          <input id="contact-nom-prenom" autoComplete="name" type="text" name="nom-prenom" required placeholder="Jean Dupont"
+            className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500" />
         </div>
         <div className="flex flex-col gap-1.5">
-          <label className="text-[13px] font-medium text-gray-700">Téléphone <span className="text-[#e03e3e]">*</span></label>
-          <input type="tel" name="telephone" required placeholder="06 00 00 00 00"
-            className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
+          <label htmlFor="contact-telephone" className="text-[13px] font-medium text-gray-700">Téléphone <span className="text-[#e03e3e]">*</span></label>
+          <input id="contact-telephone" autoComplete="tel" type="tel" name="telephone" required placeholder="06 00 00 00 00"
+            className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500" />
         </div>
       </div>
 
       <div className="flex flex-col gap-1.5">
-        <label className="text-[13px] font-medium text-gray-700">Email <span className="text-[#e03e3e]">*</span></label>
-        <input type="email" name="email" required placeholder="jean.dupont@cabinet.fr"
-          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400" />
+        <label htmlFor="contact-email" className="text-[13px] font-medium text-gray-700">Email <span className="text-[#e03e3e]">*</span></label>
+        <input id="contact-email" autoComplete="email" type="email" name="email" required placeholder="jean.dupont@cabinet.fr"
+          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500" />
       </div>
 
       <div className="flex flex-col gap-1.5">
-        <label className="text-[13px] font-medium text-gray-700">Je suis</label>
-        <select name="profil"
+        <label htmlFor="contact-profil" className="text-[13px] font-medium text-gray-700">Je suis</label>
+        <select id="contact-profil" name="profil"
           className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
           <option value="">Sélectionnez</option>
           <option value="medecin">Médecin libéral</option>
+          <option value="structure">Maison de santé / structure</option>
           <option value="candidat">Candidat assistant médical</option>
           <option value="autre">Autre</option>
         </select>
       </div>
 
       <div className="flex flex-col gap-1.5">
-        <label className="text-[13px] font-medium text-gray-700">Votre besoin <span className="text-[#e03e3e]">*</span></label>
-        <select name="besoin" required
+        <label htmlFor="contact-besoin" className="text-[13px] font-medium text-gray-700">Votre besoin <span className="text-[#e03e3e]">*</span></label>
+        <select id="contact-besoin" name="besoin" required
           className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
           <option value="">Sélectionnez une option</option>
           <option value="recrutement">Recruter un assistant médical</option>
@@ -88,8 +64,8 @@ export default function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-1.5">
-        <label className="text-[13px] font-medium text-gray-700">Créneau de disponibilité</label>
-        <select name="disponibilites"
+        <label htmlFor="contact-disponibilites" className="text-[13px] font-medium text-gray-700">Créneau de disponibilité</label>
+        <select id="contact-disponibilites" name="disponibilites"
           className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors appearance-none cursor-pointer">
           <option value="">Sélectionnez</option>
           <option value="9h-12h">9h - 12h</option>
@@ -101,16 +77,16 @@ export default function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-1.5">
-        <label className="text-[13px] font-medium text-gray-700">Message</label>
-        <textarea name="message" rows={4} placeholder="Décrivez votre situation ou vos questions..."
-          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-400 resize-none" />
+        <label htmlFor="contact-message" className="text-[13px] font-medium text-gray-700">Message</label>
+        <textarea id="contact-message" name="message" rows={4} placeholder="Décrivez votre situation ou vos questions..."
+          className="px-4 py-3 rounded-xl border border-[#e4eaf5] text-[14px] bg-[#f9fbff] outline-none focus:border-[#093e98] focus:ring-2 focus:ring-[#093e98]/30 focus:bg-white transition-colors placeholder:text-gray-500 resize-none" />
       </div>
 
       <div className="flex items-start gap-3">
         <input type="checkbox" name="rgpd" id="rgpd-contact" required
           className="mt-1 w-4 h-4 accent-[#093e98] shrink-0 cursor-pointer" />
         <label htmlFor="rgpd-contact" className="text-[12px] text-gray-500 leading-[1.5]">
-          J'accepte que mes données soient utilisées pour traiter ma demande, conformément à la{' '}
+          J&apos;accepte que mes données soient utilisées pour traiter ma demande, conformément à la{' '}
           <a href="/politique-confidentialite" className="underline hover:text-[#093e98] transition-colors">politique de confidentialité</a>.{' '}
           <span className="text-[#e03e3e]">*</span>
         </label>

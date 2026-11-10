@@ -1,81 +1,44 @@
 'use client';
-import { useEffect, useRef } from 'react';
 
-export function pushEvent(event: string, params: Record<string, unknown> = {}) {
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({ event, ...params });
+export const MEASUREMENT_ID = 'G-72CR5EDK0P';
+export const CONSENT_KEY = 'mesdocs-analytics-consent-v1';
+const CONSENT_MAX_AGE = 180 * 24 * 60 * 60 * 1000;
+export type ConsentChoice = 'accepted' | 'refused';
+export type LeadProfile = 'medecin' | 'candidat' | 'structure' | 'autre' | 'inconnu';
+export type LeadNeed = 'recrutement' | 'information' | 'candidature' | 'devis' | 'autre' | 'inconnu';
+export type FormName = 'contact' | 'contact-page' | 'rendez-vous';
+type AnalyticsEvent = 'form_start_custom' | 'form_error' | 'generate_lead' | 'click_telephone' | 'click_email' | 'file_download';
+type EventParams = { form_name?: FormName; lead_profile?: LeadProfile; lead_need?: LeadNeed; error_type?: 'validation' | 'http_4xx' | 'http_5xx' | 'network' | 'unexpected_response' };
+
+export function readConsent(): ConsentChoice | null {
+  try {
+    const saved = JSON.parse(localStorage.getItem(CONSENT_KEY) || 'null');
+    if (saved && ['accepted', 'refused'].includes(saved.choice) && typeof saved.at === 'number' && Date.now() - saved.at >= 0 && Date.now() - saved.at < CONSENT_MAX_AGE) return saved.choice;
+  } catch { /* Storage can be unavailable; default to no consent. */ }
+  return null;
 }
 
-const LEAD_FIELDS = ['nom-prenom', 'telephone', 'email'] as const;
-
-function extractLeadData(form: HTMLFormElement): Record<string, string> {
-  const fd = new FormData(form);
-  const data: Record<string, string> = {};
-  for (const field of LEAD_FIELDS) {
-    const value = fd.get(field);
-    if (typeof value === 'string' && value.trim()) data[field] = value.trim();
-  }
-  return data;
+export function analyticsAllowed() {
+  return process.env.NODE_ENV === 'production' && window.location.hostname === 'assistants-medicaux.com' && window.mesdocsAnalyticsConsent === 'accepted';
 }
 
-function sendLeadAlert(formName: string, data: Record<string, string>) {
-  pushEvent('form_start_custom', { form_name: formName });
-  const payload = JSON.stringify({ form_name: formName, data });
-  if (navigator.sendBeacon) {
-    navigator.sendBeacon('/api/lead-alert', new Blob([payload], { type: 'application/json' }));
-  } else {
-    fetch('/api/lead-alert', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: payload,
-      keepalive: true,
-    }).catch(() => {
-      // best-effort : un échec réseau ne doit jamais bloquer la saisie du visiteur
-    });
-  }
+export function pushEvent(event: AnalyticsEvent, params: EventParams = {}) {
+  if (!analyticsAllowed()) return;
+  // Explicit allowlist: never send form values, contact details or free text.
+  const safe: Record<string, string> = {};
+  if (params.form_name && ['contact', 'contact-page', 'rendez-vous'].includes(params.form_name)) safe.form_name = params.form_name;
+  if (params.lead_profile && ['medecin', 'candidat', 'structure', 'autre', 'inconnu'].includes(params.lead_profile)) safe.lead_profile = params.lead_profile;
+  if (params.lead_need && ['recrutement', 'information', 'candidature', 'devis', 'autre', 'inconnu'].includes(params.lead_need)) safe.lead_need = params.lead_need;
+  if (params.error_type && ['validation', 'http_4xx', 'http_5xx', 'network', 'unexpected_response'].includes(params.error_type)) safe.error_type = params.error_type;
+  window.gtag?.('event', event, { ...safe, send_to: MEASUREMENT_ID });
 }
 
-/**
- * Alerte "visiteur en train de remplir" avec le plus de champs possible, sans attendre
- * la validation. Se déclenche quand le focus quitte réellement le formulaire (pas juste
- * en passant d'un champ à l'autre), avec un filet de sécurité si l'onglet se ferme avant
- * ça (abandon pur) — capte alors ce qui a été saisi jusque-là via sendBeacon.
- */
-export function useLeadAlertForm(formName: string) {
-  const formRef = useRef<HTMLFormElement>(null);
-  const sentRef = useRef(false);
-
-  function trySend() {
-    if (sentRef.current || !formRef.current) return;
-    const data = extractLeadData(formRef.current);
-    if (Object.keys(data).length === 0) return;
-    sentRef.current = true;
-    sendLeadAlert(formName, data);
-  }
-
-  useEffect(() => {
-    function handleHide() {
-      trySend();
+export function clearAnalyticsCookies() {
+  for (const cookie of document.cookie.split(';')) {
+    const name = cookie.trim().split('=')[0];
+    if (!/^(_ga(?:_|$)|_gid$|_gat(?:_|$))/.test(name)) continue;
+    for (const domain of ['', location.hostname, '.' + location.hostname]) {
+      document.cookie = `${name}=; Max-Age=0; Path=/; SameSite=Lax${domain ? '; Domain=' + domain : ''}${location.protocol === 'https:' ? '; Secure' : ''}`;
     }
-    function handleVisibility() {
-      if (document.visibilityState === 'hidden') trySend();
-    }
-    window.addEventListener('pagehide', handleHide);
-    document.addEventListener('visibilitychange', handleVisibility);
-    return () => {
-      window.removeEventListener('pagehide', handleHide);
-      document.removeEventListener('visibilitychange', handleVisibility);
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  function onBlur(e: React.FocusEvent<HTMLFormElement>) {
-    if (!formRef.current) return;
-    // Ignore les passages d'un champ à l'autre à l'intérieur du même formulaire —
-    // on ne veut capter qu'au moment où l'attention quitte vraiment le formulaire.
-    if (formRef.current.contains(e.relatedTarget as Node)) return;
-    trySend();
   }
-
-  return { formRef, onBlur };
 }

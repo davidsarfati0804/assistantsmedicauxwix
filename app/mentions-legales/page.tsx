@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Mentions Légales',
+  alternates: { canonical: 'https://assistants-medicaux.com/mentions-legales' },
   description: 'Mentions légales du site assistants-medicaux.com — Mesdocs Groupement d\'Employeurs, association loi 1901.',
   robots: { index: false, follow: true },
 };
@@ -18,7 +19,7 @@ export default function MentionsLegalesPage() {
           <div className="max-w-[820px] mx-auto">
 
             <h1 className="text-[36px] font-bold text-gray-900 mb-2">Mentions Légales</h1>
-            <p className="text-[14px] text-gray-400 mb-12">Dernière mise à jour : 7 mai 2026</p>
+            <p className="text-[14px] text-gray-600 mb-12">Dernière mise à jour : 7 mai 2026</p>
 
             {/* Éditeur */}
             <div className="mb-10">

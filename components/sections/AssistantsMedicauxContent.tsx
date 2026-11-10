@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { CheckCircle } from 'lucide-react';
 
@@ -19,8 +18,8 @@ const geAdvantages = [
 
 const comparaison = [
   { critere: 'Employeur', assistant: 'Mesdocs (GE)', secretaire: 'Le médecin lui-même' },
-  { critere: 'Financement CPAM', assistant: 'Jusqu\'à 38 000 €/an', secretaire: 'Non applicable' },
-  { critere: 'Formation certifiante', assistant: 'CQP, VAE ou FAE inclus', secretaire: 'À la charge du médecin' },
+  { critere: 'Financement CPAM', assistant: 'Jusqu’à 38 000 € la première année pour 1 ETP, sous conditions', secretaire: 'Non applicable' },
+  { critere: 'Formation certifiante', assistant: 'CQP, VAE ou FAE selon le profil', secretaire: 'À la charge du médecin' },
   { critere: 'Gestion administrative', assistant: 'Entièrement par Mesdocs', secretaire: 'Entièrement par le médecin' },
   { critere: 'Missions d\'appui à la consultation', assistant: 'Oui (constantes, préparation, sous responsabilité du médecin)', secretaire: 'Non' },
   { critere: 'Engagement', assistant: 'Adhésion à l\'association', secretaire: 'CDI classique' },
@@ -33,7 +32,7 @@ const faq = [
   },
   {
     q: 'Le médecin devient-il l\'employeur de l\'assistant médical ?',
-    a: 'Non. Avec Mesdocs Groupement d\'Employeurs, c\'est Mesdocs qui est l\'employeur juridique de l\'assistant médical. Le médecin est adhérent de l\'association : il a accès à l\'ensemble des ressources de Mesdocs, sans aucune obligation d\'employeur (paie, contrat, URSSAF, licenciement...). Nous vous accompagnons dans les démarches CPAM et assurons la gestion employeur de l\'assistant médical.',
+    a: 'Non. Avec Mesdocs Groupement d\'Employeurs, c\'est Mesdocs qui est l\'employeur juridique de l\'assistant médical. Le médecin est adhérent de l\'association : il a accès à l\'ensemble des ressources de Mesdocs, avec une gestion employeur assurée par Mesdocs (paie, contrat, URSSAF, licenciement...). Nous vous accompagnons dans les démarches CPAM et assurons la gestion employeur de l\'assistant médical.',
   },
   {
     q: 'Puis-je définir moi-même les missions de l\'assistant médical ?',
@@ -55,12 +54,12 @@ export default function AssistantsMedicauxContent() {
       {/* Intro GE */}
       <section className="py-16 px-6">
         <div className="max-w-[900px] mx-auto">
-          <h2 className="text-[28px] font-light mb-5">Qu'est-ce que la mise à disposition par un groupement d'employeurs ?</h2>
+          <h2 className="text-[28px] font-light mb-5">Qu&apos;est-ce que la mise à disposition par un groupement d&apos;employeurs ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Un <strong>groupement d'employeurs (GE)</strong> est une structure juridique qui recrute des salariés et les met à disposition de ses membres — ici, des médecins libéraux. <strong>Mesdocs Groupement d'Employeurs</strong>, <em>association loi 1901 à but non lucratif</em>, est l'employeur légal de l'assistant médical : c'est lui qui signe le contrat de travail, gère la paie, les congés, les formations et les démarches URSSAF.
+            Un <strong>groupement d&apos;employeurs (GE)</strong> est une structure juridique qui recrute des salariés et les met à disposition de ses membres — ici, des médecins libéraux. <strong>Mesdocs Groupement d&apos;Employeurs</strong>, <em>association loi 1901 à but non lucratif</em>, est l&apos;employeur légal de l&apos;assistant médical : c&apos;est lui qui signe le contrat de travail, gère la paie, les congés, les formations et les démarches URSSAF.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le médecin, lui, est <strong>adhérent</strong> de l'association : en tant qu'adhérent, il a accès à l'ensemble des ressources de Mesdocs et bénéficie de l'assistant dans son cabinet au quotidien, sans jamais avoir à endosser la casquette d'employeur.
+            Le médecin, lui, est <strong>adhérent</strong> de l&apos;association : en tant qu&apos;adhérent, il a accès à l&apos;ensemble des ressources de Mesdocs et bénéficie de l&apos;assistant dans son cabinet au quotidien, sans jamais avoir à endosser la casquette d&apos;employeur.
           </p>
           <div className="bg-[#f5f8ff] border border-[#e4eaf5] rounded-2xl p-8 mt-6">
             <p className="text-[17px] font-semibold text-[#093e98] mb-4">Avec Mesdocs, vous bénéficiez de :</p>
@@ -79,7 +78,7 @@ export default function AssistantsMedicauxContent() {
       {/* Missions */}
       <section className="bg-[#f5f8ff] py-16 px-6">
         <div className="max-w-[960px] mx-auto">
-          <h2 className="text-[28px] font-light mb-3 text-center">Les missions de l'assistant médical dans votre cabinet</h2>
+          <h2 className="text-[28px] font-light mb-3 text-center">Les missions de l&apos;assistant médical dans votre cabinet</h2>
           <p className="text-[16px] text-gray-500 text-center mb-10">Les missions sont définies avec vous et adaptées à votre organisation.</p>
           <div className="grid grid-cols-3 gap-8 max-md:grid-cols-1">
             {missions.map((m) => (
@@ -104,10 +103,10 @@ export default function AssistantsMedicauxContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Qui peut bénéficier du dispositif ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le dispositif assistant médical est ouvert aux <strong>médecins libéraux conventionnés</strong> exerçant en secteur 1 ou en secteur 2 avec adhésion OPTAM ou OPTAM-CO, quelle que soit leur spécialité — à l'exception des spécialités purement techniques (radiologues, anesthésistes, anatomocytopathologistes, médecins nucléaires, stomatologues, radiothérapeutes). Les médecins en secteur 3 (non conventionnés) ne sont pas éligibles.
+            Le dispositif assistant médical est ouvert aux <strong>médecins libéraux conventionnés</strong> exerçant en secteur 1 ou en secteur 2 avec adhésion OPTAM ou OPTAM-CO, quelle que soit leur spécialité — à l&apos;exception des spécialités purement techniques (radiologues, anesthésistes, anatomocytopathologistes, médecins nucléaires, stomatologues, radiothérapeutes). Les médecins en secteur 3 (non conventionnés) ne sont pas éligibles.
           </p>
           <p className="text-[16px] leading-[1.7]">
-            Vous exercez seul, en groupe ou en maison de santé pluriprofessionnelle ? Mesdocs accompagne toutes les configurations. La <strong>mutualisation d'un assistant médical</strong> entre plusieurs médecins est également possible grâce au statut de groupement d'employeurs.
+            Vous exercez seul, en groupe ou en maison de santé pluriprofessionnelle ? Mesdocs accompagne toutes les configurations. La <strong>mutualisation d&apos;un assistant médical</strong> entre plusieurs médecins est également possible grâce au statut de groupement d&apos;employeurs.
           </p>
         </div>
       </section>

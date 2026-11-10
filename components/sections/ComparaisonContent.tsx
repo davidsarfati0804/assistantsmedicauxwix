@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { CheckCircle, XCircle } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 
 const comparaison = [
   {
@@ -9,7 +9,7 @@ const comparaison = [
   },
   {
     critere: 'Aide financière CPAM',
-    assistant: '19 000 à 38 000 €/an (Convention Médicale)',
+    assistant: '19 000 à 38 000 € en première année pour 0,5 à 1 ETP, sous conditions',
     secretaire: 'Aucune aide spécifique',
   },
   {
@@ -19,7 +19,7 @@ const comparaison = [
   },
   {
     critere: 'Missions cliniques',
-    assistant: 'Oui : constantes, préparation patient, ECG, pansements…',
+    assistant: 'Appui à la consultation : constantes, préparation du patient et du matériel, sous responsabilité du médecin',
     secretaire: 'Non — administratif uniquement',
   },
   {
@@ -40,10 +40,10 @@ const comparaison = [
 ];
 
 const avantagesAM = [
-  "Aide financière CPAM jusqu'à 38 000 €/an",
+  "Aide financière CPAM jusqu'à 38 000 € la première année pour 1 ETP, sous conditions",
   "Zéro gestion RH — Mesdocs est l'employeur",
-  'Missions cliniques ET administratives',
-  'Formation professionnelle incluse (CQP)',
+  'Appui à la consultation et missions administratives',
+  'Formation CQP organisée selon le profil et le dossier',
   'Partage possible entre plusieurs médecins',
 ];
 
@@ -61,7 +61,7 @@ const faq = [
   },
   {
     q: 'La secrétaire médicale peut-elle réaliser des gestes cliniques ?',
-    a: "Non. La secrétaire médicale n'est pas habilitée à effectuer des gestes cliniques (prise de constantes, électrocardiogramme, pansements). Ces actes relèvent exclusivement de l'assistant médical titulaire du CQP ou d'une auxiliaire de santé qualifiée.",
+    a: "Le secrétariat médical porte sur l’accueil et l’administratif. L’assistant médical peut aussi préparer la consultation et recueillir des constantes sous la responsabilité du médecin. Le CQP ne confère pas une qualification de professionnel de santé ni une autorisation générale de pratiquer des actes de soins.",
   },
   {
     q: "L'aide CPAM s'applique-t-elle si j'emploie une secrétaire médicale ?",
@@ -69,7 +69,7 @@ const faq = [
   },
   {
     q: 'Quelle est la différence de salaire entre les deux profils ?',
-    a: "Le salaire brut d'un assistant médical à temps plein ne peut être inférieur au SMIC, soit 1 867 €/mois (barème 2026). Une secrétaire médicale expérimentée perçoit entre 1 500 et 1 900 € brut/mois. La différence de coût pour le médecin est à mettre en regard de l'aide CPAM, réservée au poste d'assistant médical.",
+    a: "La rémunération dépend de la qualification, de l’expérience, du temps de travail et de la convention collective applicable. Elle doit respecter les minima légaux et conventionnels. Le coût restant pour le cabinet tient aussi compte de l’aide CPAM réellement accordée et des frais de mise à disposition.",
   },
 ];
 
@@ -81,10 +81,10 @@ export default function ComparaisonContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Deux métiers distincts, deux logiques différentes</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            L&apos;<strong>assistant médical</strong> et la <strong>secrétaire médicale</strong> partagent un espace de travail commun mais n'ont ni les mêmes missions, ni le même cadre légal, ni le même impact sur votre cabinet. Choisir l'un ou l'autre dépend de vos besoins réels — et de votre budget.
+            L&apos;<strong>assistant médical</strong> et la <strong>secrétaire médicale</strong> partagent un espace de travail commun mais n&apos;ont ni les mêmes missions, ni le même cadre légal, ni le même impact sur votre cabinet. Choisir l&apos;un ou l&apos;autre dépend de vos besoins réels — et de votre budget.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            La différence clé : l'assistant médical bénéficie d'un financement officiel de l'Assurance Maladie (<strong>jusqu'à 38 000 €/an</strong>), et peut réaliser des gestes cliniques que la secrétaire médicale ne peut pas effectuer.
+            La différence clé : l&apos;assistant médical bénéficie d&apos;un financement officiel de l&apos;Assurance Maladie (<strong>jusqu&apos;à 38 000 € la première année pour 1 ETP, sous conditions</strong>), et peut préparer la consultation sous la responsabilité du médecin, en complément des missions administratives.
           </p>
         </div>
       </section>
@@ -119,10 +119,10 @@ export default function ComparaisonContent() {
       {/* Avantages côte à côte */}
       <section className="py-16 px-6">
         <div className="max-w-[960px] mx-auto">
-          <h2 className="text-[28px] font-light mb-8">Quand choisir l'un ou l'autre ?</h2>
+          <h2 className="text-[28px] font-light mb-8">Quand choisir l&apos;un ou l&apos;autre ?</h2>
           <div className="grid grid-cols-2 gap-8 max-md:grid-cols-1">
             <div className="bg-[#f0f5ff] rounded-2xl border border-[#d0ddf5] p-8">
-              <p className="text-[17px] font-bold text-[#093e98] mb-5">✓ Choisissez l'assistant médical si…</p>
+              <p className="text-[17px] font-bold text-[#093e98] mb-5">✓ Choisissez l&apos;assistant médical si…</p>
               <ul className="flex flex-col gap-3">
                 {avantagesAM.map((a) => (
                   <li key={a} className="flex items-start gap-3 text-[14px] text-gray-700 leading-[1.6]">
@@ -137,7 +137,7 @@ export default function ComparaisonContent() {
               <ul className="flex flex-col gap-3">
                 {avantagesSM.map((a) => (
                   <li key={a} className="flex items-start gap-3 text-[14px] text-gray-600 leading-[1.6]">
-                    <CheckCircle size={16} className="text-gray-400 shrink-0 mt-0.5" />
+                    <CheckCircle size={16} className="text-gray-600 shrink-0 mt-0.5" />
                     {a}
                   </li>
                 ))}
@@ -166,7 +166,7 @@ export default function ComparaisonContent() {
       <section className="py-10 px-6">
         <div className="max-w-[900px] mx-auto flex flex-wrap gap-4 text-[14px]">
           <Link href="/dispositif-cpam" className="text-[#1d67cd] underline hover:text-[#093e98]">Le dispositif CPAM en détail →</Link>
-          <Link href="/assistants-medicaux" className="text-[#1d67cd] underline hover:text-[#093e98]">Les missions de l'assistant médical →</Link>
+          <Link href="/assistants-medicaux" className="text-[#1d67cd] underline hover:text-[#093e98]">Les missions de l&apos;assistant médical →</Link>
           <Link href="/prendre-rendez-vous" className="text-[#1d67cd] underline hover:text-[#093e98]">Vérifier mon éligibilité →</Link>
         </div>
       </section>

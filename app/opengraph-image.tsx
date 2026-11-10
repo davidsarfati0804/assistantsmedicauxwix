@@ -33,7 +33,7 @@ export default function OGImage() {
             letterSpacing: '0.05em',
           }}
         >
-          Association loi 1901 · Référencé par l'Assurance Maladie
+          Association loi 1901 · Référencé par l&apos;Assurance Maladie
         </div>
 
         <div
@@ -46,7 +46,7 @@ export default function OGImage() {
             maxWidth: '820px',
           }}
         >
-          Mesdocs Groupement d'Employeurs
+          Mesdocs Groupement d&apos;Employeurs
         </div>
 
         <div
@@ -59,7 +59,7 @@ export default function OGImage() {
             marginBottom: '48px',
           }}
         >
-          Mise à disposition d'assistants médicaux pour médecins libéraux. CPAM finance jusqu'à 38 000 €/an.
+          Mise à disposition d&apos;assistants médicaux pour médecins libéraux. CPAM finance jusqu&apos;à 38 000 € la première année pour 1 ETP, sous conditions.
         </div>
 
         <div

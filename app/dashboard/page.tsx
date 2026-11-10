@@ -102,7 +102,8 @@ export default function DashboardPage() {
   }, []);
 
   useEffect(() => {
-    loadCampaigns();
+    const timer = window.setTimeout(loadCampaigns, 0);
+    return () => window.clearTimeout(timer);
   }, [loadCampaigns]);
 
   // Voir une campagne
@@ -162,9 +163,6 @@ export default function DashboardPage() {
 
   // Stats
   const sentCampaigns = campaigns.filter((c) => c.status === 'sent');
-  const lastSent = sentCampaigns
-    .filter((c) => c.sentDate)
-    .sort((a, b) => new Date(b.sentDate!).getTime() - new Date(a.sentDate!).getTime())[0];
 
   const totalDelivered = sentCampaigns.reduce((a, c) => a + (c.statistics?.globalStats?.delivered ?? 0), 0);
   const totalUniqueOpens = sentCampaigns.reduce((a, c) => a + (c.statistics?.globalStats?.uniqueViews ?? 0), 0);
@@ -354,7 +352,7 @@ export default function DashboardPage() {
                       <span className="font-medium text-gray-700">{selectedCampaign.name}</span>
                       <button
                         onClick={() => setSelectedCampaign(null)}
-                        className="text-xs text-gray-400 hover:text-gray-600 underline"
+                        className="text-xs text-gray-600 hover:text-gray-600 underline"
                       >
                         Fermer
                       </button>
@@ -365,11 +363,11 @@ export default function DashboardPage() {
                         subject={selectedCampaign.subject}
                       />
                     ) : (
-                      <div className="text-gray-400 text-sm">Aucun contenu HTML disponible pour cette campagne.</div>
+                      <div className="text-gray-600 text-sm">Aucun contenu HTML disponible pour cette campagne.</div>
                     )}
                   </div>
                 ) : (
-                  <div className="text-center py-12 text-gray-400">
+                  <div className="text-center py-12 text-gray-600">
                     <div className="text-4xl mb-3">👁️</div>
                     <p className="text-lg font-medium">Aucun email sélectionné</p>
                     <p className="text-sm mt-1">

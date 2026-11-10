@@ -1,10 +1,10 @@
 import { Users, Banknote, CalendarCheck, ShieldCheck } from 'lucide-react';
 
 const stats = [
-  { Icon: Users, value: '7 420', label: 'médecins satisfaits', sub: 'par le dispositif national' },
+  { Icon: Users, value: '3', label: 'familles de missions', sub: 'administratif, consultation, coordination' },
   { Icon: Banknote, value: '38 000 €', label: 'de financement', sub: 'maximum la 1ʳᵉ année' },
   { Icon: CalendarCheck, value: '5 ans', label: 'de contrat', sub: 'renouvelable CPAM' },
-  { Icon: ShieldCheck, value: '100%', label: 'accompagnement', sub: 'démarches & gestion employeur' },
+  { Icon: ShieldCheck, value: 'GE', label: 'groupement d’employeurs', sub: 'démarches & gestion employeur' },
 ];
 
 export default function StatsBand() {
@@ -26,7 +26,7 @@ export default function StatsBand() {
       </div>
 
       <div className="relative max-w-[1140px] mx-auto px-6 py-24 max-md:py-20">
-        <p className="text-center text-[12px] uppercase tracking-[0.18em] text-white/50 font-medium mb-12">
+        <p className="text-center text-[12px] uppercase tracking-[0.18em] text-white/80 font-medium mb-12">
           Le dispositif en chiffres
         </p>
         <div className="grid grid-cols-4 gap-6 max-md:grid-cols-2 max-sm:grid-cols-1">
@@ -37,7 +37,7 @@ export default function StatsBand() {
               </div>
               <span className="text-[42px] font-bold text-white leading-none mb-2 max-md:text-[34px]">{value}</span>
               <span className="text-[14px] font-semibold text-white/90 mb-1">{label}</span>
-              <span className="text-[12px] text-white/50 leading-[1.4]">{sub}</span>
+              <span className="text-[12px] text-white/80 leading-[1.4]">{sub}</span>
             </div>
           ))}
         </div>

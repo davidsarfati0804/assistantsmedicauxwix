@@ -13,7 +13,7 @@ interface PageHeroProps {
 export default function PageHero({ imageSrc, imageAlt, title, body, ctaPrimary, ctaLight }: PageHeroProps) {
   return (
     <section className="relative h-[480px] overflow-hidden">
-      <Image src={imageSrc} alt={imageAlt} fill className="object-cover object-top" priority />
+      <Image src={imageSrc} alt={imageAlt} fill className="object-cover object-top" sizes="100vw" loading="eager" fetchPriority="high" />
       <div
         className="absolute inset-0"
         style={{ background: 'linear-gradient(90deg, rgba(255,255,255,.92) 0%, rgba(255,255,255,.78) 36%, rgba(255,255,255,.30) 58%, rgba(255,255,255,0) 70%)' }}

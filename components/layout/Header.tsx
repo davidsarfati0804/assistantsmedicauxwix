@@ -109,7 +109,7 @@ export default function Header() {
               {link.label}
             </Link>
           ))}
-          <span className="pt-3 pb-1 text-[12px] font-semibold uppercase tracking-wide text-gray-400">Ressources</span>
+          <span className="pt-3 pb-1 text-[12px] font-semibold uppercase tracking-wide text-gray-600">Ressources</span>
           {resourceLinks.map((link) => (
             <Link
               key={link.href}

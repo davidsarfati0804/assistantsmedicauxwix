@@ -14,7 +14,7 @@ interface HeroProps {
 export default function Hero({ imageSrc, imageAlt, title, body, ctaPrimary, ctaLight, height = 'h-[660px]' }: HeroProps) {
   return (
     <section className={`relative ${height} overflow-hidden`}>
-      <Image src={imageSrc} alt={imageAlt} fill className="object-cover object-center" priority />
+      <Image src={imageSrc} alt={imageAlt} fill className="object-cover object-center" sizes="100vw" loading="eager" fetchPriority="high" />
       <div
         className="absolute inset-0"
         style={{ background: 'linear-gradient(90deg, rgba(255,255,255,.92) 0%, rgba(255,255,255,.80) 36%, rgba(255,255,255,.30) 58%, rgba(255,255,255,0) 70%)' }}

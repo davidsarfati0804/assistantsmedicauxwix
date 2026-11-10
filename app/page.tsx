@@ -15,24 +15,23 @@ const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width
 
 export const metadata: Metadata = {
   title: 'Assistant Médical pour Médecins Libéraux | Mesdocs GE',
-  description: 'Mesdocs recrute votre assistant médical : CPAM finance jusqu\'à 38 000 €/an. Aucune obligation d\'employeur. Secteur 1 et 2 OPTAM, délai 6 à 8 semaines.',
+  description: 'Recrutez un assistant médical avec Mesdocs : mise à disposition, gestion employeur et aide CPAM jusqu’à 38 000 € la première année pour 1 ETP, sous conditions.',
   alternates: { canonical: 'https://assistants-medicaux.com/' },
   openGraph: {
     title: 'Assistant Médical pour Médecins Libéraux | Mesdocs GE',
-    description: 'Mesdocs recrute votre assistant médical et gère tout : CPAM, contrat, paie, formation. Financement jusqu\'à 38 000 €/an.',
+    description: 'Mesdocs recrute votre assistant médical et gère tout : CPAM, contrat, paie, formation. Financement jusqu\'à 38 000 € la première année pour 1 ETP, sous conditions.',
     url: 'https://assistants-medicaux.com/',
     type: 'website',
     images: [OG_IMAGE],
   },
 };
 
-const homeFaq = faqSchema([
-  { q: "Qu'est-ce qu'un assistant médical ?", a: "Un assistant médical accompagne le médecin libéral dans son cabinet en prenant en charge trois catégories de missions : les tâches administratives (gestion des dossiers patients, prise de rendez-vous, courriers), l'appui à la consultation (accueil des patients, prise de constantes, préparation des salles) et la coordination des soins (orientation vers les spécialistes, suivi des résultats d'examens). Il est formé spécifiquement via un CQP (Certificat de Qualification Professionnelle) en 279 heures, ou par la voie de la VAE pour les professionnels déjà expérimentés. Le médecin ne devient pas son employeur : avec Mesdocs Groupement d'Employeurs, c'est Mesdocs qui gère le contrat de travail, la paie et la formation." },
-  { q: "Qui finance l'assistant médical ?", a: "L'Assurance Maladie (CPAM) finance l'assistant médical à hauteur de 19 000 à 38 000 €/an selon le temps de travail de l'assistant (de 0,5 à 1 ETP). Ce financement est inscrit dans la Convention Médicale 2024–2029 et s'applique aux médecins libéraux en secteur 1 et secteur 2 OPTAM. Des options à 1,5 et 2 ETP sont également disponibles sous conditions. Le financement est dégressif sur 5 ans (la première année est la plus importante), puis renouvelable. En contrepartie, le médecin s'engage à accueillir de nouveaux patients grâce au temps libéré. Mesdocs vous aide à calculer le montant précis auquel vous avez droit selon votre situation." },
-  { q: "Le médecin devient-il employeur de l'assistant médical ?", a: "Non, le médecin ne devient pas employeur. Avec Mesdocs Groupement d'Employeurs, c'est Mesdocs — association loi 1901 — qui est l'employeur juridique de l'assistant médical. Le médecin est adhérent de l'association : il bénéficie de l'assistant dans son cabinet sans aucune obligation d'employeur. Cela signifie que Mesdocs gère le contrat de travail, la fiche de paie mensuelle, les déclarations URSSAF, les congés payés, les arrêts maladie et, le cas échéant, la rupture du contrat. Le médecin ne risque aucune procédure prud'homale et n'a aucune démarche administrative liée au statut d'employeur." },
-  { q: "Combien de temps faut-il pour recruter un assistant médical ?", a: "Le délai moyen entre le premier contact avec Mesdocs et la prise de poste effective de l'assistant médical est de 6 à 8 semaines. Ce délai comprend quatre étapes : l'analyse des besoins et de l'organisation du cabinet (semaine 1), la sélection et la présentation de 2 à 3 profils de candidats (semaines 2 à 4), la signature de la convention CPAM et du contrat de mise à disposition (semaines 5 à 6), et enfin l'intégration de l'assistant au cabinet avec démarrage de la formation CQP. Mesdocs coordonne l'ensemble de ces étapes sans que le médecin ait à gérer les démarches administratives." },
-  { q: "Quels médecins peuvent bénéficier du dispositif assistant médical ?", a: "Les médecins libéraux conventionnés en secteur 1 et secteur 2 OPTAM sont éligibles au dispositif assistant médical. Le secteur 3 (médecins non conventionnés) est exclu du dispositif. Certaines spécialités techniques sont également exclues : radiologues, anesthésistes, anatomo-pathologistes, médecins nucléaires, stomatologues et radiothérapeutes. Les médecins généralistes, pédiatres, gynécologues, cardiologues et la majorité des spécialistes cliniques sont éligibles. Les médecins exerçant en maison de santé pluriprofessionnelle (MSP) peuvent également bénéficier du dispositif sous conditions. Mesdocs vérifie votre éligibilité gratuitement lors d'un premier entretien de 20 minutes." },
-]);
+const homeQuestions = [
+  { q: "Quelles sont les missions d’un assistant médical ?", a: "L’assistant médical apporte un appui administratif, prépare la consultation et participe à la coordination du parcours des patients, dans le cadre des missions confiées par le médecin." },
+  { q: "Quel est le montant de l’aide CPAM ?", a: "Pour l’aide individuelle, les montants de première année sont de 19 000 € pour un mi-temps et 38 000 € pour un temps plein, sous conditions. Les montants diminuent ensuite, sauf situations particulières de patientèle. Votre CPAM confirme votre éligibilité et vos engagements." },
+  { q: "Comment fonctionne un groupement d’employeurs ?", a: "Mesdocs signe le contrat de travail de l’assistant et gère la paie. Le médecin adhère au groupement et signe une convention de mise à disposition qui précise l’organisation, les missions et les engagements de chacun." },
+];
+const homeFaq = faqSchema(homeQuestions);
 
 export default function HomePage() {
   return (
@@ -67,6 +66,12 @@ subLink={{
         />
         <StatsBand />
         <EditorialHome />
+        <section className="px-6 py-16">
+          <div className="mx-auto max-w-[860px]">
+            <h2 className="mb-7 text-2xl font-semibold">Vos questions sur l’assistant médical</h2>
+            <div className="space-y-6">{homeQuestions.map(({ q, a }) => <div key={q}><h3 className="mb-2 text-lg font-semibold">{q}</h3><p className="leading-7 text-gray-700">{a}</p></div>)}</div>
+          </div>
+        </section>
         <TestimonialSlider />
       </main>
       <Footer />

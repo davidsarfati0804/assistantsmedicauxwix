@@ -55,17 +55,17 @@ export default function AideCollectivePage() {
         <PageHero
           imageSrc="/assets/hero_avantages_alt.jpg"
           imageAlt="Groupe de médecins mutualisant l'emploi d'un assistant médical grâce à l'aide collective CPAM"
-          title={<>L'Aide Collective CPAM<br />pour un Groupe de Médecins</>}
+          title={<>L&apos;Aide Collective CPAM<br />pour un Groupe de Médecins</>}
           body="Cabinet de groupe ou MSP : mutualisez l'emploi d'un ou plusieurs assistants médicaux au sein d'un contrat collectif unique. Conditions, montants et démarches expliqués simplement."
           ctaPrimary={{ label: 'Étudier mon groupe', href: '/prendre-rendez-vous' }}
           ctaLight={{ label: 'Voir le dispositif individuel', href: '/dispositif-cpam' }}
         />
         <ResumeBanner>
-          L'aide collective à l'emploi d'assistants médicaux est entrée en vigueur le 25 février 2026. Elle permet à un groupe de médecins généralistes conventionnés (secteur 1 ou secteur 2 OPTAM), associés en SCP, SCM ou SISA, de signer un contrat collectif unique avec leur CPAM plutôt que des contrats individuels. Condition clé : une patientèle médecin traitant moyenne du groupe d'au moins 775 patients (30e percentile national). L'aide, pérenne, est de 38 000 € la 1re année, 28 000 € la 2e, puis 22 000 €/an par assistant médical en ETP, en contrepartie d'une progression collective de patientèle à atteindre en 2 ans. L'Assurance Maladie autorise explicitement le recours à un groupement d'employeurs prestataire : Mesdocs reste l'employeur légal des assistants médicaux mutualisés et gère l'ensemble des démarches.
+          L&apos;aide collective à l&apos;emploi d&apos;assistants médicaux est entrée en vigueur le 25 février 2026. Elle permet à un groupe de médecins généralistes conventionnés (secteur 1 ou secteur 2 OPTAM), associés en SCP, SCM ou SISA, de signer un contrat collectif unique avec leur CPAM plutôt que des contrats individuels. Condition clé : une patientèle médecin traitant moyenne du groupe d&apos;au moins 775 patients (30e percentile national). L&apos;aide, pérenne, est de 38 000 € la 1re année, 28 000 € la 2e, puis 22 000 €/an par assistant médical en ETP, en contrepartie d&apos;une progression collective de patientèle à atteindre en 2 ans. L&apos;Assurance Maladie autorise explicitement le recours à un groupement d&apos;employeurs prestataire : Mesdocs reste l&apos;employeur légal des assistants médicaux mutualisés et gère l&apos;ensemble des démarches.
         </ResumeBanner>
         <AideCollectiveContent />
         <CtaSection
-          title={<>Votre groupe est-il éligible<br />à l'aide collective ?</>}
+          title={<>Votre groupe est-il éligible<br />à l&apos;aide collective ?</>}
           buttonLabel="Prendre rendez-vous gratuit"
           buttonHref="/prendre-rendez-vous"
           subLink={{ label: 'Voir le dispositif CPAM individuel >', href: '/dispositif-cpam' }}

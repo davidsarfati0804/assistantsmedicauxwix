@@ -20,10 +20,10 @@ const missions = [
 ];
 
 export const devenirFaqData = [
-  { q: 'Quelles sont les conditions pour devenir assistant médical ?', a: 'Pour devenir assistant médical, il faut être titulaire du baccalauréat ou justifier d\'une expérience d\'au moins un an dans le secteur du secrétariat médical ou des soins. Les profils infirmiers, aides-soignants et assistants de soins peuvent accéder à une formation accélérée de 112 heures (FAE) au lieu du CQP complet. Mesdocs vérifie l\'éligibilité de chaque candidat gratuitement lors d\'un premier entretien.' },
-  { q: 'Qu\'est-ce que le CQP assistant médical et combien de temps dure la formation ?', a: 'Le CQP (Certificat de Qualification Professionnelle) assistant médical est une certification reconnue au niveau 4 du RNCP. La formation se déroule en 279 heures en alternance sur une période de 6 à 12 mois. Elle couvre les missions administratives, l\'appui à la consultation et la coordination des soins. La formation est financée par l\'OPCO EP, sans coût pour le candidat ni pour le médecin. L\'assistant a 2 ans après la prise de poste pour s\'inscrire et 3 ans pour obtenir son CQP.' },
+  { q: 'Quelles sont les conditions pour devenir assistant médical ?', a: 'L’accès au parcours est étudié avec l’organisme de formation selon vos diplômes, votre expérience et la voie retenue. Les infirmiers, aides-soignants et auxiliaires de puériculture diplômés peuvent suivre une formation d’adaptation à l’emploi (FAE). Les autres profils préparent le CQP, avec une VAE possible selon leur expérience.' },
+  { q: 'Qu\'est-ce que le CQP assistant médical et combien de temps dure la formation ?', a: 'Le CQP (Certificat de Qualification Professionnelle) assistant médical est une certification reconnue au niveau 4 du RNCP. La formation se déroule en 279 heures en alternance sur une période de 10 à 12 mois. Elle couvre les missions administratives, l\'appui à la consultation et la coordination des soins. Les possibilités de financement sont étudiées avec l’organisme de formation et l’OPCO EP selon le dossier. L\'assistant doit obtenir son CQP dans les 2 ans suivant son embauche, selon la voie de formation adaptée à son profil.' },
   { q: 'Puis-je devenir assistant médical par la VAE si j\'ai déjà de l\'expérience ?', a: 'Oui. La VAE (Validation des Acquis de l\'Expérience) permet d\'obtenir le CQP assistant médical sans suivre la formation complète de 279 heures, à condition de justifier d\'une expérience professionnelle significative dans le secteur médical ou administratif. Mesdocs accompagne les candidats VAE en partenariat avec VAE Formation, organisme spécialisé. Le parcours VAE dure en moyenne 12 mois et comprend la constitution du dossier et un entretien devant jury.' },
-  { q: 'Quel est le salaire d\'un assistant médical ?', a: 'Le salaire d\'un assistant médical dépend de la convention collective applicable (selon la structure employeuse), et ne peut être inférieur au SMIC, soit 1 867 € brut par mois pour un temps plein (barème 2026, source : service-public.gouv.fr). Ce salaire peut évoluer avec l\'expérience et l\'obtention du CQP. Dans le cadre du dispositif CPAM, la subvention versée au médecin (jusqu\'à 38 000 €/an pour 1 ETP) couvre en grande partie ce coût salarial.' },
+  { q: 'Quel est le salaire d’un assistant médical ?', a: 'La rémunération dépend de la qualification, de l’expérience, du temps de travail et de la convention collective applicable. Elle doit respecter les minima légaux et conventionnels en vigueur. Les conditions sont précisées dans le contrat de travail.' },
   { q: 'Comment postuler pour devenir assistant médical avec Mesdocs ?', a: 'Pour postuler, il suffit de remplir le formulaire de contact sur le site ou d\'appeler directement l\'équipe Mesdocs au 09 70 68 22 20. Mesdocs reçoit votre candidature, évalue votre profil et votre éligibilité, puis vous met en relation avec des médecins libéraux de votre zone géographique qui recherchent un assistant. Si votre profil correspond, Mesdocs organise les entretiens et prend en charge l\'ensemble du parcours d\'intégration, y compris la formation CQP.' },
 ];
 
@@ -32,7 +32,7 @@ const parcours = [
     nom: 'CQP initial (voie classique)',
     public: 'Bac ou 1 an d\'expérience en secrétariat médical / soins',
     duree: '279 heures en alternance, 6 à 12 mois',
-    financement: 'Pris en charge par l\'OPCO EP — aucun coût pour le candidat',
+    financement: 'Financement à étudier avec l’organisme et l’OPCO EP selon le dossier',
   },
   {
     nom: 'VAE (Validation des Acquis de l\'Expérience)',
@@ -44,7 +44,7 @@ const parcours = [
     nom: 'FAE (Formation d\'Adaptation à l\'Emploi)',
     public: 'Infirmiers, aides-soignants et auxiliaires de puériculture déjà diplômés',
     duree: '112 heures — la voie la plus rapide',
-    financement: 'Prise en charge identique au CQP, aucun coût pour le candidat',
+    financement: 'Prise en charge à confirmer selon le dossier',
   },
 ];
 
@@ -62,7 +62,7 @@ export default function DevenirContent() {
             {[
               { num: '1', title: 'Candidater auprès de Mesdocs', desc: 'Vous déposez votre candidature via le formulaire ou par téléphone. Mesdocs évalue gratuitement votre profil et votre éligibilité.' },
               { num: '2', title: 'Être mis en relation', desc: 'Mesdocs vous présente à des médecins libéraux de votre zone qui recherchent un assistant, et organise les entretiens.' },
-              { num: '3', title: 'Se former (CQP, VAE ou FAE)', desc: 'Une fois le poste confirmé, votre formation est organisée et intégralement financée par l’OPCO EP — aucun coût pour vous.' },
+              { num: '3', title: 'Se former (CQP, VAE ou FAE)', desc: 'Une fois le poste confirmé, le parcours de formation et les possibilités de financement sont étudiés selon votre profil.' },
             ].map((s) => (
               <div key={s.num} className="bg-white rounded-2xl border border-[#e4eaf5] p-6">
                 <div className="w-9 h-9 rounded-full bg-[#093e98] text-white flex items-center justify-center text-[15px] font-bold mb-3">{s.num}</div>
@@ -79,7 +79,7 @@ export default function DevenirContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Qui peut être assistant médical ?</h2>
           <p className="text-[16px] leading-[1.7]">
-            La fonction d&apos;Assistant Médical est ouverte à un large éventail de profils. Elle peut être assurée par des aides-soignants, des infirmières, des secrétaires médicales, ou tout autre professionnel intéressé à suivre cette voie. La clé pour devenir un Assistant Médical est la formation, ou l&apos;engagement à suivre une formation spécifique conduite en alternance, qui est également éligible à la Validation des Acquis de Compétences (VAE). Après l&apos;embauche, les assistants médicaux ont 2 ans pour engager leur formation et 3 ans pour obtenir leur Certificat de Qualification Professionnelle (CQP) d&apos;Assistant Médical. Les infirmiers, auxiliaires de puériculture, et aides-soignants déjà diplômés peuvent obtenir une attestation de Formation d&apos;Adaptation à l&apos;Emploi (FAE) dans le domaine de l&apos;organisation et de la gestion administrative d&apos;un cabinet médical.
+            La fonction d&apos;Assistant Médical est ouverte à un large éventail de profils. Elle peut être assurée par des aides-soignants, des infirmières, des secrétaires médicales, ou tout autre professionnel intéressé à suivre cette voie. La clé pour devenir un Assistant Médical est la formation, ou l&apos;engagement à suivre une formation spécifique conduite en alternance, qui est également éligible à la Validation des Acquis de Compétences (VAE). Après l&apos;embauche, les assistants médicaux doivent obtenir dans les 2 ans suivant leur embauche leur Certificat de Qualification Professionnelle (CQP) d&apos;Assistant Médical. Les infirmiers, auxiliaires de puériculture, et aides-soignants déjà diplômés peuvent obtenir une attestation de Formation d&apos;Adaptation à l&apos;Emploi (FAE) dans le domaine de l&apos;organisation et de la gestion administrative d&apos;un cabinet médical.
           </p>
         </div>
       </section>
@@ -180,7 +180,7 @@ export default function DevenirContent() {
               ))}
             </ul>
             <p className="text-[14px] text-gray-500 mt-5">
-              Comme le CQP, la FAE est intégralement prise en charge par l&apos;OPCO EP — aucun coût pour le candidat. Mesdocs organise la formation dès la prise de poste.
+              Les possibilités de prise en charge de la FAE sont étudiées avec l’organisme de formation et l’OPCO EP selon votre dossier.
             </p>
           </div>
         </div>
@@ -191,10 +191,10 @@ export default function DevenirContent() {
         <div className="max-w-[900px] mx-auto">
           <h2 className="text-[28px] font-light mb-5">Quel salaire pour un assistant médical ?</h2>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Le salaire d&apos;un assistant médical dépend de la convention collective applicable à sa structure employeuse, et ne peut être inférieur au SMIC, soit <strong>1 867 € brut par mois</strong> pour un temps plein (barème 2026, source : service-public.gouv.fr), un niveau qui évolue avec l&apos;expérience et l&apos;obtention du CQP.
+            Le salaire d&apos;un assistant médical dépend de la convention collective applicable à sa structure employeuse, et doit respecter les minima légaux et conventionnels en vigueur. Les conditions sont précisées dans votre contrat de travail.
           </p>
           <p className="text-[16px] leading-[1.7] mb-4">
-            Avec Mesdocs, vous n&apos;êtes pas employé directement par le médecin mais par le groupement d&apos;employeurs, qui gère votre contrat de travail, votre paie et vos droits sociaux (congés, arrêts maladie, cotisations) comme n&apos;importe quel employeur classique. Le financement CPAM versé au médecin (jusqu&apos;à 38 000 €/an pour 1 ETP la première année) sert justement à couvrir ce coût salarial, ce qui sécurise votre poste sur la durée du contrat — 5 ans renouvelable.
+            Avec Mesdocs, vous n&apos;êtes pas employé directement par le médecin mais par le groupement d&apos;employeurs, qui gère votre contrat de travail, votre paie et vos droits sociaux (congés, arrêts maladie, cotisations) comme n&apos;importe quel employeur classique. Le financement CPAM versé au médecin (jusqu&apos;à 38 000 € la première année pour 1 ETP) sert justement à couvrir ce coût salarial, ce qui sécurise votre poste sur la durée du contrat — 5 ans renouvelable.
           </p>
           <p className="text-[16px] leading-[1.7]">
             Cette stabilité contractuelle distingue le poste d&apos;assistant médical d&apos;un CDD classique en cabinet médical : le financement pluriannuel de l&apos;Assurance Maladie donne au médecin une visibilité financière qui se traduit, pour vous, par une meilleure sécurité de l&apos;emploi.
