@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef, useState, type FormEvent } from 'react';
+import { useLeadAlertForm } from '@/lib/useLeadAlertForm';
 import { pushEvent, type FormName, type LeadNeed, type LeadProfile } from '@/lib/gtm';
 
 export function useLeadForm(formName: FormName) {
@@ -8,6 +9,8 @@ export function useLeadForm(formName: FormName) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const sending = useRef(false);
+  const completed = useRef(false);
+  const { formRef } = useLeadAlertForm(formName, sending, completed);
   const started = useRef(false);
   const validationReported = useRef(false);
 
@@ -58,6 +61,7 @@ export function useLeadForm(formName: FormName) {
       // identity, message, location, sector or other raw input to Analytics.
       const profile = String(data.get('profil') || 'inconnu');
       const need = String(data.get('besoin') || 'inconnu');
+      completed.current = true;
       setSubmitted(true);
       pushEvent('generate_lead', {
         form_name: formName,
@@ -73,5 +77,5 @@ export function useLeadForm(formName: FormName) {
     }
   }
 
-  return { submitted, loading, error, onSubmit, onStart, onInvalid, onChange };
+  return { formRef, submitted, loading, error, onSubmit, onStart, onInvalid, onChange };
 }

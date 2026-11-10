@@ -60,7 +60,7 @@ export default function PolitiqueConfidentialitePage() {
 
               <section>
                 <h2 className="text-[20px] font-semibold text-gray-900 mb-3">4. Base légale</h2>
-                <p>Le traitement de vos données est fondé sur votre consentement (article 6.1.a du RGPD), que vous exprimez en soumettant un formulaire sur notre site.</p>
+                <p>Le traitement des demandes que vous envoyez est fondé sur votre consentement (article 6.1.a du RGPD), que vous exprimez en soumettant un formulaire sur notre site. Le suivi des formulaires commencés est décrit à la section 8.</p>
               </section>
 
               <section>
@@ -93,7 +93,7 @@ export default function PolitiqueConfidentialitePage() {
                 <h2 className="text-[20px] font-semibold text-gray-900 mb-3">8. Cookies</h2>
                 <p>Google Analytics 4 est chargé uniquement si vous acceptez la mesure d’audience. Il nous permet de comprendre les pages consultées, les sources de visite et l’utilisation des formulaires. Les noms, emails, téléphones et messages saisis dans les formulaires ne sont pas transmis dans les événements Analytics.</p>
                 <p className="mt-3">Le choix est conservé pendant six mois dans votre navigateur. Vous pouvez refuser sans empêcher l’envoi d’une demande, ou retirer votre accord à tout moment avec « Gérer mes cookies », en bas de chaque page. Le retrait arrête les prochains envois Analytics et supprime les cookies Analytics accessibles au site.</p>
-                <p className="mt-3">Les informations du formulaire sont envoyées à sa validation pour traiter votre demande. Aucune alerte contenant une saisie partielle n’est envoyée avant validation.</p>
+                <p className="mt-3">Les coordonnées déjà renseignées (nom, téléphone et email) peuvent être transmises à l’équipe Mesdocs lorsque vous quittez le formulaire ou l’onglet, même si vous ne validez pas l’envoi. Ce suivi permet d’identifier les formulaires commencés. Le message libre n’est pas transmis dans cette alerte, et ces coordonnées ne sont pas envoyées à Google Analytics. Une alerte de saisie partielle ne constitue pas une demande envoyée.</p>
               </section>
 
               <section>

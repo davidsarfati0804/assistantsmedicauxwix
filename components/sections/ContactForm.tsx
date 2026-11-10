@@ -3,7 +3,7 @@ import { CheckCircle } from 'lucide-react';
 import { useLeadForm } from '@/lib/useLeadForm';
 
 export default function ContactForm() {
-  const { submitted, loading, error, onSubmit, onStart, onInvalid, onChange } = useLeadForm('contact-page');
+  const { formRef, submitted, loading, error, onSubmit, onStart, onInvalid, onChange } = useLeadForm('contact-page');
 
   if (submitted) {
     return (
@@ -16,7 +16,7 @@ export default function ContactForm() {
   }
 
   return (
-    <form name="contact-page" method="POST" onSubmit={onSubmit} onFocus={onStart} onChange={onChange} onInvalidCapture={onInvalid} aria-busy={loading} className="flex flex-col gap-4">
+    <form ref={formRef} name="contact-page" method="POST" onSubmit={onSubmit} onFocus={onStart} onChange={onChange} onInvalidCapture={onInvalid} aria-busy={loading} className="flex flex-col gap-4">
       <input type="hidden" name="form-name" value="contact-page" />
 
       <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">

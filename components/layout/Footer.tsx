@@ -11,7 +11,7 @@ const reassurances = [
 ];
 
 export default function Footer() {
-  const { submitted, loading, error, onSubmit, onStart, onInvalid, onChange } = useLeadForm('contact');
+  const { formRef, submitted, loading, error, onSubmit, onStart, onInvalid, onChange } = useLeadForm('contact');
 
   return (
     <footer id="contact" className="bg-[#f5f8ff]">
@@ -72,7 +72,7 @@ export default function Footer() {
                 <p className="text-[15px] text-gray-500">Notre équipe vous recontacte sous 24h ouvrées.</p>
               </div>
             ) : (
-              <form name="contact" method="POST" onSubmit={onSubmit} onFocus={onStart} onChange={onChange} onInvalidCapture={onInvalid} aria-busy={loading} className="flex flex-col gap-4">
+              <form ref={formRef} name="contact" method="POST" onSubmit={onSubmit} onFocus={onStart} onChange={onChange} onInvalidCapture={onInvalid} aria-busy={loading} className="flex flex-col gap-4">
                 <input type="hidden" name="form-name" value="contact" />
       <div className="flex flex-col gap-1.5">
         <label htmlFor="footer-profil" className="text-[13px] font-medium text-gray-700">Je suis</label>

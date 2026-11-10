@@ -31,10 +31,15 @@ async function localResponse(route: Route) {
 // build. Every form POST is mocked and every external request is intercepted.
 
 async function isolate(page: Page, accepted = true) {
+  // This guard remains after page routes are removed: even an unload beacon
+  // during teardown must never reach the actual production server.
+  await page.context().route('**/*', route => route.abort());
   await page.route('**/*', async route => {
     const request = route.request();
     const url = new URL(request.url());
-    if (url.origin === site) {
+    if (url.origin === site && url.pathname === '/api/lead-alert') {
+      await route.fulfill({ status: 200, contentType: 'application/json', body: '{"ok":true}' });
+    } else if (url.origin === site) {
       if (request.method() !== 'GET' && request.method() !== 'HEAD') throw new Error('Unmocked mutation: ' + url.pathname);
       await localResponse(route);
     } else if (url.hostname === 'www.googletagmanager.com') {
@@ -202,7 +207,8 @@ test('technical endpoints, legacy redirects and sitemap', async ({ request }) =>
     expect(response.status()).toBe(404);
     expect(response.headers()['x-robots-tag']).toBe('noindex, nofollow');
   }
-  expect((await request.post(local + '/api/lead-alert', { data: {} })).status()).toBe(410);
+  expect((await request.post(local + '/api/lead-alert', { data: {} })).status()).toBe(403);
+  expect((await request.post(local + '/api/lead-alert', { data: {}, headers: { Origin: site } })).status()).toBe(400);
   const definition = await request.get(local + '/netlify-forms.html');
   expect(definition.headers()['x-robots-tag']).toBe('noindex, nofollow');
   expect(await definition.text()).toContain('name="profil"');
@@ -215,4 +221,49 @@ test('technical endpoints, legacy redirects and sitemap', async ({ request }) =>
   const sitemap = await (await request.get(local + '/sitemap.xml')).text();
   expect(sitemap.match(/<loc>/g)).toHaveLength(13);
   expect(sitemap).not.toContain('/dashboard');
+});
+
+
+test('partial alerts restore contact details only, once, and never generate a lead', async ({ page }) => {
+  await isolate(page, false);
+  const alerts: Record<string, unknown>[] = [];
+  await page.route('**/api/lead-alert', async route => {
+    alerts.push(route.request().postDataJSON());
+    await route.fulfill({ status: 200, body: '{"ok":true}' });
+  });
+  await page.goto(site + '/contact');
+  await page.getByRole('button', { name: 'Refuser', exact: true }).click();
+  const form = page.locator('form[name="contact-page"]');
+  await form.locator('[name="nom-prenom"]').fill('Test Prive');
+  await form.locator('[name="email"]').fill('test@example.invalid');
+  await form.locator('[name="message"]').fill('MESSAGE_NON_TRANSMIS');
+  expect(alerts).toHaveLength(0);
+  await page.getByRole('heading', { name: 'Envoyez-nous un message' }).click();
+  await expect.poll(() => alerts.length).toBe(1);
+  expect(alerts[0].data).toEqual({ 'nom-prenom': 'Test Prive', email: 'test@example.invalid' });
+  expect(alerts[0].form_name).toBe('contact-page');
+  await page.evaluate(() => window.dispatchEvent(new Event('pagehide')));
+  expect(alerts).toHaveLength(1);
+  expect(await events(page)).toHaveLength(0);
+  expect(JSON.stringify(await page.evaluate(() => window.dataLayer || []))).not.toContain('Test Prive');
+});
+
+test('no partial alert for an empty or successfully submitted form', async ({ page }) => {
+  await isolate(page);
+  let alerts = 0;
+  await page.route('**/api/lead-alert', async route => { alerts++; await route.fulfill({ status: 200, body: '{}' }); });
+  await page.route('**/netlify-forms.html', route => route.fulfill({ status: 200, body: 'Saved' }));
+  await page.goto(site + '/prendre-rendez-vous');
+  const form = page.locator('form[name="rendez-vous"]');
+  await form.locator('[name="nom-prenom"]').focus();
+  await page.getByRole('heading', { name: 'Demandez à être rappelé', exact: true }).first().click();
+  expect(alerts).toBe(0);
+  await form.locator('[name="nom-prenom"]').fill('Test');
+  await form.locator('[name="telephone"]').fill('0601020304');
+  await form.locator('[name="rgpd"]').check();
+  await form.locator('button[type="submit"]').click();
+  await expect(form).toHaveCount(0);
+  await page.evaluate(() => window.dispatchEvent(new Event('pagehide')));
+  expect(alerts).toBe(0);
+  expect((await events(page)).filter(row => row[1] === 'generate_lead')).toHaveLength(1);
 });

@@ -3,7 +3,7 @@ import { CheckCircle } from 'lucide-react';
 import { useLeadForm } from '@/lib/useLeadForm';
 
 export default function RendezVousForm() {
-  const { submitted, loading, error, onSubmit, onStart, onInvalid, onChange } = useLeadForm('rendez-vous');
+  const { formRef, submitted, loading, error, onSubmit, onStart, onInvalid, onChange } = useLeadForm('rendez-vous');
 
   if (submitted) {
     return (
@@ -16,7 +16,7 @@ export default function RendezVousForm() {
   }
 
   return (
-    <form name="rendez-vous" method="POST" onSubmit={onSubmit} onFocus={onStart} onChange={onChange} onInvalidCapture={onInvalid} aria-busy={loading} className="flex flex-col gap-4">
+    <form ref={formRef} name="rendez-vous" method="POST" onSubmit={onSubmit} onFocus={onStart} onChange={onChange} onInvalidCapture={onInvalid} aria-busy={loading} className="flex flex-col gap-4">
       <input type="hidden" name="form-name" value="rendez-vous" />
       <div className="flex flex-col gap-1.5">
         <label htmlFor="rdv-profil" className="text-[13px] font-medium text-gray-700">Je suis</label>
