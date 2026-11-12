@@ -6,7 +6,7 @@ export default function SchemaOrg({ schema }: SchemaOrgProps) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }}
     />
   );
 }
@@ -14,8 +14,11 @@ export default function SchemaOrg({ schema }: SchemaOrgProps) {
 export const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
+  '@id': 'https://assistants-medicaux.com/#website',
   name: "Mesdocs Groupement d'Employeurs",
-  url: 'https://assistants-medicaux.com',
+  url: 'https://assistants-medicaux.com/',
+  inLanguage: 'fr-FR',
+  publisher: { '@id': 'https://assistants-medicaux.com/#organization' },
 };
 
 export const organizationSchema = {
@@ -24,8 +27,15 @@ export const organizationSchema = {
   '@id': 'https://assistants-medicaux.com/#organization',
   name: "Mesdocs Groupement d'Employeurs",
   alternateName: ['Mesdocs GE', 'GE Mesdocs'],
-  legalName: "Mesdocs Groupement d'Employeurs (Association loi 1901)",
-  url: 'https://assistants-medicaux.com',
+  legalName: "MESDOCS GROUPEMENT D'EMPLOYEURS",
+  url: 'https://assistants-medicaux.com/',
+  identifier: {
+    '@type': 'PropertyValue',
+    propertyID: 'SIREN',
+    value: '942339052',
+  },
+  sameAs: ['https://annuaire-entreprises.data.gouv.fr/entreprise/mesdocs-groupement-d-employeurs-942339052'],
+  mainEntityOfPage: { '@id': 'https://assistants-medicaux.com/#webpage' },
   logo: {
     '@type': 'ImageObject',
     url: 'https://assistants-medicaux.com/assets/logo.png',
@@ -48,7 +58,7 @@ export const organizationSchema = {
     longitude: 2.27703,
   },
   openingHours: 'Mo-Fr 09:00-18:00',
-  description: "Mesdocs Groupement d'Employeurs recrute et met à disposition des assistants médicaux pour les médecins libéraux. L'Assurance Maladie (CPAM) peut financer jusqu'à 38 000 € la première année pour un équivalent temps plein, sous conditions.",
+  description: "GE Mesdocs est une association qui recrute et emploie des assistants médicaux pour leur mise à disposition auprès des médecins libéraux adhérents en France. Mesdocs assure la gestion employeur ; le médecin organise les missions dans son cabinet selon la convention de mise à disposition.",
   areaServed: 'France',
   knowsAbout: ['Assistant médical', 'Médecine libérale', 'Groupement d\'employeurs', 'Dispositif CPAM', 'Formation CQP'],
 };
@@ -81,13 +91,28 @@ export function breadcrumbSchema(items: { name: string; item: string }[]) {
 export function serviceSchema(name: string, description: string, url: string, dateModified?: string) {
   return {
     '@context': 'https://schema.org',
-    '@type': 'Service',
-    name,
-    description,
-    url,
-    provider: { '@id': 'https://assistants-medicaux.com/#organization' },
-    areaServed: 'France',
-    serviceType: 'Mise à disposition d\'assistant médical',
-    ...(dateModified ? { dateModified } : {}),
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': `${url}#webpage`,
+        name,
+        description,
+        url,
+        inLanguage: 'fr-FR',
+        isPartOf: { '@id': 'https://assistants-medicaux.com/#website' },
+        mainEntity: { '@id': `${url}#service` },
+        ...(dateModified ? { dateModified } : {}),
+      },
+      {
+        '@type': 'Service',
+        '@id': `${url}#service`,
+        name,
+        description,
+        url,
+        provider: { '@id': 'https://assistants-medicaux.com/#organization' },
+        areaServed: 'France',
+        serviceType: "Accompagnement des médecins pour l'emploi d'un assistant médical",
+      },
+    ],
   };
 }

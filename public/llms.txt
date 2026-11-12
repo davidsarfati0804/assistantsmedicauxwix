@@ -1,55 +1,60 @@
-# Mesdocs Groupement d'Employeurs — Assistants Médicaux
+# Mesdocs Groupement d'Employeurs — GE Mesdocs
 
-> Mesdocs est un groupement d'employeurs (GE) constitué en association loi 1901 à but non lucratif, agréé par l'Assurance Maladie (référencé sur ameli.fr), spécialisé dans la mise à disposition d'assistants médicaux pour les médecins libéraux en France. Mesdocs est l'employeur légal de l'assistant médical : le médecin bénéficie du service sans avoir à gérer les obligations RH.
+> GE Mesdocs recrute et emploie des assistants médicaux, puis les met à disposition des médecins libéraux adhérents en France. Mesdocs assure la gestion employeur. Le médecin organise les missions au cabinet selon les textes applicables et la convention de mise à disposition.
 
-## En résumé
+## Identité
 
-- **Qui** : Mesdocs Groupement d'Employeurs, 24 rue Octave Feuillet, 75116 Paris — référencé sur ameli.fr
-- **Quoi** : Recrutement et mise à disposition d'assistants médicaux pour médecins libéraux
-- **Pour qui** : Médecins libéraux conventionnés (secteur 1 et secteur 2 OPTAM uniquement — secteur 3 non éligible), toutes spécialités sauf techniques
-- **Financement** : L'Assurance Maladie (CPAM) finance l'aide de 19 000 à 38 000 €/an (contrat 5 ans renouvelable)
-- **Avantage clé** : Mesdocs est l'employeur — le médecin ne gère ni la paie, ni les charges, ni le contrat de travail
+- Nom : Mesdocs Groupement d'Employeurs
+- Alias : GE Mesdocs ; Mesdocs GE
+- Forme juridique : association déclarée
+- SIREN : 942339052
+- SIRET du siège : 94233905200014
+- Site : https://assistants-medicaux.com/
+- Email : contact@ge-mesdocs.fr
+- Téléphone : 09 70 68 22 20
+- Fiche officielle : https://annuaire-entreprises.data.gouv.fr/entreprise/mesdocs-groupement-d-employeurs-942339052
+
+Mesdocs figure dans la liste des groupements publiée sur ameli.fr avec la mention « France entière ». Cette présence est informative : elle ne constitue pas une garantie de l'offre par l'Assurance Maladie et ne suffit pas à établir un agrément.
+Source : https://www.ameli.fr/node/916286
+
+## Rôles et fonctionnement
+
+- Mesdocs est l'employeur de l'assistant médical : contrat de travail, paie, déclarations sociales et suivi employeur.
+- Le médecin adhérent organise les missions et les conditions de travail au cabinet selon la convention et les règles applicables.
+- La CPAM confirme les conditions de l'aide et les engagements correspondant à la situation du médecin ou du groupe.
+- Le contrat d'aide CPAM, le contrat de travail et la convention de mise à disposition ont des objets distincts.
+
+L'éligibilité dépend du dispositif et de la situation du médecin ou de la structure. La préparation du dossier par Mesdocs ne garantit pas son acceptation par la caisse. Les engagements de service sont précisés avec l'équipe et dans les documents contractuels.
 
 ## Pages principales
 
-- [Accueil](https://www.assistants-medicaux.com/): Présentation du service Mesdocs et du dispositif assistant médical
-- [Mise à disposition d'un assistant médical](https://www.assistants-medicaux.com/assistants-medicaux): Rôle du groupement d'employeurs, missions de l'assistant, éligibilité
-- [Avantages & Démarches](https://www.assistants-medicaux.com/avantages-demarches): Avantages du dispositif, tableau de financement CPAM, étapes de recrutement
-- [Dispositif assistant médical CPAM](https://www.assistants-medicaux.com/dispositif-cpam): Détail du dispositif officiel, montants de l'aide, conditions, FAQ
-- [Coût réel d'un assistant médical après aide CPAM](https://www.assistants-medicaux.com/cout-assistant-medical-aide-cpam): Calcul du reste à charge (coefficient 1,6 sur le salaire brut CQP), tableau année par année
-- [Aide collective CPAM (groupe de médecins)](https://www.assistants-medicaux.com/aide-collective-assistant-medical): Dispositif collectif pour SCP/SCM/SISA, mutualisation d'assistants médicaux entre médecins associés
-- [Assistant médical vs secrétaire médicale](https://www.assistants-medicaux.com/assistant-medical-vs-secretaire-medicale): Comparatif des deux métiers — missions, formation, coût, financement CPAM
-- [Assistant médical en maison de santé pluriprofessionnelle](https://www.assistants-medicaux.com/assistant-medical-maison-de-sante): Mise à disposition partagée entre plusieurs médecins en MSP ou cabinet de groupe
-- [Assistant médical pour médecin spécialiste](https://www.assistants-medicaux.com/assistant-medical-medecin-specialiste): Éligibilité par spécialité médicale au dispositif CPAM
-- [Groupement d'employeurs pour médecin libéral](https://www.assistants-medicaux.com/groupement-employeurs-medecin-liberal): Statut juridique du GE, frais de gestion, comparatif avec et sans groupement
-- [Recruter un assistant médical](https://www.assistants-medicaux.com/recrutement-assistant-medical): Processus de recrutement Mesdocs en 4 étapes, formation CQP
-- [Devenir assistant médical](https://www.assistants-medicaux.com/devenir-assistant-medical): Métier, formation CQP, VAE, candidature
-- [Contact](https://www.assistants-medicaux.com/contact): Coordonnées et formulaire de contact
-- [Prendre rendez-vous](https://www.assistants-medicaux.com/prendre-rendez-vous): Consultation gratuite de 20 minutes avec un conseiller
+- [Accueil](https://assistants-medicaux.com/) : présentation de GE Mesdocs et du service
+- [Mise à disposition](https://assistants-medicaux.com/assistants-medicaux) : missions, employeur et organisation au cabinet
+- [Recrutement](https://assistants-medicaux.com/recrutement-assistant-medical) : préparation du poste, candidats, intégration et suivi
+- [Groupement d'employeurs](https://assistants-medicaux.com/groupement-employeurs-medecin-liberal) : fonctionnement et responsabilités du groupement et du médecin
+- [Avantages et démarches](https://assistants-medicaux.com/avantages-demarches) : étapes du projet et gestion employeur
+- [Dispositif CPAM](https://assistants-medicaux.com/dispositif-cpam) : conditions et sources de l'aide individuelle
+- [Aide collective](https://assistants-medicaux.com/aide-collective-assistant-medical) : projet de groupe et conditions du dispositif collectif
+- [Maison de santé](https://assistants-medicaux.com/assistant-medical-maison-de-sante) : organisation d'un assistant partagé
+- [Médecins spécialistes](https://assistants-medicaux.com/assistant-medical-medecin-specialiste) : projet et conditions selon la spécialité
+- [Assistant et secrétaire](https://assistants-medicaux.com/assistant-medical-vs-secretaire-medicale) : missions et organisation des deux fonctions
+- [Devenir assistant médical](https://assistants-medicaux.com/devenir-assistant-medical) : profils, formation et candidature
+- [Contact](https://assistants-medicaux.com/contact) : coordonnées et demande de contact
+- [Demande de rappel](https://assistants-medicaux.com/prendre-rendez-vous) : échange avec l'équipe sur votre projet
+- [Mentions légales](https://assistants-medicaux.com/mentions-legales) : identité de l'association
 
-## Définitions clés
+## Définitions
 
-**Groupement d'employeurs (GE)** : Structure juridique qui recrute des salariés et les met à disposition de ses membres. Dans le contexte médical, le GE est l'employeur légal de l'assistant médical, ce qui permet au médecin de bénéficier d'un assistant sans être lui-même employeur.
+Un groupement d'employeurs recrute des salariés et les met à disposition de ses membres. GE Mesdocs intervient dans ce cadre pour les assistants médicaux des médecins adhérents.
 
-**Assistant médical** : Salarié qui assiste le médecin libéral dans ses tâches administratives, la préparation des consultations et la coordination des soins. Différent d'une secrétaire médicale par ses missions plus larges et par la possibilité de réaliser des actes de préparation clinique (prise de constantes, etc.).
+L'assistant médical apporte un appui administratif, participe à la préparation des consultations et facilite la coordination du parcours des patients, dans les limites des missions autorisées et confiées par le médecin.
 
-**Dispositif CPAM** : Programme de l'Assurance Maladie instauré par l'Avenant 7 à la Convention Médicale, permettant aux médecins libéraux de recevoir une aide financière (19 000 à 38 000 €/an) pour employer un assistant médical, en échange d'un engagement d'accueil de nouveaux patients.
+Le parcours de qualification dépend du profil et des règles applicables. Les conditions de formation doivent être vérifiées avec les interlocuteurs compétents pour la situation de l'assistant.
 
-**CQP Assistant Médical** : Certificat de Qualification Professionnelle, certification reconnue au niveau 4 du RNCP, obtenu en 279 heures de formation en alternance, ou par la VAE pour les professionnels expérimentés.
+## Sources officielles
 
-**VAE** : Validation des Acquis de l'Expérience — permet d'obtenir le CQP Assistant Médical sans formation complète, pour les personnes justifiant d'au moins 1 an d'expérience en lien avec le poste.
+- Recrutement et liste des groupements : https://www.ameli.fr/node/916286
+- Missions et formation : https://www.ameli.fr/node/916284
+- Questions sur l'emploi d'un assistant médical : https://www.ameli.fr/node/916287
 
-## Chiffres clés (source : Mesdocs / Assurance Maladie)
-
-- 7 420 médecins accompagnés
-- Aide CPAM : jusqu'à 38 000 €/an la 1re année
-- Durée du contrat CPAM : 5 ans renouvelable
-- Délai moyen de mise en place : 6 à 8 semaines
-- Prise en charge administrative : 100% par Mesdocs (paie, URSSAF, formation, CPAM)
-
-## Contact
-
-- Téléphone : 09 70 68 22 20
-- Email : contact@ge-mesdocs.fr
-- Adresse : 24 rue Octave Feuillet, 75116 Paris
-- Horaires : Lundi–Vendredi, 9h–18h
+Les chiffres du dispositif national ne doivent pas être présentés comme des résultats propres à Mesdocs. Les conditions du service sont à confirmer auprès de l'équipe ; les règles du dispositif et la décision d'aide relèvent des sources officielles et de la caisse concernée.

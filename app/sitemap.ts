@@ -6,14 +6,14 @@ const BASE_URL = 'https://assistants-medicaux.com';
 // un sitemap ne doit lister que des URLs indexables.
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
-    { url: `${BASE_URL}/`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 1.0 },
+    { url: `${BASE_URL}/`, lastModified: '2026-11-12', changeFrequency: 'monthly', priority: 1.0 },
     { url: `${BASE_URL}/assistants-medicaux`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.9 },
     { url: `${BASE_URL}/avantages-demarches`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.9 },
     { url: `${BASE_URL}/dispositif-cpam`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/aide-collective-assistant-medical`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/recrutement-assistant-medical`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/devenir-assistant-medical`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.8 },
-    { url: `${BASE_URL}/groupement-employeurs-medecin-liberal`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.85 },
+    { url: `${BASE_URL}/groupement-employeurs-medecin-liberal`, lastModified: '2026-11-12', changeFrequency: 'monthly', priority: 0.85 },
     { url: `${BASE_URL}/assistant-medical-vs-secretaire-medicale`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/assistant-medical-maison-de-sante`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/assistant-medical-medecin-specialiste`, lastModified: '2026-11-10', changeFrequency: 'monthly', priority: 0.85 },

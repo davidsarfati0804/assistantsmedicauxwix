@@ -9,7 +9,7 @@ import CtaSection from '@/components/sections/CtaSection';
 import StatsBand from '@/components/sections/StatsBand';
 import TestimonialSlider from '@/components/sections/TestimonialSlider';
 import EditorialHome from '@/components/sections/EditorialHome';
-import SchemaOrg, { faqSchema, websiteSchema } from '@/components/seo/SchemaOrg';
+import SchemaOrg, { faqSchema } from '@/components/seo/SchemaOrg';
 
 const OG_IMAGE = { url: 'https://assistants-medicaux.com/opengraph-image', width: 1200, height: 630, alt: "Mesdocs Groupement d'Employeurs – Assistants Médicaux" };
 
@@ -36,7 +36,16 @@ const homeFaq = faqSchema(homeQuestions);
 export default function HomePage() {
   return (
     <>
-      <SchemaOrg schema={[websiteSchema, homeFaq]} />
+      <SchemaOrg schema={[{
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        '@id': 'https://assistants-medicaux.com/#webpage',
+        url: 'https://assistants-medicaux.com/',
+        name: "Mesdocs Groupement d'Employeurs — Assistants médicaux",
+        inLanguage: 'fr-FR',
+        isPartOf: { '@id': 'https://assistants-medicaux.com/#website' },
+        mainEntity: { '@id': 'https://assistants-medicaux.com/#organization' },
+      }, homeFaq]} />
       <Header />
       <main className="pt-[68px]">
         <Hero

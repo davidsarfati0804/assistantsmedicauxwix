@@ -3,17 +3,18 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import PageHero from '@/components/sections/PageHero';
 import GeContent from '@/components/sections/GeContent';
+import { geQuestions } from '@/lib/ge-faq';
 import CtaSection from '@/components/sections/CtaSection';
 import ResumeBanner from '@/components/seo/ResumeBanner';
 import SchemaOrg, { faqSchema, serviceSchema, breadcrumbSchema } from '@/components/seo/SchemaOrg';
 
 export const metadata: Metadata = {
   title: "Groupement d'Employeurs pour Médecin Libéral",
-  description: "Qu'est-ce qu'un groupement d'employeurs pour médecin libéral ? Mesdocs est l'employeur de l'assistant médical à votre place. Zéro gestion RH, aide CPAM.",
+  description: "Mesdocs emploie votre assistant médical. Comprenez le rôle du groupement, les responsabilités du médecin et la convention de mise à disposition.",
   alternates: { canonical: 'https://assistants-medicaux.com/groupement-employeurs-medecin-liberal' },
   openGraph: {
     title: "Groupement d'Employeurs pour Médecin Libéral | Mesdocs",
-    description: "Mesdocs est l'employeur de votre assistant médical. Zéro obligation RH pour le médecin, aide CPAM jusqu'à 38 000 € la première année pour 1 ETP, sous conditions.",
+    description: "Mesdocs est l'employeur de votre assistant médical. Découvrez le fonctionnement du groupement et les engagements de chacun.",
     url: 'https://assistants-medicaux.com/groupement-employeurs-medecin-liberal',
     type: 'website',
   },
@@ -25,18 +26,12 @@ const pageBreadcrumb = breadcrumbSchema([
 ]);
 
 const schemas = [
-  faqSchema([
-    { q: "Qu'est-ce qu'un groupement d'employeurs exactement ?", a: "Un groupement d'employeurs (GE) est une association loi 1901 qui embauche des salariés et les met à disposition de ses membres (les médecins adhérents). Le GE est l'employeur légal : il signe le contrat de travail, établit les fiches de paie, cotise aux organismes sociaux. Le médecin reçoit le salarié dans son cabinet sans assumer les obligations employeur." },
-    { q: "Le médecin a-t-il un lien juridique avec l'assistant médical ?", a: "Oui, mais sous une forme allégée : une convention de mise à disposition est signée entre Mesdocs et le médecin. Elle précise les horaires, les missions et la durée. En revanche, le médecin n'est pas employeur — Mesdocs gère le contrat et la paie. Le médecin reste responsable des conditions d’exécution du travail dans son cabinet, selon les textes applicables et la convention de mise à disposition." },
-    { q: "Le GE est-il reconnu par l'Assurance Maladie ?", a: "Oui. Le contrat CPAM est signé entre le médecin et sa caisse primaire d'assurance maladie. La mise à disposition via un GE est explicitement prévue par la Convention Médicale 2024–2029." },
-    { q: "Que se passe-t-il si la CPAM refuse de signer le contrat ?", a: "Les refus sont rares pour les médecins éligibles (secteur 1 et secteur 2 OPTAM, hors spécialités techniques exclues). Mesdocs accompagne le médecin dans la préparation du dossier CPAM pour maximiser les chances d'acceptation. En cas de refus, Mesdocs analyse les motifs avec vous." },
-    { q: "Mesdocs est-il le seul GE pour les médecins libéraux en France ?", a: "Mesdocs Groupement d'Employeurs est spécialisé dans la mise à disposition d'assistants médicaux pour les médecins libéraux, dans le cadre du dispositif CPAM. C'est notre cœur de métier exclusif." },
-  ]),
+  faqSchema(geQuestions),
   serviceSchema(
     "Groupement d'Employeurs pour Médecin Libéral — Mesdocs",
     "Mesdocs Groupement d'Employeurs est l'employeur légal de l'assistant médical à la place du médecin. Le médecin bénéficie du dispositif CPAM avec une gestion RH assurée par Mesdocs.",
     'https://assistants-medicaux.com/groupement-employeurs-medecin-liberal',
-    '2026-06-16'
+    '2026-11-12'
   ),
 ];
 

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { geQuestions } from '@/lib/ge-faq';
 import { CheckCircle, XCircle } from 'lucide-react';
 
 const sansGe = [
@@ -13,29 +14,6 @@ const avecGe = [
   'Mesdocs gère la paie, les charges, les congés, les remplacements',
   'Mesdocs prend en charge le risque juridique employeur',
   "Une convention précise votre contribution et les modalités de règlement",
-];
-
-const faq = [
-  {
-    q: "Qu'est-ce qu'un groupement d'employeurs exactement ?",
-    a: "Un groupement d'employeurs (GE) est une association loi 1901 qui embauche des salariés et les met à disposition de ses membres (les médecins adhérents). Le GE est l'employeur légal : il signe le contrat de travail, établit les fiches de paie, cotise aux organismes sociaux. Le médecin reçoit le salarié dans son cabinet sans assumer les obligations employeur.",
-  },
-  {
-    q: "Le médecin a-t-il un lien juridique avec l'assistant médical ?",
-    a: "Oui, mais sous une forme allégée : une « convention de mise à disposition » est signée entre Mesdocs et le médecin. Elle précise les horaires, les missions et la durée. En revanche, le médecin n'est pas employeur — Mesdocs gère le contrat et la paie. Le médecin reste responsable des conditions d’exécution du travail dans son cabinet, selon les textes applicables et la convention de mise à disposition.",
-  },
-  {
-    q: 'Mesdocs est-il le seul GE pour les médecins libéraux en France ?',
-    a: "Mesdocs Groupement d'Employeurs est spécialisé dans la mise à disposition d'assistants médicaux pour les médecins libéraux, dans le cadre du dispositif CPAM. C'est notre cœur de métier exclusif.",
-  },
-  {
-    q: "Le GE est-il reconnu par l'Assurance Maladie ?",
-    a: "Oui. Le contrat CPAM est signé entre le médecin et sa caisse primaire d'assurance maladie. La mise à disposition via un GE est explicitement prévue par la Convention Médicale 2024–2029.",
-  },
-  {
-    q: 'Que se passe-t-il si la CPAM refuse de signer le contrat ?',
-    a: "Les refus sont rares pour les médecins éligibles (secteur 1 et secteur 2 OPTAM, hors spécialités techniques exclues). Mesdocs accompagne le médecin dans la préparation du dossier CPAM pour maximiser les chances d'acceptation. En cas de refus, Mesdocs analyse les motifs avec vous.",
-  },
 ];
 
 export default function GeContent() {
@@ -103,7 +81,7 @@ export default function GeContent() {
         <div className="max-w-[860px] mx-auto">
           <h2 className="text-[28px] font-light mb-8">Questions sur le groupement d&apos;employeurs</h2>
           <div className="flex flex-col gap-5">
-            {faq.map((item) => (
+            {geQuestions.map((item) => (
               <div key={item.q} className="border border-[#e4eaf5] rounded-xl p-7 bg-white">
                 <p className="text-[16px] font-semibold text-gray-900 mb-3">{item.q}</p>
                 <p className="text-[15px] text-gray-600 leading-[1.7]">{item.a}</p>

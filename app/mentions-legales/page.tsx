@@ -19,7 +19,7 @@ export default function MentionsLegalesPage() {
           <div className="max-w-[820px] mx-auto">
 
             <h1 className="text-[36px] font-bold text-gray-900 mb-2">Mentions Légales</h1>
-            <p className="text-[14px] text-gray-600 mb-12">Dernière mise à jour : 7 mai 2026</p>
+            <p className="text-[14px] text-gray-600 mb-12">Dernière mise à jour : 12 novembre 2026</p>
 
             {/* Éditeur */}
             <div className="mb-10">
@@ -30,7 +30,9 @@ export default function MentionsLegalesPage() {
                 <p><strong>Siège social :</strong> 24 rue Octave Feuillet, 75116 Paris</p>
                 <p><strong>Téléphone :</strong> <a href="tel:0970682220" className="text-[#1d67cd] hover:underline">09 70 68 22 20</a></p>
                 <p><strong>Email :</strong> <a href="mailto:contact@ge-mesdocs.fr" className="text-[#1d67cd] hover:underline">contact@ge-mesdocs.fr</a></p>
-                <p><strong>SIREN / SIRET :</strong> 942 339 052</p>
+                <p><strong>SIREN :</strong> 942 339 052</p>
+                <p><strong>SIRET du siège :</strong> 942 339 052 00014</p>
+                <p><a href="https://annuaire-entreprises.data.gouv.fr/entreprise/mesdocs-groupement-d-employeurs-942339052" target="_blank" rel="noopener noreferrer" className="text-[#1d67cd] hover:underline">Vérifier l&apos;identité de l&apos;association dans l&apos;Annuaire des Entreprises</a></p>
                 <p><strong>Responsable de publication :</strong> es@olami.eu</p>
               </div>
             </div>

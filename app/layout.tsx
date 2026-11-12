@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Work_Sans } from 'next/font/google';
 import AnalyticsConsent from '@/components/analytics/AnalyticsConsent';
 import "./globals.css";
-import SchemaOrg, { organizationSchema } from '@/components/seo/SchemaOrg';
+import SchemaOrg, { organizationSchema, websiteSchema } from '@/components/seo/SchemaOrg';
 
 const workSans = Work_Sans({
   subsets: ['latin'],
@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`scroll-smooth ${workSans.variable}`}>
       <body className={`antialiased ${workSans.className}`}>
-        <SchemaOrg schema={organizationSchema} />
+        <SchemaOrg schema={[organizationSchema, websiteSchema]} />
         {children}
         <AnalyticsConsent />
       </body>

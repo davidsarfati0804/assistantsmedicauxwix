@@ -14,13 +14,13 @@ export default function TrustBand() {
           {/* Content */}
           <div className="flex-1 flex flex-col items-start gap-5 max-md:items-center max-md:text-center">
             <p className="text-[12px] uppercase tracking-[0.15em] text-gray-600 font-medium">
-              Association loi 1901 · Référencé par l&apos;Assurance Maladie
+              Association loi 1901 · Présent dans la liste publiée sur ameli.fr
             </p>
             <a href="https://www.ameli.fr/node/916286" target="_blank" rel="noopener" className="opacity-85 hover:opacity-100 transition-opacity">
               <Image src="/assets/logo_ameli.png" alt="l'Assurance Maladie – ameli.fr" width={220} height={62} className="object-contain h-[52px] w-auto" />
             </a>
             <p className="text-[14px] text-gray-500 leading-[1.7] max-w-[500px]">
-              Mesdocs Groupement d&apos;Employeurs est référencé sur <strong className="text-[#093e98]">ameli.fr</strong> dans le cadre du dispositif assistant médical de l&apos;Assurance Maladie, pour la mise à disposition d&apos;assistants médicaux dans les cabinets de médecins libéraux.
+              Mesdocs Groupement d&apos;Employeurs figure dans la liste publiée sur <strong className="text-[#093e98]">ameli.fr</strong>, avec la mention « France entière ». Cette inscription ne constitue pas une garantie de l&apos;offre par l&apos;Assurance Maladie.
             </p>
           </div>
 
